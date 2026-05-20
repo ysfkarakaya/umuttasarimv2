@@ -1,0 +1,135 @@
+{
+    "urun_id": 416,
+    "urun_adi": "AO-08",
+    "urun_kodu": "AO-08",
+    "sef_url": "ao-08",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 3,00 M X 4,25 M\r\nEMNİYET ALANI \/ SAFETY AREA: 6,00 M X 7,30 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 3,00 M X 4,25 M<\/span><br><br>\r\n<span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">EMNİYET ALANI \/ SAFETY AREA: 6,00 M X 7,30 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": null,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:41",
+    "updated_at": "2026-04-15 12:43:46",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/416\/AO-08.149.3.png",
+    "kapak_id": 1590,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1590,
+            "um_urun_id": 416,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/416\/AO-08.149.3.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2540,
+            "um_urun_id": 416,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/416\/AO-08.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1591,
+            "um_urun_id": 416,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/416\/AO-08.149.1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1592,
+            "um_urun_id": 416,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/416\/AO-08.149.2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 3163,
+            "uoz_urun_id": 416,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3164,
+            "uoz_urun_id": 416,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3165,
+            "uoz_urun_id": 416,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "3,00 m x 4,25 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3166,
+            "uoz_urun_id": 416,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3167,
+            "uoz_urun_id": 416,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "6,00 m x 7,30m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3168,
+            "uoz_urun_id": 416,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

@@ -1,0 +1,133 @@
+{
+  "home": {
+    "title": "Ana Sayfa",
+    "url": "/",
+    "icon": "bi-house"
+  },
+  "institutional": {
+    "title": "Kurumsal",
+    "url": "/hakkimizda",
+    "submenu": [
+      {
+        "title": "Hakkımızda",
+        "subtitle": "",
+        "url": "/hakkimizda",
+        "icon": "bi-people",
+        "color": "blue"
+      },
+      {
+        "title": "Tasarım",
+        "subtitle": "Süreci",
+        "url": "/tasarim",
+        "icon": "bi-pencil",
+        "color": "teal"
+      },
+      {
+        "title": "Kalite",
+        "subtitle": "Politikası",
+        "url": "/kalite-politikasi",
+        "icon": "bi-patch-check",
+        "color": "green"
+      },
+      {
+        "title": "Hammadde",
+        "subtitle": "Detayları",
+        "url": "/materyaller",
+        "icon": "bi-box-seam",
+        "color": "red"
+      },
+      {
+        "title": "Sürdürülebilirlik",
+        "subtitle": "Manifestosu",
+        "url": "/doga",
+        "icon": "bi-tree",
+        "color": "purple"
+      },
+      {
+        "title": "Sertifikalar",
+        "subtitle": "",
+        "url": "/sertifikalar",
+        "icon": "bi-award",
+        "color": "purple"
+      },
+      {
+        "title": "Ödüller",
+        "subtitle": "",
+        "url": "/oduller",
+        "icon": "bi-trophy",
+        "color": "brown"
+      },
+      {
+        "title": "Kariyer",
+        "subtitle": "",
+        "url": "/kariyer",
+        "icon": "bi-graph-up-arrow",
+        "color": "bright-blue"
+      }
+    ]
+  },
+  "products": {
+    "title": "Ürünler",
+    "url": "javascript:void()",
+    "submenu": [
+      {
+        "title": "Modernist",
+        "subtitle": "Grup",
+        "url": "/urunler/modernist-grup",
+        "icon": "bi-controller",
+        "color": "blue"
+      },
+      {
+        "title": "Klasik",
+        "subtitle": "Grup",
+        "url": "/urunler/klasik-grup",
+        "icon": "bi-tree",
+        "color": "teal"
+      },
+      {
+        "title": "Aksesuarlar",
+        "subtitle": "",
+        "url": "/urunler/aksesuarlar",
+        "icon": "bi-bicycle",
+        "color": "green"
+      },
+      {
+        "title": "Tabiat",
+        "subtitle": "Grup",
+        "url": "/urunler/tabiat-grup",
+        "icon": "bi-flower1",
+        "color": "red"
+      },
+      {
+        "title": "Dış Mekan Spor",
+        "subtitle": "Aletleri",
+        "url": "/urunler/dis-mekan-spor-aletleri",
+        "icon": "bi-activity",
+        "color": "purple"
+      },
+      {
+        "title": "Kent",
+        "subtitle": "Mobilyaları",
+        "url": "/urunler/kent-mobilyalari",
+        "icon": "bi-building",
+        "color": "indigo"
+      }
+    ]
+  },
+  "referanslar": {
+    "title": "Referanslar",
+    "url": "/referanslar",
+    "icon": "bi-award"
+  },
+  "blog": {
+    "title": "Blog",
+    "url": "/blog",
+    "icon": "bi-newspaper"
+  },
+
+  "contact": {
+    "title": "İLETİŞİM",
+    "url": "/iletisim",
+    "class": "contact-btn"
+  }
+}

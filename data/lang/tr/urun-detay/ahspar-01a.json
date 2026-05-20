@@ -1,0 +1,116 @@
+{
+    "urun_id": 481,
+    "urun_adi": "AHSPAR-01A",
+    "urun_kodu": "AHSPAR01A",
+    "sef_url": "ahspar-01a",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 63,
+    "seri_id": 25,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2024-07-30 15:14:27",
+    "updated_at": "2026-04-15 09:13:23",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": null,
+    "kapak_id": null,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2600,
+            "um_urun_id": 481,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/481\/AHSPAR-01A.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 3595,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Emekleme,Eşitlik,Koşma,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3596,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP-PLASTİK",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3597,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "1,10 m x 2,40 m ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3598,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3599,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "4,10 m x 5,15 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3600,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1 M",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3601,
+            "uoz_urun_id": 481,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

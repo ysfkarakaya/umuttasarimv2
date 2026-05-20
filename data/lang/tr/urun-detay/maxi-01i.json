@@ -1,0 +1,295 @@
+{
+    "urun_id": 96,
+    "urun_adi": "MAXI-01I",
+    "urun_kodu": "C1M-109",
+    "sef_url": "maxi-01i",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 4,10 M X 5,65 M\r\nEMNİYET ALANI \/ SAFETY AREA: 7,60 M X 9,15 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 4,10 M X 5,65 M<\/span><br><br>\r\n<span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">EMNİYET ALANI \/ SAFETY AREA: 7,60 M X 9,15 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 62,
+    "seri_id": 11,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 91,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:49:59",
+    "updated_at": "2026-04-15 10:56:04",
+    "deleted_at": null,
+    "kat_adi": "Klasik Grup",
+    "kat_sef_url": "klasik-grup",
+    "kapak_resmi": "upload\/urunler\/96\/MAXI-01I-1.png",
+    "kapak_id": 454,
+    "360_obje": "upload\/360\/MAXI-01I-V1.glb",
+    "medya": [
+        {
+            "id": 2237,
+            "um_urun_id": 96,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/96\/MAXI-01I.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-08 12:24:19"
+        },
+        {
+            "id": 454,
+            "um_urun_id": 96,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/96\/MAXI-01I-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 455,
+            "um_urun_id": 96,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/96\/MAXI-01I-4.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 456,
+            "um_urun_id": 96,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/96\/MAXI-01I-2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 457,
+            "um_urun_id": 96,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/96\/MAXI-01I-3.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 2801,
+            "um_urun_id": 96,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/MAXI-01I-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1121,
+            "medya_id": 454,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "71.68948",
+            "konum_y": "72.34416",
+            "created_at": "2026-04-21 10:55:53",
+            "updated_at": "2026-04-21 10:55:53",
+            "deleted_at": null
+        },
+        {
+            "id": 1122,
+            "medya_id": 454,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "51.43049",
+            "konum_y": "82.47942",
+            "created_at": "2026-04-21 10:55:57",
+            "updated_at": "2026-04-21 10:55:57",
+            "deleted_at": null
+        },
+        {
+            "id": 1123,
+            "medya_id": 454,
+            "nokta_basligi": "PA \/ PA6 (Poliamid)",
+            "nokta_gorseli": "upload\/hotspots\/poliamid.jpg",
+            "nokta_aciklama": "Sürtünmeye ve yüksek ağırlıklara dayanabilen bir mühendislik plastiğidir. Salıncak mafsalları gibi sürekli hareket eden ve yük taşıyan parçalarda kullanılır.",
+            "konum_x": "51.43049",
+            "konum_y": "39.95107",
+            "created_at": "2026-04-21 10:56:03",
+            "updated_at": "2026-04-21 10:56:03",
+            "deleted_at": null
+        },
+        {
+            "id": 1124,
+            "medya_id": 454,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "60.13067",
+            "konum_y": "26.23866",
+            "created_at": "2026-04-21 10:56:14",
+            "updated_at": "2026-04-21 10:56:14",
+            "deleted_at": null
+        },
+        {
+            "id": 1125,
+            "medya_id": 454,
+            "nokta_basligi": "Plastisol kaplı ST37",
+            "nokta_gorseli": "upload\/hotspots\/plastisol-st37.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "53.04624",
+            "konum_y": "55.84952",
+            "created_at": "2026-04-21 10:56:20",
+            "updated_at": "2026-04-21 10:56:20",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 786,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Kayma,Koşma,Oturma,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 787,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "13 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 788,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 789,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-5 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 790,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "4,10 m x 5,65 m ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 791,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 792,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "7,60 m x 9,15 m ",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 793,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1,50 M",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 794,
+            "uoz_urun_id": 96,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 91,
+            "urun_adi": "MAXI-01",
+            "sef_url": "maxi-01",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/91\/MAXI-01-2.png"
+        },
+        {
+            "urun_id": 92,
+            "urun_adi": "MAXI-01B SALINCAKSIZ",
+            "sef_url": "maxi-01b-salincaksiz",
+            "urun_kategori_id": 62,
+            "urun_durum": 0,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/92\/MAXI-01B-5.png"
+        },
+        {
+            "urun_id": 93,
+            "urun_adi": "MAXI-01E",
+            "sef_url": "maxi-01e",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/93\/MAXI-01D-3.png"
+        },
+        {
+            "urun_id": 94,
+            "urun_adi": "MAXI-01G",
+            "sef_url": "maxi-01g",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/94\/MAXI-01F-4.png"
+        },
+        {
+            "urun_id": 95,
+            "urun_adi": "MAXI-01H",
+            "sef_url": "maxi-01h",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/95\/MAXI-01H.2.png"
+        }
+    ]
+}

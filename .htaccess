@@ -1,0 +1,29 @@
+RewriteEngine On
+RewriteBase /
+
+# Force trailing slash on directories
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+[^/])$ /$1/ [R=301,L]
+
+# If the request matches an existing file or directory, serve it
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Blog rules
+RewriteRule ^blog$ blog.php [L,QSA]
+RewriteRule ^blog/([a-zA-Z0-9_-]+)$ blog-detay.php?name=$1 [L,QSA]
+
+# SEF URL mapping for Produkte/Applications (if they use a single handler)
+# Example: urunler/modernist-grubu -> urunler.php?slug=modernist-grubu
+RewriteRule ^urunler/([a-zA-Z0-9_-]+)$ urunler.php?slug=$1 [QSA,L]
+RewriteRule ^urun/([a-zA-Z0-9_-]+)$ urun-detay.php?sef_url=$1 [QSA,L]
+RewriteRule ^uygulamalar/([a-zA-Z0-9_-]+)$ uygulamalar.php?slug=$1 [QSA,L]
+
+# General page mapping: slug -> slug.php
+# Example: hakkimizda -> hakkimizda.php
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Special cases for new pages that might use sayfa-detay.php
+RewriteRule ^(kalite-politikasi|yonetim-sistemleri|kariyer)$ sayfa-detay.php?slug=$1 [L,QSA]

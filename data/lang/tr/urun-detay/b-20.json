@@ -1,0 +1,120 @@
+{
+    "urun_id": 573,
+    "urun_adi": "B-20",
+    "urun_kodu": "B-20",
+    "sef_url": "b-20",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 66,
+    "seri_id": 7,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 327,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-01-27 15:01:23",
+    "updated_at": "2026-04-15 09:25:29",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/573\/B-20-1.png",
+    "kapak_id": 2127,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2127,
+            "um_urun_id": 573,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/573\/B-20-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2128,
+            "um_urun_id": 573,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/573\/B-20-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2129,
+            "um_urun_id": 573,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/573\/B-20-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 230,
+            "medya_id": 2127,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "55.90487",
+            "konum_y": "33.19423",
+            "created_at": "2026-04-20 10:50:10",
+            "updated_at": "2026-04-20 10:50:10",
+            "deleted_at": null
+        },
+        {
+            "id": 231,
+            "medya_id": 2127,
+            "nokta_basligi": "Alüminyum",
+            "nokta_gorseli": "upload\/hotspots\/aluminyum.jpg",
+            "nokta_aciklama": "Hafif yapısına rağmen paslanma ve korozyon direnci yüksek bir metaldir. Ağırlığın düşük olması gereken yerlerde ve dış etkenlere açık noktalarda tercih edilir.",
+            "konum_x": "31.54437",
+            "konum_y": "53.66348",
+            "created_at": "2026-04-20 10:50:13",
+            "updated_at": "2026-04-20 14:03:20",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 327,
+            "urun_adi": "B-06",
+            "sef_url": "b-06",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/327\/B-06-1.png"
+        },
+        {
+            "urun_id": 328,
+            "urun_adi": "B-06A",
+            "sef_url": "b-06a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/328\/B-06A-2.png"
+        },
+        {
+            "urun_id": 329,
+            "urun_adi": "B-07",
+            "sef_url": "b-07",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/329\/B-07-1.png"
+        },
+        {
+            "urun_id": 330,
+            "urun_adi": "B-08",
+            "sef_url": "b-08",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/330\/B-08-1.png"
+        }
+    ]
+}

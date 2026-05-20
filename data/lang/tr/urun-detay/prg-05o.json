@@ -1,0 +1,94 @@
+{
+    "urun_id": 510,
+    "urun_adi": "PRG-05Ö",
+    "urun_kodu": "PRG05Ö",
+    "sef_url": "prg-05o",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 1,45 M X 5,40 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 1,45 M X 5,40 M<\/li><\/ol>",
+    "urun_kategori_id": 66,
+    "seri_id": 22,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2024-07-31 17:28:27",
+    "updated_at": "2026-04-14 16:17:05",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": null,
+    "kapak_id": null,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2628,
+            "um_urun_id": 510,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/510\/PRG-05-OZEL-TASARIM.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 3830,
+            "uoz_urun_id": 510,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3831,
+            "uoz_urun_id": 510,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3832,
+            "uoz_urun_id": 510,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "1,45 m x 5,40 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3833,
+            "uoz_urun_id": 510,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3834,
+            "uoz_urun_id": 510,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

@@ -1,0 +1,190 @@
+{
+    "urun_id": 398,
+    "urun_adi": "KM-20",
+    "urun_kodu": "KM-20",
+    "sef_url": "km-20",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 2,60 M X 3,00 M \r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color: rgb(10, 44, 78); font-family: \"open sans\", \"helvetica neue\", helvetica, arial, sans-serif;\">KURULUM ALANI \/ CONSTRUCTION AREA: 2,60 M X 3,00 M <\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 27,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 387,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:20",
+    "updated_at": "2026-04-15 10:49:36",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/398\/KM-20-2.png",
+    "kapak_id": 1538,
+    "360_obje": "upload\/360\/KM-20-v1.glb",
+    "medya": [
+        {
+            "id": 1538,
+            "um_urun_id": 398,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/398\/KM-20-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2522,
+            "um_urun_id": 398,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/398\/KM-20.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1539,
+            "um_urun_id": 398,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/398\/KM-20-3.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1540,
+            "um_urun_id": 398,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/398\/KM-20-1.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2920,
+            "um_urun_id": 398,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/KM-20-v1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1040,
+            "medya_id": 1538,
+            "nokta_basligi": "Dişbudak THERMOWOOD",
+            "nokta_gorseli": "upload\/hotspots\/disbudak-themowood.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "43.22747",
+            "konum_y": "65.58732",
+            "created_at": "2026-04-21 10:20:49",
+            "updated_at": "2026-04-21 10:20:49",
+            "deleted_at": null
+        },
+        {
+            "id": 1041,
+            "medya_id": 1538,
+            "nokta_basligi": "Shingle",
+            "nokta_gorseli": "upload\/hotspots\/shingle.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "50.80905",
+            "konum_y": "27.43104",
+            "created_at": "2026-04-21 10:20:58",
+            "updated_at": "2026-04-21 10:20:58",
+            "deleted_at": null
+        },
+        {
+            "id": 1042,
+            "medya_id": 1538,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "71.68948",
+            "konum_y": "87.24896",
+            "created_at": "2026-04-21 10:21:05",
+            "updated_at": "2026-04-21 10:21:05",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3077,
+            "uoz_urun_id": 398,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3078,
+            "uoz_urun_id": 398,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3079,
+            "uoz_urun_id": 398,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "2,60 m x 3,00 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3080,
+            "uoz_urun_id": 398,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3081,
+            "uoz_urun_id": 398,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 387,
+            "urun_adi": "KM-01",
+            "sef_url": "km-01",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/387\/KM-01-2.png"
+        },
+        {
+            "urun_id": 388,
+            "urun_adi": "KM-02",
+            "sef_url": "km-02",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/388\/KM-02-2.png"
+        }
+    ]
+}

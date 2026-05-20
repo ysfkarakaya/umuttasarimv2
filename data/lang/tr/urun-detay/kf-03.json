@@ -1,0 +1,250 @@
+{
+    "urun_id": 501,
+    "urun_adi": "KF-03",
+    "urun_kodu": "KF03",
+    "sef_url": "kf-03",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 4,66 M X  7,05 MEMNİYET ALANI \/ SAFETY AREA:  7,66 M X 10,01 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 4,66 M X  7,05 M<br><br>EMNİYET ALANI \/ SAFETY AREA:  7,66 M X 10,01 M<\/li><\/ol>",
+    "urun_kategori_id": 65,
+    "seri_id": 23,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 499,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-07-31 13:41:10",
+    "updated_at": "2026-04-15 10:45:42",
+    "deleted_at": null,
+    "kat_adi": "Dış Mekan Spor Aletleri",
+    "kat_sef_url": "dis-mekan-spor-aletleri",
+    "kapak_resmi": "upload\/urunler\/501\/KF-03-1.png",
+    "kapak_id": 1818,
+    "360_obje": "upload\/360\/KF-03-V1.glb",
+    "medya": [
+        {
+            "id": 1818,
+            "um_urun_id": 501,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/501\/KF-03-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 2620,
+            "um_urun_id": 501,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/501\/KF-03-V.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1819,
+            "um_urun_id": 501,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/501\/KF-03-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1820,
+            "um_urun_id": 501,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/501\/KF-03-4.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1821,
+            "um_urun_id": 501,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/501\/KF-03-3.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 2902,
+            "um_urun_id": 501,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/KF-03-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 992,
+            "medya_id": 1818,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "37.75878",
+            "konum_y": "58.03556",
+            "created_at": "2026-04-21 10:02:13",
+            "updated_at": "2026-04-21 10:02:13",
+            "deleted_at": null
+        },
+        {
+            "id": 993,
+            "medya_id": 1818,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "63.73503",
+            "konum_y": "55.84952",
+            "created_at": "2026-04-21 10:02:21",
+            "updated_at": "2026-04-21 10:02:21",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3753,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Çekme,Etkileşim,Koşma,Salınım,Tırmanma,Kardiyo,Isınma,Güçlenme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3754,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "8",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3755,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3756,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "&#43;16 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3757,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "4,66m x 7,05 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3758,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3759,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "7,66 m x 10,01 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3760,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "3,00 M",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3761,
+            "uoz_urun_id": 501,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 499,
+            "urun_adi": "KF-01",
+            "sef_url": "kf-01",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/499\/KF-01-3.png"
+        },
+        {
+            "urun_id": 500,
+            "urun_adi": "KF-02",
+            "sef_url": "kf-02",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/500\/KF-02-1.png"
+        },
+        {
+            "urun_id": 502,
+            "urun_adi": "KF-04",
+            "sef_url": "kf-04",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/502\/KF-04-3.png"
+        },
+        {
+            "urun_id": 503,
+            "urun_adi": "KF-05",
+            "sef_url": "kf-05",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/503\/KF-05-4.png"
+        }
+    ]
+}

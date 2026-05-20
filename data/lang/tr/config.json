@@ -1,0 +1,88 @@
+{
+  "head": {
+    "title": "Umut Tasarım | Modern ve Yenilikçi Tasarım Çözümleri",
+    "meta": {
+      "charset": "UTF-8",
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "description": "Umut Tasarım, kurumsal kimlik, web tasarım ve dijital pazarlama alanında profesyonel çözümler sunan bir tasarım ajansıdır.",
+      "keywords": "tasarım, web tasarım, logo tasarımı, kurumsal kimlik, dijital ajans, umut tasarım",
+      "author": "Umut Tasarım",
+      "robots": "index, follow",
+      "revisit-after": "7 days",
+      "rating": "General",
+      "distribution": "Global",
+      "copyright": "2024 Umut Tasarım",
+      "theme-color": "#ffffff",
+      "format-detection": "telephone=no",
+      "google-site-verification": "YOUR_GOOGLE_VERIFICATION_CODE",
+      "msvalidate.01": "YOUR_MS_VALIDATE_CODE",
+      "apple-mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-status-bar-style": "black-translucent",
+      "apple-mobile-web-app-title": "Umut Tasarım"
+    },
+    "og": {
+      "title": "Umut Tasarım | Modern ve Yenilikçi Tasarım Çözümleri",
+      "type": "website",
+      "url": "https://www.umuttasarim.com",
+      "image": "https://www.umuttasarim.com/assets/img/og-image.jpg",
+      "image:width": "1200",
+      "image:height": "630",
+      "site_name": "Umut Tasarım",
+      "description": "Profesyonel tasarım çözümleri ile markanızı geleceğe taşıyın. Web tasarım, logo ve kurumsal kimlik hizmetleri.",
+      "locale": "tr_TR"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@umuttasarim",
+      "creator": "@umuttasarim",
+      "title": "Umut Tasarım | Modern ve Yenilikçi Tasarım Çözümleri",
+      "description": "Profesyonel tasarım çözümleri ile markanızı geleceğe taşıyın.",
+      "image": "https://www.umuttasarim.com/assets/img/twitter-card.jpg"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Umut Tasarım",
+      "image": "https://www.umuttasarim.com/assets/img/logo.png",
+      "@id": "https://www.umuttasarim.com",
+      "url": "https://www.umuttasarim.com",
+      "telephone": "+90 5XX XXX XX XX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Örnek Mahallesi, Tasarım Sokak No:1",
+        "addressLocality": "İstanbul",
+        "postalCode": "34000",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.0082,
+        "longitude": 28.9784
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/umuttasarim",
+        "https://www.instagram.com/umuttasarim",
+        "https://twitter.com/umuttasarim"
+      ]
+    },
+    "links": {
+      "canonical": "https://www.umuttasarim.com",
+      "favicon": "/favicon.ico",
+      "apple-touch-icon": "/apple-touch-icon.png",
+      "manifest": "/site.webmanifest"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+[
+    {
+        "kart_id": 17,
+        "kart_kategori": "anasayfa",
+        "kart_aciklama": "<div class=\"hero-card-content\">\r\n    <div class=\"hero-header\">\r\n        <div class=\"icon-box\">\r\n            <img src=\"assets\/img\/ampul-icon.png\" alt=\"İkon\">\r\n        <\/div>\r\n        <div class=\"hero-header-text\">\r\n            İlham Veren<br><strong><u>Referanslarımız<\/u><\/strong>\r\n        <\/div>\r\n    <\/div>\r\n    <h2>Kapsamlı Çözümler<\/h2>\r\n    <h3>1994'ten Gelen Tecrübeyle<\/h3>\r\n    <p class=\"description\">Her yaş için güvenli oyun alanları ve<br>estetik kent mobilyaları üretiyoruz.<\/p>\r\n    <a href=\"#\" class=\"see-how\">Keşfedin <i class=\"bi bi-chevron-right\"><\/i><\/a>\r\n<\/div>",
+        "kart_adi": "Anasayfa",
+        "kart_gorsel": "upload\/kartlar\/breadcrumbs.png",
+        "kart_sira": 0,
+        "kart_durum": 1,
+        "created_at": "2026-05-14 13:41:47",
+        "updated_at": "2026-05-18 16:23:54",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 61,
+                "kart_id": 17,
+                "kart_detay_adi": "slider1",
+                "kart_detay_etiket": "slider1",
+                "kart_detay_gorsel": "upload\/kartlar\/hero1.jpeg",
+                "kart_detay_aciklama": "",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 13:42:48",
+                "updated_at": "2026-05-14 13:42:48",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 62,
+                "kart_id": 17,
+                "kart_detay_adi": "slider2",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/hero2.jpeg",
+                "kart_detay_aciklama": "",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 13:42:58",
+                "updated_at": "2026-05-14 13:42:58",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 63,
+                "kart_id": 17,
+                "kart_detay_adi": "slider3",
+                "kart_detay_etiket": "slider3",
+                "kart_detay_gorsel": "upload\/kartlar\/hero3.jpeg",
+                "kart_detay_aciklama": "",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 13:43:08",
+                "updated_at": "2026-05-14 13:43:08",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 64,
+                "kart_id": 17,
+                "kart_detay_adi": "slider4",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/hero4.jpeg",
+                "kart_detay_aciklama": "",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 13:43:19",
+                "updated_at": "2026-05-14 13:43:19",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 65,
+                "kart_id": 17,
+                "kart_detay_adi": "slider5",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/hero5.jpeg",
+                "kart_detay_aciklama": "",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 13:43:28",
+                "updated_at": "2026-05-14 13:43:28",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 66,
+                "kart_id": 17,
+                "kart_detay_adi": "slider6",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/hero6.jpeg",
+                "kart_detay_aciklama": "",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 13:43:37",
+                "updated_at": "2026-05-14 13:43:37",
+                "deleted_at": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+{
+    "urun_id": 561,
+    "urun_adi": "Atık Ünitesi",
+    "urun_kodu": "H2M-103",
+    "sef_url": "atik-unitesi",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 66,
+    "seri_id": 13,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-01-15 17:12:46",
+    "updated_at": "2026-04-14 15:50:21",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/561\/PORODICA.472.png",
+    "kapak_id": 2084,
+    "360_obje": "upload\/360\/H2M-103.glb",
+    "medya": [
+        {
+            "id": 2084,
+            "um_urun_id": 561,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/561\/PORODICA.472.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2085,
+            "um_urun_id": 561,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/561\/PORODICA.473.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2086,
+            "um_urun_id": 561,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/561\/PORODICA.474.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2742,
+            "um_urun_id": 561,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/H2M-103.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1923,
+            "medya_id": 2084,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "57.02479",
+            "konum_y": "48.09382",
+            "created_at": "2026-04-22 11:00:51",
+            "updated_at": "2026-04-22 11:00:51",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": []
+}

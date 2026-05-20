@@ -1,0 +1,285 @@
+{
+    "urun_id": 579,
+    "urun_adi": "FARE",
+    "urun_kodu": "I1V-102",
+    "sef_url": "fare",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 64,
+    "seri_id": 3,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 565,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2026-01-21 12:10:49",
+    "updated_at": "2026-04-14 18:03:20",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/579\/son_on_pers.jpg",
+    "kapak_id": 2144,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2144,
+            "um_urun_id": 579,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/579\/son_on_pers.jpg",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2145,
+            "um_urun_id": 579,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/579\/ust.jpg",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2146,
+            "um_urun_id": 579,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/579\/on.jpg",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2147,
+            "um_urun_id": 579,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/579\/sag_on_pers.jpg",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2148,
+            "um_urun_id": 579,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/579\/sag_arka_pers.jpg",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2149,
+            "um_urun_id": 579,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/579\/sol_pers.jpg",
+            "um_baslik": null,
+            "um_sira": 5,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 848,
+            "medya_id": 2144,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "58.74525",
+            "konum_y": "30.23650",
+            "created_at": "2026-04-20 18:08:18",
+            "updated_at": "2026-04-20 18:08:18",
+            "deleted_at": null
+        },
+        {
+            "id": 849,
+            "medya_id": 2144,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "46.17977",
+            "konum_y": "48.89041",
+            "created_at": "2026-04-20 18:08:25",
+            "updated_at": "2026-04-20 18:08:25",
+            "deleted_at": null
+        },
+        {
+            "id": 850,
+            "medya_id": 2144,
+            "nokta_basligi": "Kauçuk",
+            "nokta_gorseli": "upload\/hotspots\/kaucuk.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "37.63006",
+            "konum_y": "83.08924",
+            "created_at": "2026-04-20 18:08:31",
+            "updated_at": "2026-04-20 18:08:31",
+            "deleted_at": null
+        },
+        {
+            "id": 851,
+            "medya_id": 2144,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "62.50194",
+            "konum_y": "70.26468",
+            "created_at": "2026-04-20 18:08:36",
+            "updated_at": "2026-04-20 18:08:36",
+            "deleted_at": null
+        },
+        {
+            "id": 852,
+            "medya_id": 2144,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "91.90775",
+            "konum_y": "56.01516",
+            "created_at": "2026-04-20 18:08:44",
+            "updated_at": "2026-04-20 18:08:44",
+            "deleted_at": null
+        },
+        {
+            "id": 853,
+            "medya_id": 2144,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "71.18118",
+            "konum_y": "77.13035",
+            "created_at": "2026-04-20 18:09:05",
+            "updated_at": "2026-04-20 18:09:05",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 4375,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Denge,Emekleme,Eşitlik,Etkileşim,İtme,Kayma,Koşma,Oturma,Rol Yapma,Salınım,Sosyalleşme,Tırmanma,Zıplama",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4376,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Ahşap - Plastik",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4377,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-12 YAŞ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4378,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 4379,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4380,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "3",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4381,
+            "uoz_urun_id": 579,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "4",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [
+        {
+            "id": 6,
+            "urun_id": 579,
+            "renk_id": 10,
+            "created_at": "2026-04-08 12:16:11",
+            "renk_adi": "STANDART",
+            "renk_kodu": null
+        }
+    ],
+    "benzerler": [
+        {
+            "urun_id": 565,
+            "urun_adi": "ÖRDEK",
+            "sef_url": "ordek",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/565\/ATRAX-ORDEK-4.png"
+        },
+        {
+            "urun_id": 578,
+            "urun_adi": "KEDİ",
+            "sef_url": "kedi",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/578\/KITTY-WITH-YARN-REVIZE3.5.jpg"
+        },
+        {
+            "urun_id": 580,
+            "urun_adi": "UĞUR BÖCEĞİ",
+            "sef_url": "ugur-bocegi",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/580\/sol_on_pers.jpg"
+        },
+        {
+            "urun_id": 581,
+            "urun_adi": "FENER BALIĞI",
+            "sef_url": "fener-baligi",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/581\/full-perspective.jpg"
+        }
+    ]
+}

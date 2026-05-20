@@ -1,0 +1,45 @@
+[
+  {
+    "page_title": "Kariyer",
+    "sidebar_title": "Ekibimize Katılın",
+    "sidebar_footer": "Geleceğin şehirlerini birlikte tasarlamak için heyecanlı mısınız?",
+    "intro_title": "Kariyer",
+    "intro_subtitle": "GELECEĞİ TASARLA",
+    "intro_desc": "Umut Tasarım, yaratıcılığın ve inovasyonun merkezidir. Şehir mobilyalarında fark yaratan projelere imza atarken, her bir ekip üyemizin gelişimini en az projelerimiz kadar önemsiyoruz.",
+    "benefits": [
+      {
+        "title": "Yaratıcı Özgürlük",
+        "desc": "Fikirlerinizin değer gördüğü, sınırların ötesine geçtiğimiz bir çalışma ortamı.",
+        "icon": "bi-palette"
+      },
+      {
+        "title": "Sürekli Gelişim",
+        "desc": "Yeni teknolojiler ve tasarım trendleri ile kendinizi her gün yenileyin.",
+        "icon": "bi-graph-up-arrow"
+      },
+      {
+        "title": "Güçlü Ekip",
+        "desc": "Birbirini destekleyen ve ilham veren profesyonellerle dolu bir aile.",
+        "icon": "bi-people"
+      }
+    ],
+    "form_title": "Başvuru Formu",
+    "form_fields": {
+      "name_label": "Adınız Soyadınız",
+      "email_label": "E-posta Adresiniz",
+      "phone_label": "Telefon Numaranız",
+      "position_label": "Hangi Pozisyonla İlgileniyorsunuz?",
+      "message_label": "Bize biraz kendinizden bahsedin",
+      "cv_label": "Özgeçmişinizi Buraya Sürükleyin (PDF/DOC)",
+      "submit_btn": "BAŞVURUYU TAMAMLA"
+    },
+    "positions": [
+      "Endüstriyel Tasarımcı",
+      "Mimar / İç Mimar",
+      "Üretim Planlama Sorumlusu",
+      "Satış & Pazarlama Uzmanı",
+      "Kaynak & Metal İşleme Ustası",
+      "Genel Başvuru"
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+{
+    "urun_id": 345,
+    "urun_adi": "B-31",
+    "urun_kodu": "B-31",
+    "sef_url": "b-31",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,45 M X 3,35 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,45 M X 3,35 <\/span><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 7,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 337,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:56:12",
+    "updated_at": "2026-04-15 09:34:38",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/345\/B-31-3.png",
+    "kapak_id": 1392,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1392,
+            "um_urun_id": 345,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/345\/B-31-3.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2470,
+            "um_urun_id": 345,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/345\/B-31.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1393,
+            "um_urun_id": 345,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/345\/B-31-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1394,
+            "um_urun_id": 345,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/345\/B-31-2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 415,
+            "medya_id": 1392,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "22.59561",
+            "konum_y": "75.72258",
+            "created_at": "2026-04-20 14:06:16",
+            "updated_at": "2026-04-20 14:06:16",
+            "deleted_at": null
+        },
+        {
+            "id": 427,
+            "medya_id": 1392,
+            "nokta_basligi": "Dişbudak THERMOWOOD",
+            "nokta_gorseli": "upload\/hotspots\/disbudak-themowood.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "51.05763",
+            "konum_y": "41.54092",
+            "created_at": "2026-04-20 14:28:08",
+            "updated_at": "2026-04-20 14:28:08",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2879,
+            "uoz_urun_id": 345,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2880,
+            "uoz_urun_id": 345,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,45 m x 3,35 m",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2881,
+            "uoz_urun_id": 345,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2882,
+            "uoz_urun_id": 345,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 332,
+            "urun_adi": "B-09",
+            "sef_url": "b-09",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/332\/B-09-3_1.png"
+        },
+        {
+            "urun_id": 337,
+            "urun_adi": "B-24",
+            "sef_url": "b-24",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/337\/B-24-1.png"
+        },
+        {
+            "urun_id": 338,
+            "urun_adi": "B-24A",
+            "sef_url": "b-24a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/338\/B-24A-1.png"
+        },
+        {
+            "urun_id": 340,
+            "urun_adi": "B-26",
+            "sef_url": "b-26",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/340\/B-26-1.png"
+        },
+        {
+            "urun_id": 341,
+            "urun_adi": "B-26B",
+            "sef_url": "b-26b",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/341\/untitled.171.1.png"
+        },
+        {
+            "urun_id": 342,
+            "urun_adi": "B-26D",
+            "sef_url": "b-26d",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/342\/B-26D-1.png"
+        },
+        {
+            "urun_id": 346,
+            "urun_adi": "B-32",
+            "sef_url": "b-32",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/346\/B-32-1.png"
+        },
+        {
+            "urun_id": 348,
+            "urun_adi": "B-34",
+            "sef_url": "b-34",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/348\/B-34-3.png"
+        },
+        {
+            "urun_id": 350,
+            "urun_adi": "B-40",
+            "sef_url": "b-40",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/350\/B-40-1.png"
+        },
+        {
+            "urun_id": 353,
+            "urun_adi": "B-43 (SIBIRYA SARI ÇAM)",
+            "sef_url": "b-43-sibirya-sari-cam",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/353\/B-43-SİBİRYA-SARI-CAM.173.3.png"
+        },
+        {
+            "urun_id": 356,
+            "urun_adi": "B-45",
+            "sef_url": "b-45",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/356\/B-45-2.png"
+        }
+    ]
+}

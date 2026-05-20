@@ -1,0 +1,269 @@
+{
+    "urun_id": 550,
+    "urun_adi": "I1G-101",
+    "urun_kodu": "I1G-101",
+    "sef_url": "i1g-101",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 61,
+    "seri_id": 15,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-01-06 14:22:46",
+    "updated_at": "2026-04-14 15:53:20",
+    "deleted_at": null,
+    "kat_adi": "Modernist Grup",
+    "kat_sef_url": "modernist-grup",
+    "kapak_resmi": "upload\/urunler\/550\/GLIMMER-MODEL-102.249.png",
+    "kapak_id": 2032,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2032,
+            "um_urun_id": 550,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/550\/GLIMMER-MODEL-102.249.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2033,
+            "um_urun_id": 550,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/550\/GLIMMER-MODEL-102.248.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2034,
+            "um_urun_id": 550,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/550\/GLIMMER-MODEL-102.251.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2035,
+            "um_urun_id": 550,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/550\/GLIMMER-MODEL-102.252.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2036,
+            "um_urun_id": 550,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/550\/GLIMMER-MODEL-102.250.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 817,
+            "medya_id": 2032,
+            "nokta_basligi": "Fiberglass (Cam Elyaf)",
+            "nokta_gorseli": "upload\/hotspots\/fiberglass.jpg",
+            "nokta_aciklama": "Cam iplikçikleri ve reçinenin birleşimiyle üretilir. Çok hafif olmasına rağmen darbelere karşı metal kadar dayanıklıdır; paslanma veya çürüme yapmaz.",
+            "konum_x": "47.32898",
+            "konum_y": "24.05262",
+            "created_at": "2026-04-20 17:55:27",
+            "updated_at": "2026-04-20 17:55:27",
+            "deleted_at": null
+        },
+        {
+            "id": 818,
+            "medya_id": 2032,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "41.11456",
+            "konum_y": "61.41398",
+            "created_at": "2026-04-20 17:55:33",
+            "updated_at": "2026-04-20 17:55:33",
+            "deleted_at": null
+        },
+        {
+            "id": 819,
+            "medya_id": 2032,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "67.21510",
+            "konum_y": "58.23429",
+            "created_at": "2026-04-20 17:55:39",
+            "updated_at": "2026-04-20 17:55:39",
+            "deleted_at": null
+        },
+        {
+            "id": 820,
+            "medya_id": 2032,
+            "nokta_basligi": "Plywood (Su Kontrası)",
+            "nokta_gorseli": "upload\/hotspots\/plywood.jpg",
+            "nokta_aciklama": "İnce ahşap katmanların suya dayanıklı özel tutkallarla (fenolik reçine) üst üste preslenmesiyle oluşan dayanıklı ahşap paneldir. Taşıma kapasitesi yüksektir, genellikle platform zeminlerinde kullanılır.",
+            "konum_x": "31.79294",
+            "konum_y": "72.34416",
+            "created_at": "2026-04-20 17:55:59",
+            "updated_at": "2026-04-20 17:55:59",
+            "deleted_at": null
+        },
+        {
+            "id": 821,
+            "medya_id": 2032,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "81.63254",
+            "konum_y": "75.72258",
+            "created_at": "2026-04-20 17:56:27",
+            "updated_at": "2026-04-20 17:56:27",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 4177,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Çekme,Emekleme,Engelli,Eşitlik,Etkileşim,Kayma,Koşma,Oturma,Rol Yapma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4178,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Metal - Kompozit",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4179,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-5",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4180,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "18",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4181,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 yıl",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 4182,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1 m",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4183,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "5.02 m x 9.65 m ",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4184,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "8.30 m x 12.61m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4185,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "2",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4186,
+            "uoz_urun_id": 550,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "2",
+            "uoz_sira": 9,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 549,
+            "urun_adi": "I1G-100",
+            "sef_url": "i1g-100",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/549\/MODEL-101.256.png"
+        },
+        {
+            "urun_id": 551,
+            "urun_adi": "I1G-102",
+            "sef_url": "i1g-102",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/551\/MODEL-103.243.png"
+        }
+    ]
+}

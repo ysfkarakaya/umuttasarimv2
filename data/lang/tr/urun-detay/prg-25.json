@@ -1,0 +1,277 @@
+{
+    "urun_id": 410,
+    "urun_adi": "PRG-25",
+    "urun_kodu": "PRG-25",
+    "sef_url": "prg-25",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 3,35 M X 9,75 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 3,35 <\/span><span style=\"color: rgb(10, 44, 78); font-family: \"open sans\", \"helvetica neue\", helvetica, arial, sans-serif; font-size: 14px;\">M X 9,75 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 22,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 402,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:34",
+    "updated_at": "2026-04-15 11:41:44",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/410\/PRG-25-3.png",
+    "kapak_id": 1572,
+    "360_obje": "upload\/360\/PRG-25.glb",
+    "medya": [
+        {
+            "id": 1572,
+            "um_urun_id": 410,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/410\/PRG-25-3.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2534,
+            "um_urun_id": 410,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/410\/PRG-25.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1573,
+            "um_urun_id": 410,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/410\/PRG-25-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1574,
+            "um_urun_id": 410,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/410\/PRG-25-2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2819,
+            "um_urun_id": 410,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/PRG-25.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1640,
+            "medya_id": 1572,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "33.90585",
+            "konum_y": "35.97646",
+            "created_at": "2026-04-21 16:10:30",
+            "updated_at": "2026-04-21 16:10:30",
+            "deleted_at": null
+        },
+        {
+            "id": 1641,
+            "medya_id": 1572,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "10.91252",
+            "konum_y": "84.46673",
+            "created_at": "2026-04-21 16:10:44",
+            "updated_at": "2026-04-21 16:10:44",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3134,
+            "uoz_urun_id": 410,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3135,
+            "uoz_urun_id": 410,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3136,
+            "uoz_urun_id": 410,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "3,35 m x 9,75 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3137,
+            "uoz_urun_id": 410,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3138,
+            "uoz_urun_id": 410,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 402,
+            "urun_adi": "PRG-01",
+            "sef_url": "prg-01",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/402\/PRG-01-1.png"
+        },
+        {
+            "urun_id": 403,
+            "urun_adi": "PRG-02",
+            "sef_url": "prg-02",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/403\/PRG-02-1.png"
+        },
+        {
+            "urun_id": 404,
+            "urun_adi": "PRG-03",
+            "sef_url": "prg-03",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/404\/PRG-03-3.png"
+        },
+        {
+            "urun_id": 405,
+            "urun_adi": "PRG-03A",
+            "sef_url": "prg-03a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/405\/PRG-03A-1.png"
+        },
+        {
+            "urun_id": 406,
+            "urun_adi": "PRG-04",
+            "sef_url": "prg-04",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/406\/PRG-04-1.png"
+        },
+        {
+            "urun_id": 407,
+            "urun_adi": "PRG-05",
+            "sef_url": "prg-05",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/407\/PRG-05-3.png"
+        },
+        {
+            "urun_id": 408,
+            "urun_adi": "PRG-06",
+            "sef_url": "prg-06",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/408\/PRG-06-2.png"
+        },
+        {
+            "urun_id": 409,
+            "urun_adi": "PRG-07",
+            "sef_url": "prg-07",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/409\/PRG-07-1.png"
+        },
+        {
+            "urun_id": 411,
+            "urun_adi": "PRG-30",
+            "sef_url": "prg-30",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/411\/PRG-30-1.png"
+        },
+        {
+            "urun_id": 412,
+            "urun_adi": "PRG-31",
+            "sef_url": "prg-31",
+            "urun_kategori_id": 66,
+            "urun_durum": 0,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/412\/33_1572943055.jpg"
+        },
+        {
+            "urun_id": 413,
+            "urun_adi": "PRG-32",
+            "sef_url": "prg-32",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/413\/PRG-32-1.png"
+        },
+        {
+            "urun_id": 414,
+            "urun_adi": "PRG-32A",
+            "sef_url": "prg-32a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/414\/PRG-32A-1.png"
+        },
+        {
+            "urun_id": 415,
+            "urun_adi": "PRG-33",
+            "sef_url": "prg-33",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/415\/PRG-33.497.3.png"
+        }
+    ]
+}

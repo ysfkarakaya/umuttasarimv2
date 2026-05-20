@@ -1,0 +1,394 @@
+{
+    "urun_id": 76,
+    "urun_adi": "EKO-23A",
+    "urun_kodu": "C1E-140",
+    "sef_url": "eko-23a",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 6,65 M X 9,10 MEMNİYET ALANI \/ SAFETY AREA: 10,65 M X 13,10 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color: rgb(10, 44, 78); font-family: \" open=\"\" sans\",=\"\" \"helvetica=\"\" neue\",=\"\" helvetica,=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 14px;\"=\"\">KURULUM ALANI \/ CONSTRUCTION AREA: 6,65 M X 9,10 M<\/span><br><br><span style=\"color: rgb(10, 44, 78); font-family: \" open=\"\" sans\",=\"\" \"helvetica=\"\" neue\",=\"\" helvetica,=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 14px;\"=\"\">EMNİYET ALANI \/ SAFETY AREA: 10,65 M X 13,10 M<\/span><br><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 62,
+    "seri_id": 40,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 56,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:49:21",
+    "updated_at": "2026-04-15 09:56:26",
+    "deleted_at": null,
+    "kat_adi": "Klasik Grup",
+    "kat_sef_url": "klasik-grup",
+    "kapak_resmi": "upload\/urunler\/76\/EKO-23A-2.png",
+    "kapak_id": 366,
+    "360_obje": "upload\/360\/EKO-23A-V1.glb",
+    "medya": [
+        {
+            "id": 366,
+            "um_urun_id": 76,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/76\/EKO-23A-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 367,
+            "um_urun_id": 76,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/76\/EKO-23A-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 368,
+            "um_urun_id": 76,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/76\/EKO-23A-4.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 369,
+            "um_urun_id": 76,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/76\/EKO-23A-5.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 370,
+            "um_urun_id": 76,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/76\/EKO-23A-3.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:52"
+        },
+        {
+            "id": 2727,
+            "um_urun_id": 76,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/EKO-23A-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 409,
+            "medya_id": 366,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "41.98458",
+            "konum_y": "61.41398",
+            "created_at": "2026-04-20 13:49:36",
+            "updated_at": "2026-04-20 13:49:36",
+            "deleted_at": null
+        },
+        {
+            "id": 410,
+            "medya_id": 366,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "88.09553",
+            "konum_y": "52.66983",
+            "created_at": "2026-04-20 13:49:43",
+            "updated_at": "2026-04-20 13:49:43",
+            "deleted_at": null
+        },
+        {
+            "id": 542,
+            "medya_id": 366,
+            "nokta_basligi": "Plastisol kaplı ST37",
+            "nokta_gorseli": "upload\/hotspots\/plastisol-st37.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "65.84793",
+            "konum_y": "35.38027",
+            "created_at": "2026-04-20 15:32:01",
+            "updated_at": "2026-04-20 15:32:01",
+            "deleted_at": null
+        },
+        {
+            "id": 543,
+            "medya_id": 366,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "32.16581",
+            "konum_y": "75.72258",
+            "created_at": "2026-04-20 15:32:07",
+            "updated_at": "2026-04-20 15:32:07",
+            "deleted_at": null
+        },
+        {
+            "id": 770,
+            "medya_id": 366,
+            "nokta_basligi": "PA \/ PA6 (Poliamid)",
+            "nokta_gorseli": "upload\/hotspots\/poliamid.jpg",
+            "nokta_aciklama": "Sürtünmeye ve yüksek ağırlıklara dayanabilen bir mühendislik plastiğidir. Salıncak mafsalları gibi sürekli hareket eden ve yük taşıyan parçalarda kullanılır.",
+            "konum_x": "50.93334",
+            "konum_y": "34.78407",
+            "created_at": "2026-04-20 17:31:08",
+            "updated_at": "2026-04-20 17:31:08",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 606,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Eşitlik,Kayma,Koşma,Oturma,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 607,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "25 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 608,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL - PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 609,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 610,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "6,65 m x 9,10 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 611,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 612,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "10,65 m x 13,10 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 613,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1,5 M ",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 614,
+            "uoz_urun_id": 76,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 56,
+            "urun_adi": "EKO-07",
+            "sef_url": "eko-07",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/56\/EKO-07-v1-2.png"
+        },
+        {
+            "urun_id": 58,
+            "urun_adi": "EKO-08",
+            "sef_url": "eko-08",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/58\/EKO-08-V1-1.png"
+        },
+        {
+            "urun_id": 59,
+            "urun_adi": "EKO-09",
+            "sef_url": "eko-09",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/59\/EKO-09-(1).png"
+        },
+        {
+            "urun_id": 60,
+            "urun_adi": "EKO-11",
+            "sef_url": "eko-11",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/60\/EKO-11-V1-6.png"
+        },
+        {
+            "urun_id": 61,
+            "urun_adi": "EKO-12",
+            "sef_url": "eko-12",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/61\/EKO-12-1.604.2.png"
+        },
+        {
+            "urun_id": 62,
+            "urun_adi": "EKO-13",
+            "sef_url": "eko-13",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/62\/EKO-13-v1-1.png"
+        },
+        {
+            "urun_id": 65,
+            "urun_adi": "EKO-15",
+            "sef_url": "eko-15",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/65\/EKO-15-v1-1.png"
+        },
+        {
+            "urun_id": 66,
+            "urun_adi": "EKO-16",
+            "sef_url": "eko-16",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/66\/EKO-16.4.png"
+        },
+        {
+            "urun_id": 69,
+            "urun_adi": "EKO-18",
+            "sef_url": "eko-18",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/69\/EKO-18-1-v1.png"
+        },
+        {
+            "urun_id": 74,
+            "urun_adi": "EKO-22",
+            "sef_url": "eko-22",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/74\/EKO-22.3_1.png"
+        },
+        {
+            "urun_id": 75,
+            "urun_adi": "EKO-23",
+            "sef_url": "eko-23",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/75\/EKO-23-2.png"
+        },
+        {
+            "urun_id": 82,
+            "urun_adi": "EKO-29",
+            "sef_url": "eko-29",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/82\/EKO29-1.png"
+        },
+        {
+            "urun_id": 83,
+            "urun_adi": "EKO-30",
+            "sef_url": "eko-30",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/83\/EKO-30.2.png"
+        },
+        {
+            "urun_id": 85,
+            "urun_adi": "EKO-33",
+            "sef_url": "eko-33",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/85\/EKO-33-PNG6.593.2.png"
+        },
+        {
+            "urun_id": 86,
+            "urun_adi": "EKO-34",
+            "sef_url": "eko-34",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/86\/EKO-34-1.png"
+        },
+        {
+            "urun_id": 89,
+            "urun_adi": "EKO-40",
+            "sef_url": "eko-40",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/89\/EKO-40-3.png"
+        }
+    ]
+}

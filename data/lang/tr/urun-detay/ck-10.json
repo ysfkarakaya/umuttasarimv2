@@ -1,0 +1,147 @@
+{
+    "urun_id": 379,
+    "urun_adi": "CK-10",
+    "urun_kodu": "CK-10",
+    "sef_url": "ck-10",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,40 M X 0,45 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,40 M X 0,45 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 29,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:56:59",
+    "updated_at": "2026-04-14 16:57:39",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/379\/CK-10-3.png",
+    "kapak_id": 1486,
+    "360_obje": "upload\/360\/CK-10.glb",
+    "medya": [
+        {
+            "id": 2503,
+            "um_urun_id": 379,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/379\/CK-10.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1486,
+            "um_urun_id": 379,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/379\/CK-10-3.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1487,
+            "um_urun_id": 379,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/379\/CK-10-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1488,
+            "um_urun_id": 379,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/379\/CK-10-1.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2702,
+            "um_urun_id": 379,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/CK-10.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 308,
+            "medya_id": 1486,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "59.01208",
+            "konum_y": "42.93203",
+            "created_at": "2026-04-20 11:30:08",
+            "updated_at": "2026-04-20 11:30:08",
+            "deleted_at": null
+        },
+        {
+            "id": 309,
+            "medya_id": 1486,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "40.74170",
+            "konum_y": "53.06729",
+            "created_at": "2026-04-20 11:30:11",
+            "updated_at": "2026-04-20 11:30:11",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2999,
+            "uoz_urun_id": 379,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,40 m x 0,45 m",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3000,
+            "uoz_urun_id": 379,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3001,
+            "uoz_urun_id": 379,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 380,
+            "urun_adi": "CK-10A",
+            "sef_url": "ck-10a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/380\/CK-10A-1.png"
+        }
+    ]
+}

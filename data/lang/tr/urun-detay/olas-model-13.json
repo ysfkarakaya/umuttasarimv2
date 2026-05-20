@@ -1,0 +1,242 @@
+{
+    "urun_id": 547,
+    "urun_adi": "OLAS - Model 13",
+    "urun_kodu": "I1O-602",
+    "sef_url": "olas-model-13",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 61,
+    "seri_id": 16,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 545,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-01-06 14:09:35",
+    "updated_at": "2026-04-15 11:39:24",
+    "deleted_at": null,
+    "kat_adi": "Modernist Grup",
+    "kat_sef_url": "modernist-grup",
+    "kapak_resmi": "upload\/urunler\/547\/MODEL-603-4.png",
+    "kapak_id": 2017,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2017,
+            "um_urun_id": 547,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/547\/MODEL-603-4.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2018,
+            "um_urun_id": 547,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/547\/MODEL-603-5.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2019,
+            "um_urun_id": 547,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/547\/MODEL-603-2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2020,
+            "um_urun_id": 547,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/547\/MODEL-603-3.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2021,
+            "um_urun_id": 547,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/547\/MODEL-603-1.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1549,
+            "medya_id": 2017,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "53.66768",
+            "konum_y": "36.77138",
+            "created_at": "2026-04-21 15:46:32",
+            "updated_at": "2026-04-21 15:46:32",
+            "deleted_at": null
+        },
+        {
+            "id": 1550,
+            "medya_id": 2017,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "36.26732",
+            "konum_y": "69.16447",
+            "created_at": "2026-04-21 15:46:35",
+            "updated_at": "2026-04-21 15:46:35",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 4147,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Denge,Eşitlik,Etkileşim,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4148,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "4",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4149,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Metal - Plastik",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4150,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4151,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "2.20 m x 2.70 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4152,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 4153,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "1",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4154,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "5.10 m x 5.60 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4155,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1.5 m",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4156,
+            "uoz_urun_id": 547,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "2",
+            "uoz_sira": 9,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 545,
+            "urun_adi": "OLAS - Model 11",
+            "sef_url": "olas-model-11",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/545\/MODEL-601-3.png"
+        },
+        {
+            "urun_id": 546,
+            "urun_adi": "OLAS - Model 12",
+            "sef_url": "olas-model-12",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/546\/MODEL-602-5.png"
+        },
+        {
+            "urun_id": 548,
+            "urun_adi": "OLAS - Model 14",
+            "sef_url": "olas-model-14",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/548\/MODEL-604.356.png"
+        }
+    ]
+}

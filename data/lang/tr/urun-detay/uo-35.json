@@ -1,0 +1,212 @@
+{
+    "urun_id": 292,
+    "urun_adi": "UO-35",
+    "urun_kodu": "UO-35",
+    "sef_url": "uo-35",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,75 M X 1,10 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 3,75 M X 4,05 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,75 M X 1,10<\/span><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\"> <\/span><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">M<\/span><\/p>\r\n\r\n<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">EMNİYET ALANI \/ SAFETY AREA: 3,75 M X 4,05 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 63,
+    "seri_id": 31,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 290,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:55:05",
+    "updated_at": "2026-04-15 12:41:11",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/292\/UO-35 (1).png",
+    "kapak_id": 1258,
+    "360_obje": "upload\/360\/UO-35-V1.glb",
+    "medya": [
+        {
+            "id": 2430,
+            "um_urun_id": 292,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/292\/UO-35.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1258,
+            "um_urun_id": 292,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/292\/UO-35 (1).png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 1259,
+            "um_urun_id": 292,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/292\/UO-35 (2).png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 2945,
+            "um_urun_id": 292,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/UO-35-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1843,
+            "medya_id": 1258,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "32.16506",
+            "konum_y": "39.94283",
+            "created_at": "2026-04-22 09:40:42",
+            "updated_at": "2026-04-22 09:40:42",
+            "deleted_at": null
+        },
+        {
+            "id": 1844,
+            "medya_id": 1258,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "50.68358",
+            "konum_y": "51.27766",
+            "created_at": "2026-04-22 09:40:47",
+            "updated_at": "2026-04-22 09:40:47",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2522,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Koşma,Oturma,Salınım,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2523,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "2 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2524,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2525,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "3-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2526,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,75 m x 1,10",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2527,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2528,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "3,75 M X 4,05 M",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2529,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "0,55 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 2530,
+            "uoz_urun_id": 292,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 290,
+            "urun_adi": "UO-27",
+            "sef_url": "uo-27",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/290\/UO-27-3.png"
+        },
+        {
+            "urun_id": 291,
+            "urun_adi": "UO-34",
+            "sef_url": "uo-34",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/291\/UO-34-2.png"
+        }
+    ]
+}

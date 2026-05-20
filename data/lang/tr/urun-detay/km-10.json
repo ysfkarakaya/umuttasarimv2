@@ -1,0 +1,114 @@
+{
+    "urun_id": 397,
+    "urun_adi": "KM-10",
+    "urun_kodu": "KM-10",
+    "sef_url": "km-10",
+    "urun_aciklama": " KURULUM ALANI \/ CONSTRUCTION AREA: 3,50 M X 3,50 M \t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "<span style=\"color: rgb(10, 44, 78); font-family: \"open sans\", \"helvetica neue\", helvetica, arial, sans-serif;\"> <\/span><span open=\"\" sans\",=\"\" \"helvetica=\"\" neue\",=\"\" helvetica,=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 14px;\"=\"\" style=\"color: rgb(10, 44, 78);\">KURULUM ALANI \/ CONSTRUCTION AREA: 3,50 M X 3,50 M <\/span>\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 27,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:19",
+    "updated_at": "2026-04-14 16:45:30",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/397\/6_1569539458.jpg",
+    "kapak_id": 1536,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1536,
+            "um_urun_id": 397,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/397\/6_1569539458.jpg",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2521,
+            "um_urun_id": 397,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/397\/KM-10.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1537,
+            "um_urun_id": 397,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/397\/KM-10_2.jpg",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 3072,
+            "uoz_urun_id": 397,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3073,
+            "uoz_urun_id": 397,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3074,
+            "uoz_urun_id": 397,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "3,50 m x 3,50 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3075,
+            "uoz_urun_id": 397,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3076,
+            "uoz_urun_id": 397,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

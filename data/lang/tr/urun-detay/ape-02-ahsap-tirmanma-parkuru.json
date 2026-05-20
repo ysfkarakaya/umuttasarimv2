@@ -1,0 +1,321 @@
+{
+    "urun_id": 485,
+    "urun_adi": "APE-02 AHŞAP TIRMANMA PARKURU",
+    "urun_kodu": "APE02",
+    "sef_url": "ape-02-ahsap-tirmanma-parkuru",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 1,85 M X 1,95 MEMNİYET ALANI \/ SAFETY AREA: 4,55 M X 5,00 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 1,85 M X 1,95 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 4,55 M X 5,00 M<\/li><\/ol>",
+    "urun_kategori_id": 63,
+    "seri_id": 25,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 483,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-07-30 16:15:49",
+    "updated_at": "2026-04-15 12:14:33",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/485\/AHŞAP-TIRMANMA-PARKURU-1_1.png",
+    "kapak_id": 1770,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2604,
+            "um_urun_id": 485,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/485\/APE-02.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1770,
+            "um_urun_id": 485,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/485\/AHŞAP-TIRMANMA-PARKURU-1_1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1771,
+            "um_urun_id": 485,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/485\/AHŞAP-TIRMANMA-PARKURU-2_1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1772,
+            "um_urun_id": 485,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/485\/AHŞAP-TIRMANMA-PARKURU-3_1.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 175,
+            "medya_id": 1770,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "67.96083",
+            "konum_y": "42.33584",
+            "created_at": "2026-04-20 10:35:14",
+            "updated_at": "2026-04-20 10:35:14",
+            "deleted_at": null
+        },
+        {
+            "id": 176,
+            "medya_id": 1770,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "52.67337",
+            "konum_y": "94.00580",
+            "created_at": "2026-04-20 10:35:17",
+            "updated_at": "2026-04-20 10:35:17",
+            "deleted_at": null
+        },
+        {
+            "id": 177,
+            "medya_id": 1770,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "23.34134",
+            "konum_y": "50.08633",
+            "created_at": "2026-04-20 10:35:20",
+            "updated_at": "2026-04-20 10:35:20",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3624,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Emekleme,Eşitlik,Koşma,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3625,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "1 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3626,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3627,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3628,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "1,85 m x 1,95 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3629,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL ",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3630,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "4,55 m x 5,00m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3631,
+            "uoz_urun_id": 485,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 483,
+            "urun_adi": "AHSPAR-05",
+            "sef_url": "ahspar-05",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/483\/AHSPAR-05-2_1.png"
+        },
+        {
+            "urun_id": 484,
+            "urun_adi": "APE-01 AHŞAP KOMANDO GEÇİŞ",
+            "sef_url": "ape-01-ahsap-komando-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/484\/AHŞAP-KOMANDO-GECİŞ-1_1.png"
+        },
+        {
+            "urun_id": 486,
+            "urun_adi": "APE-03 AHŞAP İP TÜNEL GEÇİŞ",
+            "sef_url": "ape-03-ahsap-ip-tunel-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/486\/AHŞAPİPTUNELGECİŞ-3.png"
+        },
+        {
+            "urun_id": 487,
+            "urun_adi": "APE-04 DALGALI KÖPRÜ GEÇİŞ",
+            "sef_url": "ape-04-dalgali-kopru-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/487\/DALGALI-KOPRU-GECİŞ-1.png"
+        },
+        {
+            "urun_id": 488,
+            "urun_adi": "APE-05 HALAT ÜZERİ YÜRÜME PARKURU",
+            "sef_url": "ape-05-halat-uzeri-yurume-parkuru",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/488\/HALAT-UZERİ-YURUME-PARKURU-1.png"
+        },
+        {
+            "urun_id": 489,
+            "urun_adi": "APE-06 KÖPRÜ DENGE PARKURU",
+            "sef_url": "ape-06-kopru-denge-parkuru",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/489\/KOPRU-DENGE-PARKURU-1.png"
+        },
+        {
+            "urun_id": 490,
+            "urun_adi": "APE-07 KÜTÜK PARKURU",
+            "sef_url": "ape-07-kutuk-parkuru",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/490\/AHŞAP-PARKUR-SERİSİ-1.png"
+        },
+        {
+            "urun_id": 491,
+            "urun_adi": "APE-08 YATAY KÜTÜK GEÇİŞ",
+            "sef_url": "ape-08-yatay-kutuk-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/491\/YATAY-KUTUK-GECİŞ-1.png"
+        },
+        {
+            "urun_id": 492,
+            "urun_adi": "APE-09 KÜTÜK TÜNEL GEÇİŞ ",
+            "sef_url": "ape-09-kutuk-tunel-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/492\/KUTUK-TUNEL-GECİŞ.180.1.png"
+        },
+        {
+            "urun_id": 493,
+            "urun_adi": "APE-10 LİMBO PARKURU",
+            "sef_url": "ape-10-limbo-parkuru",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/493\/LİMBO-PARKURU-3.png"
+        },
+        {
+            "urun_id": 494,
+            "urun_adi": "APE-11 POMEM PARKURU",
+            "sef_url": "ape-11-pomem-parkuru",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/494\/POMEM-PARKURU-1.png"
+        },
+        {
+            "urun_id": 495,
+            "urun_adi": "APE-12 SALLANIR DENGE GEÇİŞ",
+            "sef_url": "ape-12-sallanir-denge-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/495\/SALLANIR-DENGE-GECİŞ-1.png"
+        },
+        {
+            "urun_id": 496,
+            "urun_adi": "APE-13 TAMBURLU TIRMANMA GEÇİŞ",
+            "sef_url": "ape-13-tamburlu-tirmanma-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/496\/TAMBURLU-TIRMANMA-GECİŞ-1.png"
+        },
+        {
+            "urun_id": 497,
+            "urun_adi": "APE-14 YATAY DALGALI KARE KÜTÜK G.",
+            "sef_url": "ape-14-yatay-dalgali-kare-kutuk-g",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/497\/YATAY-DALGALI-KARE-KUTUK-GECİŞ-3.png"
+        }
+    ]
+}

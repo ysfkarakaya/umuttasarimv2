@@ -1,0 +1,150 @@
+{
+    "urun_id": 358,
+    "urun_adi": "B-46",
+    "urun_kodu": "B-46",
+    "sef_url": "b-46",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 2,00 M X 2,55 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 2,00 M X 2,55 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 7,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:56:29",
+    "updated_at": "2026-04-14 17:00:23",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/358\/B-46-1.png",
+    "kapak_id": 1431,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1431,
+            "um_urun_id": 358,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/358\/B-46-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2483,
+            "um_urun_id": 358,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/358\/B-46.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1432,
+            "um_urun_id": 358,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/358\/B-46-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1433,
+            "um_urun_id": 358,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/358\/B-46-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 262,
+            "medya_id": 1431,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "60.00638",
+            "konum_y": "58.43302",
+            "created_at": "2026-04-20 11:03:23",
+            "updated_at": "2026-04-20 11:03:23",
+            "deleted_at": null
+        },
+        {
+            "id": 263,
+            "medya_id": 1431,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "49.44188",
+            "konum_y": "89.03753",
+            "created_at": "2026-04-20 11:03:29",
+            "updated_at": "2026-04-20 11:03:29",
+            "deleted_at": null
+        },
+        {
+            "id": 434,
+            "medya_id": 1431,
+            "nokta_basligi": "Shingle",
+            "nokta_gorseli": "upload\/hotspots\/shingle.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "37.51021",
+            "konum_y": "12.72498",
+            "created_at": "2026-04-20 14:29:22",
+            "updated_at": "2026-04-20 14:29:22",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2931,
+            "uoz_urun_id": 358,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2932,
+            "uoz_urun_id": 358,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "2,00 m x 2,55 m",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2933,
+            "uoz_urun_id": 358,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2934,
+            "uoz_urun_id": 358,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

@@ -1,0 +1,214 @@
+[
+    {
+        "kart_id": 9,
+        "kart_kategori": "materyaller",
+        "kart_aciklama": null,
+        "kart_adi": "Metals",
+        "kart_gorsel": "upload\/kartlar\/materyal-1.png",
+        "kart_sira": 6,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:41:47",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 22,
+                "kart_id": 9,
+                "kart_detay_adi": "ST37 Çelik",
+                "kart_detay_etiket": "Yüksek Dayanımlı Çelik",
+                "kart_detay_gorsel": "upload\/kartlar\/st37-grade-steel-22.jpg",
+                "kart_detay_aciklama": "<b data-path-to-node=\"0\" data-index-in-node=\"0\">ST37 Çelik (Yapısal Çelik)<\/b>, üretim sahamızın iskeletini oluşturan, yüksek kaynak kabiliyeti ve şekillendirilme kolaylığı ile bilinen en temel yapısal malzemedir. Oyun gruplarının ana taşıyıcı direklerinden dış mekan spor aletlerinin gövdelerine kadar tüm ağır hizmet aksamlarında tercih ettiğimiz bu malzeme; sünek yapısı sayesinde dinamik yüklere karşı esneme payı bırakırken, yüzeyine uyguladığımız kumlama ve elektrostatik toz boya işlemleriyle birleştiğinde dış mekanın aşındırıcı etkilerine karşı korunaklı, ekonomik ve sarsılmaz bir mukavemet sunar.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:11:04",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 23,
+                "kart_id": 9,
+                "kart_detay_adi": "Paslanmaz Çelik",
+                "kart_detay_etiket": "Korozyona Bağışık (Paslanmaz)",
+                "kart_detay_gorsel": "upload\/kartlar\/stainless-steel-23.jpg",
+                "kart_detay_aciklama": "<b data-path-to-node=\"1\" data-index-in-node=\"0\">Paslanmaz Çelik (Genellikle 304 veya 316 Kalite)<\/b>, korozyona karşı en üst düzey direnci sağlamak amacıyla alaşımında yüksek oranda krom ve nikel barındıran, estetik ve hijyenin buluştuğu premium bir metaldir. Üretim bandımızda özellikle sahil şeridi projelerinde, oyun parkı kaydıraklarının kayma yüzeylerinde ve prestijli kent mobilyalarının detay parçalarında kullandığımız bu malzeme; paslanmaya karşı doğal bir bağışıklığa sahip olması ve pürüzsüz yüzey bitişiyle hem görsel bir şıklık sunar hem de on yıllar boyunca yapısal bütünlüğünü kaybetmeden ağır hava koşullarına meydan okur.",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:11:14",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 24,
+                "kart_id": 9,
+                "kart_detay_adi": "Alüminyum",
+                "kart_detay_etiket": "Paslanmaz Hafiflik",
+                "kart_detay_gorsel": "https:\/\/images.unsplash.com\/photo-1543084901-d68411adca51?auto=format&fit=crop&q=80&w=500",
+                "kart_detay_aciklama": "<b data-path-to-node=\"0\" data-index-in-node=\"0\">Alüminyum (Döküm)<\/b>, erimiş metalin özel tasarlanmış kalıplara dökülerek dondurulması yöntemiyle elde edilen, karmaşık geometrik formların tek parça halinde üretilmesine imkan tanıyan yüksek mukavemetli bir üretim çözümüdür. Üretim bandımızda özellikle oyun gruplarının ana gövde bağlantı kelepçelerinde, dekoratif bank ayaklarında ve spor aletlerinin hareketli mekanizma kapaklarında tercih ettiğimiz bu yöntem; ekstrüzyonun aksine parçaya üç boyutlu derinlik ve detay kazandırırken, malzemenin doğal korozyon direnci sayesinde dış mekanda paslanma riskini tamamen ortadan kaldırır. Döküm tekniği ile elde ettiğimiz bu parçalar, yüksek darbe sönümleme kabiliyetleri ve yapısal rijitlikleri sayesinde, park ekipmanlarımızın en kritik birleşim noktalarında hem estetik bir bütünlük hem de sarsılmaz bir kullanıcı güvenliği sağlar.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:11:39",
+                "deleted_at": null
+            }
+        ]
+    },
+    {
+        "kart_id": 10,
+        "kart_kategori": "materyaller",
+        "kart_aciklama": null,
+        "kart_adi": "Woods",
+        "kart_gorsel": "upload\/kartlar\/materyal-2.png",
+        "kart_sira": 7,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:41:47",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 55,
+                "kart_id": 10,
+                "kart_detay_adi": "Sarı Çam",
+                "kart_detay_etiket": "%100 Doğal",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<p><b data-path-to-node=\"0\" data-index-in-node=\"0\">Sarıçam (Pinus Sylvestris)<\/b>, reçineli yapısı ve belirgin budaklı dokusuyla öne çıkan, vakum-basınç emprenye işlemi uygulandığında dış mekan koşullarına karşı direnci artırılan ekonomik ve dayanıklı bir yumuşak ağaç türüdür. Üretimimizde genellikle oyun parklarının taşıyıcı direklerinde ve kent mobilyalarının ahşap kısımlarında kullanılan bu tür; kolay işlenebilirliği, emprenye maddesini bünyesine iyi çekmesi ve doğal görünümüyle dış mekan projelerimizde hem maliyet avantajı hem de yapısal güvenilirlik sunan temel ahşap malzememizdir.<\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-12 18:43:59",
+                "updated_at": "2026-05-12 19:03:48",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 25,
+                "kart_id": 10,
+                "kart_detay_adi": "Robinia (Akasya)",
+                "kart_detay_etiket": "%100 Doğal",
+                "kart_detay_gorsel": "upload\/kartlar\/robinia-acacia-25.jpg",
+                "kart_detay_aciklama": "<b data-path-to-node=\"1\" data-index-in-node=\"0\">Robinia (Akasya)<\/b>, Avrupa’nın en dayanıklı ağaç türlerinden biri kabul edilen, doğal olarak mantar ve böcek çürümesine karşı dirençli, son derece sert ve yüksek mukavemetli bir ağaçtır. \"Naturel\" seri oyun gruplarımızın vazgeçilmezi olan Robinia; eğrisel ve doğal gövde yapısıyla projelere organik bir estetik katarken, emprenye gerektirmeyen doğası sayesinde çocukların doğrudan temas ettiği oyun alanlarında en sağlıklı ve uzun ömürlü sert ağaç çözümünü oluşturur.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:04:15",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 26,
+                "kart_id": 10,
+                "kart_detay_adi": "İroko &amp; Sapelli",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "https:\/\/images.unsplash.com\/photo-1517646288273-96b9624b7ecd?auto=format&fit=crop&q=80&w=500",
+                "kart_detay_aciklama": "<p data-path-to-node=\"2\"><b data-path-to-node=\"2\" data-index-in-node=\"0\">Iroko<\/b>, Afrika kökenli, yüksek yağ oranı ve yoğun lif yapısı sayesinde suya, neme ve her türlü hava koşuluna karşı doğal bir bağışıklığa sahip olan egzotik bir sert ağaçtır. Teak ağacına en yakın alternatif olarak üretimimizde kullandığımız bu malzeme; zamanla kazandığı gümüş gri rengi veya periyodik yağ bakımıyla korunan altın kahverengi dokusuyla, özellikle prestijli kent mobilyası projelerinde ve üst segment oturma birimlerinde lüks ve dayanıklılığı bir arada sunar.<\/p><p data-path-to-node=\"3\"><b data-path-to-node=\"3\" data-index-in-node=\"0\">Sapelli<\/b>, sıkı dokusu ve çapraz lifli yapısı sayesinde boyutsal kararlılığı oldukça yüksek olan, mahun benzeri kızıl-kahverengi tonlarıyla bilinen egzotik bir sert ağaçtır. Üretim bandımızda özellikle estetik görünümün ve pürüzsüz yüzey bitişinin kritik olduğu kent mobilyası detaylarında tercih ettiğimiz Sapelli; sertliği ve hava koşullarına karşı gösterdiği dirençle, şehir estetiğine değer katan dayanıklı ve şık tasarımların hayata geçirilmesini sağlar.<\/p>",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:06:55",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 27,
+                "kart_id": 10,
+                "kart_detay_adi": "Plywood (Huş Marin)",
+                "kart_detay_etiket": "Marin Sınıfı Kompozit Panel",
+                "kart_detay_gorsel": "https:\/\/images.unsplash.com\/photo-1449130029910-91665689ceb1?auto=format&fit=crop&q=80&w=500",
+                "kart_detay_aciklama": "<b data-path-to-node=\"4\" data-index-in-node=\"0\">Plywood (Huş Marin)<\/b>, ince huş ağacı katmanlarının birbirine dik açıyla, suya dayanıklı (WBP) tutkallar kullanılarak yüksek basınç altında lamine edilmesiyle oluşan, mukavemeti her yöne eşit dağılmış yüksek performanslı bir panel malzemesidir. Özellikle oyun gruplarının zemin platformlarında, tırmanma duvarlarında ve formlu yan panellerde kullandığımız Huş Marin Plywood; katmanlı yapısı sayesinde çatlama ve dönmeye karşı gösterdiği dirençle, üzerine uygulanan film veya boya katmanıyla birleştiğinde dış mekanda en ağır yükleri bile güvenle taşıyan mühendislik harikası bir panel çözümüdür.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:06:41",
+                "deleted_at": null
+            }
+        ]
+    },
+    {
+        "kart_id": 11,
+        "kart_kategori": "materyaller",
+        "kart_aciklama": null,
+        "kart_adi": "Plastics",
+        "kart_gorsel": "upload\/kartlar\/materyal-3.png",
+        "kart_sira": 8,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:41:47",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 56,
+                "kart_id": 11,
+                "kart_detay_adi": "LDPE",
+                "kart_detay_etiket": "Polietilen",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<p><b data-path-to-node=\"4\" data-index-in-node=\"0\">LDPE (Düşük Yoğunluklu Polietilen)<\/b>, üretim gamımızda daha çok esneklik ve darbe emicilik gerektiren tamamlayıcı parçalarda, bağlantı elemanlarının koruyucu kapaklarında, kaydırak, salıncak, pano, çatı veya yumuşak dokulu tutamak yüzeylerinde karşımıza çıkar. Malzemenin elastik yapısı ve kolay form alabilme kabiliyeti, metal aksamların üzerine geçirilen koruyucu kılıflarda veya sızdırmazlık gerektiren teknik detaylarda güvenli bir kullanım alanı yaratarak ürünlerimizin son kullanıcı tarafındaki konfor ve güvenlik standartlarını tamamlar.<\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-12 18:46:46",
+                "updated_at": "2026-05-12 18:59:51",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 28,
+                "kart_id": 11,
+                "kart_detay_adi": "HDPE",
+                "kart_detay_etiket": "Polietilen",
+                "kart_detay_gorsel": "upload\/kartlar\/hdpe-polyethylene-28.jpg",
+                "kart_detay_aciklama": "<b data-path-to-node=\"3\" data-index-in-node=\"0\">HDPE (Yüksek Yoğunluklu Polietilen)<\/b>, üretim bandımızda özellikle düz veya kavisli çift renkli panellerin, figürlü sallanan oyuncakların ve tırmanma duvarı bileşenlerinin imalatında ana gövde malzemesi olarak kullanılır. Darbe dayanımının çok yüksek olması ve boyanın malzemenin kendi özünde bulunması sayesinde, oyun parklarında çocukların yoğun teması sonucunda oluşabilecek aşınmalarda bile renk kaybı yaşanmaz; neme karşı tam direnci sayesinde toprakla temas eden veya suyla yıkanan kent ekipmanlarında yapısal bozulma yaşamadan yüksek performans sunar.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:41:47",
+                "updated_at": "2026-05-12 19:13:32",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 59,
+                "kart_id": 11,
+                "kart_detay_adi": "Poliamid",
+                "kart_detay_etiket": "Termoplastik",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<p><b data-path-to-node=\"0\" data-index-in-node=\"0\">Poliamid (PA)<\/b>, moleküler yapısındaki güçlü bağlar sayesinde çok yüksek mekanik dayanım, sertlik ve aşınma direnci sunan üst segment bir mühendislik plastiğidir. Üretim bandımızda özellikle metalin metale sürtünmesini engellemek amacıyla kullanılan kendinden yağlamalı burçlar, rulman yatakları, halat bağlantı aparatları ve yüksek yük taşıma kapasitesi gerektiren mafsal noktaları için vazgeçilmez bir malzemedir. Düşük sürtünme katsayısı ve darbe emme kabiliyeti ile dış mekan fitness aletleri ve oyun gruplarındaki hareketli aksamların sessiz, pürüzsüz ve uzun ömürlü çalışmasını sağlayan, korozyona uğramayan profesyonel bir teknik çözümdür.<\/p>",
+                "kart_detay_sira": 2,
+                "created_at": "2026-05-12 19:01:36",
+                "updated_at": "2026-05-12 19:13:34",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 60,
+                "kart_id": 11,
+                "kart_detay_adi": "Polikarbon",
+                "kart_detay_etiket": "Kırılmaz Şeffaflık",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<p><b data-path-to-node=\"0\" data-index-in-node=\"0\">Polikarbonat (PC)<\/b>, halk arasında \"kırılmaz cam\" olarak da bilinen, ışık geçirgenliği yüksek ancak darbe direnci cama oranla yaklaşık 200 kat daha fazla olan, yüksek performanslı bir mühendislik termoplastiğidir. Üretim bandımızda özellikle oyun gruplarının pencerelerinde, temalı oyun evlerinin ışıklıklarında ve koruyucu muhafaza panellerinde tercih ettiğimiz bu malzeme; aşırı sıcak ve soğuk hava değişimlerine karşı boyutsal kararlılığını korurken, yüzeyine uygulanan UV koruma katmanı sayesinde güneş altında sararma veya çatlama yapmadan uzun yıllar şeffaflığını muhafaza eder. Hem çocukların güvenliğini sağlayan parçalanmaz yapısı hem de dış mekanın zorlu şartlarına uyum sağlayan esnek mukavemeti ile tasarım projelerimizde estetik şeffaflığı fonksiyonel dayanıklılıkla birleştiren modern bir çözüm ortağıdır.<\/p>",
+                "kart_detay_sira": 3,
+                "created_at": "2026-05-12 19:13:21",
+                "updated_at": "2026-05-12 19:13:34",
+                "deleted_at": null
+            }
+        ]
+    },
+    {
+        "kart_id": 16,
+        "kart_kategori": "materyaller",
+        "kart_aciklama": "<p><span class=\"\">Kompozit malzeme,<\/span><span class=\"\"> en temel tanımıyla,<\/span><span class=\"\"> <\/span><b data-path-to-node=\"0\" data-index-in-node=\"38\" class=\"\">birbirinden farklı fiziksel veya kimyasal özelliklere sahip iki veya daha fazla malzemenin makro düzeyde birleştirilmesiyle<\/b><span class=\"\"> elde edilen yeni ve üstün özellikli malzemedir.<\/span><\/p>",
+        "kart_adi": "Kompozit",
+        "kart_gorsel": "upload\/kartlar\/composite-g.png",
+        "kart_sira": 9,
+        "kart_durum": 1,
+        "created_at": "2026-05-12 18:48:50",
+        "updated_at": "2026-05-14 13:45:12",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 57,
+                "kart_id": 16,
+                "kart_detay_adi": "HPL",
+                "kart_detay_etiket": "Kompakt Laminat",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<p>HPL (High Pressure Laminate), fenolik reçine emdirilmiş çok sayıda kraft kağıdı katmanı ile melamin esaslı dekoratif üst yüzeyin, yaklaşık <b data-path-to-node=\"0\" data-index-in-node=\"139\">150°C<\/b> sıcaklık ve <b data-path-to-node=\"0\" data-index-in-node=\"157\">100 bar<\/b> basınç altında ileri teknoloji preslerde polimerize edilmesiyle elde edilen, homojen yapılı ve yüksek performanslı bir kompozit malzemedir. Üretim sürecindeki bu yüksek ısıl işlem ve moleküler bağ yapısı, malzemeye gözeneksiz bir yüzey kazandırarak sıvı emilimini tamamen engeller; bu sayede bakteri üremesine geçit vermeyen hijyenik bir yapı sunarken, aynı zamanda asitli kimyasallardan sert darbelere, yoğun aşınmadan UV ışınlarına kadar en zorlu çevresel faktörlere karşı olağanüstü bir mukavemet sergiler. Ağır hava koşullarına maruz kalan dış cephe sistemlerinde estetikten ödün vermeden uzun yıllar formunu koruyabilen bu mühendislik harikası, kolay temizlenebilir olma özelliğiyle de kamusal alanlardan endüstriyel tesislere kadar sürdürülebilir ve fonksiyonel bir çözüm sunar.<\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-12 18:55:34",
+                "updated_at": "2026-05-12 18:55:34",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 58,
+                "kart_id": 16,
+                "kart_detay_adi": "Fiberglas",
+                "kart_detay_etiket": "Cam Takviyeli Plastik",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<p>Fiberglass (Cam Elyaf Takviyeli Plastik), yüksek mukavemetli ince cam liflerinin (fiber) doymamış polyester veya epoksi gibi termoset reçinelerle bir araya getirilerek kimyasal reaksiyon (kürlenme) yoluyla sertleştirilmesi sonucu oluşan, hafif ancak yapısal olarak son derece dirençli bir kompozit malzemedir. Cam elyafının yüksek çekme dayanımı ile reçinenin esneklik ve korozyon direncini aynı gövdede birleştiren bu malzeme; paslanmaya, çürümeye ve ağır hava koşullarına karşı tamamen bağışıklık gösterirken, aynı zamanda metal alternatiflerine oranla çok daha düşük bir ağırlıkta yüksek taşıma kapasitesi sunar. Elektriksel iletkenliğinin olmaması ve düşük ısı transfer katsayısı sayesinde mükemmel bir yalıtkan görevi gören fiberglass; su depolarından otomotiv gövde parçalarına, denizcilikten modüler oyun grubu ekipmanlarına kadar hem dayanıklılık hem de form özgürlüğü gerektiren kritik mühendislik uygulamalarında, düşük bakım maliyeti ve sınırsız ömür sunan profesyonel bir çözüm ortağıdır.<\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-12 18:57:10",
+                "updated_at": "2026-05-12 18:57:10",
+                "deleted_at": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+{
+    "urun_id": 560,
+    "urun_adi": "Bisiklet Park İstasyonu",
+    "urun_kodu": "H2M-102",
+    "sef_url": "bisiklet-park-istasyonu",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 66,
+    "seri_id": 13,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-01-15 17:12:12",
+    "updated_at": "2026-04-14 15:50:25",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/560\/PORODICA.468.png",
+    "kapak_id": 2081,
+    "360_obje": "upload\/360\/H2M-102-v1.glb",
+    "medya": [
+        {
+            "id": 2081,
+            "um_urun_id": 560,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/560\/PORODICA.468.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2082,
+            "um_urun_id": 560,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/560\/PORODICA.469.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2083,
+            "um_urun_id": 560,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/560\/PORODICA.470.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2741,
+            "um_urun_id": 560,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/H2M-102-v1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 272,
+            "medya_id": 2081,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "58.88916",
+            "konum_y": "45.90395",
+            "created_at": "2026-04-20 11:05:11",
+            "updated_at": "2026-04-20 11:24:45",
+            "deleted_at": null
+        },
+        {
+            "id": 273,
+            "medya_id": 2081,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "74.54984",
+            "konum_y": "13.65311",
+            "created_at": "2026-04-20 11:05:15",
+            "updated_at": "2026-04-20 11:05:15",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": []
+}

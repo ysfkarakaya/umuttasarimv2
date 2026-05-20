@@ -1,0 +1,127 @@
+{
+    "urun_id": 385,
+    "urun_adi": "CK-16",
+    "urun_kodu": "CK-16",
+    "sef_url": "ck-16",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,40 M X 0,55 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,40 M X 0,55 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 29,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:08",
+    "updated_at": "2026-04-14 16:56:14",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/385\/CK-16-1.png",
+    "kapak_id": 1502,
+    "360_obje": "upload\/360\/CK-16.glb",
+    "medya": [
+        {
+            "id": 2509,
+            "um_urun_id": 385,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/385\/CK-16.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1502,
+            "um_urun_id": 385,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/385\/CK-16-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1503,
+            "um_urun_id": 385,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/385\/CK-16-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2708,
+            "um_urun_id": 385,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/CK-16.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 319,
+            "medya_id": 1502,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "59.75780",
+            "konum_y": "22.46278",
+            "created_at": "2026-04-20 11:31:47",
+            "updated_at": "2026-04-20 11:31:47",
+            "deleted_at": null
+        },
+        {
+            "id": 470,
+            "medya_id": 1502,
+            "nokta_basligi": "Dişbudak THERMOWOOD",
+            "nokta_gorseli": "upload\/hotspots\/disbudak-themowood.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "44.84321",
+            "konum_y": "47.10537",
+            "created_at": "2026-04-20 14:50:38",
+            "updated_at": "2026-04-20 14:50:38",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3017,
+            "uoz_urun_id": 385,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,40 m x 0,55 m",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3018,
+            "uoz_urun_id": 385,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3019,
+            "uoz_urun_id": 385,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

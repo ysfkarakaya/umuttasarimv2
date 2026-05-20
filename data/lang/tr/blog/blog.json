@@ -1,0 +1,44 @@
+{
+    "page": {
+        "title": "Blog",
+        "subtitle": "Sektörün Kalbinden: Oyun Alanı Günlükleri",
+        "hero_title": "Sektörün Kalbinden:",
+        "hero_subtitle": "Oyun Alanı Günlükleri",
+        "hero_desc_top": "Umut Tasarım olarak güvenli, estetik ve sürdürülebilir oyun alanları üretiyoruz. Bu sayfada ise sözü uzmanlara bırakıyoruz.",
+        "hero_desc_bottom": "Tasarım trendleri, yasal mevzuatlar, çocuk güvenliği ve kentsel mimari üzerine disiplinler arası makalelerle oyun parkı sektörünü derinlemesine inceleyin."
+    },
+    "posts": [
+        {
+            "id": 1,
+            "title": "Tasarım Koruması ve Doğru Bilinen Yanlışlar",
+            "excerpt": "Bilindiği üzere tasarım konusu ürünler Sınai Mülkiyet Kanunu uyarınca korunmakta olup, Türk Patent ve Marka Kurumu nezdinde tescilli tasarım nedeniyle alınan bir belge aynı tapulu bir taşınmaz gibi sahibine birtakım haklar sağlamaktadır.\n\nFakat bu belgenin doğruluğu esasen sahibinin beyanına dayanmakta olup, bu nedenle de her zaman hükümsüzlüğe konu edilmesi mümkündür.\n\nGünümüzde tasarım ve patent gibi fikri hakların maliyetleri ve elle tutulur gözle görülür bir hak yerine tasarımın fikri bir hak olması sebebiyle halen gerektiği öneme sahip olmayıp, birçok şirket önce ürünü piyasaya sunmakta, eğer ürün piyasada tutarsa tasarım belgesine konu etmektedir.",
+            "image": "assets/img/blog1.jpg",
+            "date": "15 Mart 2026",
+            "category": "Yasal Mevzuat"
+        },
+        {
+            "id": 2,
+            "title": "Modüler Park Nedir ?",
+            "excerpt": "Modüler parklar, şehir planlama ve peyzaj tasarımında esnek ve yenilikçi bir yaklaşımı temsil eder.\n\nBu parklar, çeşitli modüllerden ve birimlerden oluşur ve bu modüller bir araya getirilerek farklı ihtiyaçlara göre özelleştirilebilen park alanları oluşturulur.\n\nModüler Parkların Kurulumu\nModüler parkların kurulumu, geleneksel parkların kurulumuyla kıyaslandığında çok daha hızlıdır.",
+            "image": "assets/img/blog2.jpg",
+            "date": "12 Mart 2026",
+            "category": "Tasarım"
+        },
+        {
+            "id": 3,
+            "title": "ST37 Steel Recyclability",
+            "excerpt": "Recyclability: Steel is a recyclable material, fully supporting a circular economy approach. Recycling steel significantly reduces the energy required to the conservation of natural resources.\n\nLow Carbon Footprint: Modern steel production is evolving towards low carbon emissions through improved efficiency and use of renewable energy during production, which lessens the carbon footprint.\n\nDurability and Lifespan: Product made from ST37 steel is known for its durability. Children's playgrounds have longer lifespans, which reduces resource consumption and contributes to sustainability.",
+            "image": "assets/img/blog3.jpg",
+            "date": "05 Mart 2026",
+            "category": "Malzeme"
+        },
+        {
+            "id": 4,
+            "title": "Çocuk Güvenliği Protokolleri",
+            "excerpt": "Oyun alanlarında güvenlik standartları sadece fiziksel bariyerlerle sınırlı değildir. Malzeme seçimi, zemin dokusu ve düzenli denetimlerin önemi...",
+            "image": "assets/img/blog4.jpg",
+            "date": "01 Mart 2026",
+            "category": "Güvenlik"
+        }
+    ]
+}

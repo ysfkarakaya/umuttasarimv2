@@ -1,0 +1,294 @@
+{
+    "urun_id": 203,
+    "urun_adi": "N1L-105",
+    "urun_kodu": "N1L-105",
+    "sef_url": "n1l-105",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 8,55 M X 13,25 MEMNİYET ALANI \/ SAFETY AREA: 11,60 M X 16,25 M\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "<p>KURULUM ALANI \/ CONSTRUCTION AREA: 8,55 M X 13,25 M<\/p><p>EMNİYET ALANI \/ SAFETY AREA: 11,60 M X 16,25 M<\/p>\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 64,
+    "seri_id": 4,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 200,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:53:07",
+    "updated_at": "2026-04-15 11:31:09",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/203\/N1L-105MODEL-006-2.png",
+    "kapak_id": 924,
+    "360_obje": "upload\/360\/N1L-105-v1.glb",
+    "medya": [
+        {
+            "id": 924,
+            "um_urun_id": 203,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/203\/N1L-105MODEL-006-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 2344,
+            "um_urun_id": 203,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/203\/N1L-105.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 922,
+            "um_urun_id": 203,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/203\/N1L-105MODEL-006-6.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 923,
+            "um_urun_id": 203,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/203\/N1L-105MODEL-006-3.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 925,
+            "um_urun_id": 203,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/203\/N1L-105MODEL-006-4.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 926,
+            "um_urun_id": 203,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/203\/N1L-105MODEL-006-5.png",
+            "um_baslik": null,
+            "um_sira": 5,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 927,
+            "um_urun_id": 203,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/203\/N1L-105MODEL-006-1.png",
+            "um_baslik": null,
+            "um_sira": 6,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 15:04:48"
+        },
+        {
+            "id": 2970,
+            "um_urun_id": 203,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/N1L-105-v1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 7,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 15:04:48"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1514,
+            "medya_id": 924,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "59.01208",
+            "konum_y": "68.79947",
+            "created_at": "2026-04-21 15:06:46",
+            "updated_at": "2026-04-21 15:06:46",
+            "deleted_at": null
+        },
+        {
+            "id": 1515,
+            "medya_id": 924,
+            "nokta_basligi": "Akasya",
+            "nokta_gorseli": "upload\/hotspots\/akasya.jpg",
+            "nokta_aciklama": "Yüksek yoğunluklu, sert ve doğa şartlarına karşı kendi yapısından dolayı son derece dirençli bir ahşaptır. Mantar ve çürümeye karşı uzun ömürlüdür.",
+            "konum_x": "60.62782",
+            "konum_y": "33.55981",
+            "created_at": "2026-04-21 15:06:52",
+            "updated_at": "2026-04-21 15:06:52",
+            "deleted_at": null
+        },
+        {
+            "id": 1559,
+            "medya_id": 924,
+            "nokta_basligi": "Polikarbon",
+            "nokta_gorseli": "upload\/hotspots\/polikarbon.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "45.71323",
+            "konum_y": "32.36525",
+            "created_at": "2026-04-21 15:49:04",
+            "updated_at": "2026-04-21 15:49:04",
+            "deleted_at": null
+        },
+        {
+            "id": 1560,
+            "medya_id": 924,
+            "nokta_basligi": "Kauçuk",
+            "nokta_gorseli": "upload\/hotspots\/kaucuk.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "69.82515",
+            "konum_y": "63.02574",
+            "created_at": "2026-04-21 15:49:10",
+            "updated_at": "2026-04-21 15:49:10",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 1724,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Denge,Eşitlik,Kayma,Koşma,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1725,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1726,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-12 YAŞ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1727,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "30 KULLANICI",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1728,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 1729,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1,50 M",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 1730,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "8,55 m x 13,25 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1731,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "11,60 m x 16,25 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1732,
+            "uoz_urun_id": 203,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 200,
+            "urun_adi": "N1L-102",
+            "sef_url": "n1l-102",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/200\/N1L-102-MODEL-003-4.png"
+        },
+        {
+            "urun_id": 204,
+            "urun_adi": "N1L-106",
+            "sef_url": "n1l-106",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/204\/N1L-106-MODEL-007-2.png"
+        },
+        {
+            "urun_id": 205,
+            "urun_adi": "N1L-107",
+            "sef_url": "n1l-107",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/205\/N1L-107-MODEL-008-2.png"
+        },
+        {
+            "urun_id": 208,
+            "urun_adi": "N1L-110",
+            "sef_url": "n1l-110",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/208\/N1L-110MODEL-011-5.png"
+        }
+    ]
+}

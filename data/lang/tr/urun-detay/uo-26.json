@@ -1,0 +1,225 @@
+{
+    "urun_id": 283,
+    "urun_adi": "UO-26",
+    "urun_kodu": "UO-26 DÖRT KİŞİLİK ZIP ZIP TAHTERAVALLİ",
+    "sef_url": "uo-26",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 2,15 M X 2,15 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 5,10 M X 5,15 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">KURULUM ALANI \/ CONSTRUCTION AREA: 2,15 M X 2,15<\/span><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\"> <\/span><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">M<\/span><\/p>\r\n\r\n<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">EMNİYET ALANI \/ SAFETY AREA: 5,10 M X 5,15 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 63,
+    "seri_id": 8,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:54:57",
+    "updated_at": "2026-04-14 17:13:39",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/283\/UO-26.1.png",
+    "kapak_id": 1234,
+    "360_obje": "upload\/360\/UO-26-V1.glb",
+    "medya": [
+        {
+            "id": 2421,
+            "um_urun_id": 283,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/283\/UO-26.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1234,
+            "um_urun_id": 283,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/283\/UO-26.1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 1235,
+            "um_urun_id": 283,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/283\/UO-26.3.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 1236,
+            "um_urun_id": 283,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/283\/UO-26.2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 2941,
+            "um_urun_id": 283,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/UO-26-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1831,
+            "medya_id": 1234,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "44.34606",
+            "konum_y": "47.10537",
+            "created_at": "2026-04-22 09:38:58",
+            "updated_at": "2026-04-22 09:38:58",
+            "deleted_at": null
+        },
+        {
+            "id": 1832,
+            "medya_id": 1234,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "48.69615",
+            "konum_y": "73.13908",
+            "created_at": "2026-04-22 09:39:03",
+            "updated_at": "2026-04-22 09:39:03",
+            "deleted_at": null
+        },
+        {
+            "id": 1914,
+            "medya_id": 1234,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "65.97222",
+            "konum_y": "29.21962",
+            "created_at": "2026-04-22 10:49:57",
+            "updated_at": "2026-04-22 10:49:57",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2441,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Koşma,Oturma,Salınım,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2442,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "4 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2443,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2444,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2445,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "2,15 m x 2,15 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2446,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2447,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 15,
+            "uoz_deger": " 5,10 M X 5,15 M",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2448,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "0,45 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 2449,
+            "uoz_urun_id": 283,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 284,
+            "urun_adi": "UO-33",
+            "sef_url": "uo-33",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/284\/UO-33-1.png"
+        }
+    ]
+}

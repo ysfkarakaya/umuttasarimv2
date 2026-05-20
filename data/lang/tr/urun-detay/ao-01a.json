@@ -1,0 +1,82 @@
+{
+    "urun_id": 574,
+    "urun_adi": "AO-01A",
+    "urun_kodu": "AO-01A",
+    "sef_url": "ao-01a",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 63,
+    "seri_id": 9,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 266,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-02-05 11:36:06",
+    "updated_at": "2026-04-15 12:10:57",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": null,
+    "kapak_id": null,
+    "360_obje": null,
+    "medya": [],
+    "hotspotlar": [],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 266,
+            "urun_adi": "AO-01 AHŞAP-İKİ KİŞİLİK SALINCAK",
+            "sef_url": "ao-01-ahsap-iki-kisilik-salincak",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/266\/AO-01.139.3.png"
+        },
+        {
+            "urun_id": 267,
+            "urun_adi": "AO-02 AHŞAP-DÖRT KİŞİLİK SALINCAK",
+            "sef_url": "ao-02-ahsap-dort-kisilik-salincak",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/267\/AO-02.bip.140.3.png"
+        },
+        {
+            "urun_id": 268,
+            "urun_adi": "AO-10 AHŞAP-ÇAPRAZ SALINCAK",
+            "sef_url": "ao-10-ahsap-capraz-salincak",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/268\/AO-10.146.1.png"
+        },
+        {
+            "urun_id": 269,
+            "urun_adi": "AO-11 AHŞAP-TEK TAŞIYICILI SALINCAK",
+            "sef_url": "ao-11-ahsap-tek-tasiyicili-salincak",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/269\/AO-11-1.png"
+        },
+        {
+            "urun_id": 270,
+            "urun_adi": "AO-12 AHŞAP-ÜÇLÜ KOMBİNE SALINCAK",
+            "sef_url": "ao-12-ahsap-uclu-kombine-salincak",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/270\/AO-12.492.3.png"
+        },
+        {
+            "urun_id": 271,
+            "urun_adi": "AO-13 AHŞAP-KULUÇKA SALINCAK",
+            "sef_url": "ao-13-ahsap-kulucka-salincak",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/271\/AO-13.147.1.png"
+        }
+    ]
+}

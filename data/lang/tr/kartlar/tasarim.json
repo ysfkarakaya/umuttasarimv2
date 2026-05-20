@@ -1,0 +1,76 @@
+[
+    {
+        "kart_id": 4,
+        "kart_kategori": "tasarim",
+        "kart_aciklama": "<div class=\"row align-items-center justify-content-center\">\r\n                    <!-- Left Heading -->\r\n                    <div class=\"col-lg-4 text-lg-end\">\r\n                        <h1 class=\"main-heading\" style=\"max-width: 100%;\">\r\n                        ÇOCUKLAR İÇİN <b data-path-to-node=\"6\" data-index-in-node=\"26\" class=\"text-pink\">MUTLU ANILAR<\/b> VE <b data-path-to-node=\"6\" data-index-in-node=\"42\" class=\"text-blue\">GÜVENLİ OYUN ALANLARI<\/b> YARATMAK İSTER MİSİNİZ?<\/h1>\r\n                    <\/div>\r\n\r\n\r\n\r\n                    <!-- Right Content -->\r\n                    <div class=\"col-lg-8\">\r\n                        <div class=\"design-content-right\">\r\n                            <p data-path-to-node=\"8\">Hayal gücünü oyun alanlarına taşıyoruz!<\/p><p data-path-to-node=\"8\">Çocukların hayal dünyalarını serbest bırakabilecekleri, özgürce keşfedebilecekleri ve <b data-path-to-node=\"8\" data-index-in-node=\"146\">güvenle eğlenebilecekleri alanlar yaratmak<\/b> bizim için sadece bir iş değil, bir tutkudur.<\/p><p data-path-to-node=\"9\">Şirketimiz, oyun alanı tasarımında <b data-path-to-node=\"9\" data-index-in-node=\"35\">yenilik ve özgünlük<\/b> arayanlar için benzersiz çözümler sunar.<\/p><p data-path-to-node=\"10\">Uzman tasarım ekibimiz, her projenin kendine özgü bir hikayesi olduğunu bilir; her müşterinin ihtiyaçlarına ve vizyonuna uygun, <b data-path-to-node=\"10\" data-index-in-node=\"128\">kişiselleştirilmiş oyun alanları<\/b> geliştirir.<\/p><p data-path-to-node=\"11\">Modern tasarım anlayışımız, <b data-path-to-node=\"11\" data-index-in-node=\"28\">en yüksek güvenlik standartlarıyla<\/b> birleşerek çocukların unutulmaz anılar biriktireceği özgün mekanlar ortaya çıkarır.<\/p>\r\n                        <\/div>\r\n                    <\/div>\r\n                <\/div>",
+        "kart_adi": "Tasarım",
+        "kart_gorsel": null,
+        "kart_sira": 1,
+        "kart_durum": 1,
+        "created_at": "2026-03-31 18:22:55",
+        "updated_at": "2026-05-13 10:32:02",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 37,
+                "kart_id": 4,
+                "kart_detay_adi": "Choose the model that suits your needs",
+                "kart_detay_etiket": "bi bi-box",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": null,
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:46:02",
+                "updated_at": "2026-04-02 13:46:02",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 38,
+                "kart_id": 4,
+                "kart_detay_adi": "Let's personalize it together",
+                "kart_detay_etiket": "bi bi-sliders",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": null,
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:46:02",
+                "updated_at": "2026-04-02 13:46:02",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 39,
+                "kart_id": 4,
+                "kart_detay_adi": "Place your order",
+                "kart_detay_etiket": "bi bi-file-richtext",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": null,
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:46:02",
+                "updated_at": "2026-04-02 13:46:02",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 40,
+                "kart_id": 4,
+                "kart_detay_adi": "Let's produce with an expert team",
+                "kart_detay_etiket": "bi bi-gear",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": null,
+                "kart_detay_sira": 4,
+                "created_at": "2026-04-02 13:46:02",
+                "updated_at": "2026-04-02 13:46:02",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 41,
+                "kart_id": 4,
+                "kart_detay_adi": "Let's do the installation with our team",
+                "kart_detay_etiket": "bi bi-wrench",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": null,
+                "kart_detay_sira": 5,
+                "created_at": "2026-04-02 13:46:02",
+                "updated_at": "2026-04-02 13:46:02",
+                "deleted_at": null
+            }
+        ]
+    }
+]

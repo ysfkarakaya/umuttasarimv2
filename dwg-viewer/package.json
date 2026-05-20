@@ -1,0 +1,19 @@
+{
+  "name": "dwg-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/dxf-bundle.js --bundle --outfile=assets/dxf-viewer.bundle.js --format=iife --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dxf-viewer": "^1.0.47",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}

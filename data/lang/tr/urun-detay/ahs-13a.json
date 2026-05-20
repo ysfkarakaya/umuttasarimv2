@@ -1,0 +1,256 @@
+{
+    "urun_id": 228,
+    "urun_adi": "AHS-13A",
+    "urun_kodu": "AHS-13A",
+    "sef_url": "ahs-13a",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA:12,45 M X 16,10 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 16,45 M X 20,10 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p>KURULUM ALANI \/ CONSTRUCTION AREA:12,45 M X 16,10 M<\/p>\r\n\r\n<p>EMNİYET ALANI \/ SAFETY AREA: 16,45 M X 20,10 M<\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 64,
+    "seri_id": 33,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 226,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:53:50",
+    "updated_at": "2026-04-15 09:02:38",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/228\/AHS-13A-3.png",
+    "kapak_id": 1044,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1044,
+            "um_urun_id": 228,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/228\/AHS-13A-3.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-20 09:21:37"
+        },
+        {
+            "id": 1043,
+            "um_urun_id": 228,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/228\/AHS-13A-4.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-20 09:21:37"
+        },
+        {
+            "id": 2369,
+            "um_urun_id": 228,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/228\/AHS-13A.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-20 09:21:37"
+        },
+        {
+            "id": 1045,
+            "um_urun_id": 228,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/228\/AHS-13A-5.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-20 09:21:37"
+        },
+        {
+            "id": 1046,
+            "um_urun_id": 228,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/228\/AHS-13A-1.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-20 09:21:37"
+        },
+        {
+            "id": 1047,
+            "um_urun_id": 228,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/228\/AHS-13A-2.png",
+            "um_baslik": null,
+            "um_sira": 5,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-20 09:21:37"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 67,
+            "medya_id": 1044,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "58.63921",
+            "konum_y": "74.92766",
+            "created_at": "2026-04-20 09:21:53",
+            "updated_at": "2026-04-20 09:21:53",
+            "deleted_at": null
+        },
+        {
+            "id": 69,
+            "medya_id": 1044,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "47.95042",
+            "konum_y": "36.57265",
+            "created_at": "2026-04-20 09:22:03",
+            "updated_at": "2026-04-20 09:22:03",
+            "deleted_at": null
+        },
+        {
+            "id": 70,
+            "medya_id": 1044,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "17.12693",
+            "konum_y": "47.30410",
+            "created_at": "2026-04-20 09:22:11",
+            "updated_at": "2026-04-20 09:22:11",
+            "deleted_at": null
+        },
+        {
+            "id": 449,
+            "medya_id": 1044,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "74.17524",
+            "konum_y": "62.60636",
+            "created_at": "2026-04-20 14:40:46",
+            "updated_at": "2026-04-20 14:40:46",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 1949,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Kayma,Koşma,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1950,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "101 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1951,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHSAP - PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1952,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1953,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "12,45 m x 16,10 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1954,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 1955,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "16,45 m x 20,10 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1956,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2 M ",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 1957,
+            "uoz_urun_id": 228,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 226,
+            "urun_adi": "AHS-12",
+            "sef_url": "ahs-12",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/226\/ahs-12.363.4.png"
+        },
+        {
+            "urun_id": 227,
+            "urun_adi": "AHS-13",
+            "sef_url": "ahs-13",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/227\/AHS-13A-3_1.png"
+        }
+    ]
+}

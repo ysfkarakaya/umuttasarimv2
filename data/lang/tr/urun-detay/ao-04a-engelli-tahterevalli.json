@@ -1,0 +1,131 @@
+{
+    "urun_id": 575,
+    "urun_adi": "AO-04A ENGELLİ TAHTEREVALLİ",
+    "urun_kodu": "AO-04A",
+    "sef_url": "ao-04a-engelli-tahterevalli",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 63,
+    "seri_id": 8,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 275,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-02-07 15:53:39",
+    "updated_at": "2026-04-15 12:11:13",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/575\/AO-04A-2.png",
+    "kapak_id": 2130,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2130,
+            "um_urun_id": 575,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/575\/AO-04A-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2131,
+            "um_urun_id": 575,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/575\/AO-04A-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 153,
+            "medya_id": 2130,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "88.47045",
+            "konum_y": "35.75091",
+            "created_at": "2026-04-20 10:30:20",
+            "updated_at": "2026-04-20 10:30:20",
+            "deleted_at": null
+        },
+        {
+            "id": 154,
+            "medya_id": 2130,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "52.55031",
+            "konum_y": "77.75663",
+            "created_at": "2026-04-20 10:30:23",
+            "updated_at": "2026-04-20 10:30:23",
+            "deleted_at": null
+        },
+        {
+            "id": 155,
+            "medya_id": 2130,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "44.47138",
+            "konum_y": "58.04779",
+            "created_at": "2026-04-20 10:30:27",
+            "updated_at": "2026-04-20 10:30:27",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 272,
+            "urun_adi": "AHŞAP-İKİ KİŞİLİK AT TAHTEREVALLİ",
+            "sef_url": "ahsap-iki-kisilik-at-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/272\/58_1581424255.jpg"
+        },
+        {
+            "urun_id": 273,
+            "urun_adi": "DINO FIGÜRLÜ",
+            "sef_url": "dino-figurlu",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/273\/58_1581424236.jpg"
+        },
+        {
+            "urun_id": 274,
+            "urun_adi": "AHŞAP-İKİ KİŞİLİK MOTOR TAHTEREVALLİ",
+            "sef_url": "ahsap-iki-kisilik-motor-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/274\/58_1581424219.jpg"
+        },
+        {
+            "urun_id": 275,
+            "urun_adi": "AO-03 AHŞAP-İKİ KİŞİLİK ÖRDEK TAHTEREVALLİ",
+            "sef_url": "ao-03-ahsap-iki-kisilik-ordek-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/275\/AO-03-1.png"
+        },
+        {
+            "urun_id": 276,
+            "urun_adi": "AO-04 AHŞAP-İKİ KİŞİLİK TAHTEREVALLİ",
+            "sef_url": "ao-04-ahsap-iki-kisilik-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/276\/AO-04-3.png"
+        }
+    ]
+}

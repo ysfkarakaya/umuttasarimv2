@@ -1,0 +1,221 @@
+{
+    "urun_id": 528,
+    "urun_adi": "N1T-104",
+    "urun_kodu": "N1T-104",
+    "sef_url": "n1t-104",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 3,35 M X 5,05 MEMNİYET ALANI \/ SAFETY AREA: 7,55 M X 9,05 M",
+    "urun_detay": "<p>KURULUM ALANI \/ CONSTRUCTION AREA: 3,35 M X 5,05 M<\/p><p>EMNİYET ALANI \/ SAFETY AREA: 7,55 M X 9,05 M<\/p>",
+    "urun_kategori_id": 64,
+    "seri_id": 17,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 525,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-09-18 11:09:00",
+    "updated_at": "2026-04-15 11:34:44",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/528\/TIMVOL-104-2.png",
+    "kapak_id": 1923,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2639,
+            "um_urun_id": 528,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/528\/N1T-104.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1923,
+            "um_urun_id": 528,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/528\/TIMVOL-104-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1924,
+            "um_urun_id": 528,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/528\/TIMVOL-104-5.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1925,
+            "um_urun_id": 528,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/528\/TIMVOL-104-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1926,
+            "um_urun_id": 528,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/528\/TIMVOL-104-4.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1927,
+            "um_urun_id": 528,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/528\/TIMVOL-104-1.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1572,
+            "medya_id": 1923,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "52.17500",
+            "konum_y": "32.78400",
+            "created_at": "2026-04-21 15:51:17",
+            "updated_at": "2026-04-21 15:51:17",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3970,
+            "uoz_urun_id": 528,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "7 KULLANICI",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3971,
+            "uoz_urun_id": 528,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-5 YAŞ GRUBU",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3972,
+            "uoz_urun_id": 528,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "3,35 m x 5,05 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3973,
+            "uoz_urun_id": 528,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3974,
+            "uoz_urun_id": 528,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "7,55 m x9,05 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 525,
+            "urun_adi": "N1T-100",
+            "sef_url": "n1t-100",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/525\/TİMVOL-100-5.png"
+        },
+        {
+            "urun_id": 527,
+            "urun_adi": "N1T-103",
+            "sef_url": "n1t-103",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/527\/TIMVOL-103-1.png"
+        },
+        {
+            "urun_id": 529,
+            "urun_adi": "N1T-101",
+            "sef_url": "n1t-101",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/529\/TIMVOL-101-3.png"
+        },
+        {
+            "urun_id": 531,
+            "urun_adi": "I1N-101",
+            "sef_url": "i1n-101",
+            "urun_kategori_id": null,
+            "urun_durum": 0,
+            "kat_adi": null,
+            "kapak_resmi": "upload\/urunler\/531\/MODEL-001.184.png"
+        },
+        {
+            "urun_id": 532,
+            "urun_adi": "I1N-102",
+            "sef_url": "i1n-102",
+            "urun_kategori_id": null,
+            "urun_durum": 0,
+            "kat_adi": null,
+            "kapak_resmi": "upload\/urunler\/532\/I1N-102-3.png"
+        },
+        {
+            "urun_id": 533,
+            "urun_adi": "I1N-103",
+            "sef_url": "i1n-103",
+            "urun_kategori_id": null,
+            "urun_durum": 0,
+            "kat_adi": null,
+            "kapak_resmi": "upload\/urunler\/533\/MODEL-003.199.png"
+        },
+        {
+            "urun_id": 534,
+            "urun_adi": "I1N-104",
+            "sef_url": "i1n-104",
+            "urun_kategori_id": null,
+            "urun_durum": 0,
+            "kat_adi": null,
+            "kapak_resmi": "upload\/urunler\/534\/MB-401-1.195.png"
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "urun_id": 32,
+    "urun_adi": "I1H-102",
+    "urun_kodu": "I1H-102",
+    "sef_url": "i1h-102",
+    "urun_aciklama": "\t\t\t  \t\tYÜKSEKLİK \/ Hmax: 7 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"font-size: 1rem;\">YÜKSEKLİK \/ Hmax: 7 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 61,
+    "seri_id": 41,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:48:17",
+    "updated_at": "2026-04-14 17:45:06",
+    "deleted_at": null,
+    "kat_adi": "Modernist Grup",
+    "kat_sef_url": "modernist-grup",
+    "kapak_resmi": "upload\/urunler\/32\/HOPE-MODEL-102-2.png",
+    "kapak_id": 154,
+    "360_obje": "upload\/360\/I1H-102-V1.glb",
+    "medya": [
+        {
+            "id": 154,
+            "um_urun_id": 32,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/32\/HOPE-MODEL-102-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 155,
+            "um_urun_id": 32,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/32\/HOPE-MODEL-102-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 156,
+            "um_urun_id": 32,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/32\/HOPE-MODEL-102-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 157,
+            "um_urun_id": 32,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/32\/HOPE-MODEL-102-4.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 158,
+            "um_urun_id": 32,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/32\/HOPE-MODEL-102-6.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 159,
+            "um_urun_id": 32,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/32\/I1H-102.png",
+            "um_baslik": null,
+            "um_sira": 5,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 2763,
+            "um_urun_id": 32,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/I1H-102-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 218,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Metal - Kompozit",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 219,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-17 YAŞ",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 220,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "139 KULLANICI",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 221,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 Yıl",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 222,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "0.2 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 223,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "9.10 m x 12.60 m ",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 224,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "12.10 m x 17.10 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 225,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "3",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 226,
+            "uoz_urun_id": 32,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "3 gün",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

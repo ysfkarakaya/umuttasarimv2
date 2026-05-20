@@ -1,0 +1,237 @@
+{
+    "urun_id": 459,
+    "urun_adi": "N1A-105",
+    "urun_kodu": "N1A-105",
+    "sef_url": "n1a-105",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 1,55 M X 8,70 MEMNİYET ALANI \/ SAFETY AREA: 4,45 M X 12,20 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 1,55 M X 8,70 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 4,45 M X 12,20 M<\/li><\/ol>",
+    "urun_kategori_id": 64,
+    "seri_id": 12,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 458,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-07-29 13:55:43",
+    "updated_at": "2026-04-15 12:25:09",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/459\/AKASYA-05-2.png",
+    "kapak_id": 1712,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2579,
+            "um_urun_id": 459,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/459\/AKASYA-05.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1712,
+            "um_urun_id": 459,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/459\/AKASYA-05-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1713,
+            "um_urun_id": 459,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/459\/AKASYA-05-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1714,
+            "um_urun_id": 459,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/459\/AKASYA-05-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1715,
+            "um_urun_id": 459,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/459\/AKASYA-05-4.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1467,
+            "medya_id": 1712,
+            "nokta_basligi": "Akasya",
+            "nokta_gorseli": "upload\/hotspots\/akasya.jpg",
+            "nokta_aciklama": "Yüksek yoğunluklu, sert ve doğa şartlarına karşı kendi yapısından dolayı son derece dirençli bir ahşaptır. Mantar ve çürümeye karşı uzun ömürlüdür.",
+            "konum_x": "58.14206",
+            "konum_y": "22.66151",
+            "created_at": "2026-04-21 14:26:04",
+            "updated_at": "2026-04-21 14:26:04",
+            "deleted_at": null
+        },
+        {
+            "id": 1468,
+            "medya_id": 1712,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "27.63320",
+            "konum_y": "48.30580",
+            "created_at": "2026-04-21 14:26:23",
+            "updated_at": "2026-04-21 14:26:46",
+            "deleted_at": null
+        },
+        {
+            "id": 1469,
+            "medya_id": 1712,
+            "nokta_basligi": "Plywood (Su Kontrası)",
+            "nokta_gorseli": "upload\/hotspots\/plywood.jpg",
+            "nokta_aciklama": "İnce ahşap katmanların suya dayanıklı özel tutkallarla (fenolik reçine) üst üste preslenmesiyle oluşan dayanıklı ahşap paneldir. Taşıma kapasitesi yüksektir, genellikle platform zeminlerinde kullanılır.",
+            "konum_x": "36.88876",
+            "konum_y": "35.97646",
+            "created_at": "2026-04-21 14:26:44",
+            "updated_at": "2026-04-21 14:26:44",
+            "deleted_at": null
+        },
+        {
+            "id": 1949,
+            "medya_id": 1712,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "68.58227",
+            "konum_y": "19.48182",
+            "created_at": "2026-04-22 11:34:05",
+            "updated_at": "2026-04-22 11:34:05",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3425,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Denge,Eşitlik,Kayma,Koşma,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3426,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP-PLASTİK",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3427,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3428,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "10 KULLANICI",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3429,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3430,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1,50 M",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3431,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "1.40 m x 8.60 M",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3432,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "4.50 m x 13.15 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3433,
+            "uoz_urun_id": 459,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 458,
+            "urun_adi": "N1A-104",
+            "sef_url": "n1a-104",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/458\/AKASYA-04-1.png"
+        }
+    ]
+}

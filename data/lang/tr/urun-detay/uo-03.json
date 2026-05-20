@@ -1,0 +1,231 @@
+{
+    "urun_id": 265,
+    "urun_adi": "UO-03",
+    "urun_kodu": "UO-03 GONDOL SALINCAK",
+    "sef_url": "uo-03",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 1,30 M X 3,15 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 6,10 M X 6,35 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 1,30 M X 3,15 <\/span><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">M<\/span><\/p>\r\n\r\n<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">EMNİYET ALANI \/ SAFETY AREA: 6,10 M X 6,35 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 63,
+    "seri_id": 9,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 262,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:54:41",
+    "updated_at": "2026-04-15 12:42:13",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/265\/UO-03-1.png",
+    "kapak_id": 1186,
+    "360_obje": "upload\/360\/UO-03-V1.glb",
+    "medya": [
+        {
+            "id": 2406,
+            "um_urun_id": 265,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/265\/UO-03.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-08 12:24:19"
+        },
+        {
+            "id": 1186,
+            "um_urun_id": 265,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/265\/UO-03-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 1187,
+            "um_urun_id": 265,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/265\/UO-03-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 1188,
+            "um_urun_id": 265,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/265\/UO-03-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        },
+        {
+            "id": 2835,
+            "um_urun_id": 265,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/UO-03-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1795,
+            "medya_id": 1186,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "61.49784",
+            "konum_y": "12.32751",
+            "created_at": "2026-04-22 09:20:55",
+            "updated_at": "2026-04-22 09:20:55",
+            "deleted_at": null
+        },
+        {
+            "id": 1796,
+            "medya_id": 1186,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "60.13067",
+            "konum_y": "52.66983",
+            "created_at": "2026-04-22 09:20:58",
+            "updated_at": "2026-04-22 09:20:58",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2279,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Etkileşim,İtme,Oturma,Sallanma,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2280,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "4 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2281,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2282,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "3-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2283,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "1,30 m x 3,15 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2284,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2285,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "6,10 m x 6,35 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2286,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "0,90 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 2287,
+            "uoz_urun_id": 265,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 262,
+            "urun_adi": "UO-01",
+            "sef_url": "uo-01",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/262\/UO-01-1.png"
+        },
+        {
+            "urun_id": 263,
+            "urun_adi": "UO-01A",
+            "sef_url": "uo-01a",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/263\/UO-01A-1.png"
+        },
+        {
+            "urun_id": 264,
+            "urun_adi": "UO-02",
+            "sef_url": "uo-02",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/264\/UO-02-1.png"
+        }
+    ]
+}

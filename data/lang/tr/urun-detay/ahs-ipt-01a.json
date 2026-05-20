@@ -1,0 +1,193 @@
+{
+    "urun_id": 480,
+    "urun_adi": "AHS-İPT-01A",
+    "urun_kodu": "AHSİPT01A",
+    "sef_url": "ahs-ipt-01a",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 7,80 M X 8,30 MEMNİYET ALANI \/ SAFETY AREA: 11,10 M X 11,20 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 7,80 M X 8,30 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 11,10 M X 11,20 M<\/li><\/ol>",
+    "urun_kategori_id": 63,
+    "seri_id": 25,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 479,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-07-30 15:14:24",
+    "updated_at": "2026-04-15 09:11:43",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/480\/AHS-İPT-01A-1_1.png",
+    "kapak_id": 1759,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2599,
+            "um_urun_id": 480,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/480\/AHS-İPT-01A.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1759,
+            "um_urun_id": 480,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/480\/AHS-İPT-01A-1_1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1760,
+            "um_urun_id": 480,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/480\/AHS-İPT-01A-3_1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1761,
+            "um_urun_id": 480,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/480\/AHS-İPT-01A-2_1.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 129,
+            "medya_id": 1759,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "49.93903",
+            "konum_y": "19.28309",
+            "created_at": "2026-04-20 09:51:30",
+            "updated_at": "2026-04-20 09:51:30",
+            "deleted_at": null
+        },
+        {
+            "id": 130,
+            "medya_id": 1759,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "53.29481",
+            "konum_y": "59.22794",
+            "created_at": "2026-04-20 09:51:44",
+            "updated_at": "2026-04-20 09:51:44",
+            "deleted_at": null
+        },
+        {
+            "id": 131,
+            "medya_id": 1759,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "62.11928",
+            "konum_y": "60.22159",
+            "created_at": "2026-04-20 09:51:47",
+            "updated_at": "2026-04-20 09:51:47",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3588,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Denge,Eşitlik,Koşma,Oturma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3589,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP-PLASTİK",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3590,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "7,80 m x 8,30 m ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3591,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3592,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "11,10 m x 11,20 m ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3593,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1 M",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3594,
+            "uoz_urun_id": 480,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 479,
+            "urun_adi": "AHS-İPT-01",
+            "sef_url": "ahs-ipt-01",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/479\/AHS-İPT-01-1_1.png"
+        }
+    ]
+}

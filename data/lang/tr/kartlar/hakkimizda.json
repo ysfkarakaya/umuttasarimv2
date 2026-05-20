@@ -1,0 +1,76 @@
+[
+    {
+        "kart_id": 14,
+        "kart_kategori": "hakkimizda",
+        "kart_aciklama": " <p>1994 yılında kurulan <strong>Umut Tasarım ve Kent Ekipmanları<\/strong>, açık hava ortamları için\r\n                        peyzaj yapı malzemelerinin tasarımı ve imalatında uzmanlaşmıştır.<\/p>\r\n                    <p>Otuz yılı aşkın sektör deneyimimizle, kentsel ve mimari mekanlara şekil veren dayanıklı, estetik ve işlevsel\r\n                        çözümler sunuyoruz.<\/p>",
+        "kart_adi": "Hakkımızda",
+        "kart_gorsel": "upload\/kartlar\/izmirbufe-logo-1_1.png",
+        "kart_sira": 11,
+        "kart_durum": 1,
+        "created_at": "2026-04-06 11:44:23",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 44,
+                "kart_id": 14,
+                "kart_detay_adi": "Vizyonumuz",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<div class=\"floating-card-wrapper\" style=\"top: -24.571%; left: 4.07331%;\" data-depth=\"0.6\">\n                        <div class=\"about-card card-vision\">\n                            <div class=\"vision-content\">\n                                <h4 style=\"color: #f39c12;\">Vizyonumuz<\/h4>\n                                <p>Teknoloji, tasarım trendleri ve küresel standartlarla sürekli gelişerek yapısal peyzaj ve kent ekipmanları çözümlerinde lider bir marka olmak.<\/p>\n                            <\/div>\n                        <\/div>\n                    <\/div>",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-06 11:46:11",
+                "updated_at": "2026-04-06 11:56:17",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 45,
+                "kart_id": 14,
+                "kart_detay_adi": "Uzmanlığımız",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<div class=\"floating-card-wrapper\" style=\"top: -19.792%; left: 55.3542%;\" data-depth=\"0.3\">\n                        <div class=\"about-card card-expertise\">\n                            <div class=\"expertise-content\">\n                                <h4 style=\"color: #1abc9c;\">Uzmanlığımız<\/h4>\n                                <p>Kamusal ve özel alanları iyileştiren yüksek kaliteli dış mekan ürünleri tasarlıyor ve üretiyoruz. Bunlar arasında şunlar yer almaktadır:<\/p>\n                                <ul>\n                                    <li>Kent mobilyaları<\/li>\n                                    <li>Yapısal peyzaj elemanları<\/li>\n                                    <li>Mimari dış mekan çözümleri<\/li>\n                                    <li>Özel tasarım metal ve ahşap uygulamaları<\/li>\n                                <\/ul>\n                                <p>Yarattığımız her ürün, mühendislik hassasiyetini çağdaş tasarım ilkeleriyle birleştirir.<\/p>\n                            <\/div>\n                        <\/div>\n                    <\/div>",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-06 11:46:11",
+                "updated_at": "2026-04-06 11:46:11",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 46,
+                "kart_id": 14,
+                "kart_detay_adi": "Yaklaşımımız",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<div class=\"floating-card-wrapper\" style=\"top: 10.6446%; left: 9.58812%;\" data-depth=\"0.8\">\n                        <div class=\"about-card card-approach\">\n                            <div class=\"approach-content\">\n                                <h4 style=\"color: #d35400;\">Yaklaşımımız<\/h4>\n                                <p>Dış mekanların şehirlerin ve yaşam alanlarının karakterini tanımladığına inanıyoruz. Bu nedenle şunlara öncelik veriyoruz:<\/p>\n                                <ul>\n                                    <li>Dayanıklılık ve yapısal bütünlük<\/li>\n                                    <li>Sürdürülebilir malzeme seçimi<\/li>\n                                    <li>Yenilikçi mühendislik çözümleri<\/li>\n                                    <li>Zamansız ve fonksiyonel tasarım<\/li>\n                                <\/ul>\n                                <p>Konsept geliştirmeden nihai üretime kadar her aşamayı hassasiyetle yönetiyoruz.<\/p>\n                            <\/div>\n                        <\/div>\n                    <\/div>",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-06 11:46:11",
+                "updated_at": "2026-04-06 11:56:17",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 47,
+                "kart_id": 14,
+                "kart_detay_adi": "Altyapımız",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<div class=\"floating-card-wrapper\" style=\"top: 55%; left: 55%;\" data-depth=\"0.5\">\n                        <div class=\"about-card card-commitment\">\n                            <div class=\"commitment-content\">\n                                <h4 style=\"color: #e67e22;\">Altyapımız<\/h4>\n                                <p>Modern üretim tesislerimizde tam entegre bir üretim sistemi sürdürüyoruz. Yapımız şunları içerir:<\/p>\n                                <ul>\n                                    <li>Gelişmiş metal işleme atölyeleri<\/li>\n                                    <li>Profesyonel ahşap üretim üniteleri<\/li>\n                                    <li>Sürekli aktif bir Ar-Ge departmanı<\/li>\n                                <\/ul>\n                            <\/div>\n                        <\/div>\n                    <\/div>",
+                "kart_detay_sira": 4,
+                "created_at": "2026-04-06 11:46:11",
+                "updated_at": "2026-04-06 11:46:11",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 48,
+                "kart_id": 14,
+                "kart_detay_adi": "Taahhüdümüz",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<div class=\"floating-card-wrapper\" style=\"top: 48.1026%; left: 8.52559%;\" data-depth=\"1.2\">\n                        <div class=\"about-card card-infrastructure\">\n                            <div class=\"infrastructure-content\">\n                                <h4 style=\"color: #3498db;\">Taahhüdümüz<\/h4>\n                                <p>Şunları sunmayı taahhüt ediyoruz:<\/p>\n                                <ul>\n                                    <li>Yüksek kaliteli üretim<\/li>\n                                    <li>Zamanında proje tamamlama<\/li>\n                                    <li>Özel mühendislik çözümleri<\/li>\n                                    <li>Uzun vadeli müşteri ortaklıkları<\/li>\n                                <\/ul>\n                                <p>Sadece ürün üretmiyoruz; kalıcı ortamlar inşa ediyoruz.<\/p>\n                            <\/div>\n                        <\/div>\n                    <\/div>",
+                "kart_detay_sira": 5,
+                "created_at": "2026-04-06 11:46:11",
+                "updated_at": "2026-04-06 11:56:17",
+                "deleted_at": null
+            }
+        ]
+    }
+]

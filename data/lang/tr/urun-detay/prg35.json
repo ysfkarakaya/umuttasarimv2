@@ -1,0 +1,83 @@
+{
+    "urun_id": 509,
+    "urun_adi": "PRG35",
+    "urun_kodu": "PRG35",
+    "sef_url": "prg35",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 66,
+    "seri_id": 22,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2024-07-31 17:27:32",
+    "updated_at": "2026-04-14 16:17:07",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": null,
+    "kapak_id": null,
+    "360_obje": null,
+    "medya": [],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 3825,
+            "uoz_urun_id": 509,
+            "uoz_tanim_id": 22,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3826,
+            "uoz_urun_id": 509,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3827,
+            "uoz_urun_id": 509,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "2,60 m x 13,80 m",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3828,
+            "uoz_urun_id": 509,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "2,85 m x 13,80 m",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3829,
+            "uoz_urun_id": 509,
+            "uoz_tanim_id": 23,
+            "uoz_deger": "2 KİŞİ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Saysı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

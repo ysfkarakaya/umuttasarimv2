@@ -1,0 +1,8 @@
+upload/
+*.zip
+.DS_Store
+Thumbs.db
+tif/
+*.mp4
+node_modules/
+dwg-viewer/node_modules/

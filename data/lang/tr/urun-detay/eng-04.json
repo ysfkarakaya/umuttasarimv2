@@ -1,0 +1,178 @@
+{
+    "urun_id": 167,
+    "urun_adi": "ENG-04",
+    "urun_kodu": "ENG-04",
+    "sef_url": "eng-04",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 20,15 M X 28,00 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 23,10 M X 31,20 M \r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"font-size:14px\"><span style=\"color:#000000\">KURULUM ALANI \/ CONSTRUCTION AREA: 20,15 M X 28,00 M<\/span><\/span><\/p>\r\n\r\n<p><span style=\"font-size:14px\"><span style=\"color:#000000\">EMNİYET ALANI \/ SAFETY AREA: 23,10 M X 31,20 M <\/span><\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 62,
+    "seri_id": 37,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:52:10",
+    "updated_at": "2026-04-15 12:22:24",
+    "deleted_at": null,
+    "kat_adi": "Klasik Grup",
+    "kat_sef_url": "klasik-grup",
+    "kapak_resmi": "upload\/urunler\/167\/ENG-04-VV-5.png",
+    "kapak_id": 776,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2308,
+            "um_urun_id": 167,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/167\/ENG-04.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-08 12:24:19"
+        },
+        {
+            "id": 776,
+            "um_urun_id": 167,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/167\/ENG-04-VV-5.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:54"
+        },
+        {
+            "id": 777,
+            "um_urun_id": 167,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/167\/ENG-04-VV-6.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:54"
+        },
+        {
+            "id": 778,
+            "um_urun_id": 167,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/167\/ENG-04-VV-7.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:54"
+        },
+        {
+            "id": 779,
+            "um_urun_id": 167,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/167\/ENG-04-VV-4.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:54"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [
+        {
+            "id": 1425,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Engelli,Etkileşim,Kayma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1426,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "56 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1427,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL - PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1428,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "6-12",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1429,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "20,15 m x 28,00 m ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1430,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 1431,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "23,10 m x 31,20 m ",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1432,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2,00 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 1433,
+            "uoz_urun_id": 167,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

@@ -1,0 +1,382 @@
+{
+    "urun_id": 299,
+    "urun_adi": "UO-56 TEKNE ZIP ZIP",
+    "urun_kodu": "UO-56 TEKNE ZIP ZIP",
+    "sef_url": "uo-56-tekne-zip-zip",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 1,20 M X 1,80 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 4,15 M X 3,90 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">KURULUM ALANI \/ CONSTRUCTION AREA: 1,20 M X 1,80<\/span><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\"> <\/span><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">M<\/span><\/p>\r\n\r\n<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">EMNİYET ALANI \/ SAFETY AREA: 4,15 M X 3,90 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 63,
+    "seri_id": 31,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 288,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:55:13",
+    "updated_at": "2026-04-15 12:40:23",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/299\/UO-56 (1).png",
+    "kapak_id": 1274,
+    "360_obje": "upload\/360\/UO-56-V1.glb",
+    "medya": [
+        {
+            "id": 1274,
+            "um_urun_id": 299,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/299\/UO-56 (1).png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1275,
+            "um_urun_id": 299,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/299\/UO-56 (2).png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2952,
+            "um_urun_id": 299,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/UO-56-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1871,
+            "medya_id": 1274,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "67.21353",
+            "konum_y": "39.94283",
+            "created_at": "2026-04-22 09:49:41",
+            "updated_at": "2026-04-22 09:49:41",
+            "deleted_at": null
+        },
+        {
+            "id": 1872,
+            "medya_id": 1274,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "44.84217",
+            "konum_y": "80.50958",
+            "created_at": "2026-04-22 09:49:45",
+            "updated_at": "2026-04-22 09:49:45",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2585,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Oturma,Salınım",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2586,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "1 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2587,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2588,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "3-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2589,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "1,20 m x 1,80",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2590,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2591,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "4,15 M X 3,90 M",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2592,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1.25 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 2593,
+            "uoz_urun_id": 299,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 287,
+            "urun_adi": "UO-19",
+            "sef_url": "uo-19",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/287\/UO-19 (2).png"
+        },
+        {
+            "urun_id": 288,
+            "urun_adi": "UO-20",
+            "sef_url": "uo-20",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/288\/UO-20.1.png"
+        },
+        {
+            "urun_id": 289,
+            "urun_adi": "UO-22",
+            "sef_url": "uo-22",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/289\/UO-22-2.png"
+        },
+        {
+            "urun_id": 293,
+            "urun_adi": "UO-50",
+            "sef_url": "uo-50",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/293\/UO-50-2.png"
+        },
+        {
+            "urun_id": 294,
+            "urun_adi": "UO-52",
+            "sef_url": "uo-52",
+            "urun_kategori_id": null,
+            "urun_durum": 1,
+            "kat_adi": null,
+            "kapak_resmi": "upload\/urunler\/294\/UO-52-2.png"
+        },
+        {
+            "urun_id": 295,
+            "urun_adi": "UO-51",
+            "sef_url": "uo-51",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/295\/UO-51-2.png"
+        },
+        {
+            "urun_id": 296,
+            "urun_adi": "UO-53",
+            "sef_url": "uo-53",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/296\/UO-53-2.png"
+        },
+        {
+            "urun_id": 297,
+            "urun_adi": "UO-54 TAKSİ ZIP ZIP",
+            "sef_url": "uo-54-taksi-zip-zip",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/297\/UO-54 (2).png"
+        },
+        {
+            "urun_id": 298,
+            "urun_adi": "UO-55 BALİNA ZIP ZIP",
+            "sef_url": "uo-55-balina-zip-zip",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/298\/UO-55 (1).png"
+        },
+        {
+            "urun_id": 300,
+            "urun_adi": "UO-57 TAYYARE ZIP ZIP",
+            "sef_url": "uo-57-tayyare-zip-zip",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/300\/UO-57-2_1.png"
+        },
+        {
+            "urun_id": 301,
+            "urun_adi": "UO-58",
+            "sef_url": "uo-58",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/301\/UO-58-2.png"
+        },
+        {
+            "urun_id": 302,
+            "urun_adi": "UO-59",
+            "sef_url": "uo-59",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/302\/UO-59-2.png"
+        },
+        {
+            "urun_id": 303,
+            "urun_adi": "UO-60",
+            "sef_url": "uo-60",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/303\/UO-60-1.png"
+        },
+        {
+            "urun_id": 304,
+            "urun_adi": "UO-61",
+            "sef_url": "uo-61",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/304\/UO-61-2.png"
+        },
+        {
+            "urun_id": 305,
+            "urun_adi": "UO-62",
+            "sef_url": "uo-62",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/305\/UO-62-1.png"
+        },
+        {
+            "urun_id": 306,
+            "urun_adi": "UO-63 BALIK ZIP ZIP",
+            "sef_url": "uo-63-balik-zip-zip",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/306\/UO-63 (2).png"
+        },
+        {
+            "urun_id": 307,
+            "urun_adi": "UO-64 BOĞA ZIP ZIP",
+            "sef_url": "uo-64-boga-zip-zip",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/307\/UO-64 (1).png"
+        },
+        {
+            "urun_id": 308,
+            "urun_adi": "UO-65",
+            "sef_url": "uo-65",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/308\/UO-65-1_1.png"
+        },
+        {
+            "urun_id": 309,
+            "urun_adi": "UO-66",
+            "sef_url": "uo-66",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/309\/UO-66-1_1.png"
+        },
+        {
+            "urun_id": 310,
+            "urun_adi": "UO-67",
+            "sef_url": "uo-67",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/310\/UO-67-2.png"
+        },
+        {
+            "urun_id": 311,
+            "urun_adi": "UO-68",
+            "sef_url": "uo-68",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/311\/UO-68-1_1.png"
+        },
+        {
+            "urun_id": 312,
+            "urun_adi": "UO-69",
+            "sef_url": "uo-69",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/312\/UO-69-2_1.png"
+        }
+    ]
+}

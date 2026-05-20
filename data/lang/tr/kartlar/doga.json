@@ -1,0 +1,52 @@
+[
+    {
+        "kart_id": 2,
+        "kart_kategori": "doga",
+        "kart_aciklama": "<h2 class=\"sustainability-title\">Sürdürülebilirlik<br><span>Politikamız<\/span><\/h2>\r\n            <p class=\"sustainability-intro\">\r\n                Sonuç olarak, Umut Dizayn ve Kent Ekipmanları olarak, üretimde kullandığımız LDPE, HDPE, masif ahşap ve ST37 çelik malzemeleri çevreye duyarlı ve sürdürülebilir bir şekilde işliyoruz.<br>\r\n                <strong>Yeşil Mutabakat (Green Deal) ilkelerine tam uyum sağlayarak, çevre dostu ve uzun ömürlü ürünler sunmayı taahhüt ediyoruz.<\/strong>\r\n            <\/p>",
+        "kart_adi": "Doğa",
+        "kart_gorsel": null,
+        "kart_sira": 0,
+        "kart_durum": 1,
+        "created_at": "2026-03-31 18:22:10",
+        "updated_at": "2026-05-14 14:33:32",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 2,
+                "kart_id": 2,
+                "kart_detay_adi": "ST37 Steel",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": "upload\/kartlar\/doga3.png",
+                "kart_detay_aciklama": "Recyclability: ST37 steel is fully recyclable. Low Carbon Construction: energy-efficient production with reduced emissions. Durability and Longevity: products remain usable for many years and support responsible resource consumption.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:33:37",
+                "updated_at": "2026-04-02 13:34:48",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 3,
+                "kart_id": 2,
+                "kart_detay_adi": "Solid Wood",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": "upload\/kartlar\/doga2.png",
+                "kart_detay_aciklama": "Natural and Renewable: sourced from managed forests. Carbon Sequestration: stores carbon and supports climate balance over long periods. Natural Aesthetics and Biodegradability: combines visual quality with eco-friendly disposal.",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:33:37",
+                "updated_at": "2026-04-02 13:34:48",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 4,
+                "kart_id": 2,
+                "kart_detay_adi": "LDPE and HDPE",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": "upload\/kartlar\/doga1.png",
+                "kart_detay_aciklama": "Recyclability: LDPE and HDPE are recyclable polymers that help preserve natural resources and reduce waste. Low Carbon Footprint: lightweight structure decreases transport and production emissions. Long-lasting and Durable Products: robust performance helps reduce consumption over time.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:33:37",
+                "updated_at": "2026-04-02 13:34:48",
+                "deleted_at": null
+            }
+        ]
+    }
+]

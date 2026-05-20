@@ -1,0 +1,221 @@
+{
+    "urun_id": 274,
+    "urun_adi": "AHŞAP-İKİ KİŞİLİK MOTOR TAHTEREVALLİ",
+    "urun_kodu": "AHŞAP-İKİ KİŞİLİK MOTOR TAHTEREVALLİ",
+    "sef_url": "ahsap-iki-kisilik-motor-tahterevalli",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,68 M X 3,00 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 2,65 M X 4,98 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,68 M X 3,00 <\/span><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">M<\/span><\/p>\r\n\r\n<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">EMNİYET ALANI \/ SAFETY AREA: 2,65 M X 4,98 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 63,
+    "seri_id": 8,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 275,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:54:49",
+    "updated_at": "2026-04-15 12:45:22",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/274\/58_1581424219.jpg",
+    "kapak_id": 1209,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1209,
+            "um_urun_id": 274,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/274\/58_1581424219.jpg",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:55"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 138,
+            "medya_id": 1209,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "71.06450",
+            "konum_y": "45.73894",
+            "created_at": "2026-04-20 09:57:48",
+            "updated_at": "2026-04-20 09:57:48",
+            "deleted_at": null
+        },
+        {
+            "id": 139,
+            "medya_id": 1209,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "54.56386",
+            "konum_y": "44.73890",
+            "created_at": "2026-04-20 09:58:20",
+            "updated_at": "2026-04-20 09:58:20",
+            "deleted_at": null
+        },
+        {
+            "id": 1922,
+            "medya_id": 1209,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "21.81258",
+            "konum_y": "25.73831",
+            "created_at": "2026-04-22 10:52:09",
+            "updated_at": "2026-04-22 10:52:09",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2360,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Denge,Eşitlik,Oturma,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2361,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "2 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2362,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2363,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2364,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,68 m x 3,00 m ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2365,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2366,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "2,65 m x 4,98 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2367,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1.25 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 2368,
+            "uoz_urun_id": 274,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 272,
+            "urun_adi": "AHŞAP-İKİ KİŞİLİK AT TAHTEREVALLİ",
+            "sef_url": "ahsap-iki-kisilik-at-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/272\/58_1581424255.jpg"
+        },
+        {
+            "urun_id": 273,
+            "urun_adi": "DINO FIGÜRLÜ",
+            "sef_url": "dino-figurlu",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/273\/58_1581424236.jpg"
+        },
+        {
+            "urun_id": 275,
+            "urun_adi": "AO-03 AHŞAP-İKİ KİŞİLİK ÖRDEK TAHTEREVALLİ",
+            "sef_url": "ao-03-ahsap-iki-kisilik-ordek-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/275\/AO-03-1.png"
+        },
+        {
+            "urun_id": 276,
+            "urun_adi": "AO-04 AHŞAP-İKİ KİŞİLİK TAHTEREVALLİ",
+            "sef_url": "ao-04-ahsap-iki-kisilik-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/276\/AO-04-3.png"
+        },
+        {
+            "urun_id": 575,
+            "urun_adi": "AO-04A ENGELLİ TAHTEREVALLİ",
+            "sef_url": "ao-04a-engelli-tahterevalli",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/575\/AO-04A-2.png"
+        }
+    ]
+}

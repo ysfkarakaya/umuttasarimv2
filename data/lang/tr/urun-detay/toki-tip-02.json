@@ -1,0 +1,276 @@
+{
+    "urun_id": 190,
+    "urun_adi": "TOKI TIP-02",
+    "urun_kodu": "TOKI TIP-02",
+    "sef_url": "toki-tip-02",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 9,25 M X 9,50 M\r\nEMNİYET ALANI \/ SAFETY AREA: 12,75 M X 13,40 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p>KURULUM ALANI \/ CONSTRUCTION AREA: 9,25 M X 9,50 M<br><br>\r\nEMNİYET ALANI \/ SAFETY AREA: 12,75 M X 13,40 M<\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 62,
+    "seri_id": 34,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 188,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:52:46",
+    "updated_at": "2026-04-15 12:08:04",
+    "deleted_at": null,
+    "kat_adi": "Klasik Grup",
+    "kat_sef_url": "klasik-grup",
+    "kapak_resmi": "upload\/urunler\/190\/TOKİ-TİP-02-GEMİSİZ.184.png",
+    "kapak_id": 872,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 872,
+            "um_urun_id": 190,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/190\/TOKİ-TİP-02-GEMİSİZ.184.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 17:09:14"
+        },
+        {
+            "id": 2331,
+            "um_urun_id": 190,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/190\/TOKİ-TİP-02.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-21 17:09:14"
+        },
+        {
+            "id": 871,
+            "um_urun_id": 190,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/190\/TOKİ-TİP-02-GEMİSİZ.183.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 17:09:14"
+        },
+        {
+            "id": 873,
+            "um_urun_id": 190,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/190\/TOKİ-TİP-02-GEMİSİZ.185.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 17:09:14"
+        },
+        {
+            "id": 874,
+            "um_urun_id": 190,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/190\/TOKİ-TİP-02-GEMİSİZ.186.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-21 17:09:14"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1693,
+            "medya_id": 872,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "47.20359",
+            "konum_y": "21.05146",
+            "created_at": "2026-04-21 17:09:46",
+            "updated_at": "2026-04-21 17:09:46",
+            "deleted_at": null
+        },
+        {
+            "id": 1694,
+            "medya_id": 872,
+            "nokta_basligi": "Plastisol kaplı ST37",
+            "nokta_gorseli": "upload\/hotspots\/plastisol-st37.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "41.73503",
+            "konum_y": "40.73826",
+            "created_at": "2026-04-21 17:09:53",
+            "updated_at": "2026-04-21 17:09:53",
+            "deleted_at": null
+        },
+        {
+            "id": 1695,
+            "medya_id": 872,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "81.00921",
+            "konum_y": "35.56799",
+            "created_at": "2026-04-21 17:09:56",
+            "updated_at": "2026-04-21 17:09:56",
+            "deleted_at": null
+        },
+        {
+            "id": 1696,
+            "medya_id": 872,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "55.90356",
+            "konum_y": "62.81134",
+            "created_at": "2026-04-21 17:10:01",
+            "updated_at": "2026-04-21 17:10:01",
+            "deleted_at": null
+        },
+        {
+            "id": 1697,
+            "medya_id": 872,
+            "nokta_basligi": "PA \/ PA6 (Poliamid)",
+            "nokta_gorseli": "upload\/hotspots\/poliamid.jpg",
+            "nokta_aciklama": "Sürtünmeye ve yüksek ağırlıklara dayanabilen bir mühendislik plastiğidir. Salıncak mafsalları gibi sürekli hareket eden ve yük taşıyan parçalarda kullanılır.",
+            "konum_x": "50.06215",
+            "konum_y": "43.91997",
+            "created_at": "2026-04-21 17:10:09",
+            "updated_at": "2026-04-21 17:10:09",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 1616,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Eşitlik,Etkileşim,Kayma,Koşma,Oturma,Rol Yapma,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1617,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "34 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1618,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1619,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1620,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "9,25 m x 9,50 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1621,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 1622,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "12,75 m x 13,40 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1623,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2 M ",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 1624,
+            "uoz_urun_id": 190,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 188,
+            "urun_adi": "TOKI TIP-01",
+            "sef_url": "toki-tip-01",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/188\/TOKİ-TİP-01-GEMİSİZ-KEYSHOT.64.png"
+        },
+        {
+            "urun_id": 192,
+            "urun_adi": "TOKI TIP-03",
+            "sef_url": "toki-tip-03",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/192\/TOKİ-TİP-03-1.png"
+        },
+        {
+            "urun_id": 194,
+            "urun_adi": "TOKI TIP-04",
+            "sef_url": "toki-tip-04",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/194\/TOKİ-TİP-04-GEMİSİZ-PNG66.629.4_1.png"
+        },
+        {
+            "urun_id": 196,
+            "urun_adi": "TOKI TIP-05",
+            "sef_url": "toki-tip-05",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/196\/TOKİ-TİP-05-PNG6.367.2.png"
+        }
+    ]
+}

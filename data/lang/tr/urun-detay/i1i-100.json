@@ -1,0 +1,171 @@
+{
+    "urun_id": 35,
+    "urun_adi": "I1I-100",
+    "urun_kodu": "I1I-100",
+    "sef_url": "i1i-100",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 9,66 M X 8,85 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA: 12,30 M X 13.00 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p>KURULUM ALANI \/ CONSTRUCTION AREA: 9,66 M X 8,85 M<\/p>\r\n\r\n<p>EMNİYET ALANI \/ SAFETY AREA: 12,30 M X 13.00 M<\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 61,
+    "seri_id": 41,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:48:24",
+    "updated_at": "2026-04-14 17:45:00",
+    "deleted_at": null,
+    "kat_adi": "Modernist Grup",
+    "kat_sef_url": "modernist-grup",
+    "kapak_resmi": "upload\/urunler\/35\/I1I-100 (1).png",
+    "kapak_id": 171,
+    "360_obje": "upload\/360\/I1I-100-V1_1.glb",
+    "medya": [
+        {
+            "id": 2188,
+            "um_urun_id": 35,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/35\/I1I-100.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-08 12:24:19"
+        },
+        {
+            "id": 171,
+            "um_urun_id": 35,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/35\/I1I-100 (1).png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 172,
+            "um_urun_id": 35,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/35\/I1I-100 (5).png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 173,
+            "um_urun_id": 35,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/35\/I1I-100 (2).png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 174,
+            "um_urun_id": 35,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/35\/I1I-100 (3).png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 175,
+            "um_urun_id": 35,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/35\/I1I-100 (4).png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 2766,
+            "um_urun_id": 35,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/I1I-100-V1_1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 858,
+            "medya_id": 171,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "48.82044",
+            "konum_y": "45.88492",
+            "created_at": "2026-04-20 18:10:10",
+            "updated_at": "2026-04-20 18:10:10",
+            "deleted_at": null
+        },
+        {
+            "id": 859,
+            "medya_id": 171,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "64.60505",
+            "konum_y": "15.75559",
+            "created_at": "2026-04-20 18:10:22",
+            "updated_at": "2026-04-20 18:10:22",
+            "deleted_at": null
+        },
+        {
+            "id": 860,
+            "medya_id": 171,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "74.79669",
+            "konum_y": "73.35577",
+            "created_at": "2026-04-20 18:10:27",
+            "updated_at": "2026-04-20 18:10:27",
+            "deleted_at": null
+        },
+        {
+            "id": 861,
+            "medya_id": 171,
+            "nokta_basligi": "Polikarbon",
+            "nokta_gorseli": "upload\/hotspots\/polikarbon.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "55.15914",
+            "konum_y": "30.15564",
+            "created_at": "2026-04-20 18:10:35",
+            "updated_at": "2026-04-20 18:10:35",
+            "deleted_at": null
+        },
+        {
+            "id": 862,
+            "medya_id": 171,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "57.14775",
+            "konum_y": "53.41725",
+            "created_at": "2026-04-20 18:10:40",
+            "updated_at": "2026-04-20 18:10:40",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 245,
+            "uoz_urun_id": 35,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Denge,Dönüş,Emekleme,Eşitlik,Kayma,Koşma,Oturma,Sallanma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

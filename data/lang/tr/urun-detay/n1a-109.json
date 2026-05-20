@@ -1,0 +1,233 @@
+{
+    "urun_id": 524,
+    "urun_adi": "N1A-109",
+    "urun_kodu": "N1A-109",
+    "sef_url": "n1a-109",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 64,
+    "seri_id": 12,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 456,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-09-17 18:38:11",
+    "updated_at": "2026-04-15 12:25:24",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/524\/AKASAYA-TİP-05.580.1.png",
+    "kapak_id": 1904,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1904,
+            "um_urun_id": 524,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/524\/AKASAYA-TİP-05.580.1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1905,
+            "um_urun_id": 524,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/524\/AKASAYA-TİP-05.580.2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1906,
+            "um_urun_id": 524,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/524\/AKASAYA-TİP-05.580.3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1907,
+            "um_urun_id": 524,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/524\/AKASAYA-TİP-05.580.4.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1491,
+            "medya_id": 1904,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "71.81544",
+            "konum_y": "79.74743",
+            "created_at": "2026-04-21 14:43:04",
+            "updated_at": "2026-04-21 14:43:04",
+            "deleted_at": null
+        },
+        {
+            "id": 1492,
+            "medya_id": 1904,
+            "nokta_basligi": "Plywood (Su Kontrası)",
+            "nokta_gorseli": "upload\/hotspots\/plywood.jpg",
+            "nokta_aciklama": "İnce ahşap katmanların suya dayanıklı özel tutkallarla (fenolik reçine) üst üste preslenmesiyle oluşan dayanıklı ahşap paneldir. Taşıma kapasitesi yüksektir, genellikle platform zeminlerinde kullanılır.",
+            "konum_x": "67.96241",
+            "konum_y": "50.08462",
+            "created_at": "2026-04-21 14:43:12",
+            "updated_at": "2026-04-21 14:43:12",
+            "deleted_at": null
+        },
+        {
+            "id": 1493,
+            "medya_id": 1904,
+            "nokta_basligi": "Akasya",
+            "nokta_gorseli": "upload\/hotspots\/akasya.jpg",
+            "nokta_aciklama": "Yüksek yoğunluklu, sert ve doğa şartlarına karşı kendi yapısından dolayı son derece dirençli bir ahşaptır. Mantar ve çürümeye karşı uzun ömürlüdür.",
+            "konum_x": "53.17176",
+            "konum_y": "53.66804",
+            "created_at": "2026-04-21 14:43:17",
+            "updated_at": "2026-04-21 14:43:17",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3940,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Robinia",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3941,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-12 YAŞ",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3942,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "22 KULLANICI",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3943,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 Yıl",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3944,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3945,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "6.50 m x 8.00 m",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3946,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "10.50 m x 12.00 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3947,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 Kişi",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3948,
+            "uoz_urun_id": 524,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "MİN 1 gün",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 455,
+            "urun_adi": "N1A-102",
+            "sef_url": "n1a-102",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/455\/AKASYA03-3.png"
+        },
+        {
+            "urun_id": 456,
+            "urun_adi": "N1A-100",
+            "sef_url": "n1a-100",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/456\/AKASYA01RENK.495.3.png"
+        },
+        {
+            "urun_id": 457,
+            "urun_adi": "N1A-101",
+            "sef_url": "n1a-101",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/457\/AKASYA-02-3.png"
+        }
+    ]
+}

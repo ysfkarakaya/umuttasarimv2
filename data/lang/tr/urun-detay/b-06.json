@@ -1,0 +1,185 @@
+{
+    "urun_id": 327,
+    "urun_adi": "B-06",
+    "urun_kodu": "B-06",
+    "sef_url": "b-06",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,75 M X 1,60 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,75 M X 1,60 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 7,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:55:47",
+    "updated_at": "2026-04-14 17:02:34",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/327\/B-06-1.png",
+    "kapak_id": 1336,
+    "360_obje": "upload\/360\/B-06.glb",
+    "medya": [
+        {
+            "id": 1336,
+            "um_urun_id": 327,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/327\/B-06-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2452,
+            "um_urun_id": 327,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/327\/B-06.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1337,
+            "um_urun_id": 327,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/327\/B-06-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1338,
+            "um_urun_id": 327,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/327\/B-06-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2688,
+            "um_urun_id": 327,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/B-06.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 215,
+            "medya_id": 1336,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "53.04624",
+            "konum_y": "51.47745",
+            "created_at": "2026-04-20 10:46:20",
+            "updated_at": "2026-04-20 10:46:20",
+            "deleted_at": null
+        },
+        {
+            "id": 216,
+            "medya_id": 1336,
+            "nokta_basligi": "Alüminyum",
+            "nokta_gorseli": "upload\/hotspots\/aluminyum.jpg",
+            "nokta_aciklama": "Hafif yapısına rağmen paslanma ve korozyon direnci yüksek bir metaldir. Ağırlığın düşük olması gereken yerlerde ve dış etkenlere açık noktalarda tercih edilir.",
+            "konum_x": "35.02444",
+            "konum_y": "60.61905",
+            "created_at": "2026-04-20 10:46:26",
+            "updated_at": "2026-04-20 14:03:52",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2807,
+            "uoz_urun_id": 327,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2808,
+            "uoz_urun_id": 327,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,75 m x 1,60 m",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2809,
+            "uoz_urun_id": 327,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2810,
+            "uoz_urun_id": 327,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 328,
+            "urun_adi": "B-06A",
+            "sef_url": "b-06a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/328\/B-06A-2.png"
+        },
+        {
+            "urun_id": 329,
+            "urun_adi": "B-07",
+            "sef_url": "b-07",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/329\/B-07-1.png"
+        },
+        {
+            "urun_id": 330,
+            "urun_adi": "B-08",
+            "sef_url": "b-08",
+            "urun_kategori_id": 65,
+            "urun_durum": 1,
+            "kat_adi": "Dış Mekan Spor Aletleri",
+            "kapak_resmi": "upload\/urunler\/330\/B-08-1.png"
+        },
+        {
+            "urun_id": 573,
+            "urun_adi": "B-20",
+            "sef_url": "b-20",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/573\/B-20-1.png"
+        }
+    ]
+}

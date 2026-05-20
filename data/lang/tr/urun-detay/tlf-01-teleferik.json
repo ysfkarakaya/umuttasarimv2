@@ -1,0 +1,180 @@
+{
+    "urun_id": 478,
+    "urun_adi": "TLF-01 TELEFERİK",
+    "urun_kodu": "TLF01",
+    "sef_url": "tlf-01-teleferik",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 5,90 M X 11,90 MEMNİYET ALANI \/ SAFETY AREA: 9,90 M X 15,90 M",
+    "urun_detay": "<p>KURULUM ALANI \/ CONSTRUCTION AREA: 5,90 M X 11,90 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 9,90 M X 15,90 M<\/p>",
+    "urun_kategori_id": 66,
+    "seri_id": 43,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 246,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-07-30 14:37:19",
+    "updated_at": "2026-04-15 14:25:27",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/478\/TLF-01-1.png",
+    "kapak_id": 1752,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2597,
+            "um_urun_id": 478,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/478\/TLF-01.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1752,
+            "um_urun_id": 478,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/478\/TLF-01-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1753,
+            "um_urun_id": 478,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/478\/TLF-01-4.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1754,
+            "um_urun_id": 478,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/478\/TLF-01-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1755,
+            "um_urun_id": 478,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/478\/TLF-01-2.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1676,
+            "medya_id": 1752,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "18.99125",
+            "konum_y": "46.11172",
+            "created_at": "2026-04-21 17:02:42",
+            "updated_at": "2026-04-21 17:02:42",
+            "deleted_at": null
+        },
+        {
+            "id": 1677,
+            "medya_id": 1752,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "54.41341",
+            "konum_y": "56.04825",
+            "created_at": "2026-04-21 17:02:45",
+            "updated_at": "2026-04-21 17:02:45",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3575,
+            "uoz_urun_id": 478,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Eşitlik,Koşma,Oturma,Salınım,Sosyalleşme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3576,
+            "uoz_urun_id": 478,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3577,
+            "uoz_urun_id": 478,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "5,90 m x 11,90 m ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3578,
+            "uoz_urun_id": 478,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3579,
+            "uoz_urun_id": 478,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "9,90 m x 15,90 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3580,
+            "uoz_urun_id": 478,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 246,
+            "urun_adi": "AO-05 AHŞAP TELEFERİK",
+            "sef_url": "ao-05-ahsap-teleferik",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/246\/AO-05-1.png"
+        }
+    ]
+}

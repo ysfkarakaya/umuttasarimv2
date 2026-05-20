@@ -1,0 +1,171 @@
+{
+    "urun_id": 445,
+    "urun_adi": "UFE-05 EL VE AYAK PEDALI",
+    "urun_kodu": "UFE-05 EL VE AYAK PEDALI",
+    "sef_url": "ufe-05-el-ve-ayak-pedali",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 0,51 M X 0,63 MEMNİYET ALANI \/ SAFETY AREA: 3,66 M X 3,66 M\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 0,51 M X 0,63 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 3,66 M X 3,66 M<\/li><\/ol>\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 65,
+    "seri_id": 28,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:58:16",
+    "updated_at": "2026-04-14 16:51:52",
+    "deleted_at": null,
+    "kat_adi": "Dış Mekan Spor Aletleri",
+    "kat_sef_url": "dis-mekan-spor-aletleri",
+    "kapak_resmi": "upload\/urunler\/445\/UFE-05-1.png",
+    "kapak_id": 1677,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2569,
+            "um_urun_id": 445,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/445\/UFE-05-V.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1677,
+            "um_urun_id": 445,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/445\/UFE-05-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1678,
+            "um_urun_id": 445,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/445\/UFE-05-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        },
+        {
+            "id": 1679,
+            "um_urun_id": 445,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/445\/UFE-05-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1763,
+            "medya_id": 1677,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "49.56617",
+            "konum_y": "85.06292",
+            "created_at": "2026-04-22 08:57:02",
+            "updated_at": "2026-04-22 08:57:02",
+            "deleted_at": null
+        },
+        {
+            "id": 1764,
+            "medya_id": 1677,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "52.17622",
+            "konum_y": "26.43739",
+            "created_at": "2026-04-22 08:57:04",
+            "updated_at": "2026-04-22 08:57:04",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3375,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Çevirme,Engelli,Etkileşim,Kardiyo,Güçlenme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3376,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "1",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3377,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3378,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,63 m x 0,51 m",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3379,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3380,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "3,66 m x 3,66 m",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3381,
+            "uoz_urun_id": 445,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

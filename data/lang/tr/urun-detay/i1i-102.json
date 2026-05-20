@@ -1,0 +1,258 @@
+{
+    "urun_id": 37,
+    "urun_adi": "I1I-102",
+    "urun_kodu": "I1I-102",
+    "sef_url": "i1i-102",
+    "urun_aciklama": "\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 61,
+    "seri_id": 41,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 36,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:48:26",
+    "updated_at": "2026-04-15 10:32:07",
+    "deleted_at": null,
+    "kat_adi": "Modernist Grup",
+    "kat_sef_url": "modernist-grup",
+    "kapak_resmi": "upload\/urunler\/37\/I1I-102-1.png",
+    "kapak_id": 180,
+    "360_obje": "upload\/360\/I1I-102-V1_1.glb",
+    "medya": [
+        {
+            "id": 180,
+            "um_urun_id": 37,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/37\/I1I-102-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 181,
+            "um_urun_id": 37,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/37\/I1I-102-3.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 182,
+            "um_urun_id": 37,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/37\/I1I-102-2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 183,
+            "um_urun_id": 37,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/37\/I1I-102-4.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 184,
+            "um_urun_id": 37,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/37\/I1I-102-5.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:51"
+        },
+        {
+            "id": 2767,
+            "um_urun_id": 37,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/I1I-102-V1_1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 866,
+            "medya_id": 180,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "60.50212",
+            "konum_y": "45.67488",
+            "created_at": "2026-04-20 18:11:28",
+            "updated_at": "2026-04-20 18:11:28",
+            "deleted_at": null
+        },
+        {
+            "id": 867,
+            "medya_id": 180,
+            "nokta_basligi": "Kauçuk",
+            "nokta_gorseli": "upload\/hotspots\/kaucuk.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "64.97639",
+            "konum_y": "62.02531",
+            "created_at": "2026-04-20 18:11:40",
+            "updated_at": "2026-04-20 18:11:40",
+            "deleted_at": null
+        },
+        {
+            "id": 868,
+            "medya_id": 180,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "73.30351",
+            "konum_y": "40.59299",
+            "created_at": "2026-04-20 18:11:44",
+            "updated_at": "2026-04-20 18:11:44",
+            "deleted_at": null
+        },
+        {
+            "id": 869,
+            "medya_id": 180,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "59.63212",
+            "konum_y": "88.53952",
+            "created_at": "2026-04-20 18:11:52",
+            "updated_at": "2026-04-20 18:11:52",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 256,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Çekme,Denge,Emekleme,Eşitlik,Etkileşim,Kayma,Koşma,Oturma,Rol Yapma,Salınım,Sosyalleşme,Tırmanma,Zıplama",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 257,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Metal - Plastik",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 258,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 Yaş",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 259,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "25 KULLANICI",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 260,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 Yıl",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 261,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2 m",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 262,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "10.00 m X 10.80 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 263,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "14.30m X 14.40 m",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 264,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "3",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 265,
+            "uoz_urun_id": 37,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "3 gün",
+            "uoz_sira": 9,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 36,
+            "urun_adi": "I1I-101",
+            "sef_url": "i1i-101",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/36\/I1I-101 (4).png"
+        }
+    ]
+}

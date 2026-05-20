@@ -1,0 +1,262 @@
+[
+    {
+        "kart_id": 5,
+        "kart_kategori": "sertifikalar",
+        "kart_aciklama": null,
+        "kart_adi": "ISO 10002",
+        "kart_gorsel": "upload\/kartlar\/sertifika1.png",
+        "kart_sira": 2,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:38:36",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 5,
+                "kart_id": 5,
+                "kart_detay_adi": "Our <b>ISO 10002<\/b> certification",
+                "kart_detay_etiket": "Highlight",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "is a testament to Umut Tasarım's commitment to customer satisfaction and its professional approach in this area. We continuously improve ourselves based on feedback from our clients and strive to meet their expectations in the best possible way.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 6,
+                "kart_id": 5,
+                "kart_detay_adi": "What do we offer our customers?",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<strong>Effective Complaint Management:<\/strong> We take all customer complaints seriously and provide quick and fair solutions.<br><br><strong>Fast and Professional Responses:<\/strong> We respond to your feedback as quickly as possible and provide service with a solution-oriented approach.<br><br><strong>Customer-Focused Service:<\/strong> We prioritize our customers' needs and expectations in all our processes.",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 7,
+                "kart_id": 5,
+                "kart_detay_adi": "ISO 10002: Our Customer Satisfaction Management System Certificate",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "At Umut Design and Urban Equipment, we are committed to maintaining the highest level of customer satisfaction and effectively managing feedback from our clients.<br><br><strong>What is ISO 10002?<\/strong><br>ISO 10002 is a management system standard that enables organizations to effectively handle customer feedback, complaints, and requests.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 8,
+                "kart_id": 5,
+                "kart_detay_adi": "Why is it important?",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "<strong>Customer Feedback Management:<\/strong> We carefully evaluate all feedback from our customers and focus on resolving issues quickly.<br><br><strong>Continuous Improvement:<\/strong> We view customer feedback as an opportunity to improve our processes.",
+                "kart_detay_sira": 4,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 9,
+                "kart_id": 5,
+                "kart_detay_adi": "Trust and Transparency",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "We are committed to complete transparency in our relationships with our customers, and we conduct our feedback processes in an open and traceable manner.<br><br><strong>Customer Satisfaction:<\/strong><br>All our efforts are directed towards increasing customer satisfaction and loyalty.",
+                "kart_detay_sira": 5,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            }
+        ]
+    },
+    {
+        "kart_id": 6,
+        "kart_kategori": "sertifikalar",
+        "kart_aciklama": null,
+        "kart_adi": "ISO 9001",
+        "kart_gorsel": "upload\/kartlar\/sertifika2.png",
+        "kart_sira": 3,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:38:36",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 10,
+                "kart_id": 6,
+                "kart_detay_adi": "<b>ISO 9001<\/b> Quality Excellence",
+                "kart_detay_etiket": "Highlight",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Our quality management system ensures consistent delivery of high-quality products and services to our customers worldwide.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 11,
+                "kart_id": 6,
+                "kart_detay_adi": "Quality Framework",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "ISO 9001 is based on the plan-do-check-act methodology and provides a process-oriented approach.",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 12,
+                "kart_id": 6,
+                "kart_detay_adi": "Customer Experience",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Focusing on customer needs to enhance satisfaction and build strong relationships.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 13,
+                "kart_id": 6,
+                "kart_detay_adi": "Global Recognition",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "We adhere to international standards to ensure reliability and trust in our market.",
+                "kart_detay_sira": 4,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            }
+        ]
+    },
+    {
+        "kart_id": 7,
+        "kart_kategori": "sertifikalar",
+        "kart_aciklama": null,
+        "kart_adi": "ISO 14001",
+        "kart_gorsel": "upload\/kartlar\/sertifika3.png",
+        "kart_sira": 4,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:38:36",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 14,
+                "kart_id": 7,
+                "kart_detay_adi": "<b>ISO 14001<\/b> Sustainability",
+                "kart_detay_etiket": "Highlight",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Committed to minimizing our environmental footprint through efficient resource management and sustainable practices.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 15,
+                "kart_id": 7,
+                "kart_detay_adi": "Green Standards",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Implementing environmental management systems to protect our planet for future generations.",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 16,
+                "kart_id": 7,
+                "kart_detay_adi": "Resource Efficiency",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Reducing waste and energy consumption across all our production processes.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 17,
+                "kart_id": 7,
+                "kart_detay_adi": "Compliance & Care",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Meeting and exceeding environmental regulations to ensure a sustainable future.",
+                "kart_detay_sira": 4,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            }
+        ]
+    },
+    {
+        "kart_id": 8,
+        "kart_kategori": "sertifikalar",
+        "kart_aciklama": null,
+        "kart_adi": "ISO 45001",
+        "kart_gorsel": "upload\/kartlar\/sertifika4.png",
+        "kart_sira": 5,
+        "kart_durum": 1,
+        "created_at": "2026-04-02 13:38:36",
+        "updated_at": "2026-05-12 18:49:53",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 18,
+                "kart_id": 8,
+                "kart_detay_adi": "<b>ISO 45001<\/b> Health & Safety",
+                "kart_detay_etiket": "Highlight",
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Prioritizing the health and safety of our workforce through rigorous occupational safety standards and proactive risk management.",
+                "kart_detay_sira": 1,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 19,
+                "kart_id": 8,
+                "kart_detay_adi": "Zero Harm Policy",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Creating a safe work environment through continuous monitoring and improved safety protocols.",
+                "kart_detay_sira": 2,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 20,
+                "kart_id": 8,
+                "kart_detay_adi": "Safety Culture",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Empowering our employees to take ownership of workplace safety and health.",
+                "kart_detay_sira": 3,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 21,
+                "kart_id": 8,
+                "kart_detay_adi": "Risk Reduction",
+                "kart_detay_etiket": null,
+                "kart_detay_gorsel": null,
+                "kart_detay_aciklama": "Identifying and mitigating potential hazards to prevent workplace injuries and illnesses.",
+                "kart_detay_sira": 4,
+                "created_at": "2026-04-02 13:38:36",
+                "updated_at": "2026-04-02 13:38:36",
+                "deleted_at": null
+            }
+        ]
+    }
+]

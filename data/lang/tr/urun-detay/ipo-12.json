@@ -1,0 +1,368 @@
+{
+    "urun_id": 152,
+    "urun_adi": "IPO-12",
+    "urun_kodu": "IPO-12",
+    "sef_url": "ipo-12",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA:8,95 M X 11,95 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA:12,20 M X 16,20 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p>KURULUM ALANI \/ CONSTRUCTION AREA:8,95 M X 11,95 M<\/p>\r\n\r\n<p>EMNİYET ALANI \/ SAFETY AREA:12,20 M X 16,20 M<\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 62,
+    "seri_id": 39,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 149,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:51:49",
+    "updated_at": "2026-04-15 10:42:05",
+    "deleted_at": null,
+    "kat_adi": "Klasik Grup",
+    "kat_sef_url": "klasik-grup",
+    "kapak_resmi": "upload\/urunler\/152\/İPO-12-4.png",
+    "kapak_id": 710,
+    "360_obje": "upload\/360\/İPO-12.glb",
+    "medya": [
+        {
+            "id": 710,
+            "um_urun_id": 152,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/152\/İPO-12-4.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 2293,
+            "um_urun_id": 152,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/152\/İPO-12.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-08 12:24:19"
+        },
+        {
+            "id": 711,
+            "um_urun_id": 152,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/152\/İPO-12-5_1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 712,
+            "um_urun_id": 152,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/152\/İPO-12-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 713,
+            "um_urun_id": 152,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/152\/İPO-12-2.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 714,
+            "um_urun_id": 152,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/152\/İPO-12-1.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 2846,
+            "um_urun_id": 152,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/İPO-12.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 931,
+            "medya_id": 710,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "79.39535",
+            "konum_y": "51.47745",
+            "created_at": "2026-04-21 09:33:51",
+            "updated_at": "2026-04-21 09:33:51",
+            "deleted_at": null
+        },
+        {
+            "id": 932,
+            "medya_id": 710,
+            "nokta_basligi": "HPL (Kompakt Laminat)",
+            "nokta_gorseli": "upload\/hotspots\/hpl.jpg",
+            "nokta_aciklama": "Reçineli kağıtların çok yüksek ısı ve basınçta preslenmesiyle elde edilir. Suya, çizilmelere ve güneş ışığına karşı mükemmel direnci vardır; panolarda ve platformlarda kullanılır.",
+            "konum_x": "71.56519",
+            "konum_y": "22.66151",
+            "created_at": "2026-04-21 09:33:55",
+            "updated_at": "2026-04-21 09:33:55",
+            "deleted_at": null
+        },
+        {
+            "id": 933,
+            "medya_id": 710,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "49.19330",
+            "konum_y": "83.07561",
+            "created_at": "2026-04-21 09:34:03",
+            "updated_at": "2026-04-21 09:34:03",
+            "deleted_at": null
+        },
+        {
+            "id": 934,
+            "medya_id": 710,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "31.79294",
+            "konum_y": "50.88125",
+            "created_at": "2026-04-21 09:34:09",
+            "updated_at": "2026-04-21 09:34:09",
+            "deleted_at": null
+        },
+        {
+            "id": 935,
+            "medya_id": 710,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "37.75878",
+            "konum_y": "32.79677",
+            "created_at": "2026-04-21 09:34:21",
+            "updated_at": "2026-04-21 09:34:21",
+            "deleted_at": null
+        },
+        {
+            "id": 936,
+            "medya_id": 710,
+            "nokta_basligi": "Plastisol kaplı ST37",
+            "nokta_gorseli": "upload\/hotspots\/plastisol-st37.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "45.96181",
+            "konum_y": "61.61271",
+            "created_at": "2026-04-21 09:34:30",
+            "updated_at": "2026-04-21 09:34:30",
+            "deleted_at": null
+        },
+        {
+            "id": 937,
+            "medya_id": 710,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "76.16386",
+            "konum_y": "31.80312",
+            "created_at": "2026-04-21 09:34:39",
+            "updated_at": "2026-04-21 09:34:39",
+            "deleted_at": null
+        },
+        {
+            "id": 947,
+            "medya_id": 710,
+            "nokta_basligi": "PA \/ PA6 (Poliamid)",
+            "nokta_gorseli": "upload\/hotspots\/poliamid.jpg",
+            "nokta_aciklama": "Sürtünmeye ve yüksek ağırlıklara dayanabilen bir mühendislik plastiğidir. Salıncak mafsalları gibi sürekli hareket eden ve yük taşıyan parçalarda kullanılır.",
+            "konum_x": "27.06999",
+            "konum_y": "44.72061",
+            "created_at": "2026-04-21 09:37:32",
+            "updated_at": "2026-04-21 09:37:32",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 1291,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Denge,Eşitlik,Etkileşim,Kayma,Koşma,Oturma,Sosyalleşme,Tırmanma,Zıplama",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1292,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "53 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1293,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL - PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1294,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1295,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "8,95 m x 11,95 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1296,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 1297,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "12,20 m x 16,20 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1298,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "1,00 M",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 1299,
+            "uoz_urun_id": 152,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 149,
+            "urun_adi": "IPO-10",
+            "sef_url": "ipo-10",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/149\/İPO-10-5.png"
+        },
+        {
+            "urun_id": 150,
+            "urun_adi": "IPO-10A",
+            "sef_url": "ipo-10a",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/150\/İPO-10A-4.png"
+        },
+        {
+            "urun_id": 151,
+            "urun_adi": "IPO-11",
+            "sef_url": "ipo-11",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/151\/İPO-11-5.png"
+        },
+        {
+            "urun_id": 153,
+            "urun_adi": "IPO-13",
+            "sef_url": "ipo-13",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/153\/İPO-13-5.png"
+        },
+        {
+            "urun_id": 154,
+            "urun_adi": "IPO-14",
+            "sef_url": "ipo-14",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/154\/İPO-14-3.png"
+        },
+        {
+            "urun_id": 155,
+            "urun_adi": "IPO-15",
+            "sef_url": "ipo-15",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/155\/İPO-15-5.png"
+        },
+        {
+            "urun_id": 156,
+            "urun_adi": "IPO-16",
+            "sef_url": "ipo-16",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/156\/İPO-16-3.png"
+        },
+        {
+            "urun_id": 157,
+            "urun_adi": "IPO-17",
+            "sef_url": "ipo-17",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/157\/İPO-17-4.png"
+        }
+    ]
+}

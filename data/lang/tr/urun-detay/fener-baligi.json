@@ -1,0 +1,249 @@
+{
+    "urun_id": 581,
+    "urun_adi": "FENER BALIĞI",
+    "urun_kodu": "I1V-104",
+    "sef_url": "fener-baligi",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 64,
+    "seri_id": 3,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 565,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2026-01-21 12:30:21",
+    "updated_at": "2026-04-14 18:03:24",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/581\/full-perspective.jpg",
+    "kapak_id": 2157,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2157,
+            "um_urun_id": 581,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/581\/full-perspective.jpg",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2158,
+            "um_urun_id": 581,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/581\/full-back.jpg",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2159,
+            "um_urun_id": 581,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/581\/full-front.jpg",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2160,
+            "um_urun_id": 581,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/581\/full-left.jpg",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2161,
+            "um_urun_id": 581,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/581\/full-perspective-2.jpg",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        },
+        {
+            "id": 2162,
+            "um_urun_id": 581,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/581\/full-right.jpg",
+            "um_baslik": null,
+            "um_sira": 5,
+            "um_created_at": "2026-04-08 12:16:11",
+            "um_updated_at": "2026-04-08 12:21:59"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 854,
+            "medya_id": 2157,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "55.37718",
+            "konum_y": "45.52234",
+            "created_at": "2026-04-20 18:09:15",
+            "updated_at": "2026-04-20 18:09:15",
+            "deleted_at": null
+        },
+        {
+            "id": 855,
+            "medya_id": 2157,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "35.29832",
+            "konum_y": "36.45447",
+            "created_at": "2026-04-20 18:09:22",
+            "updated_at": "2026-04-20 18:09:22",
+            "deleted_at": null
+        },
+        {
+            "id": 856,
+            "medya_id": 2157,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "30.76438",
+            "konum_y": "45.39280",
+            "created_at": "2026-04-20 18:09:27",
+            "updated_at": "2026-04-20 18:09:27",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 4389,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Denge,Emekleme,Eşitlik,Etkileşim,İtme,Kayma,Koşma,Oturma,Rol Yapma,Salınım,Sosyalleşme,Tırmanma,Zıplama",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4390,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "Ahşap",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4391,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-12 YAŞ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4392,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 Yıl",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 4393,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4394,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "3",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 4395,
+            "uoz_urun_id": 581,
+            "uoz_tanim_id": 17,
+            "uoz_deger": "3",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:11",
+            "uo_adi": "Kurulum Süresi",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [
+        {
+            "id": 8,
+            "urun_id": 581,
+            "renk_id": 10,
+            "created_at": "2026-04-08 12:16:11",
+            "renk_adi": "STANDART",
+            "renk_kodu": null
+        }
+    ],
+    "benzerler": [
+        {
+            "urun_id": 565,
+            "urun_adi": "ÖRDEK",
+            "sef_url": "ordek",
+            "urun_kategori_id": 61,
+            "urun_durum": 1,
+            "kat_adi": "Modernist Grup",
+            "kapak_resmi": "upload\/urunler\/565\/ATRAX-ORDEK-4.png"
+        },
+        {
+            "urun_id": 578,
+            "urun_adi": "KEDİ",
+            "sef_url": "kedi",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/578\/KITTY-WITH-YARN-REVIZE3.5.jpg"
+        },
+        {
+            "urun_id": 579,
+            "urun_adi": "FARE",
+            "sef_url": "fare",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/579\/son_on_pers.jpg"
+        },
+        {
+            "urun_id": 580,
+            "urun_adi": "UĞUR BÖCEĞİ",
+            "sef_url": "ugur-bocegi",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/580\/sol_on_pers.jpg"
+        }
+    ]
+}

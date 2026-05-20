@@ -1,0 +1,91 @@
+{
+    "urun_id": 417,
+    "urun_adi": "AHŞAP KÖPRÜ",
+    "urun_kodu": "AHŞAP KÖPRÜ",
+    "sef_url": "ahsap-kopru",
+    "urun_aciklama": "\n\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 2,00 M X 4,00 M&#xD;\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\n\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 2,00 M X 4,00 M<\/span><\/p>&#xD;\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 45,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:46",
+    "updated_at": "2026-04-15 12:27:55",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/417\/AHŞAPKOPRU-1.png",
+    "kapak_id": 1593,
+    "360_obje": "upload\/360\/AHŞAP KÖPRÜ.glb",
+    "medya": [
+        {
+            "id": 1593,
+            "um_urun_id": 417,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/417\/AHŞAPKOPRU-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2541,
+            "um_urun_id": 417,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/417\/AHŞAP KÖPRÜ.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1594,
+            "um_urun_id": 417,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/417\/AHŞAPKOPRU-2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 1595,
+            "um_urun_id": 417,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/417\/AHŞAPKOPRU-3.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2679,
+            "um_urun_id": 417,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/AHŞAP KÖPRÜ.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 135,
+            "medya_id": 1593,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "40.99028",
+            "konum_y": "40.14980",
+            "created_at": "2026-04-20 09:52:43",
+            "updated_at": "2026-04-20 09:52:43",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": []
+}

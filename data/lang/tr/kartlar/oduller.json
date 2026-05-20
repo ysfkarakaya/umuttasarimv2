@@ -1,0 +1,64 @@
+[
+    {
+        "kart_id": 18,
+        "kart_kategori": "oduller",
+        "kart_aciklama": "",
+        "kart_adi": "Ödüller",
+        "kart_gorsel": null,
+        "kart_sira": 0,
+        "kart_durum": 1,
+        "created_at": "2026-05-14 15:02:46",
+        "updated_at": "2026-05-14 15:02:46",
+        "deleted_at": null,
+        "detaylar": [
+            {
+                "kart_detay_id": 67,
+                "kart_id": 18,
+                "kart_detay_adi": "SHINING STAR AWARDS ENTERTAINMENT AWARDS ATRAX FAIR MOST EYE-CATCHING PRODUCT",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/odul1.png",
+                "kart_detay_aciklama": "<p style=\"margin-bottom: 8px; font-size: 0.72rem; color: rgb(102, 102, 102); line-height: 1.4; font-family: &quot;Century Gothic&quot;, sans-serif;\"><span class=\"highlight\" style=\"font-weight: 700; color: rgb(131, 0, 81);\">Black Train:<\/span> An Award-Winning Design That Brings Children's Imaginations to the Rails. Our company, aiming to provide a fun and imaginative play area for children, won the <span class=\"highlight\" style=\"color: rgb(131, 0, 81); font-weight: 700;\">\"Most Eye-Catching Product\"<\/span> award at the Shining Star Awards Entertainment Awards.<\/p><p style=\"margin-bottom: 8px; font-size: 0.72rem; color: rgb(102, 102, 102); line-height: 1.4; font-family: &quot;Century Gothic&quot;, sans-serif;\">Exhibited at the ATRAX Fair, this unique design not only captured children's attention but also became a symbol of our innovative approach.<\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 15:04:10",
+                "updated_at": "2026-05-14 15:04:10",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 68,
+                "kart_id": 18,
+                "kart_detay_adi": "A&#039; DESIGN AWARD SPORTS AND RECREATION GOLD WINNER 2023",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/odul2.png",
+                "kart_detay_aciklama": "<p><span style=\"color: rgb(102, 102, 102); font-family: &quot;Century Gothic&quot;, sans-serif; font-size: 11.52px;\">Recognized globally for design excellence, Umut Design received the Gold A' Design Award for innovative playground equipment that combines aesthetics with child safety and durability.<\/span><\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 15:04:29",
+                "updated_at": "2026-05-14 15:04:29",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 69,
+                "kart_id": 18,
+                "kart_detay_adi": "IDA DESIGN AWARDS BRONZE WINNER 2022",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/odul3.png",
+                "kart_detay_aciklama": "<p><span style=\"color: rgb(102, 102, 102); font-family: &quot;Century Gothic&quot;, sans-serif; font-size: 11.52px;\">The International Design Awards (IDA) honored our project with a Bronze award, highlighting our commitment to sustainable and architecturally significant landscape elements.<\/span><\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 15:04:48",
+                "updated_at": "2026-05-14 15:04:48",
+                "deleted_at": null
+            },
+            {
+                "kart_detay_id": 70,
+                "kart_id": 18,
+                "kart_detay_adi": "ATRAX AWARDS BEST PLAYGROUND DESIGN 2014",
+                "kart_detay_etiket": "",
+                "kart_detay_gorsel": "upload\/kartlar\/odul4.png",
+                "kart_detay_aciklama": "<p><span style=\"color: rgb(102, 102, 102); font-family: &quot;Century Gothic&quot;, sans-serif; font-size: 11.52px;\">A milestone achievement where Atrax recognized our early innovations in urban play areas, setting the tone for a decade of award-winning excellence.<\/span><\/p>",
+                "kart_detay_sira": 0,
+                "created_at": "2026-05-14 15:05:18",
+                "updated_at": "2026-05-14 15:05:18",
+                "deleted_at": null
+            }
+        ]
+    }
+]

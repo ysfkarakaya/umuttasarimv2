@@ -1,0 +1,147 @@
+{
+    "urun_id": 400,
+    "urun_adi": "KM ÖZEL TASARIM-02",
+    "urun_kodu": "KM ÖZEL TASARIM-02",
+    "sef_url": "km-ozel-tasarim-02",
+    "urun_aciklama": "\t\t\t  \t\tÜRÜN BOYUTU  \/ PRODUCT SİZE : 4,00 M X 4,00 M \r\n\r\nKURULUM ALANI \/ CONSTRUCTION AREA: 4,50 M X 4,50 M \r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">ÜRÜN BOYUTU  \/ PRODUCT SİZE : 4,00 M X 4,00 M <\/span><\/p>\r\n\r\n<p><span style=\"font-family:open sans,helvetica neue,helvetica,arial,sans-serif\">KURULUM ALANI \/ CONSTRUCTION AREA: 4,50 M X 4,50 M <\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 27,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 399,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:57:22",
+    "updated_at": "2026-04-15 13:40:20",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/400\/6_1569539275.jpg",
+    "kapak_id": 1543,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1543,
+            "um_urun_id": 400,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/400\/6_1569539275.jpg",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2524,
+            "um_urun_id": 400,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/400\/KM ÖZEL TASARIM-02.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1544,
+            "um_urun_id": 400,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/400\/KM_OZEL_TASARIM-02_2.jpg",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1008,
+            "medya_id": 1543,
+            "nokta_basligi": "Shingle",
+            "nokta_gorseli": "upload\/hotspots\/shingle.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "56.68894",
+            "konum_y": "36.23864",
+            "created_at": "2026-04-21 10:16:27",
+            "updated_at": "2026-04-21 10:16:27",
+            "deleted_at": null
+        },
+        {
+            "id": 1009,
+            "medya_id": 1543,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "40.31330",
+            "konum_y": "46.23895",
+            "created_at": "2026-04-21 10:16:34",
+            "updated_at": "2026-04-21 10:16:34",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3086,
+            "uoz_urun_id": 400,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Oturma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3087,
+            "uoz_urun_id": 400,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "4,50 m x 4,50 m",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3088,
+            "uoz_urun_id": 400,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3089,
+            "uoz_urun_id": 400,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 399,
+            "urun_adi": "KM ÖZEL TASARIM-01",
+            "sef_url": "km-ozel-tasarim-01",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/399\/6_1569539272.jpg"
+        },
+        {
+            "urun_id": 401,
+            "urun_adi": "KM ÖZEL TASARIM-03",
+            "sef_url": "km-ozel-tasarim-03",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/401\/KM-03-OZEL-TASARIM.514.1.png"
+        }
+    ]
+}

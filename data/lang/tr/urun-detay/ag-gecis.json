@@ -1,0 +1,193 @@
+{
+    "urun_id": 447,
+    "urun_adi": "AĞ GEÇIŞ",
+    "urun_kodu": "AĞ GEÇIŞ",
+    "sef_url": "ag-gecis",
+    "urun_aciklama": "\n\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 1,40 M X 2,24 M&#xD;\nEMNİYET ALANI \/ SAFETY AREA: 3,15 M X 4,20 M&#xD;\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\n\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 1,40 M X 2,24 M<\/span><br><\/br>&#xD;\n<span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">EMNİYET ALANI \/ SAFETY AREA: 3,15 M X 4,20 M<\/span><\/p>&#xD;\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 63,
+    "seri_id": 26,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 467,
+    "urun_durum": 0,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:58:18",
+    "updated_at": "2026-04-15 14:39:47",
+    "deleted_at": null,
+    "kat_adi": "Aksesuarlar",
+    "kat_sef_url": "aksesuarlar",
+    "kapak_resmi": "upload\/urunler\/447\/15_1573240188.jpg",
+    "kapak_id": 1684,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2571,
+            "um_urun_id": 447,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/447\/AĞ GEÇİŞ.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1684,
+            "um_urun_id": 447,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/447\/15_1573240188.jpg",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:57"
+        }
+    ],
+    "hotspotlar": [],
+    "ozellikler": [],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 448,
+            "urun_adi": "DENGE TAKIMI",
+            "sef_url": "denge-takimi",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/448\/23_1576925545.jpg"
+        },
+        {
+            "urun_id": 449,
+            "urun_adi": "ENGELLI GEÇIŞ",
+            "sef_url": "engelli-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/449\/23_1576925598.jpg"
+        },
+        {
+            "urun_id": 450,
+            "urun_adi": "KOMANDO TIRMANMA GEÇIŞ",
+            "sef_url": "komando-tirmanma-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/450\/23_1576925651.jpg"
+        },
+        {
+            "urun_id": 451,
+            "urun_adi": "MANTAR GEÇIŞ",
+            "sef_url": "mantar-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/451\/15_1576925696.jpg"
+        },
+        {
+            "urun_id": 452,
+            "urun_adi": "TÜP GEÇIŞ",
+            "sef_url": "tup-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/452\/23_1576925739.jpg"
+        },
+        {
+            "urun_id": 453,
+            "urun_adi": "KÖPRÜ GEÇIŞ",
+            "sef_url": "kopru-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/453\/23_1602235210.jpg"
+        },
+        {
+            "urun_id": 454,
+            "urun_adi": "YATAY TIRMAMA GEÇIŞ",
+            "sef_url": "yatay-tirmama-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 0,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/454\/23_1576925806.jpg"
+        },
+        {
+            "urun_id": 461,
+            "urun_adi": "MPS-01 AĞ GEÇİŞ",
+            "sef_url": "mps-01-ag-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/461\/MPS-01-2.png"
+        },
+        {
+            "urun_id": 462,
+            "urun_adi": "MPS-02 DENGE TAKIMI",
+            "sef_url": "mps-02-denge-takimi",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/462\/MPS-02-2.png"
+        },
+        {
+            "urun_id": 463,
+            "urun_adi": "MPS-03 ENGELLİ GEÇİŞ",
+            "sef_url": "mps-03-engelli-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/463\/MPS-03-1.png"
+        },
+        {
+            "urun_id": 464,
+            "urun_adi": "MPS-04 KOMANDO TIRMANMA GEÇİŞ",
+            "sef_url": "mps-04-komando-tirmanma-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/464\/MPS-04-2.png"
+        },
+        {
+            "urun_id": 465,
+            "urun_adi": "MPS-05 MANTAR GEÇİŞ",
+            "sef_url": "mps-05-mantar-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/465\/MPS-05-1.png"
+        },
+        {
+            "urun_id": 466,
+            "urun_adi": "MPS-06 TÜP GEÇİŞ",
+            "sef_url": "mps-06-tup-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/466\/MPS-06-2.png"
+        },
+        {
+            "urun_id": 467,
+            "urun_adi": "METPAR-05",
+            "sef_url": "metpar-05",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/467\/METPAR-05-2.png"
+        },
+        {
+            "urun_id": 468,
+            "urun_adi": "MPS-08 KÖPRÜ GEÇİŞ",
+            "sef_url": "mps-08-kopru-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/468\/MPS-08-2.png"
+        },
+        {
+            "urun_id": 469,
+            "urun_adi": "MPS-07 YATAY TIRMANMA GEÇİŞ",
+            "sef_url": "mps-07-yatay-tirmanma-gecis",
+            "urun_kategori_id": 63,
+            "urun_durum": 1,
+            "kat_adi": "Aksesuarlar",
+            "kapak_resmi": "upload\/urunler\/469\/MPS-07-1.png"
+        }
+    ]
+}

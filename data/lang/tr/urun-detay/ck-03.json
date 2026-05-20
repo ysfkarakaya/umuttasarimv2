@@ -1,0 +1,199 @@
+{
+    "urun_id": 367,
+    "urun_adi": "CK-03",
+    "urun_kodu": "CK-03",
+    "sef_url": "ck-03",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA: 0,50 M X 0,50 M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p><span style=\"color:rgb(10, 44, 78); font-family:open sans,helvetica neue,helvetica,arial,sans-serif; font-size:14px\">KURULUM ALANI \/ CONSTRUCTION AREA: 0,50 M X 0,50 M<\/span><\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 66,
+    "seri_id": 29,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 363,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:56:41",
+    "updated_at": "2026-04-15 09:37:50",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/367\/CK-03-2.png",
+    "kapak_id": 1454,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 1454,
+            "um_urun_id": 367,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/367\/CK-03-2.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        },
+        {
+            "id": 2491,
+            "um_urun_id": 367,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/367\/CK-03.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1455,
+            "um_urun_id": 367,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/367\/CK-03-1.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:56"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 282,
+            "medya_id": 1454,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "53.17053",
+            "konum_y": "54.25968",
+            "created_at": "2026-04-20 11:24:33",
+            "updated_at": "2026-04-20 11:24:33",
+            "deleted_at": null
+        },
+        {
+            "id": 283,
+            "medya_id": 1454,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "60.00638",
+            "konum_y": "25.84120",
+            "created_at": "2026-04-20 11:24:36",
+            "updated_at": "2026-04-20 11:24:36",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 2963,
+            "uoz_urun_id": 367,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "0,50 m x 0,50 m",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 2964,
+            "uoz_urun_id": 367,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 2965,
+            "uoz_urun_id": 367,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 363,
+            "urun_adi": "CK-01",
+            "sef_url": "ck-01",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/363\/CK-01-1.png"
+        },
+        {
+            "urun_id": 364,
+            "urun_adi": "CK-01A",
+            "sef_url": "ck-01a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/364\/CK-01A-2.png"
+        },
+        {
+            "urun_id": 365,
+            "urun_adi": "CK-02",
+            "sef_url": "ck-02",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/365\/CK-02-2.png"
+        },
+        {
+            "urun_id": 366,
+            "urun_adi": "CK-02A",
+            "sef_url": "ck-02a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/366\/CK-02A.png"
+        },
+        {
+            "urun_id": 368,
+            "urun_adi": "CK-03A",
+            "sef_url": "ck-03a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/368\/CK-03A-2.png"
+        },
+        {
+            "urun_id": 369,
+            "urun_adi": "CK-04",
+            "sef_url": "ck-04",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/369\/CK-04-2.png"
+        },
+        {
+            "urun_id": 370,
+            "urun_adi": "CK-04A",
+            "sef_url": "ck-04a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/370\/CK-04A-2.png"
+        },
+        {
+            "urun_id": 373,
+            "urun_adi": "CK-07",
+            "sef_url": "ck-07",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/373\/CK-07-1.png"
+        },
+        {
+            "urun_id": 374,
+            "urun_adi": "CK-07A",
+            "sef_url": "ck-07a",
+            "urun_kategori_id": 66,
+            "urun_durum": 1,
+            "kat_adi": "Kent Mobilyaları",
+            "kapak_resmi": "upload\/urunler\/374\/CK-07A-1.png"
+        }
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "urun_id": 576,
+    "urun_adi": "N1A-106",
+    "urun_kodu": "N1A-106",
+    "sef_url": "n1a-106",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 8,25  X 11,40 MEMNİYET ALANI \/ SAFETY AREA: 11,65 M X 14,85 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 8,25  X 11,40 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 11,65 M X 14,85 M<\/li><\/ol>",
+    "urun_kategori_id": 64,
+    "seri_id": 12,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-02-07 16:51:22",
+    "updated_at": "2026-04-14 18:14:03",
+    "deleted_at": null,
+    "kat_adi": "Tabiat Grup",
+    "kat_sef_url": "tabiat-grup",
+    "kapak_resmi": "upload\/urunler\/576\/AKASYA-06.502.1.png",
+    "kapak_id": 2132,
+    "360_obje": null,
+    "medya": [
+        {
+            "id": 2132,
+            "um_urun_id": 576,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/576\/AKASYA-06.502.1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2650,
+            "um_urun_id": 576,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/576\/AKASYA-06.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 2133,
+            "um_urun_id": 576,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/576\/AKASYA-06.502.2.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:59"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1462,
+            "medya_id": 2132,
+            "nokta_basligi": "Akasya",
+            "nokta_gorseli": "upload\/hotspots\/akasya.jpg",
+            "nokta_aciklama": "Yüksek yoğunluklu, sert ve doğa şartlarına karşı kendi yapısından dolayı son derece dirençli bir ahşaptır. Mantar ve çürümeye karşı uzun ömürlüdür.",
+            "konum_x": "40.99028",
+            "konum_y": "48.69522",
+            "created_at": "2026-04-21 14:17:15",
+            "updated_at": "2026-04-21 14:27:58",
+            "deleted_at": null
+        },
+        {
+            "id": 1463,
+            "medya_id": 2132,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "53.28380",
+            "konum_y": "19.23110",
+            "created_at": "2026-04-21 14:17:26",
+            "updated_at": "2026-04-21 14:17:29",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 4352,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Sosyalleşme,Tırmanma,Isınma,Güçlenme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4353,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "AHŞAP-METAL",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4354,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "2-12 YAŞ",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4355,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "12 KULLANICI",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4356,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 4357,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "8,25 M X 11,40 M",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4358,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "11,65 M X 14,85 M",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 4359,
+            "uoz_urun_id": 576,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "2",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 577,
+            "urun_adi": "N1A-107",
+            "sef_url": "n1a-107",
+            "urun_kategori_id": 64,
+            "urun_durum": 1,
+            "kat_adi": "Tabiat Grup",
+            "kapak_resmi": "upload\/urunler\/577\/AKASYA-07-3.png"
+        }
+    ]
+}

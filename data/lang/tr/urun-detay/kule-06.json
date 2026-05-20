@@ -1,0 +1,295 @@
+{
+    "urun_id": 163,
+    "urun_adi": "KULE-06",
+    "urun_kodu": "C1K-105",
+    "sef_url": "kule-06",
+    "urun_aciklama": "\t\t\t  \t\tKURULUM ALANI \/ CONSTRUCTION AREA:15,65 M X 19,10 M\r\n\r\nEMNİYET ALANI \/ SAFETY AREA:19,40 M X 23,10M\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_detay": "\t\t\t  \t\t<p>KURULUM ALANI \/ CONSTRUCTION AREA:15,65 M X 19,10 M<\/p>\r\n\r\n<p>EMNİYET ALANI \/ SAFETY AREA:19,40 M X 23,10M<\/p>\r\n\t\t\t  \t\t \t\t\t  \t",
+    "urun_kategori_id": 62,
+    "seri_id": 38,
+    "urun_tipi": "benzer_urun",
+    "benzer_urun_id": 158,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2023-05-09 14:52:04",
+    "updated_at": "2026-04-15 10:54:49",
+    "deleted_at": null,
+    "kat_adi": "Klasik Grup",
+    "kat_sef_url": "klasik-grup",
+    "kapak_resmi": "upload\/urunler\/163\/KULE-06_PNG8.364.3.png",
+    "kapak_id": 759,
+    "360_obje": "upload\/360\/KULE-06.glb",
+    "medya": [
+        {
+            "id": 2304,
+            "um_urun_id": 163,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/163\/KULE-06.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:19",
+            "um_updated_at": "2026-04-08 12:24:19"
+        },
+        {
+            "id": 759,
+            "um_urun_id": 163,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/163\/KULE-06_PNG8.364.3.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 760,
+            "um_urun_id": 163,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/163\/KULE-06_PNG8.364.4.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 761,
+            "um_urun_id": 163,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/163\/KULE-06_PNG8.364.2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 762,
+            "um_urun_id": 163,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/163\/KULE-06_PNG8.364.1.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:09",
+            "um_updated_at": "2026-04-08 12:21:53"
+        },
+        {
+            "id": 2796,
+            "um_urun_id": 163,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/KULE-06.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1095,
+            "medya_id": 759,
+            "nokta_basligi": "LDPE (Alçak Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/ldpe.jpg",
+            "nokta_aciklama": "Esneme payı yüksek, darbe aldığında kırılmaya veya çatlamaya karşı dirençli plastik hammaddedir.",
+            "konum_x": "31.79294",
+            "konum_y": "46.31045",
+            "created_at": "2026-04-21 10:49:26",
+            "updated_at": "2026-04-21 10:49:26",
+            "deleted_at": null
+        },
+        {
+            "id": 1096,
+            "medya_id": 759,
+            "nokta_basligi": "Plastisol kaplı ST37",
+            "nokta_gorseli": "upload\/hotspots\/plastisol-st37.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "53.79197",
+            "konum_y": "61.81144",
+            "created_at": "2026-04-21 10:49:36",
+            "updated_at": "2026-04-21 10:49:36",
+            "deleted_at": null
+        },
+        {
+            "id": 1097,
+            "medya_id": 759,
+            "nokta_basligi": "PA \/ PA6 (Poliamid)",
+            "nokta_gorseli": "upload\/hotspots\/poliamid.jpg",
+            "nokta_aciklama": "Sürtünmeye ve yüksek ağırlıklara dayanabilen bir mühendislik plastiğidir. Salıncak mafsalları gibi sürekli hareket eden ve yük taşıyan parçalarda kullanılır.",
+            "konum_x": "51.67907",
+            "konum_y": "44.72061",
+            "created_at": "2026-04-21 10:49:43",
+            "updated_at": "2026-04-21 10:49:43",
+            "deleted_at": null
+        },
+        {
+            "id": 1098,
+            "medya_id": 759,
+            "nokta_basligi": "PP Copolimer",
+            "nokta_gorseli": "upload\/hotspots\/pp-copolimer.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "68.20941",
+            "konum_y": "61.61271",
+            "created_at": "2026-04-21 10:49:51",
+            "updated_at": "2026-04-21 10:49:51",
+            "deleted_at": null
+        },
+        {
+            "id": 1099,
+            "medya_id": 759,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "31.04722",
+            "konum_y": "62.60636",
+            "created_at": "2026-04-21 10:50:37",
+            "updated_at": "2026-04-21 10:50:37",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 1390,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Eşitlik,Kayma,Koşma,Oturma,Rol Yapma,Sosyalleşme,Tırmanma",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1391,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "152 KULLANICI",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1392,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL - PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1393,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "5-12 YAŞ",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1394,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "15,65 m x 19,10 m",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1395,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 1396,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "19,40 m x 23,10 m",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 1397,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "4 M",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 1398,
+            "uoz_urun_id": 163,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:09",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": [
+        {
+            "urun_id": 158,
+            "urun_adi": "KULE-01",
+            "sef_url": "kule-01",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/158\/KULE-01_PNG6.365.2.png"
+        },
+        {
+            "urun_id": 159,
+            "urun_adi": "KULE-02",
+            "sef_url": "kule-02",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/159\/KULE-02_PNG6.636.png"
+        },
+        {
+            "urun_id": 160,
+            "urun_adi": "KULE-03",
+            "sef_url": "kule-03",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/160\/KULE-03_PNG6.629.png"
+        },
+        {
+            "urun_id": 161,
+            "urun_adi": "KULE-04",
+            "sef_url": "kule-04",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/161\/KULE-04_PNG6.626.png"
+        },
+        {
+            "urun_id": 162,
+            "urun_adi": "KULE-05",
+            "sef_url": "kule-05",
+            "urun_kategori_id": 62,
+            "urun_durum": 1,
+            "kat_adi": "Klasik Grup",
+            "kapak_resmi": "upload\/urunler\/162\/KULE-05_PNG7.625.png"
+        }
+    ]
+}

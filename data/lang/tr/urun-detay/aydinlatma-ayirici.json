@@ -1,0 +1,105 @@
+{
+    "urun_id": 563,
+    "urun_adi": "Aydınlatma & Ayırıcı",
+    "urun_kodu": "H2M-105",
+    "sef_url": "aydinlatma-ayirici",
+    "urun_aciklama": "",
+    "urun_detay": "",
+    "urun_kategori_id": 66,
+    "seri_id": 13,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2025-01-15 17:14:01",
+    "updated_at": "2026-04-14 15:50:01",
+    "deleted_at": null,
+    "kat_adi": "Kent Mobilyaları",
+    "kat_sef_url": "kent-mobilyalari",
+    "kapak_resmi": "upload\/urunler\/563\/PORODICA.465.png",
+    "kapak_id": 2090,
+    "360_obje": "upload\/360\/H2M-105-v1.glb",
+    "medya": [
+        {
+            "id": 2090,
+            "um_urun_id": 563,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/563\/PORODICA.465.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2091,
+            "um_urun_id": 563,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/563\/PORODICA.466.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2092,
+            "um_urun_id": 563,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/563\/PORODICA.467.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2744,
+            "um_urun_id": 563,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/H2M-105-v1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:04",
+            "um_updated_at": "2026-04-21 08:47:04"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1924,
+            "medya_id": 2090,
+            "nokta_basligi": "Paslanmaz Çelik",
+            "nokta_gorseli": "upload\/hotspots\/paslanmaz_celik.jpg",
+            "nokta_aciklama": "Neme, suya ve aşınmaya karşı en yüksek direnci gösteren metaldir. Özellikle sürtünmenin yoğun olduğu kaydırak yüzeylerinde ve kritik bağlantı noktalarında kullanılır.",
+            "konum_x": "65.97375",
+            "konum_y": "41.12605",
+            "created_at": "2026-04-22 11:00:56",
+            "updated_at": "2026-04-22 11:00:56",
+            "deleted_at": null
+        },
+        {
+            "id": 1925,
+            "medya_id": 2090,
+            "nokta_basligi": "Sarı Çam",
+            "nokta_gorseli": "upload\/hotspots\/sari_cam.jpg",
+            "nokta_aciklama": "İşlenmesi kolay, reçineli bir çam türüdür. Dış mekanda çürümeye ve böceklenmeye karşı dayanıklı olması için emprenye işlemi uygulanarak kullanılır.",
+            "konum_x": "65.35230",
+            "konum_y": "26.79234",
+            "created_at": "2026-04-22 11:00:59",
+            "updated_at": "2026-04-22 11:00:59",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 4268,
+            "uoz_urun_id": 563,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "--",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

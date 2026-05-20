@@ -1,0 +1,257 @@
+{
+    "urun_id": 518,
+    "urun_adi": "I3G-105",
+    "urun_kodu": "I3G-105",
+    "sef_url": "i3g-105",
+    "urun_aciklama": "KURULUM ALANI \/ CONSTRUCTION AREA: 7,03  M X 7,50 MEMNİYET ALANI \/ SAFETY AREA: 9,82 M X 10,64 M",
+    "urun_detay": "<ol><li>KURULUM ALANI \/ CONSTRUCTION AREA: 7,03  M X 7,50 M<br><br>EMNİYET ALANI \/ SAFETY AREA: 9,82 M X 10,64 M<\/li><\/ol>",
+    "urun_kategori_id": 65,
+    "seri_id": 20,
+    "urun_tipi": "urun",
+    "benzer_urun_id": null,
+    "urun_durum": 1,
+    "urun_sira": 0,
+    "created_at": "2024-08-01 09:09:15",
+    "updated_at": "2026-04-14 16:14:32",
+    "deleted_at": null,
+    "kat_adi": "Dış Mekan Spor Aletleri",
+    "kat_sef_url": "dis-mekan-spor-aletleri",
+    "kapak_resmi": "upload\/urunler\/518\/I3G-105-1.png",
+    "kapak_id": 1879,
+    "360_obje": "upload\/360\/I3G-105-V1.glb",
+    "medya": [
+        {
+            "id": 2634,
+            "um_urun_id": 518,
+            "um_kategori": "Dosya",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-V.dwg",
+            "um_baslik": "DWG",
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:24:20",
+            "um_updated_at": "2026-04-08 12:24:20"
+        },
+        {
+            "id": 1879,
+            "um_urun_id": 518,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-1.png",
+            "um_baslik": null,
+            "um_sira": 0,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1880,
+            "um_urun_id": 518,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-3.png",
+            "um_baslik": null,
+            "um_sira": 1,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1881,
+            "um_urun_id": 518,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-2.png",
+            "um_baslik": null,
+            "um_sira": 2,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1882,
+            "um_urun_id": 518,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-5.png",
+            "um_baslik": null,
+            "um_sira": 3,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1883,
+            "um_urun_id": 518,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-4.png",
+            "um_baslik": null,
+            "um_sira": 4,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 1884,
+            "um_urun_id": 518,
+            "um_kategori": "Galeri",
+            "um_dosya": "upload\/urunler\/518\/I3G-105-6.png",
+            "um_baslik": null,
+            "um_sira": 5,
+            "um_created_at": "2026-04-08 12:16:10",
+            "um_updated_at": "2026-04-08 12:21:58"
+        },
+        {
+            "id": 2784,
+            "um_urun_id": 518,
+            "um_kategori": "360",
+            "um_dosya": "upload\/360\/I3G-105-V1.glb",
+            "um_baslik": "3D Model (360)",
+            "um_sira": 99,
+            "um_created_at": "2026-04-21 08:47:05",
+            "um_updated_at": "2026-04-21 08:47:05"
+        }
+    ],
+    "hotspotlar": [
+        {
+            "id": 1936,
+            "medya_id": 1879,
+            "nokta_basligi": "ST37 Çelik",
+            "nokta_gorseli": "upload\/hotspots\/st37_celik.jpg",
+            "nokta_aciklama": "Ana taşıyıcı iskeletlerde kullanılan, mukavemeti yüksek yapı çeliğidir. Korozyonu önlemek için galvaniz veya elektrostatik toz boya ile kaplanarak kullanılır.",
+            "konum_x": "59.38355",
+            "konum_y": "33.74348",
+            "created_at": "2026-04-22 11:05:46",
+            "updated_at": "2026-04-22 11:05:46",
+            "deleted_at": null
+        },
+        {
+            "id": 1937,
+            "medya_id": 1879,
+            "nokta_basligi": "Kauçuk",
+            "nokta_gorseli": "upload\/hotspots\/kaucuk.jpg",
+            "nokta_aciklama": "",
+            "konum_x": "23.21651",
+            "konum_y": "54.73390",
+            "created_at": "2026-04-22 11:05:52",
+            "updated_at": "2026-04-22 11:05:52",
+            "deleted_at": null
+        },
+        {
+            "id": 1938,
+            "medya_id": 1879,
+            "nokta_basligi": "Halat",
+            "nokta_gorseli": "upload\/hotspots\/halat.jpg",
+            "nokta_aciklama": "Polyester örgülü çelik halat",
+            "konum_x": "50.43501",
+            "konum_y": "45.23298",
+            "created_at": "2026-04-22 11:05:58",
+            "updated_at": "2026-04-22 11:05:58",
+            "deleted_at": null
+        },
+        {
+            "id": 1940,
+            "medya_id": 1879,
+            "nokta_basligi": "HDPE (Yüksek Yoğunluklu Polietilen)",
+            "nokta_gorseli": "upload\/hotspots\/hdpe.jpg",
+            "nokta_aciklama": "UV ışınlarına (güneş ışığına) ve solmaya karşı çok dayanıklı, sert ve yapısal mukavemeti yüksek bir plastiktir. Genellikle oyun grubu panolarında ve çatılarında kullanılır.",
+            "konum_x": "39.00075",
+            "konum_y": "88.98143",
+            "created_at": "2026-04-22 11:09:44",
+            "updated_at": "2026-04-22 11:09:44",
+            "deleted_at": null
+        }
+    ],
+    "ozellikler": [
+        {
+            "id": 3884,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 9,
+            "uoz_deger": "Asılma,Çekme,Denge,Etkileşim,İtme,Salınım,Sosyalleşme,Kardiyo,Isınma,Güçlenme",
+            "uoz_sira": 0,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Aktivite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3885,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 12,
+            "uoz_deger": "9",
+            "uoz_sira": 1,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kapasite",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3886,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 10,
+            "uoz_deger": "METAL-PLASTİK",
+            "uoz_sira": 2,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kategori",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3887,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 11,
+            "uoz_deger": "&#43;16",
+            "uoz_sira": 3,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Yaş Grubu",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3888,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 14,
+            "uoz_deger": "7,03 m x 7,50 m ",
+            "uoz_sira": 4,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Kurulum Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3889,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 5,
+            "uoz_deger": "2 YIL",
+            "uoz_sira": 5,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Garanti Süresi",
+            "uo_kategori": "Servis",
+            "uo_ikon": "fas fa-shield-alt"
+        },
+        {
+            "id": 3890,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 15,
+            "uoz_deger": "9,82 M X 10,64 M",
+            "uoz_sira": 6,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Güvenlik Alanı",
+            "uo_kategori": "Genel Özellikler",
+            "uo_ikon": null
+        },
+        {
+            "id": 3891,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 13,
+            "uoz_deger": "2,55 M",
+            "uoz_sira": 7,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Max Düşüş Yüksekliği",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        },
+        {
+            "id": 3892,
+            "uoz_urun_id": 518,
+            "uoz_tanim_id": 16,
+            "uoz_deger": "MİN 2 KİŞİ",
+            "uoz_sira": 8,
+            "created_at": "2026-04-08 12:16:10",
+            "uo_adi": "Min. Kurucu Kişi Sayısı",
+            "uo_kategori": "Teknik",
+            "uo_ikon": null
+        }
+    ],
+    "renkler": [],
+    "benzerler": []
+}

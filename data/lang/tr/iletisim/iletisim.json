@@ -1,0 +1,35 @@
+[
+  {
+    "page_title": "İletişim",
+    "sidebar_title": "Bize Ulaşın",
+    "sidebar_footer": "Sorularınız ve talepleriniz için her zaman buradayız.",
+    "intro_title": "İletişim",
+    "intro_subtitle": "BİZİMLE TANIŞIN",
+    "intro_desc": "Projelerimiz hakkında daha fazla bilgi almak veya özel tasarım talepleriniz için bizimle iletişime geçebilirsiniz. Sizi ofisimizde ağırlamaktan mutluluk duyarız.",
+    "contact_info": [
+      {
+        "title": "Adres",
+        "value": "Ankara Asfaltı Üzeri, No: 123, İzmir, Türkiye",
+        "icon": "bi-geo-alt"
+      },
+      {
+        "title": "Telefon",
+        "value": "+90 232 XXX XX XX",
+        "icon": "bi-phone"
+      },
+      {
+        "title": "E-posta",
+        "value": "info@umuttasarim.com",
+        "icon": "bi-envelope"
+      }
+    ],
+    "form_title": "Bize Mesaj Gönderin",
+    "form_fields": {
+      "name_label": "Adınız Soyadınız",
+      "email_label": "E-posta Adresiniz",
+      "subject_label": "Konu",
+      "message_label": "Mesajınız",
+      "submit_btn": "MESAJI GÖNDER"
+    }
+  }
+]
