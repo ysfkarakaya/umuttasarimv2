@@ -1,6 +1,9 @@
 RewriteEngine On
 RewriteBase /
 
+# Redirect language-prefixed sitemap, robots, and llm files to root
+RewriteRule ^(tr|en|ru)/(sitemap\.xml|robots\.txt|llm\.txt)$ /$2 [R=301,L]
+
 # Sitemap rewrite
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
