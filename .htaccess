@@ -4,6 +4,10 @@ RewriteBase /
 # Redirect language-prefixed sitemap, robots, and llm files to root
 RewriteRule ^(tr|en|ru)/(sitemap\.xml|robots\.txt|llm\.txt)$ /$2 [R=301,L]
 
+# Redirect language-prefixed projeler requests to clean /projeler/
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(tr|en|ru)/projeler(/(.*))?$ /projeler/$3 [R=301,L]
+
 # Sitemap rewrite
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
@@ -28,13 +32,13 @@ RewriteRule ^(?:tr|en|ru)/(.*)$ /%1/$1? [R=301,L]
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteCond %{QUERY_STRING} (?:^|&)lang=(tr|en|ru)(?:&|$) [NC]
 RewriteCond %{REQUEST_URI} !^/(tr|en|ru)/ [NC]
-RewriteCond %{REQUEST_URI} !^/(assets|upload|data|inc)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(assets|upload|data|inc|projeler)/ [NC]
 RewriteRule ^(.*)$ /%1/$1? [R=301,L]
 
 # Redirect direct external requests without language prefix to /tr/
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteCond %{REQUEST_URI} !^/(tr|en|ru)/ [NC]
-RewriteCond %{REQUEST_URI} !^/(assets|upload|data|inc)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(assets|upload|data|inc|projeler)/ [NC]
 RewriteCond %{REQUEST_URI} !^/(sitemap\.xml|robots\.txt|llm\.txt)$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f [OR]
 RewriteCond %{REQUEST_FILENAME} \.php$
