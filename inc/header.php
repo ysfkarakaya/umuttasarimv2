@@ -76,7 +76,8 @@ $og['url'] = $pageCanonical;
         content="<?php echo isset($meta['viewport']) ? $meta['viewport'] : 'width=device-width, initial-scale=1.0'; ?>">
 
     <title><?php echo $titleTag; ?></title>
-    <base href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/'; ?>">
+    <base
+        href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/'; ?>">
     <meta name="description" content="<?php echo htmlspecialchars($pageDesc, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($pageKeys, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="author" content="<?php echo isset($meta['author']) ? $meta['author'] : ''; ?>">
@@ -88,8 +89,7 @@ $og['url'] = $pageCanonical;
 
     <!-- Open Graph -->
     <meta property="og:title" content="<?php echo isset($og['title']) ? $og['title'] : $titleTag; ?>">
-    <meta property="og:description"
-        content="<?php echo isset($og['description']) ? $og['description'] : $pageDesc; ?>">
+    <meta property="og:description" content="<?php echo isset($og['description']) ? $og['description'] : $pageDesc; ?>">
     <meta property="og:type" content="<?php echo isset($og['type']) ? $og['type'] : 'website'; ?>">
     <meta property="og:url" content="<?php echo isset($og['url']) ? $og['url'] : $pageCanonical; ?>">
     <meta property="og:image" content="<?php echo isset($og['image']) ? $og['image'] : ''; ?>">
@@ -104,24 +104,26 @@ $og['url'] = $pageCanonical;
     <meta name="twitter:image" content="<?php echo isset($twitter['image']) ? $twitter['image'] : ''; ?>">
 
     <!-- Favicon & Icons -->
-    <link rel="icon"
-        href="<?php echo isset($config['head']['links']['favicon']) ? $config['head']['links']['favicon'] : '/assets/img/logo.png'; ?>"
-        type="image/png">
+    <link rel="icon" href="/assets/img/logo.png" type="image/png">
     <link rel="canonical" href="<?php echo htmlspecialchars($pageCanonical, ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="alternate" hreflang="tr" href="<?php echo htmlspecialchars($alternateUrls['tr'], ENT_QUOTES, 'UTF-8'); ?>" />
-    <link rel="alternate" hreflang="en" href="<?php echo htmlspecialchars($alternateUrls['en'], ENT_QUOTES, 'UTF-8'); ?>" />
-    <link rel="alternate" hreflang="ru" href="<?php echo htmlspecialchars($alternateUrls['ru'], ENT_QUOTES, 'UTF-8'); ?>" />
-    <link rel="alternate" hreflang="x-default" href="<?php echo htmlspecialchars($alternateUrls['tr'], ENT_QUOTES, 'UTF-8'); ?>" />
+    <link rel="alternate" hreflang="tr"
+        href="<?php echo htmlspecialchars($alternateUrls['tr'], ENT_QUOTES, 'UTF-8'); ?>" />
+    <link rel="alternate" hreflang="en"
+        href="<?php echo htmlspecialchars($alternateUrls['en'], ENT_QUOTES, 'UTF-8'); ?>" />
+    <link rel="alternate" hreflang="ru"
+        href="<?php echo htmlspecialchars($alternateUrls['ru'], ENT_QUOTES, 'UTF-8'); ?>" />
+    <link rel="alternate" hreflang="x-default"
+        href="<?php echo htmlspecialchars($alternateUrls['tr'], ENT_QUOTES, 'UTF-8'); ?>" />
 
     <!-- Structured Data (JSON-LD Schemas) -->
     <?php if (isset($pageSchema) && !empty($pageSchema)): ?>
         <script type="application/ld+json">
-        <?php echo json_encode($pageSchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
-        </script>
+            <?php echo json_encode($pageSchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
+            </script>
     <?php elseif (isset($config['head']['schema']) && !empty($config['head']['schema']) && basename($_SERVER['SCRIPT_NAME']) === 'index.php'): ?>
         <script type="application/ld+json">
-        <?php echo json_encode($config['head']['schema'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
-        </script>
+            <?php echo json_encode($config['head']['schema'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
+            </script>
     <?php endif; ?>
 
     <!-- Core Assets -->

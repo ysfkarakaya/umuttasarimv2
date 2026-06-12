@@ -348,6 +348,7 @@ function buildPrompt(string $sourceLang, string $targetLang, array $items): stri
 
     return "You are translating website JSON content from {$sourceLang} to {$targetLang}. "
         . "Keep JSON order and return ONLY a JSON array. Preserve HTML tags, placeholders, variables, brand names, URLs, file paths and technical tokens. "
+        . "CRITICAL: Never translate brand names/company names such as 'Umut Tasarım', 'Umut Tasarım kent ekipmanları', 'Umut Tasarım Kent Ekipmanları' or variations of them. Always keep them exactly as they are in all target languages. "
         . "Translate natural language only. Output format: [{\"index\":0,\"text\":\"translated\"}]. Input: "
         . json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 }
@@ -539,6 +540,7 @@ function translateSingleText(string $apiProvider, string $apiKey, string $model,
 {
     $prompt = "You are translating website content from {$sourceLang} to {$targetLang}. "
         . "Preserve HTML tags, placeholders, variables, brand names, URLs, file paths and technical tokens. "
+        . "CRITICAL: Never translate brand names/company names such as 'Umut Tasarım', 'Umut Tasarım kent ekipmanları', 'Umut Tasarım Kent Ekipmanları' or variations of them. Always keep them exactly as they are in all target languages. "
         . "Translate natural language only. Return ONLY the translated text without markdown code blocks, quotes or explanations. Text: " . $text;
 
     if ($apiProvider === 'vertex') {
