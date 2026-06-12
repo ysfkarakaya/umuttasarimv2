@@ -2691,6 +2691,7 @@ $sliderProductsJson = json_encode(
             };
 
             const sliderProducts = <?php echo $sliderProductsJson; ?>;
+            const activeLang = '<?php echo $lang; ?>';
             const slides = Array.from(document.querySelectorAll('.variant-slide'));
             const variantName = document.getElementById('variant-name');
             const prevBtn = document.getElementById('prev-btn');
@@ -2776,7 +2777,7 @@ $sliderProductsJson = json_encode(
                 }
 
                 if (activeProduct.sef_url) {
-                    const newUrl = `/urun/${encodeURIComponent(activeProduct.sef_url)}`;
+                    const newUrl = `/${activeLang}/urun/${encodeURIComponent(activeProduct.sef_url)}`;
                     if (window.location.pathname !== newUrl) {
                         window.history.replaceState({ sefUrl: activeProduct.sef_url }, '', newUrl);
                     }
@@ -3492,7 +3493,7 @@ $sliderProductsJson = json_encode(
                         updateSlider();
                         window.closeSpecsModal();
                     } else {
-                        window.location.href = `/urun/${encodeURIComponent(similarSlug)}`;
+                        window.location.href = `/${activeLang}/urun/${encodeURIComponent(similarSlug)}`;
                     }
                 });
             }
