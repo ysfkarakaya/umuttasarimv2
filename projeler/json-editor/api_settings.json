@@ -1,0 +1,11 @@
+{
+    "accounts": [
+        {
+            "id": "gemini-1780665189078",
+            "provider": "gemini",
+            "name": "Primary Key",
+            "key": "updated_secret",
+            "default_model": "gemini-2.0-flash"
+        }
+    ]
+}

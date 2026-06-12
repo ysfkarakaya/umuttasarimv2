@@ -13,8 +13,22 @@ $pageTitle = $pageData['kart_detay_adi'] ?? "Kalite Politikası";
 $pageContent = $pageData['kart_detay_aciklama'] ?? "";
 
 $hasSidebar = true;
-?>
-<?php
+
+if (!empty($pageData['kart_detay_gorsel'])) {
+    $pageImage = $pageData['kart_detay_gorsel'];
+}
+
+$pageCanonical = 'https://umuttasarim.com/' . $lang . '/' . $slug;
+
+// Temiz ve kırpılmış sayfa açıklaması
+$cleanPageDesc = trim(strip_tags(html_entity_decode((string)$pageContent, ENT_QUOTES | ENT_HTML5, 'UTF-8')));
+$pageDescription = mb_substr($cleanPageDesc, 0, 155, 'UTF-8');
+if (mb_strlen($cleanPageDesc, 'UTF-8') > 155) {
+    $pageDescription .= '...';
+}
+
+$pageKeywords = implode(', ', array_filter([$pageTitle, "umut tasarım", "kalite politikası", "kurumsal"]));
+
 include_once 'inc/header.php';
 ?>
 

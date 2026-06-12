@@ -3,19 +3,75 @@ $hasSidebar = true;
 
 include_once 'inc/functions.php';
 
-function load_product_detail_data($lang, $sefUrl)
+function load_product_detail_data($lang, $sefUrl, $exitOnError = false)
 {
     if ($sefUrl === '') {
+        if ($exitOnError) {
+            echo "<div style='padding:20px; background:#ffebeb; border:1px solid #ff9999; color:#b30000; font-family:sans-serif; margin:20px; border-radius:5px;'>";
+            echo "<h3>[Debug] Hata: SEF URL parametresi boş.</h3>";
+            echo "</div>";
+            exit;
+        }
         return [];
     }
 
-    $filePath = __DIR__ . "/data/lang/{$lang}/urun-detay/{$sefUrl}.json";
-    if (!file_exists($filePath)) {
+    $filePath = __DIR__ . "/data/lang/{$lang}/urun-detay/{$sefUrl}.json?v=2";
+    // Dosya okuma işlemi için sorgu parametresini (?v=2) temizliyoruz.
+    $cleanPath = explode('?', $filePath)[0];
+
+    if (!file_exists($cleanPath)) {
+        if ($exitOnError) {
+            echo "<div style='padding:20px; background:#ffebeb; border:1px solid #ff9999; color:#b30000; font-family:sans-serif; margin:20px; border-radius:5px;'>";
+            echo "<h3>[Debug] Ürün Detay Dosyası Bulunamadı (File Not Found)</h3>";
+            echo "<p><b>Sef URL:</b> " . htmlspecialchars($sefUrl) . "</p>";
+            echo "<p><b>Dil:</b> " . htmlspecialchars($lang) . "</p>";
+            echo "<p><b>Orijinal Yol:</b> " . htmlspecialchars($filePath) . "</p>";
+            echo "<p><b>Aranan Yol (Temiz):</b> " . htmlspecialchars($cleanPath) . "</p>";
+            echo "</div>";
+            exit;
+        }
         return [];
     }
 
-    $data = json_decode(file_get_contents($filePath), true);
-    return is_array($data) ? $data : [];
+    $content = @file_get_contents($cleanPath);
+    if ($content === false) {
+        if ($exitOnError) {
+            echo "<div style='padding:20px; background:#ffebeb; border:1px solid #ff9999; color:#b30000; font-family:sans-serif; margin:20px; border-radius:5px;'>";
+            echo "<h3>[Debug] Dosya Okunamadı (Failed to Read File)</h3>";
+            echo "<p><b>Yol:</b> " . htmlspecialchars($cleanPath) . "</p>";
+            echo "</div>";
+            exit;
+        }
+        return [];
+    }
+
+    $data = json_decode($content, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        if ($exitOnError) {
+            echo "<div style='padding:20px; background:#ffebeb; border:1px solid #ff9999; color:#b30000; font-family:sans-serif; margin:20px; border-radius:5px;'>";
+            echo "<h3>[Debug] JSON Çözümleme Hatası (JSON Decode Error)</h3>";
+            echo "<p><b>Hata:</b> " . htmlspecialchars(json_last_error_msg()) . "</p>";
+            echo "<p><b>Yol:</b> " . htmlspecialchars($cleanPath) . "</p>";
+            echo "<p><b>İçerik Önizleme:</b></p>";
+            echo "<pre style='background:#f4f4f4; padding:10px; border:1px solid #ddd; overflow-x:auto;'>" . htmlspecialchars(substr($content, 0, 1000)) . "</pre>";
+            echo "</div>";
+            exit;
+        }
+        return [];
+    }
+
+    if (!is_array($data)) {
+        if ($exitOnError) {
+            echo "<div style='padding:20px; background:#ffebeb; border:1px solid #ff9999; color:#b30000; font-family:sans-serif; margin:20px; border-radius:5px;'>";
+            echo "<h3>[Debug] Hatalı Veri Yapısı (Invalid Data Structure - Not an Array)</h3>";
+            echo "<p><b>Yol:</b> " . htmlspecialchars($cleanPath) . "</p>";
+            echo "</div>";
+            exit;
+        }
+        return [];
+    }
+
+    return $data;
 }
 
 function normalize_product_asset_path($path, $fallback = 'assets/img/park1.png')
@@ -33,6 +89,26 @@ function normalize_product_asset_path($path, $fallback = 'assets/img/park1.png')
     return '/' . ltrim(str_replace('\\', '/', $path), '/');
 }
 
+function normalize_product_attachment_path($path)
+{
+    $path = trim((string) $path);
+    if ($path === '') {
+        return '';
+    }
+
+    $normalized = str_replace('\\', '/', $path);
+    if (preg_match('#^https?://#i', $normalized)) {
+        return $normalized;
+    }
+
+    $extension = strtolower(pathinfo($normalized, PATHINFO_EXTENSION));
+    if (in_array($extension, ['glb', 'dwg', 'dxf'], true)) {
+        return 'https://v2.umutapp.com/' . ltrim($normalized, '/');
+    }
+
+    return '/' . ltrim($normalized, '/');
+}
+
 function resolve_product_model_src(array $detailData, array $fallbackData = [])
 {
     $modelPath = trim((string) ($detailData['360_obje'] ?? $fallbackData['360_obje'] ?? ''));
@@ -43,6 +119,11 @@ function resolve_product_model_src(array $detailData, array $fallbackData = [])
     $normalized = str_replace('\\', '/', $modelPath);
     if (preg_match('#^https?://#i', $normalized)) {
         return $normalized;
+    }
+
+    $extension = strtolower(pathinfo($normalized, PATHINFO_EXTENSION));
+    if (in_array($extension, ['glb', 'dwg', 'dxf'], true)) {
+        return 'https://v2.umutapp.com/' . ltrim($normalized, '/');
     }
 
     return '/' . ltrim($normalized, '/');
@@ -56,14 +137,25 @@ if ($sefUrl === '') {
     $sefUrl = 'eko-01';
 }
 
-$productData = load_product_detail_data($lang, $sefUrl);
+$productData = load_product_detail_data($lang, $sefUrl, false);
 
 if (empty($productData) && $sefUrl !== 'eko-01') {
     $sefUrl = 'eko-01';
-    $productData = load_product_detail_data($lang, $sefUrl);
+    $productData = load_product_detail_data($lang, $sefUrl, false);
 }
 
-$activeProductName = trim((string) ($productData['urun_adi'] ?? 'Ürün'));
+if (empty($productData)) {
+    // Eğer veri hala boşsa, nedenini göstermek üzere exitOnError = true ile tekrar çağırıp sonlandırıyoruz.
+    load_product_detail_data($lang, $sefUrl, true);
+    exit;
+}
+
+$activeProductName = trim((string) ($productData['urun_adi'] ?? statik('product_detail_product_default', 'Ürün')));
+$activeProductSeries = trim((string) ($productData['seri_adi'] ?? ''));
+$activeProductCode = trim((string) ($productData['urun_kodu'] ?? ''));
+if ($activeProductCode === '') {
+    $activeProductCode = $activeProductName;
+}
 $activeCategoryName = trim((string) ($productData['kat_adi'] ?? ''));
 $activeProductImage = normalize_product_asset_path($productData['kapak_resmi'] ?? '');
 $activeProductModel = resolve_product_model_src($productData);
@@ -77,8 +169,13 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         return;
     }
 
-    $productName = trim((string) ($detailData['urun_adi'] ?? $fallbackData['urun_adi'] ?? 'Ürün'));
+    $productName = trim((string) ($detailData['urun_adi'] ?? $fallbackData['urun_adi'] ?? statik('product_detail_product_default', 'Ürün')));
+    $productCode = trim((string) ($detailData['urun_kodu'] ?? $fallbackData['urun_kodu'] ?? ''));
+    if ($productCode === '') {
+        $productCode = $productName;
+    }
     $productCategory = trim((string) ($detailData['kat_adi'] ?? $fallbackData['kat_adi'] ?? ''));
+    $productSeries = trim((string) ($detailData['seri_adi'] ?? $fallbackData['seri_adi'] ?? ''));
     $productImage = normalize_product_asset_path($detailData['kapak_resmi'] ?? $fallbackData['kapak_resmi'] ?? '');
     $productDetailText = trim(strip_tags(html_entity_decode((string) ($detailData['urun_detay'] ?? $detailData['urun_aciklama'] ?? ''), ENT_QUOTES | ENT_HTML5, 'UTF-8')));
 
@@ -98,14 +195,14 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         $hotspotX = max(0, min(100, $hotspotX - 1));
         $hotspotY = max(0, min(100, $hotspotY));
 
-        $hotspotTitle = trim((string) ($hotspotItem['nokta_basligi'] ?? 'Detay'));
+        $hotspotTitle = trim((string) ($hotspotItem['nokta_basligi'] ?? statik('product_detail_hotspot_default_title_short', 'Detay')));
         $hotspotDescription = trim((string) ($hotspotItem['nokta_aciklama'] ?? ''));
         $hotspotImage = normalize_product_asset_path($hotspotItem['nokta_gorseli'] ?? '', $productImage);
 
         $productHotspots[] = [
             'x' => $hotspotX,
             'y' => $hotspotY,
-            'title' => $hotspotTitle !== '' ? $hotspotTitle : 'Detay',
+            'title' => $hotspotTitle !== '' ? $hotspotTitle : statik('product_detail_hotspot_default_title_short', 'Detay'),
             'description' => $hotspotDescription,
             'image' => $hotspotImage,
         ];
@@ -125,7 +222,7 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         }
 
         $productColors[] = [
-            'name' => $colorName !== '' ? $colorName : 'Renk',
+            'name' => $colorName !== '' ? $colorName : statik('product_detail_color_default', 'Renk'),
             'code' => $colorCode,
         ];
     }
@@ -137,7 +234,7 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         }
 
         $mediaCategory = trim((string) ($mediaItem['um_kategori'] ?? ''));
-        if (!in_array($mediaCategory, ['Dosya', '360'], true)) {
+        if (!in_array($mediaCategory, ['Dosya', '360', '3d', '3D'], true)) {
             continue;
         }
 
@@ -146,7 +243,7 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
             continue;
         }
 
-        $attachmentUrl = normalize_product_asset_path($mediaFile, '');
+        $attachmentUrl = normalize_product_attachment_path($mediaFile);
         if ($attachmentUrl === '') {
             continue;
         }
@@ -155,7 +252,7 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         $extension = strtoupper((string) pathinfo($mediaFile, PATHINFO_EXTENSION));
 
         $productAttachments[] = [
-            'name' => $attachmentTitle !== '' ? $attachmentTitle : (($extension !== '' ? $extension : 'Dosya') . ' Dosyası'),
+            'name' => $attachmentTitle !== '' ? $attachmentTitle : sprintf(statik('product_detail_attachment_file_format', '%s Dosyası'), ($extension !== '' ? $extension : statik('product_detail_attachment_default', 'Dosya'))),
             'url' => $attachmentUrl,
             'category' => $mediaCategory,
             'extension' => $extension,
@@ -169,7 +266,12 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
             continue;
         $mFile = trim((string) ($mItem['um_dosya'] ?? ''));
         if (strtolower(pathinfo($mFile, PATHINFO_EXTENSION)) === 'dxf') {
-            $productDrawingFile = ltrim(str_replace('\\', '/', $mFile), '/');
+            $normalizedDxf = str_replace('\\', '/', $mFile);
+            if (!preg_match('#^https?://#i', $normalizedDxf)) {
+                $productDrawingFile = 'https://v2.umutapp.com/' . ltrim($normalizedDxf, '/');
+            } else {
+                $productDrawingFile = $normalizedDxf;
+            }
             break;
         }
     }
@@ -190,15 +292,15 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         }
 
         $normalizedFeature = [
-            'label' => $featureLabel !== '' ? $featureLabel : 'Özellik',
+            'label' => $featureLabel !== '' ? $featureLabel : statik('product_detail_feature_default', 'Özellik'),
             'value' => $featureValue,
         ];
 
-        if ($featureCategory === 'Genel Özellikler') {
+        if ($featureCategory === 'Genel Özellikler' || $featureCategory === 'General Features') {
             $productGeneralSpecs[] = $normalizedFeature;
         }
 
-        if (stripos($featureCategory, 'Teknik') !== false) {
+        if (stripos($featureCategory, 'Teknik') !== false || stripos($featureCategory, 'Technical') !== false) {
             $productTechnicalSpecs[] = $normalizedFeature;
         }
     }
@@ -218,12 +320,12 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
             continue;
         }
 
-        $similarName = trim((string) ($similarItem['urun_adi'] ?? 'Ürün'));
+        $similarName = trim((string) ($similarItem['urun_adi'] ?? statik('product_detail_product_default', 'Ürün')));
         $similarCategory = trim((string) ($similarItem['kat_adi'] ?? ''));
         $similarImage = normalize_product_asset_path($similarItem['kapak_resmi'] ?? '', $productImage);
 
         $productSimilars[] = [
-            'name' => $similarName !== '' ? $similarName : 'Ürün',
+            'name' => $similarName !== '' ? $similarName : statik('product_detail_product_default', 'Ürün'),
             'sef_url' => $similarSlug,
             'category' => $similarCategory,
             'image' => $similarImage,
@@ -232,8 +334,11 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
 
     $sliderProducts[] = [
         'name' => $productName !== '' ? $productName : 'Ürün',
+        'code' => $productCode !== '' ? $productCode : ($productName !== '' ? $productName : 'Ürün'),
         'sef_url' => $productSlug,
         'category' => $productCategory,
+        'series' => $productSeries,
+        'series_desc' => get_sayfa_aciklamasi($productSeries) ?? '',
         'image' => $productImage,
         'detail' => $productDetailText,
         'model' => resolve_product_model_src($detailData, $fallbackData),
@@ -272,7 +377,8 @@ foreach (($productData['benzerler'] ?? []) as $similarProduct) {
 
 if (empty($sliderProducts)) {
     $sliderProducts[] = [
-        'name' => $activeProductName !== '' ? $activeProductName : 'Ürün',
+        'name' => $activeProductName !== '' ? $activeProductName : statik('product_detail_product_default', 'Ürün'),
+        'code' => $activeProductCode !== '' ? $activeProductCode : ($activeProductName !== '' ? $activeProductName : statik('product_detail_product_default', 'Ürün')),
         'sef_url' => $sefUrl,
         'category' => $activeCategoryName,
         'image' => $activeProductImage,
@@ -291,7 +397,48 @@ if (empty($sliderProducts)) {
 
 $initialHasModel = !empty($sliderProducts[0]['model']);
 
-$pageTitle = $activeProductName !== '' ? $activeProductName : 'Ürün Detay';
+$pageTitle = $activeProductName !== '' ? $activeProductName : statik('product_detail_page_title', 'Ürün Detay');
+
+$productCoverImage = normalize_product_asset_path($productData['kapak_resmi'] ?? '', '');
+if (!empty($productCoverImage)) {
+    $pageImage = $productCoverImage;
+}
+
+$pageCanonical = 'https://umuttasarim.com/' . $lang . '/urun/' . $sefUrl;
+
+// Temiz ve kırpılmış açıklama metni (max 155 karakter)
+$rawDetailText = $productData['urun_detay'] ?? $productData['urun_aciklama'] ?? '';
+$cleanDesc = trim(strip_tags(html_entity_decode((string)$rawDetailText, ENT_QUOTES | ENT_HTML5, 'UTF-8')));
+$pageDescription = mb_substr($cleanDesc, 0, 155, 'UTF-8');
+if (mb_strlen($cleanDesc, 'UTF-8') > 155) {
+    $pageDescription .= '...';
+}
+
+$pageKeywords = implode(', ', array_filter([
+    $activeProductName,
+    $activeProductSeries,
+    $activeProductCode,
+    $activeCategoryName,
+    "oyun parkı",
+    "kent mobilyası",
+    "çocuk oyun grupları"
+]));
+
+// Product Schema (JSON-LD)
+$pageSchema = [
+    "@context" => "https://schema.org",
+    "@type" => "Product",
+    "name" => $activeProductName,
+    "image" => !empty($pageImage) ? ('https://umuttasarim.com/' . ltrim($pageImage, '/')) : '',
+    "description" => $pageDescription,
+    "sku" => $activeProductCode,
+    "mpn" => $activeProductCode,
+    "brand" => [
+        "@type" => "Brand",
+        "name" => "Umut Tasarım"
+    ]
+];
+
 include_once 'inc/header.php';
 
 $sliderProductsJson = json_encode(
@@ -317,14 +464,14 @@ $sliderProductsJson = json_encode(
         height: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         background: #fff;
     }
 
     .specs-badge-container {
         position: absolute;
         top: 30px;
-        left: 30px;
+        left: 40px;
         z-index: 100;
     }
 
@@ -1302,21 +1449,25 @@ $sliderProductsJson = json_encode(
         transition: opacity 0.6s ease;
     }
 
-    .loader-circle {
+    .loader-wrapper {
+        position: relative;
         width: 80px;
         height: 80px;
+        margin-bottom: 25px;
+    }
+
+    .loader-circle {
+        width: 100%;
+        height: 100%;
         border: 4px solid rgba(233, 30, 99, 0.05);
         border-top: 4px solid #e91e63;
         border-right: 4px solid #7b1fa2;
         border-radius: 50%;
         animation: spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-        margin-bottom: 25px;
-        position: relative;
         filter: drop-shadow(0 0 15px rgba(233, 30, 99, 0.2));
     }
 
-    .loader-circle::after {
-        content: "360°";
+    .loader-center-text {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1326,6 +1477,7 @@ $sliderProductsJson = json_encode(
         background: linear-gradient(135deg, #e91e63 0%, #7b1fa2 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        letter-spacing: 0;
     }
 
     @keyframes spin {
@@ -1341,12 +1493,25 @@ $sliderProductsJson = json_encode(
     .loader-text {
         font-size: 0.75rem;
         font-weight: 600;
-        color: #666;
-        letter-spacing: 2px;
+        color: #888;
+        letter-spacing: 3px;
         text-transform: uppercase;
+        animation: pulseText 1.5s ease-in-out infinite;
     }
 
-    model-viewer[ar-status="not-presenting"]>#poster {
+    @keyframes pulseText {
+
+        0%,
+        100% {
+            opacity: 0.6;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+
+    model-viewer[ar-status="presenting"]>#poster {
         display: none;
     }
 
@@ -1357,9 +1522,13 @@ $sliderProductsJson = json_encode(
         right: 0;
         top: 0;
         bottom: 0;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        transition: opacity 0.5s ease;
     }
 
     .three-sixty-logo {
@@ -1489,7 +1658,7 @@ $sliderProductsJson = json_encode(
     /* Slider Styles */
     .variant-slider-container {
         width: 100%;
-        max-width: 1200px;
+        max-width: 100%;
         position: relative;
         height: 600px;
         display: flex;
@@ -1513,9 +1682,15 @@ $sliderProductsJson = json_encode(
         transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
         opacity: 0;
         z-index: 1;
-        filter: blur(10px) brightness(0.9);
+        /* filter: blur(10px) brightness(0.9); */
         transform: scale(0.8);
         pointer-events: none;
+    }
+
+    .variant-slide.prev img,
+    .variant-slide.next img {
+        filter: blur(10px) brightness(0.9);
+
     }
 
     .variant-slide.active {
@@ -1527,7 +1702,7 @@ $sliderProductsJson = json_encode(
     }
 
     .variant-slide.prev {
-        opacity: 0.2;
+        opacity: 0.55;
         z-index: 5;
         transform: scale(0.4) translateX(-80%);
         left: 0;
@@ -1536,7 +1711,7 @@ $sliderProductsJson = json_encode(
     }
 
     .variant-slide.next {
-        opacity: 0.2;
+        opacity: 0.55;
         z-index: 5;
         transform: scale(0.4) translateX(80%);
         right: 0;
@@ -1595,10 +1770,55 @@ $sliderProductsJson = json_encode(
     @media (hover: none),
     (pointer: coarse) {
         .hotspot {
-            opacity: 1;
-            visibility: visible;
+            opacity: 0;
+            visibility: hidden;
             transform: scale(1);
-            pointer-events: auto;
+            pointer-events: none;
+        }
+    }
+    
+    /* Sadece aktif slide'da hotspot göster */
+    .variant-slide.active .hotspot {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+        pointer-events: auto;
+    }
+    
+    /* Mobilde hotspot boyutlarını küçült */
+    @media (max-width: 768px) {
+        .hotspot {
+            width: 14px;
+            height: 14px;
+            border-width: 1.5px;
+        }
+        
+        .hotspot:hover {
+            transform: scale(1.2);
+        }
+        
+        .variant-slide.active .hotspot {
+            transform: scale(1);
+        }
+    }
+    
+    /* Çok küçük ekranlarda daha da küçült */
+    @media (max-width: 576px) {
+        .hotspot {
+            width: 12px;
+            height: 12px;
+            border-width: 1px;
+        }
+        
+        .hotspot:hover {
+            transform: scale(1.1);
+        }
+        
+        .hotspot::after {
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
         }
     }
 
@@ -1618,7 +1838,7 @@ $sliderProductsJson = json_encode(
     .hotspot-card {
         position: absolute;
         top: 30px;
-        right: 30px;
+        right: 40px;
         width: 320px;
         background: #fff;
         border: 1px solid rgba(233, 30, 99, 0.3);
@@ -1669,18 +1889,21 @@ $sliderProductsJson = json_encode(
     /* UI Elements */
     .slider-controls {
         position: absolute;
-        bottom: 0;
+        bottom: clamp(-100px, -6.5vh, -50px);
         left: 0;
         right: 0;
         display: flex;
         align-items: flex-end;
-        justify-content: space-between;
+        justify-content: center;
         padding: 0 40px;
         z-index: 30;
         pointer-events: none;
     }
 
     .variant-info {
+        position: absolute;
+        left: 40px;
+        bottom: 0;
         pointer-events: auto;
     }
 
@@ -1704,28 +1927,21 @@ $sliderProductsJson = json_encode(
         margin: 0;
     }
 
-    .variant-info .nav-arrows {
-        display: flex;
-        gap: 10px;
-    }
-
     .variant-arrow {
         color: #e91e63;
-        opacity: 0.3;
+        opacity: 0.7;
         font-size: 1.5rem;
         cursor: pointer;
-        transition: opacity 0.3s;
+        transition: all 0.3s;
     }
 
-    .variant-arrow.active {
+    .variant-arrow:hover {
         opacity: 1;
+        transform: scale(1.2);
     }
 
     .three-sixty-logo {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        position: relative;
         width: 110px;
         pointer-events: auto;
     }
@@ -1776,6 +1992,7 @@ $sliderProductsJson = json_encode(
             /* Moved up by reducing height */
             overflow: hidden;
             align-items: flex-start;
+            justify-content: center;
             padding-top: 80px;
         }
 
@@ -1927,6 +2144,9 @@ $sliderProductsJson = json_encode(
         }
 
         .variant-info {
+            position: relative;
+            left: auto;
+            bottom: auto;
             max-width: 60%;
         }
 
@@ -2034,12 +2254,14 @@ $sliderProductsJson = json_encode(
             </div>
             <h1 class="sidebar-title">
                 <span
-                    id="sidebar-title-primary"><?php echo htmlspecialchars($activeProductName !== '' ? $activeProductName : 'Ürün', ENT_QUOTES, 'UTF-8'); ?></span><br>
-                <span id="sidebar-title-secondary"><?= statik('product_detail_sidebar_subtitle') ?></span>
+                    id="sidebar-title-primary"><?php echo htmlspecialchars($activeProductSeries !== '' ? $activeProductSeries : statik('product_detail_product_default', 'Ürün'), ENT_QUOTES, 'UTF-8'); ?></span>
             </h1>
         </div>
         <div class="sidebar-footer" id="sidebar-footer-text">
-            <?php echo htmlspecialchars($activeCategoryName !== '' ? $activeCategoryName : statik('product_detail_sidebar_footer_default'), ENT_QUOTES, 'UTF-8'); ?>
+            <?php
+            $seriesDesc = get_sayfa_aciklamasi($activeProductSeries);
+            echo htmlspecialchars($seriesDesc !== null && trim($seriesDesc) !== '' ? $seriesDesc : ($activeCategoryName !== '' ? $activeCategoryName : statik('product_detail_sidebar_footer_default')), ENT_QUOTES, 'UTF-8');
+            ?>
         </div>
     </div>
 
@@ -2067,7 +2289,9 @@ $sliderProductsJson = json_encode(
                         data-spec-type="technical">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-1.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_technical') ?></span><span class="subtitle"><?= statik('product_detail_badge_bottom') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_technical') ?></span><span
+                                class="subtitle"><?= statik('product_detail_badge_bottom') ?></span>
                         </div>
                     </a>
                     <a href="javascript:void()" class="spec-card"
@@ -2075,29 +2299,35 @@ $sliderProductsJson = json_encode(
                         data-spec-type="general">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-2.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_general') ?></span><span class="subtitle"><?= statik('product_detail_badge_bottom') ?></span></div>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_general') ?></span><span
+                                class="subtitle"><?= statik('product_detail_badge_bottom') ?></span></div>
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/3.webp'); background-size: cover; background-position: center;"
                         data-spec-type="drawing">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-3.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_technical') ?></span><span class="subtitle"><?= statik('product_detail_spec_drawing_sub') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_technical') ?></span><span
+                                class="subtitle"><?= statik('product_detail_spec_drawing_sub') ?></span>
                         </div>
                     </a>
-                    <a href="javascript:void()" class="spec-card"
+                    <!-- <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/4.webp'); background-size: cover; background-position: center;">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-4.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span class="title"><?= statik('product_detail_spec_mounting_title') ?></span><span class="subtitle"><?= statik('product_detail_sidebar_subtitle') ?></span>
                         </div>
-                    </a>
+                    </a> -->
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/5.webp'); background-size: cover; background-position: center;"
                         data-spec-type="certificate">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-5.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_certificate_title') ?></span><span class="subtitle"><?= statik('product_detail_spec_certificate_sub') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_certificate_title') ?></span><span
+                                class="subtitle"><?= statik('product_detail_spec_certificate_sub') ?></span>
                         </div>
                     </a>
                     <a href="javascript:void()" class="spec-card"
@@ -2105,7 +2335,9 @@ $sliderProductsJson = json_encode(
                         data-spec-type="offer">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-6.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_offer_title') ?></span><span class="subtitle"><?= statik('product_detail_spec_offer_sub') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_offer_title') ?></span><span
+                                class="subtitle"><?= statik('product_detail_spec_offer_sub') ?></span>
                         </div>
                     </a>
                     <a href="javascript:void()" class="spec-card"
@@ -2113,7 +2345,9 @@ $sliderProductsJson = json_encode(
                         data-spec-type="attachments">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-7.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_attachments_title') ?></span><span class="subtitle"><?= statik('product_detail_spec_attachments_sub') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_attachments_title') ?></span><span
+                                class="subtitle"><?= statik('product_detail_spec_attachments_sub') ?></span>
                         </div>
                     </a>
                     <a href="javascript:void()" class="spec-card"
@@ -2121,7 +2355,9 @@ $sliderProductsJson = json_encode(
                         data-spec-type="colors">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-8.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_colors_title') ?></span><span class="subtitle"><?= statik('product_detail_spec_colors_sub') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_colors_title') ?></span><span
+                                class="subtitle"><?= statik('product_detail_spec_colors_sub') ?></span>
                         </div>
                     </a>
                     <a href="javascript:void()" class="spec-card"
@@ -2129,7 +2365,9 @@ $sliderProductsJson = json_encode(
                         data-spec-type="similars">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-9.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
-                        <div class="card-text"><span class="title"><?= statik('product_detail_spec_similars_title') ?></span><span class="subtitle"><?= statik('product_detail_spec_similars_sub') ?></span>
+                        <div class="card-text"><span
+                                class="title"><?= statik('product_detail_spec_similars_title') ?></span><span
+                                class="subtitle"><?= statik('product_detail_spec_similars_sub') ?></span>
                         </div>
                     </a>
                 </div>
@@ -2145,16 +2383,21 @@ $sliderProductsJson = json_encode(
                             <div class="cert-overlay-icon" id="cert-overlay-icon"><i class="bi bi-patch-check-fill"></i>
                             </div>
                             <img src="<?php echo htmlspecialchars($activeProductImage, ENT_QUOTES, 'UTF-8'); ?>"
-                                alt="Teknik Çizim" id="modal-spec-image">
+                                alt="<?= statik('product_detail_spec_drawing', 'Teknik Çizim') ?>"
+                                id="modal-spec-image">
                         </div>
                         <div class="modal-info-col">
                             <h2 id="modal-spec-title"><?= statik('product_detail_modal_dimensions') ?></h2>
                             <ul class="dim-list" id="spec-dim-list">
-                                <li class="dim-item"><?= statik('product_detail_dim_length') ?> <span class="dim-value" id="dim-length">493 cm</span></li>
-                                <li class="dim-item"><?= statik('product_detail_dim_width') ?> <span class="dim-value" id="dim-width">200 cm</span></li>
-                                <li class="dim-item"><?= statik('product_detail_dim_height') ?> <span class="dim-value" id="dim-height">304 cm</span>
+                                <li class="dim-item"><?= statik('product_detail_dim_length') ?> <span class="dim-value"
+                                        id="dim-length">493 cm</span></li>
+                                <li class="dim-item"><?= statik('product_detail_dim_width') ?> <span class="dim-value"
+                                        id="dim-width">200 cm</span></li>
+                                <li class="dim-item"><?= statik('product_detail_dim_height') ?> <span class="dim-value"
+                                        id="dim-height">304 cm</span>
                                 </li>
-                                <li class="dim-item"><?= statik('product_detail_dim_fall_l') ?> <span class="dim-value" id="dim-fall-l">736
+                                <li class="dim-item"><?= statik('product_detail_dim_fall_l') ?> <span class="dim-value"
+                                        id="dim-fall-l">736
                                         cm</span>
                                 </li>
                                 <li class="dim-item"><?= statik('product_detail_dim_fall_w') ?> <span class="dim-value"
@@ -2175,24 +2418,22 @@ $sliderProductsJson = json_encode(
             <div class="hotspot-card" id="hotspot-card">
                 <div class="card-thumb">
                     <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=500" id="card-image"
-                        alt="Detay">
+                        alt="<?= statik('product_detail_hotspot_image_alt', 'Detay') ?>">
                 </div>
                 <div class="card-content">
-                    <h3 class="card-title" id="card-title">Metal parçalar ST 37 çelikten üretilir ve 3 aşamalı boya
-                        işleminden geçer.</h3>
-                    <p class="card-desc" id="card-desc">Kumlama, solvent içermeyen çinko astar ve elektrostatik toz
-                        boya uygulamaları zorlu hava koşullarına karşı dayanıklıdır.</p>
+                    <h3 class="card-title" id="card-title"><?= statik('product_detail_hotspot_default_title') ?></h3>
+                    <p class="card-desc" id="card-desc"><?= statik('product_detail_hotspot_default_desc') ?></p>
                 </div>
             </div>
 
             <div class="variant-slider-container">
                 <!-- Navigation Arrows -->
                 <div class="main-slider-arrow prev-btn" id="prev-btn">
-                    <img src="assets/img/left-arrow.png" alt="Önceki"
+                    <img src="assets/img/left-arrow.png" alt="<?= statik('product_detail_prev', 'Önceki') ?>"
                         onerror="this.src='https://cdn-icons-png.flaticon.com/512/271/271220.png'">
                 </div>
                 <div class="main-slider-arrow next-btn" id="next-btn">
-                    <img src="assets/img/right-arrow.png" alt="Sonraki"
+                    <img src="assets/img/right-arrow.png" alt="<?= statik('product_detail_next', 'Sonraki') ?>"
                         onerror="this.src='https://cdn-icons-png.flaticon.com/512/271/271228.png'">
                 </div>
 
@@ -2229,67 +2470,77 @@ $sliderProductsJson = json_encode(
 
                 <div class="slider-controls">
                     <div class="variant-info">
-                        <div class="info-top">Varyantlar</div>
+                        <div class="info-top"><?= statik('product_detail_variants') ?></div>
                         <div class="info-bottom">
+                            <i class="bi bi-caret-left-fill variant-arrow" id="variant-prev"></i>
                             <h2 id="variant-name">
-                                <?php echo htmlspecialchars($sliderProducts[0]['name'] ?? $activeProductName, ENT_QUOTES, 'UTF-8'); ?>
+                                <?php echo htmlspecialchars($sliderProducts[0]['code'] ?? $activeProductCode ?? $activeProductName, ENT_QUOTES, 'UTF-8'); ?>
                             </h2>
-                            <div class="nav-arrows">
-                                <i class="bi bi-caret-left-fill variant-arrow active"></i>
-                                <i class="bi bi-caret-right-fill variant-arrow"></i>
-                                <i class="bi bi-caret-right-fill variant-arrow" style="opacity: 0.1;"></i>
-                            </div>
+                            <i class="bi bi-caret-right-fill variant-arrow" id="variant-next"></i>
+                            <i class="bi bi-caret-right-fill variant-arrow"
+                                style="opacity: 0.25; pointer-events: none; margin-left: -8px;"></i>
                         </div>
                     </div>
 
                     <div class="three-sixty-logo" <?php echo $initialHasModel ? '' : ' style="display:none;"'; ?>>
-                        <img src="assets/img/360.png" alt="360 Görünüm"
+                        <img src="assets/img/360.png" alt="<?= statik('product_detail_360_view', '360 Görünüm') ?>"
                             onerror="this.src='https://cdn-icons-png.flaticon.com/512/3597/3597023.png'">
                     </div>
                 </div>
             </div>
 
-            <!-- DXF / DWG Drawing Modal -->
-            <div class="dxf-drawing-modal" id="dxf-drawing-modal">
-                <div class="dxf-drawing-overlay" id="dxf-drawing-overlay"></div>
-                <div class="dxf-drawing-container">
-                    <button class="dxf-drawing-close" id="dxf-drawing-close">
-                        <i class="bi bi-x-lg"></i>
-                    </button>
-                    <div class="dxf-drawing-no-file" id="dxf-drawing-no-file" style="display:none">
-                        <i class="bi bi-pencil-ruler"></i>
-                        <p>Bu ürün için teknik çizim dosyası henüz yüklenmemiştir.</p>
-                        <p>Teknik çizime ulaşmak için lütfen <a href="/iletisim.php">iletişime geçiniz</a>.</p>
-                    </div>
-                    <iframe id="dxf-drawing-iframe" src="" frameborder="0" allowfullscreen
-                        style="display:none"></iframe>
-                </div>
-            </div>
-
-            <!-- 3D Viewer Modal -->
-            <div class="viewer-modal" id="viewer-modal">
-                <div class="viewer-modal-overlay" onclick="closeViewerModal()"></div>
-                <div class="viewer-modal-container">
-                    <button class="viewer-close" onclick="closeViewerModal()">
-                        <i class="bi bi-x-lg"></i>
-                    </button>
-                    <!-- Google Model Viewer component -->
-                    <model-viewer id="product-3d"
-                        src="<?php echo htmlspecialchars($activeProductModel, ENT_QUOTES, 'UTF-8'); ?>"
-                        alt="3D Ürün Modeli" auto-rotate camera-controls ar shadow-intensity="1" loading="eager"
-                        reveal="auto">
-
-                        <div slot="poster" id="poster">
-                            <div class="viewer-loader">
-                                <div class="loader-circle"></div>
-                                <div class="loader-text">Deneyim Yükleniyor</div>
-                            </div>
-                        </div>
-                    </model-viewer>
-                </div>
-            </div>
         </section>
 
+    </div>
+
+    <!-- DXF / DWG Drawing Modal -->
+    <div class="dxf-drawing-modal" id="dxf-drawing-modal">
+        <div class="dxf-drawing-overlay" id="dxf-drawing-overlay"></div>
+        <div class="dxf-drawing-container">
+            <button class="dxf-drawing-close" id="dxf-drawing-close">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <div class="dxf-drawing-no-file" id="dxf-drawing-no-file" style="display:none">
+                <i class="bi bi-pencil-ruler"></i>
+                <p><?= statik('product_detail_no_drawing') ?></p>
+                <p><?= statik('product_detail_drawing_contact') ?> <a
+                        href="<?= lang_url('/iletisim') ?>"><?= statik('product_detail_drawing_contact_link') ?></a>.</p>
+            </div>
+            <iframe id="dxf-drawing-iframe" src="" frameborder="0" allowfullscreen style="display:none"></iframe>
+        </div>
+    </div>
+
+    <!-- 3D Viewer Modal -->
+    <div class="viewer-modal" id="viewer-modal">
+        <div class="viewer-modal-overlay" onclick="closeViewerModal()"></div>
+        <div class="viewer-modal-container">
+            <button class="viewer-close" onclick="closeViewerModal()">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <!-- Google Model Viewer component -->
+            <model-viewer id="product-3d" src="<?php
+            $modelUrl = $activeProductModel;
+            if ($modelUrl !== '') {
+                $ext = strtolower(pathinfo($modelUrl, PATHINFO_EXTENSION));
+                if (in_array($ext, ['glb', 'dwg', 'dxf'], true) && !preg_match('#^https?://#i', $modelUrl)) {
+                    $modelUrl = 'https://v2.umutapp.com/' . ltrim($modelUrl, '/');
+                }
+            }
+            echo htmlspecialchars($modelUrl, ENT_QUOTES, 'UTF-8');
+            ?>" alt="<?= statik('product_detail_3d_model_alt', '3D Ürün Modeli') ?>" auto-rotate camera-controls ar
+                shadow-intensity="1" loading="eager" reveal="auto">
+
+                <div slot="poster" id="poster">
+                    <div class="viewer-loader">
+                        <div class="loader-wrapper">
+                            <div class="loader-circle"></div>
+                            <span class="loader-center-text">360°</span>
+                        </div>
+                        <div class="loader-text"><?= statik('product_detail_experience_loading') ?></div>
+                    </div>
+                </div>
+            </model-viewer>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
@@ -2317,7 +2568,26 @@ $sliderProductsJson = json_encode(
                 no_certificate: "<?= statik('product_detail_no_certificate') ?>",
                 error_certificate: "<?= statik('product_detail_error_certificate') ?>",
                 sidebar_footer_default: "<?= statik('product_detail_sidebar_footer_default') ?>",
-                offer_head: "<?= statik('product_detail_offer_form_title') ?>"
+                offer_head: "<?= statik('product_detail_offer_form_title') ?>",
+                no_certificate_content: "<?= statik('product_detail_no_certificate_content') ?>",
+                no_specs: "<?= statik('product_detail_no_specs') ?>",
+                offer_success: "<?= statik('product_detail_offer_success') ?>",
+                offer_label_name: "<?= statik('product_detail_offer_label_name') ?>",
+                offer_placeholder_name: "<?= statik('product_detail_offer_placeholder_name') ?>",
+                offer_label_surname: "<?= statik('product_detail_offer_label_surname') ?>",
+                offer_placeholder_surname: "<?= statik('product_detail_offer_placeholder_surname') ?>",
+                offer_label_company: "<?= statik('product_detail_offer_label_company') ?>",
+                offer_placeholder_company: "<?= statik('product_detail_offer_placeholder_company') ?>",
+                offer_label_email: "<?= statik('product_detail_offer_label_email') ?>",
+                offer_placeholder_email: "<?= statik('product_detail_offer_placeholder_email') ?>",
+                offer_label_phone: "<?= statik('product_detail_offer_label_phone') ?>",
+                offer_placeholder_phone: "<?= statik('product_detail_offer_placeholder_phone') ?>",
+                offer_label_message: "<?= statik('product_detail_offer_label_message') ?>",
+                offer_placeholder_message: "<?= statik('product_detail_offer_placeholder_message') ?>",
+                color_default: "<?= statik('product_detail_color_default') ?>",
+                attachment_default: "<?= statik('product_detail_attachment_default') ?>",
+                product_default: "<?= statik('product_detail_product_default') ?>",
+                feature_default: "<?= statik('product_detail_feature_default') ?>"
             };
 
             const sliderProducts = <?php echo $sliderProductsJson; ?>;
@@ -2325,6 +2595,8 @@ $sliderProductsJson = json_encode(
             const variantName = document.getElementById('variant-name');
             const prevBtn = document.getElementById('prev-btn');
             const nextBtn = document.getElementById('next-btn');
+            const variantPrev = document.getElementById('variant-prev');
+            const variantNext = document.getElementById('variant-next');
             const card = document.getElementById('hotspot-card');
             const cardImg = document.getElementById('card-image');
             const cardTitle = document.getElementById('card-title');
@@ -2361,14 +2633,14 @@ $sliderProductsJson = json_encode(
                     return;
                 }
 
-                variantName.textContent = activeProduct.name || '';
+                variantName.textContent = activeProduct.code || '';
 
                 if (sidebarTitlePrimary) {
-                    sidebarTitlePrimary.textContent = activeProduct.name || 'Ürün';
+                    // sidebarTitlePrimary.textContent = activeProduct.name || 'Ürün';
                 }
 
                 if (sidebarFooterText) {
-                    sidebarFooterText.textContent = activeProduct.category || translations.sidebar_footer_default;
+                    sidebarFooterText.textContent = activeProduct.series_desc || activeProduct.category || translations.sidebar_footer_default;
                 }
 
                 if (modalSpecImage && activeProduct.image) {
@@ -2383,7 +2655,13 @@ $sliderProductsJson = json_encode(
 
                 if (productModel) {
                     if (hasModel) {
-                        productModel.setAttribute('src', activeProduct.model);
+                        let modelSrc = activeProduct.model;
+                        if (modelSrc && (modelSrc.toLowerCase().endsWith('.glb') || modelSrc.toLowerCase().endsWith('.dwg') || modelSrc.toLowerCase().endsWith('.dxf'))) {
+                            if (!modelSrc.startsWith('http://') && !modelSrc.startsWith('https://')) {
+                                modelSrc = 'https://v2.umutapp.com/' + modelSrc.replace(/^\/+/, '');
+                            }
+                        }
+                        productModel.setAttribute('src', modelSrc);
                     } else {
                         productModel.removeAttribute('src');
                     }
@@ -2420,6 +2698,23 @@ $sliderProductsJson = json_encode(
 
                 card.classList.remove('active');
                 syncActiveProduct();
+                
+                // Tüm hotspotları gizle, sadece aktif slide'dakileri göster
+                document.querySelectorAll('.hotspot').forEach(hotspot => {
+                    hotspot.style.opacity = '0';
+                    hotspot.style.visibility = 'hidden';
+                    hotspot.style.pointerEvents = 'none';
+                });
+                
+                // Aktif slide'daki hotspotları göster
+                const activeSlide = document.querySelector('.variant-slide.active');
+                if (activeSlide) {
+                    activeSlide.querySelectorAll('.hotspot').forEach(hotspot => {
+                        hotspot.style.opacity = '1';
+                        hotspot.style.visibility = 'visible';
+                        hotspot.style.pointerEvents = 'auto';
+                    });
+                }
             };
 
             const escapeHtml = (value) => {
@@ -2525,7 +2820,7 @@ $sliderProductsJson = json_encode(
                             ${colors.map((color, index) => `
                                 <div class="color-sphere-item"
                                      style="background-color: ${escapeHtml(color.code || '#ccc')}"
-                                     data-name="${escapeHtml(color.name || 'Renk')}"
+                                     data-name="${escapeHtml(color.name || translations.color_default)}"
                                      data-code="${escapeHtml(color.code || '')}"
                                      data-index="${index}">
                                 </div>
@@ -2581,32 +2876,56 @@ $sliderProductsJson = json_encode(
                     if (extension === 'dwg') {
                         iconClass = 'bi-badge-tm';
                         visualClass = 'file-dwg';
-                    } else if (extension === 'glb' || category === '360') {
+                    } else if (extension === 'glb' || category === '360' || category === '3d' || category === '3d model' || category === 'model') {
                         iconClass = 'bi-badge-3d';
-                        visualClass = extension === 'glb' || category === '360' ? 'file-glb' : 'file-360';
+                        visualClass = 'file-glb';
                     } else if (extension === 'pdf') {
                         iconClass = 'bi-file-earmark-pdf';
                         visualClass = 'file-pdf';
                     }
 
-                    const isDwg = extension === 'dwg';
-                    const linkUrl = isDwg ? `dwg-viewer/index.php?file=${encodeURIComponent(attachment.url || '')}` : escapeHtml(attachment.url || '#');
-                    const linkTarget = isDwg ? 'target="_blank"' : '';
-                    const linkDownload = isDwg ? '' : 'download';
-                    const actionIcon = isDwg ? 'bi-eye-fill' : 'bi-download';
-                    const actionText = isDwg ? translations.view_file : translations.download_file;
+                    const isViewerFile = ['dwg', 'dxf'].includes(extension);
+                    const isGlb = extension === 'glb' || category === '360' || category === '3d' || category === '3d model' || category === 'model';
+                    let attachmentUrl = attachment.url || '';
+                    if (attachmentUrl && (attachmentUrl.toLowerCase().endsWith('.glb') || attachmentUrl.toLowerCase().endsWith('.dwg') || attachmentUrl.toLowerCase().endsWith('.dxf'))) {
+                        if (!attachmentUrl.startsWith('http://') && !attachmentUrl.startsWith('https://')) {
+                            attachmentUrl = 'https://v2.umutapp.com/' + attachmentUrl.replace(/^\/+/, '');
+                        }
+                    }
+
+                    let linkUrl = '#';
+                    let linkTarget = '';
+                    let linkDownload = '';
+                    let actionIcon = 'bi-download';
+                    let actionText = translations.download_file;
+                    let extraClass = '';
+
+                    if (isViewerFile) {
+                        linkUrl = `dwg-viewer/viewer.php?file=${encodeURIComponent(attachmentUrl)}`;
+                        linkTarget = 'target="_blank"';
+                        actionIcon = 'bi-eye-fill';
+                        actionText = translations.view_file;
+                    } else if (isGlb) {
+                        linkUrl = 'javascript:void(0)';
+                        actionIcon = 'bi-eye-fill';
+                        actionText = translations.view_file;
+                        extraClass = 'trigger-3d-viewer';
+                    } else {
+                        linkUrl = escapeHtml(attachmentUrl || '#');
+                        linkDownload = 'download';
+                    }
 
                     return `
                             <li class="attachment-item">
-                                <a class="attachment-link" href="${linkUrl}" ${linkTarget} ${linkDownload}>
+                                <a class="attachment-link ${extraClass}" href="${linkUrl}" ${linkTarget} ${linkDownload} data-model-url="${escapeHtml(attachmentUrl)}">
                                     <div class="attachment-visual ${escapeHtml(visualClass)}">
                                         <i class="bi ${escapeHtml(iconClass)}"></i>
                                     </div>
                                     <div class="attachment-meta">
-                                        <div class="attachment-name">${escapeHtml(attachment.name || 'Dosya')}</div>
+                                        <div class="attachment-name">${escapeHtml(attachment.name || translations.attachment_default)}</div>
                                         <div class="attachment-subtitle">
-                                            <span class="attachment-badge">${escapeHtml(attachment.category || 'Dosya')}</span>
-                                            <span>${escapeHtml(attachment.extension ? attachment.extension : 'DOSYA')}</span>
+                                            <span class="attachment-badge">${escapeHtml(attachment.category || translations.attachment_default)}</span>
+                                            <span>${escapeHtml(attachment.extension ? attachment.extension : translations.attachment_default.toUpperCase())}</span>
                                         </div>
                                     </div>
                                     <span class="attachment-action"><i class="bi ${actionIcon}"></i> ${actionText}</span>
@@ -2644,9 +2963,9 @@ $sliderProductsJson = json_encode(
                         ${similars.map((item) => `
                             <li class="similar-item">
                                 <button class="similar-link" type="button" data-similar-slug="${escapeHtml(item.sef_url || '')}">
-                                    <span class="similar-thumb"><img src="${escapeHtml(item.image || '')}" alt="${escapeHtml(item.name || 'Ürün')}"></span>
+                                    <span class="similar-thumb"><img src="${escapeHtml(item.image || '')}" alt="${escapeHtml(item.name || translations.product_default)}"></span>
                                     <span class="similar-meta">
-                                        <span class="similar-name">${escapeHtml(item.name || 'Ürün')}</span>
+                                        <span class="similar-name">${escapeHtml(item.name || translations.product_default)}</span>
                                         <span class="similar-category">${escapeHtml(item.category || '')}</span>
                                     </span>
                                     <span class="similar-action">${translations.view_file}</span>
@@ -2674,28 +2993,28 @@ $sliderProductsJson = json_encode(
                         <div class="offer-head"><i class="bi bi-stars"></i><span>${translations.offer_head}</span></div>
                         <div class="offer-form-grid">
                             <div class="offer-field">
-                                <label for="offer-name">Ad</label>
-                                <input id="offer-name" name="ad" type="text" autocomplete="given-name" placeholder="Adınız" required>
+                                <label for="offer-name">${translations.offer_label_name}</label>
+                                <input id="offer-name" name="ad" type="text" autocomplete="given-name" placeholder="${translations.offer_placeholder_name}" required>
                             </div>
                             <div class="offer-field">
-                                <label for="offer-surname">Soyad</label>
-                                <input id="offer-surname" name="soyad" type="text" autocomplete="family-name" placeholder="Soyadınız" required>
+                                <label for="offer-surname">${translations.offer_label_surname}</label>
+                                <input id="offer-surname" name="soyad" type="text" autocomplete="family-name" placeholder="${translations.offer_placeholder_surname}" required>
                             </div>
                             <div class="offer-field offer-field--full">
-                                <label for="offer-company">Firma</label>
-                                <input id="offer-company" name="firma" type="text" autocomplete="organization" placeholder="Firma adı">
+                                <label for="offer-company">${translations.offer_label_company}</label>
+                                <input id="offer-company" name="firma" type="text" autocomplete="organization" placeholder="${translations.offer_placeholder_company}">
                             </div>
                             <div class="offer-field">
-                                <label for="offer-email">Mail</label>
-                                <input id="offer-email" name="mail" type="email" autocomplete="email" placeholder="ornek@mail.com" required>
+                                <label for="offer-email">${translations.offer_label_email}</label>
+                                <input id="offer-email" name="mail" type="email" autocomplete="email" placeholder="${translations.offer_placeholder_email}" required>
                             </div>
                             <div class="offer-field">
-                                <label for="offer-phone">Telefon</label>
-                                <input id="offer-phone" name="telefon" type="tel" autocomplete="tel" placeholder="05xx xxx xx xx" required>
+                                <label for="offer-phone">${translations.offer_label_phone}</label>
+                                <input id="offer-phone" name="telefon" type="tel" autocomplete="tel" placeholder="${translations.offer_placeholder_phone}" required>
                             </div>
                             <div class="offer-field offer-field--full">
-                                <label for="offer-message">Mesaj</label>
-                                <textarea id="offer-message" name="mesaj" rows="4" placeholder="Talebinizi kısaca yazın" required></textarea>
+                                <label for="offer-message">${translations.offer_label_message}</label>
+                                <textarea id="offer-message" name="mesaj" rows="4" placeholder="${translations.offer_placeholder_message}" required></textarea>
                             </div>
                         </div>
                         <button type="submit" class="offer-submit"><i class="bi bi-send-fill"></i> ${translations.offer_submit}</button>
@@ -2737,7 +3056,7 @@ $sliderProductsJson = json_encode(
                         const certData = await response.json();
                         certificateOptionsPanel.innerHTML = `
                             <div class="certificate-content">
-                                ${certData.icerik || '<p>Sertifika içeriği bulunamadı.</p>'}
+                                ${certData.icerik || `<p>${translations.no_certificate_content}</p>`}
                             </div>
                         `;
                     } else {
@@ -2781,12 +3100,12 @@ $sliderProductsJson = json_encode(
                 specDimList.style.display = '';
 
                 if (!specs.length) {
-                    specDimList.innerHTML = '<li class="dim-item">Bu kategori için özellik bulunmuyor.<span class="dim-value">-</span></li>';
+                    specDimList.innerHTML = `<li class="dim-item">${translations.no_specs}<span class="dim-value">-</span></li>`;
                     return;
                 }
 
                 specDimList.innerHTML = specs.map((item) => {
-                    return `<li class="dim-item">${escapeHtml(item.label || 'Özellik')}<span class="dim-value">${escapeHtml(item.value || '-')}</span></li>`;
+                    return `<li class="dim-item">${escapeHtml(item.label || translations.feature_default)}<span class="dim-value">${escapeHtml(item.value || '-')}</span></li>`;
                 }).join('');
             };
 
@@ -2800,6 +3119,20 @@ $sliderProductsJson = json_encode(
                 updateSlider();
             });
 
+            if (variantNext) {
+                variantNext.addEventListener('click', () => {
+                    currentIndex = (currentIndex + 1) % slides.length;
+                    updateSlider();
+                });
+            }
+
+            if (variantPrev) {
+                variantPrev.addEventListener('click', () => {
+                    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                    updateSlider();
+                });
+            }
+
             // Arkaplandaki görsellere tıklama özelliği
             slides.forEach((slide, index) => {
                 slide.addEventListener('click', () => {
@@ -2811,20 +3144,105 @@ $sliderProductsJson = json_encode(
             });
 
             // Hotspot Interactions
+            let hideTimeout = null;
+
+            const hideHotspot = () => {
+                card.classList.remove('active');
+            };
+
             document.querySelectorAll('.hotspot').forEach(hotspot => {
                 const showHotspot = () => {
+                    clearTimeout(hideTimeout);
                     cardTitle.textContent = hotspot.getAttribute('data-title');
                     cardDesc.textContent = hotspot.getAttribute('data-desc');
                     cardImg.src = hotspot.getAttribute('data-img');
+
+                    const wasActive = card.classList.contains('active');
+
+                    if (window.innerWidth > 576) {
+                        const section = document.querySelector('.materials-section');
+                        if (section) {
+                            const sectionRect = section.getBoundingClientRect();
+                            const hotspotRect = hotspot.getBoundingClientRect();
+                            const cardWidth = 320; // matching CSS width
+                            const spacing = 15;
+
+                            // Calculate position relative to the relative-parent section
+                            const hotspotLeft = hotspotRect.left - sectionRect.left;
+                            const hotspotTop = hotspotRect.top - sectionRect.top;
+                            const hotspotWidth = hotspotRect.width;
+                            const hotspotHeight = hotspotRect.height;
+
+                            // Determine horizontal alignment based on available space
+                            let leftPos;
+                            if (hotspotLeft > sectionRect.width / 2) {
+                                // Hotspot is on the right side, show card on its left
+                                leftPos = hotspotLeft - cardWidth - spacing;
+                            } else {
+                                // Hotspot is on the left side, show card on its right
+                                leftPos = hotspotLeft + hotspotWidth + spacing;
+                            }
+
+                            // Keep card within horizontal bounds of the section
+                            leftPos = Math.max(10, Math.min(leftPos, sectionRect.width - cardWidth - 10));
+
+                            // Get card height dynamically to align center
+                            const cardHeight = card.offsetHeight || 340;
+                            let topPos = hotspotTop + (hotspotHeight / 2) - (cardHeight / 2);
+
+                            // Keep card within vertical bounds of the section
+                            topPos = Math.max(10, Math.min(topPos, sectionRect.height - cardHeight - 10));
+
+                            if (!wasActive) {
+                                card.style.transition = 'none';
+                            }
+
+                            card.style.top = `${topPos}px`;
+                            card.style.left = `${leftPos}px`;
+                            card.style.right = 'auto';
+                            card.style.bottom = 'auto';
+
+                            if (!wasActive) {
+                                card.offsetHeight; // Force reflow
+                                card.style.transition = '';
+                            }
+                        }
+                    } else {
+                        // Reset inline styles for mobile to let media queries handle layout
+                        card.style.top = '';
+                        card.style.left = '';
+                        card.style.right = '';
+                        card.style.bottom = '';
+                    }
+
                     card.classList.add('active');
                 };
 
                 hotspot.addEventListener('mouseenter', showHotspot);
+
+                hotspot.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 576) {
+                        hideTimeout = setTimeout(hideHotspot, 300);
+                    }
+                });
+
                 hotspot.addEventListener('click', (e) => {
                     e.stopPropagation();
                     showHotspot();
                 });
             });
+
+            // Card mouse interactions to keep it open when hovered
+            if (card) {
+                card.addEventListener('mouseenter', () => {
+                    clearTimeout(hideTimeout);
+                });
+                card.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 576) {
+                        hideTimeout = setTimeout(hideHotspot, 300);
+                    }
+                });
+            }
 
             // Close card and modals on slider change or background click
             document.addEventListener('click', (e) => {
@@ -2863,7 +3281,13 @@ $sliderProductsJson = json_encode(
 
             const openDxfDrawingModal = (fileUrl) => {
                 if (fileUrl) {
-                    dxfDrawingIframe.src = `/dwg-viewer/viewer.php?file=${encodeURIComponent(fileUrl)}`;
+                    let rawUrl = fileUrl;
+                    if (rawUrl && (rawUrl.toLowerCase().endsWith('.glb') || rawUrl.toLowerCase().endsWith('.dwg') || rawUrl.toLowerCase().endsWith('.dxf'))) {
+                        if (!rawUrl.startsWith('http://') && !rawUrl.startsWith('https://')) {
+                            rawUrl = 'https://v2.umutapp.com/' + rawUrl.replace(/^\/+/, '');
+                        }
+                    }
+                    dxfDrawingIframe.src = `/dwg-viewer/viewer.php?file=${encodeURIComponent(rawUrl)}`;
                     dxfDrawingIframe.style.display = 'block';
                     dxfDrawingNoFile.style.display = 'none';
                 } else {
@@ -2973,6 +3397,26 @@ $sliderProductsJson = json_encode(
                 });
             }
 
+            if (attachmentOptionsPanel) {
+                attachmentOptionsPanel.addEventListener('click', (e) => {
+                    const trigger = e.target.closest('.trigger-3d-viewer');
+                    if (trigger) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const modelUrl = trigger.getAttribute('data-model-url');
+                        const pModel = document.getElementById('product-3d');
+                        const vModal = document.getElementById('viewer-modal');
+                        if (modelUrl && pModel) {
+                            pModel.setAttribute('src', modelUrl);
+                            if (vModal) {
+                                window.closeSpecsModal();
+                                vModal.classList.add('active');
+                            }
+                        }
+                    }
+                });
+            }
+
             document.addEventListener('submit', (e) => {
                 const offerForm = e.target.closest('#offer-form-panel');
                 if (!offerForm) {
@@ -2989,7 +3433,7 @@ $sliderProductsJson = json_encode(
                     return;
                 }
 
-                offerOptionsPanel.innerHTML = '<p class="offer-note">Talebiniz alındı. En kısa sürede size dönüş yapacağız.</p>';
+                offerOptionsPanel.innerHTML = `<p class="offer-note">${translations.offer_success}</p>`;
             });
 
             // 360 Viewer Logic
@@ -3004,6 +3448,11 @@ $sliderProductsJson = json_encode(
             }
 
             syncActiveProduct();
+            
+            // Başlangıçta hotspotları doğru şekilde ayarla
+            setTimeout(() => {
+                updateSlider();
+            }, 100);
         });
     </script>
 </body>

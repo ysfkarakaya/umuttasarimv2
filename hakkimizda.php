@@ -21,11 +21,19 @@ include_once 'inc/header.php';
         z-index: 2;
     }
 
+    .main-content {
+        animation: none !important;
+    }
+
+    .custom-nav {
+        z-index: 1020 !important;
+    }
+
     .sidebar-child {
         display: none;
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         .sidebar {
             overflow: visible !important;
         }
@@ -45,14 +53,7 @@ include_once 'inc/header.php';
         }
     }
 
-    @media (max-width: 1200px) and (min-width: 992px) {
-        .sidebar-child {
-            height: 75vh;
-            transform: translateX(-90px);
-        }
-    }
-
-    @media (max-width: 1400px) and (min-width: 992px) {
+    @media (max-width: 1400px) and (min-width: 1200px) {
         .sidebar-child {
             height: 80vh;
             transform: translateX(-20%);
@@ -68,6 +69,7 @@ include_once 'inc/header.php';
         flex-direction: column;
         overflow: hidden;
         background: radial-gradient(circle at 50% 50%, #fdfdfd 0%, #f4f7f6 100%);
+        animation: mainContentFadeIn 1s ease-out forwards;
     }
 
     .about-introduction {
@@ -102,6 +104,7 @@ include_once 'inc/header.php';
     }
 
     .about-card {
+        container-type: inline-size;
         position: relative;
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -125,20 +128,20 @@ include_once 'inc/header.php';
 
     .about-card h4 {
         font-weight: 700;
-        font-size: 0.9rem;
-        margin-bottom: 5px;
+        font-size: clamp(12px, 4.5cqw, 40px);
+        margin-bottom: 2cqw;
     }
 
     .about-card p,
     .about-card ul {
-        font-size: 10px;
-        color: #444;
-        line-height: 1.3;
-        margin-bottom: 4px;
+        font-size: clamp(9.5px, 2.9cqw, 30px);
+        color: #445;
+        line-height: 1.35;
+        margin-bottom: 1.5cqw;
     }
 
     .about-card ul {
-        padding-left: 20px;
+        padding-left: 4.5cqw;
         list-style-type: disc;
     }
 
@@ -146,70 +149,108 @@ include_once 'inc/header.php';
     /* Change these values to move text around inside each texture */
 
     .vision-content {
-        padding-top: 38%;
-        padding-left: 40px;
-        padding-right: 5%;
+        padding-top: 55cqw;
+        padding-left: 12.5cqw;
+        padding-right: 5cqw;
         /* Pushes text to the left side of the texture */
         text-align: left;
     }
 
+    .vision-content h4 {
+        font-size: clamp(14px, 5.2cqw, 44px);
+    }
+
+    .vision-content p {
+        font-size: clamp(11px, 3.4cqw, 34px);
+        line-height: 1.4;
+    }
+
     .expertise-content {
-        padding-top: 120px;
-        padding-left: 30px;
-        padding-right: 40%;
+        padding-top: 31.5cqw;
+        padding-left: 8cqw;
+        padding-right: 40cqw;
         text-align: left;
     }
 
     .approach-content {
-        padding-top: 50px;
-        padding-left: 20px;
-        padding-right: 40%;
+        padding-top: 16cqw;
+        padding-left: 5cqw;
+        padding-right: 44cqw;
         text-align: left;
-        font-size: 10px;
+    }
+
+    .approach-content h4 {
+        font-size: clamp(11px, 4cqw, 35px);
+        margin-bottom: 1cqw;
+    }
+
+    .approach-content p,
+    .approach-content ul {
+        font-size: clamp(8.5px, 2.5cqw, 25px);
+        line-height: 1.25;
+        margin-bottom: 1cqw;
     }
 
     .commitment-content {
-        padding-top: 20px;
-        padding-left: 45%;
-        padding-right: 20px;
+        padding-top: 4.8cqw;
+        padding-left: 37cqw;
+        padding-right: 4.8cqw;
         text-align: left;
     }
 
+    .commitment-content h4 {
+        font-size: clamp(11px, 4cqw, 32px);
+    }
+
+    .commitment-content p,
+    .commitment-content ul {
+        font-size: clamp(8.5px, 2.4cqw, 22px);
+        line-height: 1.25;
+    }
+
     .infrastructure-content {
-        padding-top: 65px;
-        padding-left: 40%;
-        padding-right: 20px;
+        padding-top: 16.25cqw;
+        padding-left: 40cqw;
+        padding-right: 5cqw;
         text-align: left;
     }
 
     /* Initial sizes for the containers to match texture aspect ratios roughly */
     .card-vision {
-        width: 320px;
-        height: 220px;
+        width: 16.66vw;
+        aspect-ratio: 372 / 356;
         background-image: url('assets/img/texture-1.png');
     }
 
     .card-expertise {
-        width: 380px;
-        height: 330px;
+        width: 19.79vw;
+        aspect-ratio: 469 / 454;
         background-image: url('assets/img/texture-3.png');
     }
 
     .card-approach {
-        width: 450px;
-        height: 220px;
+        width: 23.43vw;
+        aspect-ratio: 499 / 369;
         background-image: url('assets/img/texture-2.png');
     }
 
     .card-commitment {
-        width: 420px;
-        height: 250px;
+        width: 21.87vw;
+        aspect-ratio: 553 / 381;
         background-image: url('assets/img/texture-4.png');
     }
 
+    @media (min-width: 1200px) {
+        .about-card {
+            width: 100% !important;
+            height: 100% !important;
+            background-size: 100% 100% !important;
+        }
+    }
+
     .card-infrastructure {
-        width: 400px;
-        height: 320px;
+        width: 20.83vw;
+        aspect-ratio: 501 / 454;
         background-image: url('assets/img/texture-5.png');
     }
 
@@ -225,7 +266,7 @@ include_once 'inc/header.php';
         opacity: 0.2;
     }
 
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
         .materials-section {
             height: auto;
             padding: 40px 0;
@@ -266,26 +307,10 @@ include_once 'inc/header.php';
 
         .about-card {
             background-size: 100% 100%;
-            min-height: 280px;
-            height: 100%;
+            min-height: auto;
+            height: auto;
+            width: 100% !important;
             background-color: transparent;
-        }
-
-        /* Extra downward push for approach-content on mobile */
-        .approach-content {
-            padding-top: 80px !important;
-        }
-
-        .expertise-content {
-            padding-top: 80px !important;
-        }
-
-        .infrastructure-content {
-            padding-top: 55px !important;
-        }
-
-        .vision-content {
-            padding-top: 55% !important;
         }
     }
 </style>
@@ -345,7 +370,7 @@ include_once 'inc/header.php';
         document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('cards-container');
             const wrappers = document.querySelectorAll('.floating-card-wrapper');
-            const mobileMediaQuery = window.matchMedia('(max-width: 991px)');
+            const mobileMediaQuery = window.matchMedia('(max-width: 1199px)');
 
             let activeDraggingCard = null;
             let startMouseX, startMouseY, startCardTop, startCardLeft;
@@ -358,6 +383,83 @@ include_once 'inc/header.php';
             // ---------------------
 
             const isMobileView = () => mobileMediaQuery.matches;
+
+            // Reference sizes for the layout calculations (based on 1200x600 coordinate plane)
+            const baseCoords = {
+                "card-vision": { x: 94.157, y: -276.723, w: 372, h: 356 },
+                "card-expertise": { x: 756.98, y: -231.448, w: 469, h: 454 },
+                "card-approach": { x: 176.338, y: -10.845, w: 499, h: 369 },
+                "card-commitment": { x: 629.286, y: 231.38, w: 553, h: 381 },
+                "card-infrastructure": { x: 113.972, y: 298.667, w: 501, h: 454 }
+            };
+
+            const applyPositions = () => {
+                if (isMobileView()) {
+                    wrappers.forEach(wrapper => {
+                        wrapper.style.top = '';
+                        wrapper.style.left = '';
+                        wrapper.style.width = '';
+                        wrapper.style.height = '';
+                    });
+                    return;
+                }
+                
+                const containerRect = container.getBoundingClientRect();
+                const containerW = containerRect.width;
+                const containerH = containerRect.height || 600;
+
+                // Determine scaleFactor to fit within both width and height constraints
+                let scaleFactor = containerW / 1300;
+                const scaleFactorH = containerH / 850;
+                scaleFactor = Math.min(scaleFactor, scaleFactorH);
+                
+                // Clamp scaleFactor to keep cards readable and elegant (0.55 to 1.15)
+                scaleFactor = Math.min(Math.max(scaleFactor, 0.55), 1.15);
+
+                let minX = Infinity, minY = Infinity;
+                let maxX = -Infinity, maxY = -Infinity;
+
+                Object.keys(baseCoords).forEach(className => {
+                    const item = baseCoords[className];
+                    const w = item.w * scaleFactor;
+                    const h = item.h * scaleFactor;
+                    const x = item.x * scaleFactor;
+                    const y = item.y * scaleFactor;
+
+                    if (x < minX) minX = x;
+                    if (y < minY) minY = y;
+                    if (x + w > maxX) maxX = x + w;
+                    if (y + h > maxY) maxY = y + h;
+                });
+
+                const boardW = maxX - minX;
+                const boardH = maxY - minY;
+
+                const offsetX = (containerW - boardW) / 2 - minX;
+                const offsetY = (containerH - boardH) / 2 - minY;
+
+                Object.keys(baseCoords).forEach(className => {
+                    const card = container.querySelector(`.${className}`);
+                    if (card) {
+                        const wrapper = card.closest('.floating-card-wrapper');
+                        if (wrapper) {
+                            const item = baseCoords[className];
+                            const w = item.w * scaleFactor;
+                            const h = item.h * scaleFactor;
+                            const left = (item.x * scaleFactor) + offsetX;
+                            const top = (item.y * scaleFactor) + offsetY;
+
+                            wrapper.style.width = `${w}px`;
+                            wrapper.style.height = `${h}px`;
+                            wrapper.style.left = `${left}px`;
+                            wrapper.style.top = `${top}px`;
+                        }
+                    }
+                });
+            };
+
+            applyPositions();
+            window.addEventListener('resize', applyPositions);
 
             // Update cursor and selection style based on draggable setting
             if (isDraggable) {
@@ -380,8 +482,8 @@ include_once 'inc/header.php';
                 activeDraggingCard = wrapper;
                 startMouseX = e.clientX;
                 startMouseY = e.clientY;
-                startCardTop = parseFloat(wrapper.style.top);
-                startCardLeft = parseFloat(wrapper.style.left);
+                startCardTop = parseFloat(wrapper.style.top) || 0;
+                startCardLeft = parseFloat(wrapper.style.left) || 0;
 
                 wrapper.style.transition = 'none';
                 wrapper.style.zIndex = '1000';
@@ -397,24 +499,80 @@ include_once 'inc/header.php';
                 window.mouseY = e.clientY;
 
                 if (activeDraggingCard) {
-                    const containerRect = container.getBoundingClientRect();
-                    const deltaX = ((e.clientX - startMouseX) / containerRect.width) * 100;
-                    const deltaY = ((e.clientY - startMouseY) / containerRect.height) * 100;
+                    const deltaX = e.clientX - startMouseX;
+                    const deltaY = e.clientY - startMouseY;
 
-                    activeDraggingCard.style.top = `${startCardTop + deltaY}%`;
-                    activeDraggingCard.style.left = `${startCardLeft + deltaX}%`;
+                    activeDraggingCard.style.top = `${startCardTop + deltaY}px`;
+                    activeDraggingCard.style.left = `${startCardLeft + deltaX}px`;
                 }
             });
 
             const logPositions = () => {
-                const positions = Array.from(wrappers).map(wrapper => ({
-                    class: wrapper.querySelector('.about-card').classList[1], // e.g. card-vision
-                    top: wrapper.style.top,
-                    left: wrapper.style.left
-                }));
+                const containerRect = container.getBoundingClientRect();
+                const containerW = containerRect.width;
+                const containerH = containerRect.height || 600;
+
+                // Re-calculate the exact scaleFactor and offsets used for positioning
+                let scaleFactor = containerW / 1300;
+                const scaleFactorH = containerH / 850;
+                scaleFactor = Math.min(scaleFactor, scaleFactorH);
+                scaleFactor = Math.min(Math.max(scaleFactor, 0.55), 1.15);
+
+                let minX = Infinity, minY = Infinity;
+                let maxX = -Infinity, maxY = -Infinity;
+
+                Object.keys(baseCoords).forEach(className => {
+                    const item = baseCoords[className];
+                    const w = item.w * scaleFactor;
+                    const h = item.h * scaleFactor;
+                    const x = item.x * scaleFactor;
+                    const y = item.y * scaleFactor;
+
+                    if (x < minX) minX = x;
+                    if (y < minY) minY = y;
+                    if (x + w > maxX) maxX = x + w;
+                    if (y + h > maxY) maxY = y + h;
+                });
+
+                const boardW = maxX - minX;
+                const boardH = maxY - minY;
+
+                const offsetX = (containerW - boardW) / 2 - minX;
+                const offsetY = (containerH - boardH) / 2 - minY;
+
+                const positions = Array.from(wrappers).map(wrapper => {
+                    const className = wrapper.querySelector('.about-card').classList[1];
+                    const curLeft = parseFloat(wrapper.style.left) || 0;
+                    const curTop = parseFloat(wrapper.style.top) || 0;
+
+                    // Reconstruct base coordinates
+                    const baseX = (curLeft - offsetX) / scaleFactor;
+                    const baseY = (curTop - offsetY) / scaleFactor;
+
+                    return {
+                        class: className,
+                        screen_left: curLeft.toFixed(1) + 'px',
+                        screen_top: curTop.toFixed(1) + 'px',
+                        base_x: parseFloat(baseX.toFixed(3)),
+                        base_y: parseFloat(baseY.toFixed(3))
+                    };
+                });
+
                 console.log("--- Current Card Positions ---");
                 console.table(positions);
-                console.log(JSON.stringify(positions, null, 2));
+
+                // Print copy-pasteable configuration object
+                const copyPasteObj = {};
+                positions.forEach(pos => {
+                    copyPasteObj[pos.class] = {
+                        x: pos.base_x,
+                        y: pos.base_y,
+                        w: baseCoords[pos.class].w,
+                        h: baseCoords[pos.class].h
+                    };
+                });
+                console.log("Copy-pasteable baseCoords object:");
+                console.log(JSON.stringify(copyPasteObj, null, 4));
             };
 
             document.addEventListener('mouseup', () => {

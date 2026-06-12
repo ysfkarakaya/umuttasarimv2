@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /data/
+Disallow: /inc/
+Disallow: /dwg-viewer/
+Disallow: /tif/
+Disallow: /*.zip$
+Disallow: /*.rar$
+Disallow: /*.sql$
+Disallow: /*.gz$
+Disallow: /*.tar$
+
+Sitemap: https://umuttasarim.com/sitemap.xml

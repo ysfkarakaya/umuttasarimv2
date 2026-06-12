@@ -130,6 +130,16 @@ include_once 'inc/header.php';
         word-break: break-word;
     }
 
+    .info-card p a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .info-card p a:hover {
+        color: #e91e63 !important;
+    }
+
     /* Form Section */
     .form-col-wrapper {
         opacity: 0;
@@ -222,6 +232,74 @@ include_once 'inc/header.php';
             font-size: 2.2rem;
         }
     }
+
+    /* Social Media Styling */
+    .social-media-container {
+        margin-top: 36px;
+    }
+
+    .social-title {
+        font-size: 0.68rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+        color: #e91e63;
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .social-icon-btn {
+        width: 45px;
+        height: 45px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.25rem;
+        text-decoration: none;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .social-icon-btn:hover {
+        color: #fff !important;
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .social-icon-btn.facebook:hover {
+        background: #1877f2;
+        border-color: #1877f2;
+        box-shadow: 0 10px 20px rgba(24, 119, 242, 0.35);
+    }
+
+    .social-icon-btn.instagram:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        border-color: transparent;
+        box-shadow: 0 10px 20px rgba(220, 39, 67, 0.35);
+    }
+
+    .social-icon-btn.youtube:hover {
+        background: #ff0000;
+        border-color: #ff0000;
+        box-shadow: 0 10px 20px rgba(255, 0, 0, 0.35);
+    }
+
+    .social-icon-btn.linkedin:hover {
+        background: #0077b5;
+        border-color: #0077b5;
+        box-shadow: 0 10px 20px rgba(0, 119, 181, 0.35);
+    }
+
+    .social-icon-btn.pinterest:hover {
+        background: #bd081c;
+        border-color: #bd081c;
+        box-shadow: 0 10px 20px rgba(189, 8, 28, 0.35);
+    }
 </style>
 
 </head>
@@ -263,6 +341,28 @@ include_once 'inc/header.php';
                                     <p><?php echo $info['value']; ?></p>
                                 </div>
                             <?php endforeach; ?>
+                        </div>
+
+                        <!-- Social Media Links -->
+                        <div class="social-media-container">
+                            <span class="social-title"><?= statik('contact_social_media') ?></span>
+                            <div class="social-icons-wrapper d-flex gap-3 mt-2">
+                                <a href="https://www.facebook.com/umuttasarim" target="_blank" title="Facebook" class="social-icon-btn facebook">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="https://instagram.com/umuttasarimltd" target="_blank" title="Instagram" class="social-icon-btn instagram">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="https://www.youtube.com/@umuttasarimltd" target="_blank" title="YouTube" class="social-icon-btn youtube">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/umuttasarim/" target="_blank" title="LinkedIn" class="social-icon-btn linkedin">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://www.pinterest.com/umuttasarimltd/" target="_blank" title="Pinterest" class="social-icon-btn pinterest">
+                                    <i class="bi bi-pinterest"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 

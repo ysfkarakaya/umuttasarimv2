@@ -1,8 +1,44 @@
 RewriteEngine On
 RewriteBase /
 
-# Force trailing slash on directories
+# Sitemap rewrite
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+
+# 1. Redirect homepage requests with query lang parameter to clean root /en/
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{QUERY_STRING} (?:^|&)lang=(tr|en|ru)(?:&|$) [NC]
+RewriteCond %{REQUEST_URI} ^/(?:(?:tr|en|ru)/)?(?:index\.php)?$ [NC]
+RewriteRule ^ /%1/? [R=301,L]
+
+# 2. Redirect page requests with query lang parameter and existing lang prefix to clean /en/hakkimizda
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{QUERY_STRING} (?:^|&)lang=(tr|en|ru)(?:&|$) [NC]
+RewriteRule ^(?:tr|en|ru)/(.*)$ /%1/$1? [R=301,L]
+
+# 3. Redirect page requests with query lang parameter and no lang prefix to clean /en/hakkimizda
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{QUERY_STRING} (?:^|&)lang=(tr|en|ru)(?:&|$) [NC]
+RewriteCond %{REQUEST_URI} !^/(tr|en|ru)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(assets|upload|data|inc)/ [NC]
+RewriteRule ^(.*)$ /%1/$1? [R=301,L]
+
+# Redirect direct external requests without language prefix to /tr/
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_URI} !^/(tr|en|ru)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(assets|upload|data|inc)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(sitemap\.xml|robots\.txt|llm\.txt)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} \.php$
+RewriteRule ^(.*)$ /tr/$1 [R=301,L]
+
+# Redirect /tr, /en, /ru to /tr/, /en/, /ru/
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(tr|en|ru)$ /$1/ [R=301,L]
+
+# Force trailing slash on directories (skip for languages)
 RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !^/(tr|en|ru)/?$
 RewriteRule ^(.+[^/])$ /$1/ [R=301,L]
 
 # If the request matches an existing file or directory, serve it
@@ -10,20 +46,25 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
+# Map .php file calls with language prefix: /tr/index.php -> index.php?lang=tr
+RewriteCond %{DOCUMENT_ROOT}/$2 -f
+RewriteRule ^(tr|en|ru)/([^/]+\.php)$ $2?lang=$1 [L,QSA]
+
+# Homepage rule
+RewriteRule ^(tr|en|ru)/$ index.php?lang=$1 [L,QSA]
+
 # Blog rules
-RewriteRule ^blog$ blog.php [L,QSA]
-RewriteRule ^blog/([a-zA-Z0-9_-]+)$ blog-detay.php?name=$1 [L,QSA]
+RewriteRule ^(tr|en|ru)/blog$ blog.php?lang=$1 [L,QSA]
+RewriteRule ^(tr|en|ru)/blog/([a-zA-Z0-9_-]+)$ blog-detay.php?name=$2&lang=$1 [L,QSA]
 
-# SEF URL mapping for Produkte/Applications (if they use a single handler)
-# Example: urunler/modernist-grubu -> urunler.php?slug=modernist-grubu
-RewriteRule ^urunler/([a-zA-Z0-9_-]+)$ urunler.php?slug=$1 [QSA,L]
-RewriteRule ^urun/([a-zA-Z0-9_-]+)$ urun-detay.php?sef_url=$1 [QSA,L]
-RewriteRule ^uygulamalar/([a-zA-Z0-9_-]+)$ uygulamalar.php?slug=$1 [QSA,L]
-
-# General page mapping: slug -> slug.php
-# Example: hakkimizda -> hakkimizda.php
-RewriteCond %{DOCUMENT_ROOT}/$1.php -f
-RewriteRule ^([^/]+)$ $1.php [L]
+# SEF URL mapping for Products/Categories/Applications
+RewriteRule ^(tr|en|ru)/urunler/([a-zA-Z0-9_-]+)$ urunler.php?slug=$2&lang=$1 [QSA,L]
+RewriteRule ^(tr|en|ru)/urun/([a-zA-Z0-9_-]+)$ urun-detay.php?sef_url=$2&lang=$1 [QSA,L]
+RewriteRule ^(tr|en|ru)/uygulamalar/([a-zA-Z0-9_-]+)$ uygulamalar.php?slug=$2&lang=$1 [QSA,L]
 
 # Special cases for new pages that might use sayfa-detay.php
-RewriteRule ^(kalite-politikasi|yonetim-sistemleri|kariyer)$ sayfa-detay.php?slug=$1 [L,QSA]
+RewriteRule ^(tr|en|ru)/(yonetim-sistemleri|kariyer)$ sayfa-detay.php?slug=$2&lang=$1 [L,QSA]
+
+# General page mapping: /tr/hakkimizda -> hakkimizda.php?lang=tr
+RewriteCond %{DOCUMENT_ROOT}/$2.php -f
+RewriteRule ^(tr|en|ru)/([^/]+)$ $2.php?lang=$1 [L,QSA]

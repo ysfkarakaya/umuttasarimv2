@@ -1,0 +1,52 @@
+# Umut Tasarım - Site Summary for AI & LLMs
+
+Umut Tasarım is a premium playground and landscape architecture equipment manufacturer based in Turkey, producing modular, aesthetic, and sustainable play spaces.
+
+## Core Information
+- **Official Website**: https://umuttasarim.com/
+- **Primary Languages**: Turkish (`/tr/`), English (`/en/`), Russian (`/ru/`)
+- **Key Product Offerings**: Classic Playgrounds, Modernist Playgrounds, Landscape/Urban Furniture, Outdoor Fitness Equipment, Themed/Tabiat Playgrounds, and Playground Accessories.
+
+## Website URL Structure
+
+The website uses a language subfolder structure (`/tr/`, `/en/`, `/ru/`). The default language is Turkish. Below are the mappings for all pages.
+
+### 1. Main Sections
+- **Homepage**: `/tr/`, `/en/`, `/ru/`
+- **About Us**: `/tr/hakkimizda`, `/en/hakkimizda`, `/ru/hakkimizda` - Company profile and vision.
+- **Design Process**: `/tr/tasarim`, `/en/tasarim`, `/ru/tasarim` - Custom design workflows.
+- **Quality Policy**: `/tr/kalite-politikasi`, `/en/kalite-politikasi`, `/ru/kalite-politikasi` - Certifications and quality systems.
+- **Materials**: `/tr/materyaller`, `/en/materyaller`, `/ru/materyaller` - Sustainable raw materials used (e.g., ST37 steel, Siberian Larch).
+- **Sustainability Manifesto**: `/tr/doga`, `/en/doga`, `/ru/doga` - Eco-friendly manufacturing pledge.
+- **Certificates**: `/tr/sertifikalar`, `/en/sertifikalar`, `/ru/sertifikalar` - International safety certifications.
+- **Awards**: `/tr/oduller`, `/en/oduller`, `/ru/oduller` - Awards and accolades.
+- **Career**: `/tr/kariyer`, `/en/kariyer`, `/ru/kariyer` - Open job positions.
+- **References**: `/tr/referanslar`, `/en/referanslar`, `/ru/referanslar` - Completed projects.
+- **Blog**: `/tr/blog`, `/en/blog`, `/ru/blog` - News, design trends, safety guidelines.
+- **Contact**: `/tr/iletisim`, `/en/iletisim`, `/ru/iletisim` - Interactive maps and contact forms.
+
+### 2. Product Categories
+Category pages display catalog items filtered by design series.
+- **Modernist Group**: `/tr/urunler/modernist-grup`
+- **Classic Group**: `/tr/urunler/klasik-grup`
+- **Accessories**: `/tr/urunler/aksesuarlar`
+- **Tabiat Group**: `/tr/urunler/tabiat-grup`
+- **Outdoor Fitness Equipment**: `/tr/urunler/dis-mekan-spor-aletleri`
+- **Urban Furniture**: `/tr/urunler/kent-mobilyalari`
+*(Substitute `/tr/` with `/en/` or `/ru/` for alternate languages)*
+
+### 3. Product Details
+Each playground/equipment item is mapped to its unique slug:
+- **URL Pattern**: `/{lang}/urun/{product-slug}`
+- **Examples**:
+  - `/tr/urun/i1d-102`
+  - `/en/urun/i1d-102`
+  - `/tr/urun/olas-model-1`
+  - `/tr/urun/ao-01-ahsap-iki-kisilik-salincak`
+
+### 4. Blog Posts
+Detailed technical articles:
+- **URL Pattern**: `/{lang}/blog/{blog-slug}`
+- **Examples**:
+  - `/tr/blog/steel-recyclability-in-playground-equipment`
+  - `/tr/blog/surdurulebilir-malzeme-secimi-neden-onemli`

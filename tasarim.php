@@ -111,14 +111,14 @@ include_once 'inc/header.php';
     }
 
     /* Mobile Adjustments - vertical divider hide */
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
         .vertical-divider {
             display: none;
         }
     }
 
     /* Desktop: keep overflow hidden, single viewport */
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         body.materials-page {
             overflow: hidden !important;
         }
@@ -136,7 +136,7 @@ include_once 'inc/header.php';
     }
 
     /* Mobile: allow scrolling */
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
 
         html,
         body.materials-page {
@@ -203,9 +203,9 @@ include_once 'inc/header.php';
         gap: 20px;
         align-items: center;
         position: relative;
-        max-width: 650px;
+        max-width: 910px;
         margin: 0 auto;
-        min-height: 140px;
+        min-height: 196px;
     }
 
 
@@ -219,8 +219,8 @@ include_once 'inc/header.php';
     }
 
     .process-card {
-        width: 110px;
-        height: 110px;
+        width: 154px;
+        height: 154px;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -287,7 +287,7 @@ include_once 'inc/header.php';
 
 
     .step-title {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         /* font-weight: 700; */
         text-transform: uppercase;
         letter-spacing: 0.4px;
@@ -295,7 +295,7 @@ include_once 'inc/header.php';
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
         margin: 0;
         line-height: 1.2;
-        width: 70px;
+        width: 98px;
         word-wrap: break-word;
     }
 
@@ -331,7 +331,7 @@ include_once 'inc/header.php';
     }
 
     /* Mobile: process section as swiper slider */
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
         .process-container {
             position: relative;
             bottom: auto;
@@ -362,16 +362,16 @@ include_once 'inc/header.php';
 
 
         .process-swiper-mobile .process-card {
-            width: 140px;
-            height: 140px;
+            width: 196px;
+            height: 196px;
             padding: 15px;
             border-radius: 24px;
         }
 
         .process-swiper-mobile .step-title {
-            font-size: 0.58rem;
+            font-size: 0.8rem;
             line-height: 1.2;
-            width: 100px;
+            width: 140px;
             word-wrap: break-word;
         }
 
@@ -397,22 +397,10 @@ include_once 'inc/header.php';
     }
 
     /* Desktop: hide mobile swiper */
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         .process-swiper-mobile {
             display: none;
         }
-    }
-
-    @media (max-width: 1200px) and (min-width: 992px) {
-        .process-grid {
-            max-width: 450px;
-        }
-
-        .process-card {
-            width: 90px;
-            height: 90px;
-        }
-
     }
 </style>
 </head>
@@ -509,7 +497,7 @@ include_once 'inc/header.php';
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Desktop: Parallax effect for process cards
-            if (window.innerWidth >= 992) {
+            if (window.innerWidth >= 1200) {
                 const parallaxItems = document.querySelectorAll('.parallax-item');
 
                 const handleScroll = () => {
@@ -536,7 +524,7 @@ include_once 'inc/header.php';
             }
 
             // Mobile: Initialize Swiper for process cards
-            if (window.innerWidth < 992) {
+            if (window.innerWidth < 1200) {
                 new Swiper('.process-swiper-mobile', {
                     slidesPerView: 2.3,
                     spaceBetween: 25,

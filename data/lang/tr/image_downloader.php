@@ -27,10 +27,15 @@ ini_set('memory_limit', '512M');
  */
 function download_resource($path, $sourceUrl, $rootDir)
 {
-    // URL'den indirilecek tam adres ($url . $key yapısına uygun)
-    $remoteUrl = rtrim($sourceUrl, '/') . '/' . ltrim($path, '/');
+    // URL segmentlerini urlencode ederek boşluk ve özel karakterleri güvenli hale getiriyoruz.
+    $pathSegments = explode('/', ltrim($path, '/'));
+    $encodedSegments = array_map('rawurlencode', $pathSegments);
+    $encodedPath = implode('/', $encodedSegments);
 
-    // Kaydedilecek yerel tam yol
+    // URL'den indirilecek tam adres
+    $remoteUrl = rtrim($sourceUrl, '/') . '/' . $encodedPath;
+
+    // Kaydedilecek yerel tam yol (yerel dosya sisteminde urlencode kullanılmaz)
     $localPath = $rootDir . DIRECTORY_SEPARATOR . str_replace(['/', '\\'], DIRECTORY_SEPARATOR, $path);
 
     if (file_exists($localPath)) {

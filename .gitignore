@@ -6,3 +6,7 @@ tif/
 *.mp4
 node_modules/
 dwg-viewer/node_modules/
+
+# Ignore translations other than Turkish
+data/lang/*
+!data/lang/tr/

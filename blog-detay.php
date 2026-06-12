@@ -23,11 +23,58 @@ if (file_exists($blog_file)) {
 
 $pageTitle = $post['kart_detay_adi'] . ' | ' . $blog_header['kart_adi'];
 $hasSidebar = true;
+
+if (!empty($post['kart_detay_gorsel'])) {
+    $pageImage = $post['kart_detay_gorsel'];
+}
+
+$pageCanonical = 'https://umuttasarim.com/' . $lang . '/blog/' . $slug;
+
+// Temiz ve kırpılmış blog açıklaması
+$rawBlogText = $post['kart_detay_aciklama'] ?? '';
+$cleanBlogDesc = trim(strip_tags(html_entity_decode((string)$rawBlogText, ENT_QUOTES | ENT_HTML5, 'UTF-8')));
+$pageDescription = mb_substr($cleanBlogDesc, 0, 155, 'UTF-8');
+if (mb_strlen($cleanBlogDesc, 'UTF-8') > 155) {
+    $pageDescription .= '...';
+}
+
+$pageKeywords = implode(', ', array_filter([
+    $post['kart_detay_adi'],
+    $post['kart_detay_etiket'] ?? '',
+    "blog",
+    "umut tasarım",
+    "peyzaj",
+    "oyun parkı"
+]));
+
+// BlogPosting Schema (JSON-LD)
+$pageSchema = [
+    "@context" => "https://schema.org",
+    "@type" => "BlogPosting",
+    "headline" => $post['kart_detay_adi'],
+    "image" => !empty($pageImage) ? ('https://umuttasarim.com/' . ltrim($pageImage, '/')) : '',
+    "description" => $pageDescription,
+    "datePublished" => !empty($post['created_at']) ? date('c', strtotime($post['created_at'])) : '',
+    "dateModified" => !empty($post['updated_at']) ? date('c', strtotime($post['updated_at'])) : '',
+    "author" => [
+        "@type" => "Organization",
+        "name" => "Umut Tasarım"
+    ],
+    "publisher" => [
+        "@type" => "Organization",
+        "name" => "Umut Tasarım",
+        "logo" => [
+            "@type" => "ImageObject",
+            "url" => "https://umuttasarim.com/assets/img/logo.png"
+        ]
+    ]
+];
+
 include_once 'inc/header.php';
 ?>
 
 <style>
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         body.blog-detail-page {
             overflow: hidden;
             height: 100vh;
@@ -382,7 +429,6 @@ include_once 'inc/header.php';
         z-index: 2;
         text-transform: capitalize;
     }
-
 </style>
 
 <body class="blog-detail-page">
@@ -443,51 +489,13 @@ include_once 'inc/header.php';
                     </div>
 
                     <div class="detail-content">
-                        <?php
-                        $full_text = strip_tags($post['kart_detay_aciklama']);
-                        $paragraphs = explode("\n", $post['kart_detay_aciklama']);
-                        $paragraphs = array_values(array_filter($paragraphs));
-                        ?>
-
-                        <!-- First row -->
-                        <div class="content-row">
-                            <div class="content-text">
-                                <p><?php echo ($paragraphs[0] ?? ''); ?></p>
-                                <p><?php echo ($paragraphs[1] ?? ''); ?></p>
-                            </div>
-                            <div class="content-img">
-                                <img src="/<?php echo ltrim($post['kart_detay_gorsel'], '/'); ?>" alt="Detail 1">
-                            </div>
-                        </div>
-
-                        <!-- Second row -->
-                        <div class="content-row" style="flex-direction: row-reverse;">
-                            <div class="content-text">
-                                <p><?php echo ($paragraphs[2] ?? ''); ?></p>
-                                <p><?php echo ($paragraphs[3] ?? ''); ?></p>
-                            </div>
-                            <div class="content-img">
-                                <img src="/<?php echo ltrim($post['kart_detay_gorsel'], '/'); ?>" alt="Detail 2"
-                                    style="filter: hue-rotate(45deg) saturate(1.2);">
-                            </div>
-                        </div>
-
-                        <?php
-                        // Remaining text
-                        if (count($paragraphs) > 4) {
-                            for ($i = 4; $i < count($paragraphs); $i++) {
-                                echo '<p>' . $paragraphs[$i] . '</p>';
-                            }
-                        }
-                        ?>
+                        <?= $post['kart_detay_aciklama'] ?>
                     </div>
 
                     <div class="detail-footer">
-                        <a href="/blog" class="back-btn">
-                            <i class="bi bi-arrow-left-circle-fill" style="font-size: 1.8rem;"></i> <?= statik('blog_detail_back') ?>
-                        </a>
-                        <a href="#" class="devam-btn">
-                            <?= statik('blog_detail_next') ?> <i class="bi bi-chevron-right"></i>
+                        <a href="<?= lang_url('/blog') ?>" class="back-btn">
+                            <i class="bi bi-arrow-left-circle-fill" style="font-size: 1.8rem;"></i>
+                            <?= statik('blog_detail_back') ?>
                         </a>
                     </div>
                 </div>

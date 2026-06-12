@@ -14,6 +14,16 @@ $syncTasks = [
         'save_to' => 'lang/tr/ayarlar/ayar.json',
         'extract' => 'values'
     ],
+    'sayfa_aciklamalari' => [
+        'title' => 'Sayfa Aciklamalari ve Urun Serileri',
+        'url' => 'https://v2.umutapp.com/api/v1/sayfa_aciklamalari.php?limit=100',
+        'headers' => [
+            'Authorization: Bearer 123',
+            'Accept: application/json'
+        ],
+        'save_to' => 'lang/tr/sayfa_aciklamalari/sayfa_aciklamalari.json',
+        'extract' => 'data'
+    ],
     'kartlar' => [
         'title' => 'Kartlar ve Detaylari',
         'url' => 'https://v2.umutapp.com/api/v1/kartlar_full.php?limit=100',
@@ -133,8 +143,9 @@ $syncTasks = [
 ];
 
 $imageSourceUrl = 'https://v2.umutapp.com/';
-$imageJsonRoot = __DIR__ . '/lang/tr';
-$projectRoot = realpath(__DIR__ . '/..');
+$dataDir = realpath(__DIR__ . '/../../data');
+$imageJsonRoot = $dataDir . '/lang/tr';
+$projectRoot = realpath(__DIR__ . '/../..');
 $imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg', 'ico'];
 
 function flattenTree($tree, $childrenKey = 'children')
@@ -209,6 +220,7 @@ function writeJsonFile($path, $data, &$savedFiles)
 
 function processTask($item, $subTaskConfig, $headers, &$processedIds, &$subCount, &$savedFiles)
 {
+    global $dataDir;
     if (!is_array($item)) {
         return;
     }
@@ -244,7 +256,7 @@ function processTask($item, $subTaskConfig, $headers, &$processedIds, &$subCount
     $subFileName = ($subTaskConfig['name_key'] === 'sef_url' || $subTaskConfig['name_key'] === 'kat_sef_url')
         ? $itemName
         : slugify($itemName);
-    $subPath = __DIR__ . '/' . str_replace('{name}', $subFileName, $subTaskConfig['save_to']);
+    $subPath = $dataDir . '/' . str_replace('{name}', $subFileName, $subTaskConfig['save_to']);
     writeJsonFile($subPath, $extractedSub, $savedFiles);
     $subCount++;
 
@@ -257,7 +269,8 @@ function processTask($item, $subTaskConfig, $headers, &$processedIds, &$subCount
 
 function loadLocalSourceData($task)
 {
-    $sourcePath = __DIR__ . '/' . $task['local_source'];
+    global $dataDir;
+    $sourcePath = $dataDir . '/' . $task['local_source'];
 
     if (is_dir($sourcePath)) {
         $batchData = [];
@@ -280,6 +293,7 @@ function loadLocalSourceData($task)
 
 function executeSyncTask($key, $task, &$savedFiles)
 {
+    global $dataDir;
     $primaryData = null;
     $subCount = 0;
 
@@ -322,7 +336,7 @@ function executeSyncTask($key, $task, &$savedFiles)
         }
 
         if (isset($task['save_to'])) {
-            $primaryPath = __DIR__ . '/' . $task['save_to'];
+            $primaryPath = $dataDir . '/' . $task['save_to'];
             writeJsonFile($primaryPath, $primaryData, $savedFiles);
         }
 
@@ -335,7 +349,7 @@ function executeSyncTask($key, $task, &$savedFiles)
 
             foreach ($groups as $groupKey => $groupItems) {
                 $groupFileName = slugify($groupKey);
-                $groupPath = __DIR__ . '/' . str_replace('{key}', $groupFileName, $task['group_save_to']);
+                $groupPath = $dataDir . '/' . str_replace('{key}', $groupFileName, $task['group_save_to']);
                 writeJsonFile($groupPath, $groupItems, $savedFiles);
                 $subCount++;
 
@@ -348,7 +362,7 @@ function executeSyncTask($key, $task, &$savedFiles)
 
                         foreach ($groupItem[$splitCfg['detail_key']] as $detail) {
                             $detailName = $detail[$splitCfg['name_key']] ?? 'item';
-                            $detailPath = __DIR__ . '/' . str_replace('{name}', slugify($detailName), $splitCfg['save_to']);
+                            $detailPath = $dataDir . '/' . str_replace('{name}', slugify($detailName), $splitCfg['save_to']);
                             writeJsonFile($detailPath, $detail, $savedFiles);
                             $subCount++;
                         }
@@ -365,7 +379,7 @@ function executeSyncTask($key, $task, &$savedFiles)
 
                 foreach ($item[$task['split_details']['detail_key']] as $detail) {
                     $detailName = $detail[$task['split_details']['name_key']] ?? 'item';
-                    $detailPath = __DIR__ . '/' . str_replace('{name}', slugify($detailName), $task['split_details']['save_to']);
+                    $detailPath = $dataDir . '/' . str_replace('{name}', slugify($detailName), $task['split_details']['save_to']);
                     writeJsonFile($detailPath, $detail, $savedFiles);
                     $subCount++;
                 }
@@ -460,7 +474,12 @@ function collectUploadPaths($data, &$paths, $onlyImages, $imageExtensions)
 
 function downloadResource($path, $sourceUrl, $rootDir)
 {
-    $remoteUrl = rtrim($sourceUrl, '/') . '/' . ltrim($path, '/');
+    // URL segmentlerini urlencode ederek boşluk ve özel karakterleri güvenli hale getiriyoruz.
+    $pathSegments = explode('/', ltrim($path, '/'));
+    $encodedSegments = array_map('rawurlencode', $pathSegments);
+    $encodedPath = implode('/', $encodedSegments);
+
+    $remoteUrl = rtrim($sourceUrl, '/') . '/' . $encodedPath;
     $localPath = $rootDir . DIRECTORY_SEPARATOR . str_replace(['/', '\\'], DIRECTORY_SEPARATOR, $path);
 
     if (file_exists($localPath)) {
@@ -590,21 +609,21 @@ if (isset($_GET['action'])) {
         if (!empty($_GET['key']) && isset($syncTasks[$_GET['key']])) {
             $task = $syncTasks[$_GET['key']];
             if (isset($task['save_to'])) {
-                $targets[] = __DIR__ . '/' . dirname($task['save_to']);
+                $targets[] = $dataDir . '/' . dirname($task['save_to']);
             }
             if (isset($task['group_save_to'])) {
-                $targets[] = __DIR__ . '/' . dirname($task['group_save_to']);
+                $targets[] = $dataDir . '/' . dirname($task['group_save_to']);
             }
             if (isset($task['split_details']['save_to'])) {
-                $targets[] = __DIR__ . '/' . dirname($task['split_details']['save_to']);
+                $targets[] = $dataDir . '/' . dirname($task['split_details']['save_to']);
             }
             if (isset($task['group_split']) && is_array($task['group_split'])) {
                 foreach ($task['group_split'] as $splitConfig) {
-                    $targets[] = __DIR__ . '/' . dirname($splitConfig['save_to']);
+                    $targets[] = $dataDir . '/' . dirname($splitConfig['save_to']);
                 }
             }
             if (isset($task['sub_tasks']['save_to'])) {
-                $targets[] = __DIR__ . '/' . dirname($task['sub_tasks']['save_to']);
+                $targets[] = $dataDir . '/' . dirname($task['sub_tasks']['save_to']);
             }
         }
 
@@ -625,7 +644,9 @@ if (isset($_GET['action'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMUT | API Control Center v2</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #22c55e;
@@ -653,7 +674,7 @@ if (isset($_GET['action'])) {
         }
 
         body {
-            min-height: 100vh;
+            height: 100vh;
             background:
                 radial-gradient(circle at top left, rgba(34, 197, 94, 0.12), transparent 25%),
                 radial-gradient(circle at right, rgba(56, 189, 248, 0.1), transparent 22%),
@@ -763,12 +784,12 @@ if (isset($_GET['action'])) {
 
         .wrapper {
             flex: 1;
-            display: grid;
-            grid-template-columns: 360px minmax(0, 1fr);
+            display: flex;
             overflow: hidden;
         }
 
         .sidebar {
+            width: 360px;
             background: rgba(15, 23, 42, 0.96);
             border-right: 1px solid var(--glass-border);
             padding: 1.5rem;
@@ -786,63 +807,36 @@ if (isset($_GET['action'])) {
         }
 
         .sync-card {
-            position: relative;
+            background: rgba(255, 255, 255, 0.03);
             border: 1px solid var(--glass-border);
-            border-radius: 20px;
+            border-radius: 16px;
             padding: 1.2rem;
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+            transition: all 0.3s;
             cursor: pointer;
-            overflow: hidden;
-            transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
-        }
-
-        .sync-card::after {
-            content: '';
-            position: absolute;
-            inset: auto -10% -60% 45%;
-            height: 140px;
-            background: radial-gradient(circle, rgba(56, 189, 248, 0.24), transparent 60%);
-            pointer-events: none;
+            position: relative;
         }
 
         .sync-card:hover {
-            transform: translateY(-2px);
-            border-color: rgba(56, 189, 248, 0.55);
-            background: rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--primary);
+            transform: scale(1.02);
         }
 
         .sync-card.loading {
             border-color: var(--warning);
-            box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.18), 0 0 24px rgba(245, 158, 11, 0.16);
+            box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
         }
 
         .sync-card h3 {
             font-size: 1rem;
-            margin-bottom: 0.35rem;
+            font-weight: 600;
+            margin-bottom: 4px;
         }
 
         .sync-card p {
+            font-size: 0.75rem;
             color: var(--text-body);
-            font-family: 'Fira Code', monospace;
-            font-size: 0.76rem;
-            line-height: 1.5;
-        }
-
-        .card-meta {
-            margin-top: 0.9rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 0.7rem;
-            color: #64748b;
-        }
-
-        .card-badge {
-            border-radius: 999px;
-            padding: 0.3rem 0.6rem;
-            background: rgba(34, 197, 94, 0.08);
-            color: #86efac;
+            font-family: monospace;
         }
 
         .sidebar-footer {
@@ -857,6 +851,7 @@ if (isset($_GET['action'])) {
         }
 
         .monitor {
+            flex: 1;
             display: flex;
             flex-direction: column;
             min-width: 0;
@@ -1065,10 +1060,11 @@ if (isset($_GET['action'])) {
             }
 
             .wrapper {
-                grid-template-columns: 1fr;
+                flex-direction: column;
             }
 
             .sidebar {
+                width: 100%;
                 max-height: none;
             }
 
@@ -1100,7 +1096,8 @@ if (isset($_GET['action'])) {
             </div>
 
             <div class="action-bar">
-                <button class="action-btn secondary" id="download-images-btn" onclick="downloadImages()">Direkt Gorselleri Cek</button>
+                <button class="action-btn secondary" id="download-images-btn" onclick="downloadImages()">Direkt
+                    Gorselleri Cek</button>
                 <button class="action-btn primary" id="sync-all-btn" onclick="syncAll()">Tumunu Baslat</button>
             </div>
         </div>
@@ -1114,15 +1111,16 @@ if (isset($_GET['action'])) {
                 <div class="sync-card" id="card-<?php echo $key; ?>" onclick="promptSync('<?php echo $key; ?>')">
                     <h3><?php echo htmlspecialchars($task['title'], ENT_QUOTES, 'UTF-8'); ?></h3>
                     <p><?php echo htmlspecialchars($task['save_to'] ?? ('Local: ' . $task['local_source']), ENT_QUOTES, 'UTF-8'); ?></p>
-                    <div class="card-meta">
+                    <div style="font-size: 0.65rem; color: #52525b; margin-top: 6px; display: flex; align-items: center; gap: 4px;">
+                        <span style="opacity: 0.6;">Update:</span>
                         <span class="task-last-update" id="update-<?php echo $key; ?>">-</span>
-                        <span class="card-badge">Tikla, modu sec</span>
                     </div>
                 </div>
             <?php endforeach; ?>
 
             <div class="sidebar-footer">
-                Bir goreve tikladiginizda once veri senkronizasyonu, ardindan isterseniz ayni goreve ait gorsel taramasi calistirilir. Ustteki bagimsiz buton tum JSON kaynaklarini tarayarak sadece gorsel indirmeyi baslatir.
+                Bir goreve tikladiginizda once veri senkronizasyonu, ardindan isterseniz ayni goreve ait gorsel taramasi
+                calistirilir. Ustteki bagimsiz buton tum JSON kaynaklarini tarayarak sadece gorsel indirmeyi baslatir.
             </div>
         </aside>
 
@@ -1142,7 +1140,8 @@ if (isset($_GET['action'])) {
         <div class="modal-card">
             <div class="modal-icon">
                 <svg width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path d="M12 9v3.75m0 3h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.72 3h16.92a2 2 0 0 0 1.72-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
+                    <path
+                        d="M12 9v3.75m0 3h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.72 3h16.92a2 2 0 0 0 1.72-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
                 </svg>
             </div>
             <h2 id="modal-title">Islem Secimi</h2>
@@ -1305,7 +1304,7 @@ if (isset($_GET['action'])) {
             addLog(`<strong>${title}</strong> baslatildi. Mod: ${withImages ? 'Veri + Gorseller' : 'Sadece Veri'}`, 'info');
 
             try {
-                const response = await fetch(`get_apiv2.php?action=sync&key=${encodeURIComponent(key)}&with_images=${withImages ? 1 : 0}`);
+                const response = await fetch(`?action=sync&key=${encodeURIComponent(key)}&with_images=${withImages ? 1 : 0}`);
                 const result = await response.json();
 
                 if (result.status !== 'success') {
@@ -1384,7 +1383,7 @@ if (isset($_GET['action'])) {
             addLog('Bagimsiz gorsel taramasi baslatildi...', 'info');
 
             try {
-                const response = await fetch('get_apiv2.php?action=images');
+                const response = await fetch('?action=images');
                 const result = await response.json();
 
                 if (result.status !== 'success') {

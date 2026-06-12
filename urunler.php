@@ -1,13 +1,14 @@
 <?php
 $hasSidebar = true; // Sidebar'ı kapatmak için false yapın
-?>
-<?php
-$pageTitle = "Ürünler";
-include_once 'inc/header.php';
+
+include_once 'inc/functions.php';
+$lang = active_lang();
 
 $slug = isset($_GET['slug']) ? trim((string) $_GET['slug']) : '';
 $slug = preg_replace('/[^a-zA-Z0-9_-]/', '', $slug);
 $dynamicSeries = [];
+$activeCategoryName = '';
+$pageImage = '';
 
 if ($slug !== '') {
     $productsFilePath = __DIR__ . "/data/lang/{$lang}/urunler/{$slug}.json";
@@ -17,7 +18,6 @@ if ($slug !== '') {
 
         if (is_array($productsJson)) {
             // Extract category name from the first valid product
-            $activeCategoryName = '';
             foreach ($productsJson as $p) {
                 if (isset($p['kat_adi']) && $p['kat_adi'] !== '') {
                     $activeCategoryName = $p['kat_adi'];
@@ -47,9 +47,37 @@ if ($slug !== '') {
             }
         }
     }
+
+    // Kategorinin görselini kategoriler.json dosyasından bulalım
+    $categories = get_categories_config($lang);
+    if (is_array($categories)) {
+        foreach ($categories as $cat) {
+            if (isset($cat['kat_sef_url']) && $cat['kat_sef_url'] === $slug) {
+                $categoryImg = trim((string) ($cat['kat_resim2'] ?? $cat['kat_resim'] ?? ''));
+                if ($categoryImg !== '') {
+                    $pageImage = $categoryImg;
+                }
+                break;
+            }
+        }
+    }
 }
 
 $hasDynamicSeries = !empty($dynamicSeries);
+
+$pageCanonical = 'https://umuttasarim.com/' . $lang . '/urunler/' . $slug;
+
+// Dinamik meta açıklaması
+if ($activeCategoryName !== '') {
+    $pageDescription = $activeCategoryName . " " . ($lang === 'tr' ? 'kategorisindeki çocuk oyun grupları, kent mobilyaları ve peyzaj elemanları.' : 'children playground equipment, urban furniture and landscaping elements.');
+    $pageKeywords = implode(', ', array_filter([$activeCategoryName, "oyun grupları", "kent mobilyaları", "peyzaj elemanları", "tasarım çözümleri", "umut tasarım"]));
+} else {
+    $pageDescription = ($lang === 'tr' ? 'Umut Tasarım çocuk oyun grupları, kent mobilyaları ve peyzaj elemanları üreticisi.' : 'Umut Tasarim children playground equipment, urban furniture and landscaping manufacturer.');
+    $pageKeywords = "oyun grupları, kent mobilyaları, peyzaj elemanları, umut tasarım";
+}
+
+$pageTitle = $activeCategoryName !== '' ? $activeCategoryName : statik('products_page_title', 'Ürünler');
+include_once 'inc/header.php';
 ?>
 
 
@@ -82,8 +110,8 @@ $hasDynamicSeries = !empty($dynamicSeries);
         <!-- Hero Bölümü -->
         <?php
         $anasayfaCards = get_anasayfa_cards($lang);
-        $heroCard      = !empty($anasayfaCards) ? $anasayfaCards[0] : null;
-        $defaultBg     = ($heroCard && !empty($heroCard['detaylar'])) ? $heroCard['detaylar'][0]['kart_detay_gorsel'] : 'assets/img/hero/hero1.jpeg';
+        $heroCard = !empty($anasayfaCards) ? $anasayfaCards[0] : null;
+        $defaultBg = ($heroCard && !empty($heroCard['detaylar'])) ? $heroCard['detaylar'][0]['kart_detay_gorsel'] : 'assets/img/hero/hero1.jpeg';
         ?>
         <section class="hero-section" id="hero-section" style="background-image: url('<?= $defaultBg ?>');">
             <div class="hero-card">
@@ -92,15 +120,8 @@ $hasDynamicSeries = !empty($dynamicSeries);
                 <?php endif; ?>
                 <!-- Dahili Video (Lazy Load) -->
                 <div class="hero-card-image" id="videoWrap" style="overflow:hidden;">
-                    <video
-                        id="heroVideo"
-                        poster="assets/img/breadcrumbs.png"
-                        preload="none"
-                        muted
-                        loop
-                        playsinline
-                        style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;"
-                    >
+                    <video id="heroVideo" poster="assets/img/breadcrumbs.png" preload="none" muted loop playsinline
+                        style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;">
                         <source src="assets/video.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -139,7 +160,7 @@ $hasDynamicSeries = !empty($dynamicSeries);
                                         $imageSrc = 'assets/img/eko.png';
                                     }
 
-                                    $productHref = $productSlug !== '' ? '/urun/' . rawurlencode($productSlug) : '#';
+                                    $productHref = $productSlug !== '' ? lang_url('/urun/' . $productSlug) : '#';
                                     ?>
                                     <a class="product-card swiper-slide"
                                         href="<?php echo htmlspecialchars($productHref, ENT_QUOTES, 'UTF-8'); ?>">
@@ -148,9 +169,9 @@ $hasDynamicSeries = !empty($dynamicSeries);
                                         ?>
                                         <div class="product-image-container">
                                             <?php if ($vCount > 1): ?>
-                                                <div class="product-variation-badge" title="Benzer Ürünler / Varyasyonlar">
+                                                <div class="product-variation-badge">
                                                     <i class="bi bi-layers"></i>
-                                                    <span><?php echo $vCount; ?></span>
+                                                    <span><?php echo $vCount; ?> <span class="variation-text"><?= statik('product_variation_text', 'Varyasyon') ?></span></span>
                                                 </div>
                                             <?php endif; ?>
                                             <img src="<?php echo htmlspecialchars($imageSrc, ENT_QUOTES, 'UTF-8'); ?>"

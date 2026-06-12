@@ -9,17 +9,17 @@
     "contact_info": [
       {
         "title": "Adres",
-        "value": "Ankara Asfaltı Üzeri, No: 123, İzmir, Türkiye",
+        "value": "<a href=\"https://maps.app.goo.gl/nhM6ikRe9u9SnkoL6\" target=\"_blank\" title=\"Google Haritalar'da Göster\">Altınevler Mah. 106. Sokak No:4 <br> 06350 SİTELER / MAMAK - ANKARA TÜRKİYE</a>",
         "icon": "bi-geo-alt"
       },
       {
         "title": "Telefon",
-        "value": "+90 232 XXX XX XX",
+        "value": "<a href=\"tel:+903123487663\" title=\"Telefon Et: +90 (312) 348 76 63\">+90 (312) 348 76 63</a><br><a href=\"tel:+903123537101\" title=\"Telefon Et: +90 (312) 353 71 01\">+90 (312) 353 71 01</a><br><a href=\"tel:+903123511720\" title=\"Telefon Et: +90 (312) 351 17 20\">+90 (312) 351 17 20</a><br><a href=\"tel:+905339581212\" title=\"Telefon Et: +90 (533) 958 12 12\">+90 (533) 958 12 12</a>",
         "icon": "bi-phone"
       },
       {
         "title": "E-posta",
-        "value": "info@umuttasarim.com",
+        "value": "<a href=\"mailto:info@umuttasarim.com\" title=\"E-posta Gönder: info@umuttasarim.com\">info@umuttasarim.com</a>",
         "icon": "bi-envelope"
       }
     ],

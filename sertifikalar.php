@@ -669,8 +669,8 @@ foreach ($sertifikalar as $item) {
                 // Fixed slots according to the image layout
                 const safeSlots = [
                     {
-                        "top": 5,
-                        "left": 1
+                        "top": 20,
+                        "left": 4.7
                     },
                     {
                         "top": 5,

@@ -1,0 +1,70 @@
+{
+    "qualityDocsTitle": "Kalite Belgeleri ve Sertifikalar",
+    "qualityDocs": [
+        {
+            "label": "Uluslararası Standartlar",
+            "text": "ISO 9001, ISO 10002, ISO 14001 ve ISO 45001 gibi uluslararası standartlara uyum sağlar, çalışmalarımızı bu sertifikalar doğrultusunda sürekli güncelleriz."
+        },
+        {
+            "label": "TS EN 1176 – 1,2,3,4,5,6 ve 11 Model Bazlı TS EN Sertifikaları",
+            "text": "Çocuk oyun alanları ve ekipmanları için geçerli güvenlik standartlarını eksiksiz bir şekilde karşılıyoruz."
+        },
+        {
+            "label": "TS 7941",
+            "text": "Oturma bankları için belirlenen kalite standartlarına uygun üretim yapıyoruz."
+        },
+        {
+            "label": "TS EN 16630'a Uygun Üretim",
+            "text": "Sabit dış mekan egzersiz ekipmanları için gerekli güvenlik ve kalite standartlarına tam olarak uyuyoruz."
+        },
+        {
+            "label": "TS 13858",
+            "text": "Kameriyeler için geçerli kalite ve güvenlik standartlarını harfiyen uyguluyoruz."
+        },
+        {
+            "label": "TS 13735",
+            "text": "Çöp kutusu üretiminde ulusal kalite standartlarına titizlikle bağlı kalıyoruz."
+        },
+        {
+            "label": "Kalite Güvencesi",
+            "text": "Ürün ve hizmetlerimizin kalitesinden emin olmak için her aşamada titiz kalite kontrol süreçleri uyguluyoruz."
+        }
+    ],
+    "pieces": {
+        "1": {
+            "title": "Müşteri Odaklılık ve Memnuniyet",
+            "text": "Müşteri Odaklılık\nve Memnuniyet",
+            "desc": "<strong>Beklentileri Aşmak:</strong> Müşterilerimizin ihtiyaçlarını doğru bir şekilde anlamayı ve beklentilerini aşan çözümler sunmayı hedefleriz.<br><br><strong>Geri Bildirim ve Şikayet Yönetimi:</strong> Müşteri geri bildirimlerini en değerli bilgi kaynağımız olarak görür ve hizmet kalitemizi artırmak için kullanırız. Müşteri şikayetlerini hızlı ve etkili bir şekilde çözmeyi taahhüt ederiz."
+        },
+        "2": {
+            "title": "Sürekli İyileştirme ve İnovasyon",
+            "text": "Sürekli\nİyileştirme\nve İnovasyon",
+            "desc": "<strong>Verimlilik ve Etkinlik:</strong> Tüm süreçlerimizi düzenli olarak gözden geçirir, daha verimli ve etkili çalışma yöntemleri geliştiririz.<br><br><strong>Teknolojik Yatırımlar:</strong> En yeni teknolojileri iş süreçlerimize entegre ederek ürün ve hizmetlerimizin kalitesini artırmayı hedefleriz.<br><br><strong>Ar-Ge ve İnovasyon:</strong> Ar-Ge yatırımlarımız sayesinde yenilikçi ürünler geliştirmeye ve sektörde öncü bir rol üstlenmeye devam ediyoruz."
+        },
+        "3": {
+            "title": "Yasalara Uyum ve Etik Değerler",
+            "text": "Yasalara Uyum\nve Etik Değerler",
+            "desc": "<strong>Yasal ve Mevzuat Uyumu:</strong> Faaliyetlerimizi ulusal ve uluslararası yasal düzenlemelere ile sektörel mevzuatlara tam uyum içinde yürütürüz.<br><br><strong>Etik İş İlkeleri:</strong> İş süreçlerimizde yüksek etik standartları benimser; tüm paydaşlarımızla olan ilişkilerimizde dürüstlük, şeffaflık ve güvene dayalı bir yaklaşım sergileriz."
+        },
+        "4": {
+            "title": "Çevre Bilinci ve Sürdürülebilirlik",
+            "text": "Çevre Bilinci\nve Sürdürülebilirlik",
+            "desc": "<strong>Çevresel Sorumluluk:</strong> Üretim süreçlerimizin çevresel etkilerini en aza indirmek için çevre dostu ve sürdürülebilir kaynaklar kullanırız.<br><br><strong>Enerji ve Atık Yönetimi:</strong> Enerji tüketimimizi optimize etmeyi, atıklarımızı geri dönüştürmeyi ve karbon ayak izimizi azaltmayı amaçlarız.<br><br><strong>Çevreci Ürün Geliştirme:</strong> Ürünlerimizi çevre dostu malzemelerle tasarlayarak sürdürülebilir bir geleceğe katkıda bulunuruz."
+        },
+        "5": {
+            "title": "Çalışan Gelişimi ve Güvenliği",
+            "text": "Çalışan\nGelişimi\nve Güvenliği",
+            "desc": "<strong>Eğitim ve Gelişim:</strong> Sürekli eğitimlerle çalışanlarımızın yetkinliklerini artırır, kişisel ve mesleki gelişimlerini destekleriz.<br><br><strong>İş Sağlığı ve Güvenliği:</strong> Çalışanlarımız için en yüksek güvenlik seviyesini sağlamak adına iş sağlığı ve güvenliği standartlarına tam uyumlu bir çalışma ortamı sunarız.<br><br><strong>Çalışan Memnuniyeti:</strong> Çalışan memnuniyetini iş başarımızın temel taşı olarak görür ve sürekli iyileştirmek için çabalarız."
+        },
+        "6": {
+            "title": "Paydaş İş Birliği ve Sosyal Sorumluluk",
+            "text": "Paydaş İş Birliği\nve Sosyal Sorumluluk",
+            "desc": "<strong>Tedarikçi ve İş Ortağı İlişkileri:</strong> Tedarikçilerimiz ve iş ortaklarımızla sürdürülebilir, karşılıklı güvene dayalı ilişkiler geliştiririz. Ortak değerlerimizi paylaşarak uzun vadeli iş birlikleri kurarız.<br><br><strong>Topluma Katkı:</strong> Sosyal sorumluluk projelerine katılarak toplumun refahına katkıda bulunmayı ve pozitif bir sosyal etki yaratmayı amaçlarız."
+        },
+        "7": {
+            "title": "Kalite Belgeleri ve Sertifikalar",
+            "text": "Kalite Belgeleri\nve Sertifikalar",
+            "desc": "<strong>Uluslararası Standartlar:</strong> ISO 9001, ISO 10002, ISO 14001 ve ISO 45001 standartlarına uyum sağlar, çalışmalarımızı bu doğrultuda sürekli güncelleriz.<br><br><strong>Güvenli Üretim:</strong> Çocuk oyun alanları, oturma bankları, dış mekan egzersiz ekipmanları, kameriyeler ve çöp kutuları için ulusal ve uluslararası güvenlik ve kalite standartlarına tam olarak uyuyoruz."
+        }
+    }
+}

@@ -26,7 +26,7 @@ $isIndexPage = isset($isIndex) && $isIndex === true;
                 </div>
 
                 <!-- Ortalanmış Logo -->
-                <a href="index.php" class="header-logo-badge">
+                <a href="<?= lang_url('/') ?>" class="header-logo-badge">
                     <img src="assets/img/logo2.png" alt="Logo">
                 </a>
 
@@ -61,15 +61,25 @@ $isIndexPage = isset($isIndex) && $isIndex === true;
                         <!-- Dil Seçeneği Submenu -->
                         <div class="nav-item has-submenu lang-switcher">
                             <i class="bi bi-globe"></i>
+                            <span class="active-lang"><?php echo strtoupper($lang); ?></span>
                             <div class="submenu-mega lang-menu">
                                 <div class="lang-grid">
-                                    <a href="?lang=tr" class="lang-option <?php echo $lang === 'tr' ? 'active' : ''; ?>">
+                                    <?php
+                                    $trUrl = get_lang_switch_url('tr');
+                                    $enUrl = get_lang_switch_url('en');
+                                    $ruUrl = get_lang_switch_url('ru');
+                                    ?>
+                                    <a href="<?php echo htmlspecialchars($trUrl, ENT_QUOTES, 'UTF-8'); ?>" class="lang-option <?php echo $lang === 'tr' ? 'active' : ''; ?>">
                                         <span class="lang-text">TR</span>
                                         <span class="lang-name">Türkçe</span>
                                     </a>
-                                    <a href="?lang=en" class="lang-option <?php echo $lang === 'en' ? 'active' : ''; ?>">
+                                    <a href="<?php echo htmlspecialchars($enUrl, ENT_QUOTES, 'UTF-8'); ?>" class="lang-option <?php echo $lang === 'en' ? 'active' : ''; ?>">
                                         <span class="lang-text">EN</span>
                                         <span class="lang-name">English</span>
+                                    </a>
+                                    <a href="<?php echo htmlspecialchars($ruUrl, ENT_QUOTES, 'UTF-8'); ?>" class="lang-option <?php echo $lang === 'ru' ? 'active' : ''; ?>">
+                                        <span class="lang-text">RU</span>
+                                        <span class="lang-name">Русский</span>
                                     </a>
                                 </div>
                             </div>
@@ -103,7 +113,7 @@ $isIndexPage = isset($isIndex) && $isIndex === true;
     <!-- Standard Navbar -->
     <nav class="navbar navbar-expand-lg custom-nav sticky-top">
         <div class="container-fluid d-flex justify-content-between align-items-center">
-            <a class="navbar-brand d-lg-none" href="index.php">
+            <a class="navbar-brand d-xl-none" href="<?= lang_url('/') ?>">
                 <img src="assets/img/logo2.png" alt="Logo" style="height: 70px; width: auto;">
             </a>
             <div class="d-none d-lg-flex w-100 align-items-center">
@@ -129,15 +139,25 @@ $isIndexPage = isset($isIndex) && $isIndex === true;
                     </div>
                     <div class="nav-item has-submenu lang-switcher">
                         <i class="bi bi-globe"></i>
+                        <span class="active-lang"><?php echo strtoupper($lang); ?></span>
                         <div class="submenu-mega lang-menu">
                             <div class="lang-grid">
-                                <a href="?lang=tr" class="lang-option <?php echo $lang === 'tr' ? 'active' : ''; ?>">
+                                <?php
+                                $trUrl = get_lang_switch_url('tr');
+                                $enUrl = get_lang_switch_url('en');
+                                $ruUrl = get_lang_switch_url('ru');
+                                ?>
+                                <a href="<?php echo htmlspecialchars($trUrl, ENT_QUOTES, 'UTF-8'); ?>" class="lang-option <?php echo $lang === 'tr' ? 'active' : ''; ?>">
                                     <span class="lang-text">TR</span>
                                     <span class="lang-name">Türkçe</span>
                                 </a>
-                                <a href="?lang=en" class="lang-option <?php echo $lang === 'en' ? 'active' : ''; ?>">
+                                <a href="<?php echo htmlspecialchars($enUrl, ENT_QUOTES, 'UTF-8'); ?>" class="lang-option <?php echo $lang === 'en' ? 'active' : ''; ?>">
                                     <span class="lang-text">EN</span>
                                     <span class="lang-name">English</span>
+                                </a>
+                                <a href="<?php echo htmlspecialchars($ruUrl, ENT_QUOTES, 'UTF-8'); ?>" class="lang-option <?php echo $lang === 'ru' ? 'active' : ''; ?>">
+                                    <span class="lang-text">RU</span>
+                                    <span class="lang-name">Русский</span>
                                 </a>
                             </div>
                         </div>

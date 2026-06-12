@@ -29,6 +29,17 @@ include_once 'inc/header.php';
             box-shadow: 0 40px 80px rgba(0, 0, 0, 0.12);
         }
 
+        @media (max-width: 1200px) and (min-width: 992px) {
+            .hero-card {
+                width: 90% !important;
+            }
+            .hero-card-image {
+                width: 420px !important;
+                height: 250px !important;
+                right: -50px !important;
+            }
+        }
+
         .hero-card-content {
             padding-right: 48%;
         }
@@ -36,7 +47,7 @@ include_once 'inc/header.php';
         .hero-card-image {
             width: 550px;
             height: 300px;
-            right: -60px;
+            right: -100px;
             box-shadow: 20px 40px 80px rgba(0, 0, 0, 0.4);
             border-radius: 30px;
         }
@@ -176,7 +187,7 @@ include_once 'inc/header.php';
                     $sublabel = isset($words[1]) ? $words[1] : '';
                     $bgIndex = $index + 1;
                     ?>
-                    <div class="category-item">
+                    <a href="<?= lang_url('/urunler/' . $cat['kat_sef_url']) ?>" class="category-item" style="text-decoration: none;">
                         <div class="category-icon">
                             <img src="<?= $cat['kat_resim'] ?>" class="img-normal" alt="<?= $cat['kat_adi'] ?>">
                             <img src="<?= $cat['kat_resim2'] ?>" class="img-hover" alt="<?= $cat['kat_adi'] ?>">
@@ -185,7 +196,7 @@ include_once 'inc/header.php';
                         <?php if ($sublabel): ?>
                             <div class="category-sublabel"><?= $sublabel ?></div>
                         <?php endif; ?>
-                    </div>
+                    </a>
                 <?php endforeach; ?>
             </div>
         </section>

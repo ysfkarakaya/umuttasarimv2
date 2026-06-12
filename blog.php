@@ -20,7 +20,7 @@ include_once 'inc/header.php';
 ?>
 
 <style>
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         body.blog-page {
             overflow: hidden;
             height: 100vh;

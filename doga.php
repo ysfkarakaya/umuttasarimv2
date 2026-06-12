@@ -7,6 +7,7 @@ include_once 'inc/header.php';
     .materials-page .sidebar-title {
         font-size: 2.5rem;
         line-height: 1.1;
+        font-size: clamp(2rem, 3.2vw, 2.8rem) !important;
         margin-top: 50px;
     }
 
@@ -96,14 +97,16 @@ include_once 'inc/header.php';
 
     .policy-card {
         position: absolute;
-        left: 0;
-        top: 0;
+        left: 100px;
+        top: 125px;
         width: 245px;
         border-radius: 20px;
         border: 5px solid #f1f1f1;
         background: rgba(255, 255, 255, 0.95);
         overflow: hidden;
         box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        pointer-events: none;
         transition: left 0.55s ease, top 0.55s ease, width 0.55s ease, transform 0.55s ease, opacity 0.45s ease;
     }
 
@@ -133,17 +136,28 @@ include_once 'inc/header.php';
         margin: 0;
     }
 
+    .policy-card.slot-bottom {
+        left: -10px;
+        top: 150px;
+        transform: rotate(-15deg);
+        z-index: 0;
+        opacity: 0.90;
+        pointer-events: auto;
+    }
+
+    .policy-card.slot-bottom .policy-content,
+    .policy-card.slot-left .policy-content {
+        font-size: 0.62rem;
+        line-height: 1.25;
+    }
+
     .policy-card.slot-left {
         left: 100px;
         top: 125px;
         transform: rotate(-10deg);
         z-index: 1;
         opacity: 0.95;
-    }
-
-    .policy-card.slot-left .policy-content {
-        font-size: 0.62rem;
-        line-height: 1.25;
+        pointer-events: auto;
     }
 
     .policy-card.slot-middle {
@@ -152,6 +166,7 @@ include_once 'inc/header.php';
         transform: rotate(-4deg);
         z-index: 2;
         opacity: 0.98;
+        pointer-events: auto;
     }
 
     .policy-card.slot-right {
@@ -160,6 +175,7 @@ include_once 'inc/header.php';
         transform: rotate(0deg);
         z-index: 3;
         opacity: 1;
+        pointer-events: auto;
     }
 
     .policy-arrow {
@@ -302,9 +318,11 @@ include_once 'inc/header.php';
             flex: 0 0 260px;
             width: 260px !important;
             opacity: 1 !important;
+            pointer-events: auto !important;
             scroll-snap-align: start;
         }
 
+        .policy-card.slot-bottom .policy-content,
         .policy-card.slot-left .policy-content {
             font-size: 0.72rem;
             line-height: 1.3;
@@ -409,7 +427,9 @@ include_once 'inc/header.php';
         }
 
         // Define slot classes for dynamic positioning
-        $slots = ['slot-left', 'slot-middle', 'slot-right'];
+        $slots = count($cards) >= 4
+            ? ['slot-bottom', 'slot-left', 'slot-middle', 'slot-right']
+            : ['slot-left', 'slot-middle', 'slot-right'];
         ?>
 
         <section class="materials-section sustainability-section">
@@ -420,7 +440,7 @@ include_once 'inc/header.php';
             <div class="policy-cards">
                 <?php foreach ($cards as $index => $card): ?>
                     <?php
-                    $slotClass = isset($slots[$index]) ? $slots[$index] : 'slot-bottom';
+                    $slotClass = isset($slots[$index]) ? $slots[$index] : '';
                     $imgUrl = !empty($card['kart_detay_gorsel']) ? $card['kart_detay_gorsel'] : 'assets/img/placeholder.png';
                     ?>
                     <article class="policy-card <?php echo $slotClass; ?>">
@@ -451,12 +471,15 @@ include_once 'inc/header.php';
             const policyCards = document.querySelectorAll('.policy-cards .policy-card');
             if (policyCards.length < 2) return; // Need at least 2 for rotation
 
-            const slots = ['slot-left', 'slot-middle', 'slot-right'];
+            const allSlots = ['slot-bottom', 'slot-left', 'slot-middle', 'slot-right'];
+            const slots = policyCards.length >= 4
+                ? ['slot-bottom', 'slot-left', 'slot-middle', 'slot-right']
+                : ['slot-left', 'slot-middle', 'slot-right'];
             let order = Array.from(policyCards);
 
             const applySlots = () => {
                 order.forEach((card, index) => {
-                    slots.forEach(s => card.classList.remove(s));
+                    allSlots.forEach(s => card.classList.remove(s));
                     if (slots[index]) card.classList.add(slots[index]);
                 });
             };
@@ -475,7 +498,7 @@ include_once 'inc/header.php';
             order.forEach((card) => {
                 card.addEventListener('click', () => {
                     if (window.innerWidth <= 991) return;
-                    while (order[Math.min(2, order.length - 1)] !== card) {
+                    while (order[Math.min(slots.length - 1, order.length - 1)] !== card) {
                         order.push(order.shift());
                     }
                     applySlots();

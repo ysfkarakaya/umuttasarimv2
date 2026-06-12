@@ -2,13 +2,13 @@
     {
         "kart_id": 17,
         "kart_kategori": "anasayfa",
-        "kart_aciklama": "<div class=\"hero-card-content\">\r\n    <div class=\"hero-header\">\r\n        <div class=\"icon-box\">\r\n            <img src=\"assets\/img\/ampul-icon.png\" alt=\"İkon\">\r\n        <\/div>\r\n        <div class=\"hero-header-text\">\r\n            İlham Veren<br><strong><u>Referanslarımız<\/u><\/strong>\r\n        <\/div>\r\n    <\/div>\r\n    <h2>Kapsamlı Çözümler<\/h2>\r\n    <h3>1994'ten Gelen Tecrübeyle<\/h3>\r\n    <p class=\"description\">Her yaş için güvenli oyun alanları ve<br>estetik kent mobilyaları üretiyoruz.<\/p>\r\n    <a href=\"#\" class=\"see-how\">Keşfedin <i class=\"bi bi-chevron-right\"><\/i><\/a>\r\n<\/div>",
+        "kart_aciklama": "<div class=\"hero-card-content\">\r\n    <div class=\"hero-header\">\r\n        <div class=\"icon-box\">\r\n            <img src=\"assets\/img\/ampul-icon.png\" alt=\"İkon\">\r\n        <\/div>\r\n        <div class=\"hero-header-text\">\r\n            Projeleriniz İçin İlham Alın<br><strong><u>Referanslarımızı İnceleyin<\/u><\/strong>\r\n        <\/div>\r\n    <\/div>\r\n    <h2>Yenilikçi Çözümler<\/h2>\r\n    <h3>1994'ten Bugüne Sürdürülebilir Başarı<\/h3>\r\n    <p class=\"description\">Çocuklar için mutlu anılar bırakacak güvenli oyun alanları ve<br>şehre değer katan modern kent mobilyaları tasarlamak ister misiniz?<\/p>\r\n    <a href=\"#\" class=\"see-how\">Detayları İnceleyin <i class=\"bi bi-chevron-right\"><\/i><\/a>\r\n<\/div>",
         "kart_adi": "Anasayfa",
         "kart_gorsel": "upload\/kartlar\/breadcrumbs.png",
         "kart_sira": 0,
         "kart_durum": 1,
         "created_at": "2026-05-14 13:41:47",
-        "updated_at": "2026-05-18 16:23:54",
+        "updated_at": "2026-05-19 10:52:24",
         "deleted_at": null,
         "detaylar": [
             {

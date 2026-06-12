@@ -12,15 +12,89 @@ function active_lang()
         session_start();
     }
 
-    // if (isset($_GET['lang'])) {
-    //     $requestedLang = strtolower($_GET['lang']);
-    //     // Sadece desteklenen dillere izin ver (data/lang klasöründeki klasör isimleri)
-    //     if (in_array($requestedLang, ['tr', 'en'])) {
-    //         $_SESSION['lang'] = $requestedLang;
-    //     }
-    // }
+    if (isset($_GET['lang'])) {
+        $requestedLang = strtolower($_GET['lang']);
+        // tr, en ve ru dillerini destekliyoruz
+        if (in_array($requestedLang, ['tr', 'en', 'ru'])) {
+            $_SESSION['lang'] = $requestedLang;
+        }
+    } else {
+        // Fallback: Path kontrolü
+        $uri = $_SERVER['REQUEST_URI'] ?? '';
+        $parts = explode('/', trim($uri, '/'));
+        if (!empty($parts[0]) && in_array(strtolower($parts[0]), ['tr', 'en', 'ru'])) {
+            $_SESSION['lang'] = strtolower($parts[0]);
+        }
+    }
 
     return isset($_SESSION['lang']) ? $_SESSION['lang'] : 'tr';
+}
+
+/**
+ * URL'lerin başına mevcut aktif dil ön ekini ekler (örneğin /tr/hakkimizda).
+ * 
+ * @param string $path
+ * @return string
+ */
+function lang_url($path)
+{
+    $path = trim((string)$path);
+    if ($path === '' || $path === '#' || $path === 'javascript:void(0)' || $path === 'javascript:void()') {
+        return $path;
+    }
+    
+    // Harici URL'leri elleme
+    if (preg_match('#^https?://#i', $path)) {
+        return $path;
+    }
+
+    $lang = active_lang();
+    $cleanPath = ltrim($path, '/');
+    
+    // Çift dil eklenmesini engelle
+    if (preg_match('/^(tr|en|ru)\b/i', $cleanPath)) {
+        return '/' . $cleanPath;
+    }
+    
+    if ($cleanPath === '') {
+        return '/' . $lang . '/';
+    }
+    
+    return '/' . $lang . '/' . $cleanPath;
+}
+
+/**
+ * Dil geçiş menüsü için temiz URL üretir.
+ * 
+ * @param string $targetLang
+ * @return string
+ */
+function get_lang_switch_url($targetLang)
+{
+    $currentScript = basename($_SERVER['SCRIPT_NAME']);
+    $path = '';
+    if ($currentScript === 'urun-detay.php') {
+        $path = '/' . $targetLang . '/urun/' . ($_GET['sef_url'] ?? '');
+    } elseif ($currentScript === 'urunler.php') {
+        $path = '/' . $targetLang . '/urunler/' . ($_GET['slug'] ?? '');
+    } elseif ($currentScript === 'blog-detay.php') {
+        $path = '/' . $targetLang . '/blog/' . ($_GET['name'] ?? '');
+    } elseif ($currentScript === 'sayfa-detay.php') {
+        $path = '/' . $targetLang . '/' . ($_GET['slug'] ?? '');
+    } elseif ($currentScript === 'index.php') {
+        $path = '/' . $targetLang . '/';
+    } else {
+        $cleanName = basename($currentScript, '.php');
+        $path = '/' . $targetLang . '/' . $cleanName;
+    }
+
+    // Diğer parametreleri koru (lang, sef_url, slug, name hariç)
+    $params = $_GET;
+    unset($params['lang'], $params['sef_url'], $params['slug'], $params['name']);
+    if (!empty($params)) {
+        $path .= '?' . http_build_query($params);
+    }
+    return $path;
 }
 
 /**
@@ -134,6 +208,87 @@ function get_statik_config($lang = null)
 }
 
 /**
+ * Sayfa açıklamaları dosyasından (sayfa_aciklamalari.json) değer döndürür.
+ * 
+ * @param string $key Anahtar (sayfa adı)
+ * @param string $lang Dil kodu
+ * @return string|null
+ */
+function get_sayfa_aciklamasi($key, $lang = null)
+{
+    if (!$lang) {
+        $lang = active_lang();
+    }
+
+    static $descriptions = [];
+
+    if (!isset($descriptions[$lang])) {
+        $path = __DIR__ . "/../data/lang/{$lang}/sayfa_aciklamalari/sayfa_aciklamalari.json";
+        if (!file_exists($path)) {
+            // Fallback to Turkish
+            $path = __DIR__ . "/../data/lang/tr/sayfa_aciklamalari/sayfa_aciklamalari.json";
+        }
+        if (file_exists($path)) {
+            $json = file_get_contents($path);
+            $descriptions[$lang] = json_decode($json, true);
+        } else {
+            $descriptions[$lang] = [];
+        }
+    }
+
+    if (isset($descriptions[$lang][$key]) && $descriptions[$lang][$key] !== null) {
+        return html_entity_decode($descriptions[$lang][$key], ENT_QUOTES, 'UTF-8');
+    }
+
+    return null;
+}
+
+/**
+ * Mevcut sayfanın dinamik footer açıklamasını sayfa_aciklamalari.json dosyasından belirler.
+ * 
+ * @param string|null $targetLang Hedef dil kodu
+ * @return string|null
+ */
+function get_sidebar_footer_text($targetLang = null)
+{
+    $script = basename($_SERVER['SCRIPT_NAME']);
+    $page_key = null;
+
+    if ($script === 'blog.php' || $script === 'blog-detay.php') {
+        $page_key = 'blog';
+    } elseif ($script === 'tasarim.php') {
+        $page_key = 'tasarim';
+    } elseif ($script === 'kalite-politikasi.php') {
+        $page_key = 'kalite-politikasi';
+    } elseif ($script === 'materyaller.php') {
+        $page_key = 'materyaller';
+    } elseif ($script === 'doga.php') {
+        $page_key = 'doga';
+    } elseif ($script === 'sertifikalar.php') {
+        $page_key = 'sertifikalar';
+    } elseif ($script === 'oduller.php') {
+        $page_key = 'oduller';
+    } elseif ($script === 'kariyer.php') {
+        $page_key = 'kariyer';
+    } elseif ($script === 'referanslar.php') {
+        $page_key = 'referanslar';
+    } elseif ($script === 'iletisim.php' || $script === 'harita.php') {
+        $page_key = 'iletisim';
+    } elseif ($script === 'sayfa-detay.php') {
+        $page_key = $_GET['slug'] ?? 'kalite-politikasi';
+    }
+
+    if ($page_key !== null) {
+        $desc = get_sayfa_aciklamasi($page_key, $targetLang);
+        if ($desc !== null && trim($desc) !== '') {
+            return $desc;
+        }
+    }
+
+    return null;
+}
+
+/**
  * Statik dil dosyasından (statik.json) değer döndürür.
  * 
  * @param string $key Anahtar
@@ -154,6 +309,13 @@ function statik($key, $fallbackOrLang = null, $lang = null)
         }
     } else {
         $fallback = $fallbackOrLang;
+    }
+
+    if ($key === 'sidebar_footer') {
+        $desc = get_sidebar_footer_text($targetLang);
+        if ($desc !== null && trim($desc) !== '') {
+            return $desc;
+        }
     }
 
     static $translations = [];
@@ -183,7 +345,7 @@ function render_mega_menu($item)
     foreach ($item['submenu'] as $sub) {
         $bgImage = "assets/bg/{$index}.webp";
         $colorClass = isset($sub['color']) ? "gradient-{$sub['color']}" : "";
-        echo '<a href="' . $sub['url'] . '" class="submenu-card ' . $colorClass . '" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;">';
+        echo '<a href="' . lang_url($sub['url']) . '" class="submenu-card ' . $colorClass . '" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;">';
         echo '<div class="card-icon"><i class="bi ' . $sub['icon'] . '"></i></div>';
         echo '<div class="card-text">';
         echo '<span class="title">' . $sub['title'] . '</span>';
@@ -213,12 +375,12 @@ function render_nav_item($item, $class = 'nav-link')
 
     if ($hasSubmenu) {
         echo '<div class="' . $itemClass . '">';
-        echo '<a class="' . $class . '" href="' . $item['url'] . '">' . $item['title'] . '</a>';
+        echo '<a class="' . $class . '" href="' . lang_url($item['url']) . '">' . $item['title'] . '</a>';
         render_mega_menu($item);
         echo '</div>';
     } else {
         $extraClass = isset($item['class']) ? $item['class'] : $class;
-        echo '<a class="' . $extraClass . '" href="' . $item['url'] . '">' . $item['title'] . '</a>';
+        echo '<a class="' . $extraClass . '" href="' . lang_url($item['url']) . '">' . $item['title'] . '</a>';
     }
 }
 
@@ -243,7 +405,7 @@ function render_mobile_nav_item($item, $id)
         $index = 1;
         foreach ($item['submenu'] as $sub) {
             $bgImage = "assets/bg/{$index}.webp";
-            echo '<a href="' . $sub['url'] . '" class="submenu-card" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;">';
+            echo '<a href="' . lang_url($sub['url']) . '" class="submenu-card" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;">';
             echo '<div class="card-icon"><i class="bi ' . $sub['icon'] . '"></i></div>';
             echo '<div class="card-text"><span class="title">' . $sub['title'] . '</span></div>';
             echo '</a>';
@@ -254,7 +416,7 @@ function render_mobile_nav_item($item, $id)
         echo '</li>';
     } else {
         $class = isset($item['class']) ? $item['class'] : '';
-        echo '<li class="nav-item"><a class="nav-link ' . $class . '" href="' . $item['url'] . '">' . $item['title'] . '</a></li>';
+        echo '<li class="nav-item"><a class="nav-link ' . $class . '" href="' . lang_url($item['url']) . '">' . $item['title'] . '</a></li>';
     }
 }
 

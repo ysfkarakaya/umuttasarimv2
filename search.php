@@ -1,7 +1,7 @@
 <?php
 include_once 'inc/functions.php';
 $lang = active_lang();
-$query = isset($_GET['q']) ? trim((string)$_GET['q']) : '';
+$query = isset($_GET['q']) ? trim((string) $_GET['q']) : '';
 
 $groupedResults = [];
 $totalFound = 0;
@@ -17,9 +17,10 @@ if ($query !== '') {
                     foreach ($content as $product) {
                         $searchable = ($product['urun_adi'] ?? '') . ' ' . ($product['urun_kodu'] ?? '') . ' ' . ($product['urun_aciklama'] ?? '');
                         if (mb_stripos($searchable, $query) !== false) {
-                            $catName = trim((string)($product['kat_adi'] ?? ($lang === 'tr' ? 'Diğer' : 'Other')));
-                            if ($catName === '') $catName = ($lang === 'tr' ? 'Diğer' : 'Other');
-                            
+                            $catName = trim((string) ($product['kat_adi'] ?? ($lang === 'tr' ? 'Diğer' : 'Other')));
+                            if ($catName === '')
+                                $catName = ($lang === 'tr' ? 'Diğer' : 'Other');
+
                             if (!isset($groupedResults[$catName])) {
                                 $groupedResults[$catName] = [];
                             }
@@ -78,7 +79,7 @@ include_once 'inc/header.php';
                     <h2><?php echo $lang === 'tr' ? 'Arama' : 'Search'; ?></h2>
                     <h3>"<?php echo htmlspecialchars($query); ?>"</h3>
                     <p class="description">
-                        <?php 
+                        <?php
                         if ($totalFound > 0) {
                             echo "<strong>$totalFound</strong> " . ($lang === 'tr' ? 'ürün bulundu.' : 'products found.');
                         } else {
@@ -86,7 +87,8 @@ include_once 'inc/header.php';
                         }
                         ?>
                     </p>
-                    <a href="urunler.php" class="see-how"><?php echo $lang === 'tr' ? 'Tüm Ürünler' : 'All Products'; ?> <i class="bi bi-chevron-right"></i></a>
+                    <a href="<?= lang_url('/urunler') ?>" class="see-how"><?php echo $lang === 'tr' ? 'Tüm Ürünler' : 'All Products'; ?>
+                        <i class="bi bi-chevron-right"></i></a>
                 </div>
                 <div class="hero-card-image">
                     <img src="assets/img/breadcrumbs.png" alt="Search">
@@ -107,10 +109,10 @@ include_once 'inc/header.php';
                             <div class="swiper-wrapper">
                                 <?php foreach ($products as $product): ?>
                                     <?php
-                                    $productName = trim((string)($product['urun_adi'] ?? ''));
-                                    $productCode = trim((string)($product['urun_kodu'] ?? $productName));
-                                    $productSlug = trim((string)($product['sef_url'] ?? ''));
-                                    $imagePath = trim((string)($product['kapak_resmi'] ?? ''));
+                                    $productName = trim((string) ($product['urun_adi'] ?? ''));
+                                    $productCode = trim((string) ($product['urun_kodu'] ?? $productName));
+                                    $productSlug = trim((string) ($product['sef_url'] ?? ''));
+                                    $imagePath = trim((string) ($product['kapak_resmi'] ?? ''));
                                     $imageExt = strtolower(pathinfo($imagePath, PATHINFO_EXTENSION));
                                     $imageSrc = $imagePath !== '' ? '/' . ltrim($imagePath, '/') : '';
 
@@ -118,7 +120,7 @@ include_once 'inc/header.php';
                                         $imageSrc = 'assets/img/eko.png';
                                     }
 
-                                    $productHref = $productSlug !== '' ? '/urun/' . rawurlencode($productSlug) : '#';
+                                    $productHref = $productSlug !== '' ? lang_url('/urun/' . $productSlug) : '#';
                                     ?>
                                     <a class="product-card swiper-slide" href="<?php echo htmlspecialchars($productHref); ?>">
                                         <img src="<?php echo htmlspecialchars($imageSrc); ?>"
@@ -152,7 +154,9 @@ include_once 'inc/header.php';
             <?php else: ?>
                 <div class="container py-5 text-center">
                     <i class="bi bi-search" style="font-size: 4rem; color: #eee; display: block; margin-bottom: 20px;"></i>
-                    <p style="color: #999; font-size: 1.2rem;"><?php echo $lang === 'tr' ? 'Aradığınız kriterlere uygun ürün bulunamadı.' : 'No products found matching your search criteria.'; ?></p>
+                    <p style="color: #999; font-size: 1.2rem;">
+                        <?php echo $lang === 'tr' ? 'Aradığınız kriterlere uygun ürün bulunamadı.' : 'No products found matching your search criteria.'; ?>
+                    </p>
                 </div>
             <?php endif; ?>
         </section>

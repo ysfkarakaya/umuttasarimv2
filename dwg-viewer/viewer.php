@@ -7,32 +7,53 @@ if ($fileParam === '') {
     die('Dosya parametresi eksik. Kullanım: ?file=upload/urunler/10/dosya.dxf');
 }
 
-// Normalize and resolve — must stay inside webroot
-$fileParam = ltrim(str_replace('\\', '/', $fileParam), '/');
-$filePath = realpath($webroot . '/' . $fileParam);
+$isRemote = preg_match('#^https?://#i', $fileParam);
 
-if ($filePath === false || strpos($filePath, $webroot) !== 0) {
-    http_response_code(403);
-    die('Geçersiz dosya yolu.');
+if ($isRemote) {
+    // Security check: Only allow v2.umutapp.com URLs
+    if (strpos($fileParam, 'https://v2.umutapp.com/') !== 0) {
+        http_response_code(403);
+        die('Geçersiz harici dosya yolu.');
+    }
+    $filename = basename(parse_url($fileParam, PHP_URL_PATH));
+    $filesize = 0; // Default to 0 for remote files
+    $fileurl = $fileParam;
+    $filePath = ''; // No local path
+    $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
+    if (!in_array($ext, ['dwg', 'dxf'])) {
+        http_response_code(400);
+        die('Sadece DWG ve DXF dosyaları desteklenmektedir.');
+    }
+} else {
+    // Normalize and resolve — must stay inside webroot
+    $fileParam = ltrim(str_replace('\\', '/', $fileParam), '/');
+    $filePath = realpath($webroot . '/' . $fileParam);
+
+    if ($filePath === false || strpos($filePath, $webroot) !== 0) {
+        http_response_code(403);
+        die('Geçersiz dosya yolu.');
+    }
+
+    $ext = strtolower(pathinfo($filePath, PATHINFO_EXTENSION));
+    if (!in_array($ext, ['dwg', 'dxf'])) {
+        http_response_code(400);
+        die('Sadece DWG ve DXF dosyaları desteklenmektedir.');
+    }
+
+    if (!file_exists($filePath)) {
+        http_response_code(404);
+        die('Dosya bulunamadı: ' . htmlspecialchars($fileParam));
+    }
+
+    $filename = basename($filePath);
+    $filesize = filesize($filePath);
+    $fileurl = '/' . $fileParam;
 }
-
-$ext = strtolower(pathinfo($filePath, PATHINFO_EXTENSION));
-if (!in_array($ext, ['dwg', 'dxf'])) {
-    http_response_code(400);
-    die('Sadece DWG ve DXF dosyaları desteklenmektedir.');
-}
-
-if (!file_exists($filePath)) {
-    http_response_code(404);
-    die('Dosya bulunamadı: ' . htmlspecialchars($fileParam));
-}
-
-$filename = basename($filePath);
-$filesize = filesize($filePath);
-$fileurl = '/' . $fileParam;
 
 function viewer_fmt_size(int $b): string
 {
+    if ($b <= 0)
+        return '';
     if ($b < 1024)
         return $b . ' B';
     if ($b < 1048576)
@@ -372,9 +393,7 @@ function viewer_fmt_size(int $b): string
             <div class="toolbar-sep"></div>
         <?php endif; ?>
 
-        <a class="toolbar-btn" href="<?= htmlspecialchars($fileurl) ?>" download="<?= htmlspecialchars($filename) ?>">
-            <i class="bi bi-download"></i> İndir
-        </a>
+        <!-- İndir butonu güvenlik sebebiyle kaldırıldı -->
     </div>
 
     <!-- Viewer area -->
@@ -393,10 +412,10 @@ function viewer_fmt_size(int $b): string
                     <h5><?= htmlspecialchars($filename) ?></h5>
                     <p style="font-size:.8rem;color:#4b5563;margin-bottom:0">AutoCAD Binary Drawing</p>
                     <div class="dwg-meta">
-                        <div class="dwg-meta-item"><label>Boyut</label><span><?= viewer_fmt_size($filesize) ?></span></div>
+                        <div class="dwg-meta-item"><label>Boyut</label><span><?= $filesize > 0 ? viewer_fmt_size($filesize) : 'Bilinmiyor' ?></span></div>
                         <div class="dwg-meta-item"><label>Format</label><span>DWG</span></div>
                         <div class="dwg-meta-item">
-                            <label>Değiştirilme</label><span><?= date('d.m.Y', filemtime($filePath)) ?></span></div>
+                            <label>Değiştirilme</label><span><?= $filePath !== '' ? date('d.m.Y', filemtime($filePath)) : '-' ?></span></div>
                         <div class="dwg-meta-item"><label>Durum</label><span style="color:#34d399">Hazır</span></div>
                     </div>
                     <div class="dwg-note">
@@ -404,10 +423,7 @@ function viewer_fmt_size(int $b): string
                         <span>DWG dosyaları kapalı kaynak formattır ve tarayıcıda doğrudan işlenemez. Önizleme için DXF
                             formatına dönüştürün.</span>
                     </div>
-                    <a class="btn-dl" href="<?= htmlspecialchars($fileurl) ?>"
-                        download="<?= htmlspecialchars($filename) ?>">
-                        <i class="bi bi-download"></i> İndir
-                    </a>
+                    <!-- İndir butonu güvenlik sebebiyle kaldırıldı -->
                 </div>
             </div>
         <?php endif; ?>
@@ -421,9 +437,6 @@ function viewer_fmt_size(int $b): string
             <div class="viewer-error" id="viewerError">
                 <i class="bi bi-exclamation-triangle"></i>
                 <p id="viewerErrorMsg">Dosya yüklenemedi.</p>
-                <a class="toolbar-btn" href="<?= htmlspecialchars($fileurl) ?>" download>
-                    <i class="bi bi-download"></i> İndir
-                </a>
             </div>
         <?php endif; ?>
 

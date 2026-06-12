@@ -4,8 +4,8 @@
     "meta": {
       "charset": "UTF-8",
       "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-      "description": "Umut Tasarım, kurumsal kimlik, web tasarım ve dijital pazarlama alanında profesyonel çözümler sunan bir tasarım ajansıdır.",
-      "keywords": "tasarım, web tasarım, logo tasarımı, kurumsal kimlik, dijital ajans, umut tasarım",
+      "description": "Umut Tasarım, çocuk oyun grupları, kent mobilyaları ve yapısal peyzaj elemanları geliştiren; güvenli, dayanıklı ve yenilikçi çözümler sunan üretici firmadır.",
+      "keywords": "çocuk oyun ekipmanları, çocuk oyun grupları, kent mobilyaları, yapısal peyzaj elemanları, oyun parkı üreticisi, dış mekan oyun ekipmanları, umut tasarım",
       "author": "Umut Tasarım",
       "robots": "index, follow",
       "revisit-after": "7 days",
@@ -23,12 +23,12 @@
     "og": {
       "title": "Umut Tasarım | Modern ve Yenilikçi Tasarım Çözümleri",
       "type": "website",
-      "url": "https://www.umuttasarim.com",
-      "image": "https://www.umuttasarim.com/assets/img/og-image.jpg",
+      "url": "https://umuttasarim.com",
+      "image": "https://umuttasarim.com/upload/og-img.jpeg",
       "image:width": "1200",
       "image:height": "630",
       "site_name": "Umut Tasarım",
-      "description": "Profesyonel tasarım çözümleri ile markanızı geleceğe taşıyın. Web tasarım, logo ve kurumsal kimlik hizmetleri.",
+      "description": "Çocuk oyun grupları, kent mobilyaları ve yapısal peyzaj elemanlarında güvenli ve yenilikçi üretim çözümleri.",
       "locale": "tr_TR"
     },
     "twitter": {
@@ -36,29 +36,56 @@
       "site": "@umuttasarim",
       "creator": "@umuttasarim",
       "title": "Umut Tasarım | Modern ve Yenilikçi Tasarım Çözümleri",
-      "description": "Profesyonel tasarım çözümleri ile markanızı geleceğe taşıyın.",
-      "image": "https://www.umuttasarim.com/assets/img/twitter-card.jpg"
+      "description": "Çocuk oyun ekipmanları ve kent mobilyalarında güvenli, dayanıklı ve yenilikçi üretim çözümleri.",
+      "image": "https://umuttasarim.com/upload/og-img.jpeg"
     },
     "schema": {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Umut Tasarım",
-      "image": "https://www.umuttasarim.com/assets/img/logo.png",
-      "@id": "https://www.umuttasarim.com",
-      "url": "https://www.umuttasarim.com",
-      "telephone": "+90 5XX XXX XX XX",
+      "image": "https://umuttasarim.com/assets/img/logo.png",
+      "@id": "https://umuttasarim.com",
+      "url": "https://umuttasarim.com",
+      "telephone": "+90 312 348 76 63",
+      "email": "info@umuttasarim.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Örnek Mahallesi, Tasarım Sokak No:1",
-        "addressLocality": "İstanbul",
-        "postalCode": "34000",
+        "streetAddress": "Altınevler Mah. 106. Sokak No:4",
+        "addressLocality": "Mamak",
+        "postalCode": "06350",
         "addressCountry": "TR"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 41.0082,
-        "longitude": 28.9784
+        "latitude": 39.9572992,
+        "longitude": 32.8859648
       },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+90 312 348 76 63",
+          "contactType": "customer service",
+          "areaServed": "TR"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+90 312 353 71 01",
+          "contactType": "customer service",
+          "areaServed": "TR"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+90 312 351 17 20",
+          "contactType": "customer service",
+          "areaServed": "TR"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+90 533 958 12 12",
+          "contactType": "customer service",
+          "areaServed": "TR"
+        }
+      ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
@@ -80,8 +107,8 @@
     },
     "links": {
       "canonical": "https://www.umuttasarim.com",
-      "favicon": "/favicon.ico",
-      "apple-touch-icon": "/apple-touch-icon.png",
+      "favicon": "/assets/img/logo.png",
+      "apple-touch-icon": "/assets/img/logo.png",
       "manifest": "/site.webmanifest"
     }
   }

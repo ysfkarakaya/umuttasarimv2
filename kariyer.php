@@ -215,7 +215,7 @@ include_once 'inc/header.php';
     .submit-premium-btn {
         width: 100%;
         background: linear-gradient(135deg, #e91e63 0%, #7b1fa2 100%);
-        color: white;
+        color: white !important;
         border: none;
         padding: 12px;
         border-radius: 10px;
@@ -225,6 +225,9 @@ include_once 'inc/header.php';
         box-shadow: 0 10px 24px rgba(233, 30, 99, 0.2);
         transition: all 0.4s;
         margin-top: 12px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
     }
 
     .submit-premium-btn:hover {
@@ -350,26 +353,19 @@ include_once 'inc/header.php';
                                         <label
                                             class="form-label"><?php echo $careerData['form_fields']['position_label']; ?></label>
                                         <select class="form-select" name="pozisyon" required>
-                                            <option value="" disabled selected><?= statik('career_form_select_position') ?></option>
+                                            <option value="" disabled selected>
+                                                <?= statik('career_form_select_position') ?></option>
                                             <?php foreach ($careerData['positions'] as $pos): ?>
                                                 <option value="<?php echo htmlspecialchars($pos); ?>">
-                                                    <?php echo htmlspecialchars($pos); ?></option>
+                                                    <?php echo htmlspecialchars($pos); ?>
+                                                </option>
                                             <?php endforeach; ?>
                                         </select>
                                     </div>
-                                    <div class="col-12 mb-4">
-                                        <label
-                                            class="form-label"><?php echo $careerData['form_fields']['cv_label']; ?></label>
-                                        <input type="file" name="cv_dosya" id="cv_input" style="display:none"
-                                            accept=".pdf,.doc,.docx" required>
-                                        <label for="cv_input" class="cv-drop-zone">
-                                            <i class="bi bi-cloud-arrow-up"></i>
-                                            <span id="file_name"><?= statik('career_form_cv_select') ?></span>
-                                        </label>
-                                    </div>
+
                                 </div>
-                                <button type="submit"
-                                    class="submit-premium-btn"><?= statik('career_form_submit') ?></button>
+                                <a href="https://umutapp.com/is-basvuru/" target="_blank"
+                                    class="submit-premium-btn"><?= statik('career_form_submit') ?></a>
                             </form>
                         </div>
                     </div>

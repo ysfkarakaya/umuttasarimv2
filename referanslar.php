@@ -39,13 +39,10 @@ $initialProj = isset($_GET['proj']) ? (int) $_GET['proj'] : 0;
     }
 </style>
 <!-- Bootstrap Icons -->
-<link rel="stylesheet" href="assets/vendor/bootstrap-icons.css">
 <!-- Swiper CSS -->
-<link rel="stylesheet" href="assets/vendor/swiper-bundle.min.css" />
 <!-- GLightbox CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <!-- Custom Style -->
-<link rel="stylesheet" href="assets/css/style.css">
 <style>
     /* Materials Page Premium Styles */
     :root {
@@ -265,14 +262,8 @@ $initialProj = isset($_GET['proj']) ? (int) $_GET['proj'] : 0;
                 rgba(255, 255, 255, 0.1) 55%,
                 transparent 100%);
         transform: rotate(-45deg);
-        transition: all 0.6s;
         pointer-events: none;
         opacity: 0.6;
-    }
-
-    .gallery-card:hover::after {
-        left: 100%;
-        top: 100%;
     }
 
     .gallery-card img {
@@ -282,11 +273,13 @@ $initialProj = isset($_GET['proj']) ? (int) $_GET['proj'] : 0;
         object-position: center center;
         display: block;
         /* border-radius: 50px; */
-        transition: transform 0.8s ease;
+        transition: transform 10s cubic-bezier(0.22, 0.61, 0.36, 1), 
+                   object-position 10s cubic-bezier(0.22, 0.61, 0.36, 1);
     }
 
-    .gallery-card:hover {
-        transform: scale(1.1) !important;
+    .gallery-card:hover img {
+        transform: scale(1.1);
+        object-position: 55% 45%;
     }
 
     @keyframes floatingCard {
@@ -300,6 +293,8 @@ $initialProj = isset($_GET['proj']) ? (int) $_GET['proj'] : 0;
             transform: translateY(-15px) rotateY(var(--rot, 0deg)) scale(var(--sc, 1));
         }
     }
+
+
 
     /* Reference Image 3D Perspective - Enhanced Animations */
     .gallery-row .gallery-card:nth-child(1) {
