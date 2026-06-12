@@ -129,6 +129,42 @@ function resolve_product_model_src(array $detailData, array $fallbackData = [])
     return '/' . ltrim($normalized, '/');
 }
 
+function get_turkish_series_name($sefUrl, $katSefUrl = '')
+{
+    // 1. Try to load Turkish product details
+    $trProductData = load_product_detail_data('tr', $sefUrl, false);
+    if (!empty($trProductData) && isset($trProductData['seri_adi']) && trim((string) $trProductData['seri_adi']) !== '') {
+        return trim((string) $trProductData['seri_adi']);
+    }
+
+    // 2. If not found or empty, resolve category sef url from details data if available
+    if ($katSefUrl === '' && !empty($trProductData) && isset($trProductData['kat_sef_url'])) {
+        $katSefUrl = trim((string) $trProductData['kat_sef_url']);
+    }
+
+    // 3. Fallback to Turkish category JSON
+    if ($katSefUrl !== '') {
+        $catFilePath = __DIR__ . "/data/lang/tr/urunler/{$katSefUrl}.json";
+        if (file_exists($catFilePath)) {
+            $catContent = @file_get_contents($catFilePath);
+            if ($catContent !== false) {
+                $catList = json_decode($catContent, true);
+                if (is_array($catList)) {
+                    foreach ($catList as $item) {
+                        if (isset($item['sef_url']) && $item['sef_url'] === $sefUrl) {
+                            if (isset($item['seri_adi']) && trim((string) $item['seri_adi']) !== '') {
+                                return trim((string) $item['seri_adi']);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    return '';
+}
+
 $lang = active_lang();
 $sefUrl = isset($_GET['sef_url']) ? trim((string) $_GET['sef_url']) : '';
 $sefUrl = preg_replace('/[^a-zA-Z0-9_-]/', '', $sefUrl);
@@ -152,6 +188,28 @@ if (empty($productData)) {
 
 $activeProductName = trim((string) ($productData['urun_adi'] ?? statik('product_detail_product_default', 'Ürün')));
 $activeProductSeries = trim((string) ($productData['seri_adi'] ?? ''));
+if ($activeProductSeries === '') {
+    $katSefUrl = trim((string) ($productData['kat_sef_url'] ?? ''));
+    if ($katSefUrl !== '') {
+        $catFilePath = __DIR__ . "/data/lang/{$lang}/urunler/{$katSefUrl}.json";
+        if (file_exists($catFilePath)) {
+            $catContent = @file_get_contents($catFilePath);
+            if ($catContent !== false) {
+                $catList = json_decode($catContent, true);
+                if (is_array($catList)) {
+                    foreach ($catList as $item) {
+                        if (isset($item['sef_url']) && $item['sef_url'] === $sefUrl) {
+                            if (isset($item['seri_adi']) && trim((string) $item['seri_adi']) !== '') {
+                                $activeProductSeries = trim((string) $item['seri_adi']);
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 $activeProductCode = trim((string) ($productData['urun_kodu'] ?? ''));
 if ($activeProductCode === '') {
     $activeProductCode = $activeProductName;
@@ -161,12 +219,9 @@ $activeProductImage = normalize_product_asset_path($productData['kapak_resmi'] ?
 $activeProductModel = resolve_product_model_src($productData);
 
 // Master (Turkish) series name for mapping descriptions in sayfa_aciklamalari
-$trProductSeries = $activeProductSeries;
-if ($lang !== 'tr') {
-    $trProductData = load_product_detail_data('tr', $sefUrl, false);
-    if (!empty($trProductData) && isset($trProductData['seri_adi'])) {
-        $trProductSeries = trim((string) $trProductData['seri_adi']);
-    }
+$trProductSeries = get_turkish_series_name($sefUrl, $productData['kat_sef_url'] ?? '');
+if ($trProductSeries === '') {
+    $trProductSeries = $activeProductSeries;
 }
 
 $sliderProducts = [];
@@ -185,6 +240,34 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
     }
     $productCategory = trim((string) ($detailData['kat_adi'] ?? $fallbackData['kat_adi'] ?? ''));
     $productSeries = trim((string) ($detailData['seri_adi'] ?? $fallbackData['seri_adi'] ?? ''));
+    if ($productSeries === '') {
+        $katSefUrl = trim((string) ($detailData['kat_sef_url'] ?? $fallbackData['kat_sef_url'] ?? ''));
+        if ($katSefUrl !== '') {
+            $catFilePath = __DIR__ . "/data/lang/" . active_lang() . "/urunler/{$katSefUrl}.json";
+            if (file_exists($catFilePath)) {
+                $catContent = @file_get_contents($catFilePath);
+                if ($catContent !== false) {
+                    $catList = json_decode($catContent, true);
+                    if (is_array($catList)) {
+                        foreach ($catList as $item) {
+                            if (isset($item['sef_url']) && $item['sef_url'] === $productSlug) {
+                                if (isset($item['seri_adi']) && trim((string) $item['seri_adi']) !== '') {
+                                    $productSeries = trim((string) $item['seri_adi']);
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    $trSeries = get_turkish_series_name($productSlug, $detailData['kat_sef_url'] ?? $fallbackData['kat_sef_url'] ?? '');
+    if ($trSeries === '') {
+        $trSeries = $productSeries;
+    }
+    $resolvedDesc = get_sayfa_aciklamasi($trSeries);
+    $seriesDesc = ($resolvedDesc !== null && trim($resolvedDesc) !== '') ? $resolvedDesc : $trSeries;
     $productImage = normalize_product_asset_path($detailData['kapak_resmi'] ?? $fallbackData['kapak_resmi'] ?? '');
     $productDetailText = trim(strip_tags(html_entity_decode((string) ($detailData['urun_detay'] ?? $detailData['urun_aciklama'] ?? ''), ENT_QUOTES | ENT_HTML5, 'UTF-8')));
 
@@ -347,7 +430,7 @@ $appendSliderProduct = function (array $detailData, array $fallbackData = []) us
         'sef_url' => $productSlug,
         'category' => $productCategory,
         'series' => $productSeries,
-        'series_desc' => get_sayfa_aciklamasi($productSeries) ?? '',
+        'series_desc' => $seriesDesc,
         'image' => $productImage,
         'detail' => $productDetailText,
         'model' => resolve_product_model_src($detailData, $fallbackData),
