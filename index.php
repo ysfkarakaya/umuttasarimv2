@@ -187,7 +187,7 @@ include_once 'inc/header.php';
                     $sublabel = isset($words[1]) ? $words[1] : '';
                     $bgIndex = $index + 1;
                     ?>
-                    <a href="<?= lang_url('/urunler/' . $cat['kat_sef_url']) ?>" class="category-item" style="text-decoration: none;">
+                    <a href="<?= lang_url('/urunler/' . $cat['kat_sef_url']) ?>" class="category-item" style="text-decoration: none;" title="<?php echo htmlspecialchars($cat['kat_adi'], ENT_QUOTES, 'UTF-8'); ?>">
                         <div class="category-icon">
                             <img src="<?= $cat['kat_resim'] ?>" class="img-normal" alt="<?= $cat['kat_adi'] ?>">
                             <img src="<?= $cat['kat_resim2'] ?>" class="img-hover" alt="<?= $cat['kat_adi'] ?>">

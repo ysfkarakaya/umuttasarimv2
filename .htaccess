@@ -4,6 +4,11 @@ RewriteBase /
 # Sitemap rewrite
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
+# Force HTTPS and non-WWW on Production
+RewriteCond %{HTTP_HOST} ^(www\.)?umuttasarim\.com$ [NC]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://umuttasarim.com%{REQUEST_URI} [R=301,L]
 
 # 1. Redirect homepage requests with query lang parameter to clean root /en/
 RewriteCond %{ENV:REDIRECT_STATUS} ^$

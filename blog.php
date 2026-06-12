@@ -507,7 +507,7 @@ include_once 'inc/header.php';
                             <h3><?php echo $post['kart_detay_adi']; ?></h3>
                             <p><?php echo strip_tags($post['kart_detay_aciklama']); ?></p>
                         </div>
-                        <a href="blog/<?php echo seo_name($post['kart_detay_adi']); ?>" class="card-footer-action">
+                        <a href="blog/<?php echo seo_name($post['kart_detay_adi']); ?>" class="card-footer-action" title="<?php echo htmlspecialchars($post['kart_detay_adi'], ENT_QUOTES, 'UTF-8'); ?>">
                             <?= statik('blog_read_more') ?> <i class="bi bi-arrow-right-circle-fill"></i>
                         </a>
                     </div>

@@ -345,7 +345,7 @@ function render_mega_menu($item)
     foreach ($item['submenu'] as $sub) {
         $bgImage = "assets/bg/{$index}.webp";
         $colorClass = isset($sub['color']) ? "gradient-{$sub['color']}" : "";
-        echo '<a href="' . lang_url($sub['url']) . '" class="submenu-card ' . $colorClass . '" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;">';
+        echo '<a href="' . lang_url($sub['url']) . '" class="submenu-card ' . $colorClass . '" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;" title="' . htmlspecialchars($sub['title'], ENT_QUOTES, 'UTF-8') . '">';
         echo '<div class="card-icon"><i class="bi ' . $sub['icon'] . '"></i></div>';
         echo '<div class="card-text">';
         echo '<span class="title">' . $sub['title'] . '</span>';
@@ -375,12 +375,12 @@ function render_nav_item($item, $class = 'nav-link')
 
     if ($hasSubmenu) {
         echo '<div class="' . $itemClass . '">';
-        echo '<a class="' . $class . '" href="' . lang_url($item['url']) . '">' . $item['title'] . '</a>';
+        echo '<a class="' . $class . '" href="' . lang_url($item['url']) . '" title="' . htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') . '">' . $item['title'] . '</a>';
         render_mega_menu($item);
         echo '</div>';
     } else {
         $extraClass = isset($item['class']) ? $item['class'] : $class;
-        echo '<a class="' . $extraClass . '" href="' . lang_url($item['url']) . '">' . $item['title'] . '</a>';
+        echo '<a class="' . $extraClass . '" href="' . lang_url($item['url']) . '" title="' . htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') . '">' . $item['title'] . '</a>';
     }
 }
 
@@ -397,7 +397,7 @@ function render_mobile_nav_item($item, $id)
 
     if ($hasSubmenu) {
         echo '<li class="nav-item has-submenu">';
-        echo '<a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#' . $id . '" href="javascript:void(0)" role="button">';
+        echo '<a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#' . $id . '" href="javascript:void(0)" role="button" title="' . htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') . '">';
         echo $item['title'] . ' <i class="bi bi-chevron-down small"></i>';
         echo '</a>';
         echo '<div class="submenu-mega collapse" id="' . $id . '">';
@@ -405,7 +405,7 @@ function render_mobile_nav_item($item, $id)
         $index = 1;
         foreach ($item['submenu'] as $sub) {
             $bgImage = "assets/bg/{$index}.webp";
-            echo '<a href="' . lang_url($sub['url']) . '" class="submenu-card" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;">';
+            echo '<a href="' . lang_url($sub['url']) . '" class="submenu-card" style="background-image: url(\'' . $bgImage . '\'); background-size: cover; background-position: center;" title="' . htmlspecialchars($sub['title'], ENT_QUOTES, 'UTF-8') . '">';
             echo '<div class="card-icon"><i class="bi ' . $sub['icon'] . '"></i></div>';
             echo '<div class="card-text"><span class="title">' . $sub['title'] . '</span></div>';
             echo '</a>';
@@ -416,7 +416,7 @@ function render_mobile_nav_item($item, $id)
         echo '</li>';
     } else {
         $class = isset($item['class']) ? $item['class'] : '';
-        echo '<li class="nav-item"><a class="nav-link ' . $class . '" href="' . lang_url($item['url']) . '">' . $item['title'] . '</a></li>';
+        echo '<li class="nav-item"><a class="nav-link ' . $class . '" href="' . lang_url($item['url']) . '" title="' . htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') . '">' . $item['title'] . '</a></li>';
     }
 }
 

@@ -163,7 +163,8 @@ include_once 'inc/header.php';
                                     $productHref = $productSlug !== '' ? lang_url('/urun/' . $productSlug) : '#';
                                     ?>
                                     <a class="product-card swiper-slide"
-                                        href="<?php echo htmlspecialchars($productHref, ENT_QUOTES, 'UTF-8'); ?>">
+                                        href="<?php echo htmlspecialchars($productHref, ENT_QUOTES, 'UTF-8'); ?>"
+                                        title="<?php echo htmlspecialchars($productCode !== '' ? $productCode : $productName, ENT_QUOTES, 'UTF-8'); ?>">
                                         <?php
                                         $vCount = isset($product['benzer_urun_sayisi']) ? (int) $product['benzer_urun_sayisi'] : 0;
                                         ?>

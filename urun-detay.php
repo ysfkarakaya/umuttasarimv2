@@ -2286,7 +2286,8 @@ $sliderProductsJson = json_encode(
                 <div class="specs-mega-menu">
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/1.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="technical">
+                        data-spec-type="technical"
+                        title="<?= statik('product_detail_spec_technical', 'Teknik Bilgiler') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-1.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2296,7 +2297,8 @@ $sliderProductsJson = json_encode(
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/2.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="general">
+                        data-spec-type="general"
+                        title="<?= statik('product_detail_spec_general', 'Genel Bilgiler') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-2.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2305,7 +2307,8 @@ $sliderProductsJson = json_encode(
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/3.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="drawing">
+                        data-spec-type="drawing"
+                        title="<?= statik('product_detail_spec_technical', 'Teknik Çizim') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-3.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2322,7 +2325,8 @@ $sliderProductsJson = json_encode(
                     </a> -->
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/5.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="certificate">
+                        data-spec-type="certificate"
+                        title="<?= statik('product_detail_spec_certificate_title', 'Sertifikalar') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-5.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2332,7 +2336,8 @@ $sliderProductsJson = json_encode(
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/6.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="offer">
+                        data-spec-type="offer"
+                        title="<?= statik('product_detail_spec_offer_title', 'Teklif Al') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-6.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2342,7 +2347,8 @@ $sliderProductsJson = json_encode(
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/7.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="attachments">
+                        data-spec-type="attachments"
+                        title="<?= statik('product_detail_spec_attachments_title', 'Dosyalar') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-7.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2352,7 +2358,8 @@ $sliderProductsJson = json_encode(
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/8.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="colors">
+                        data-spec-type="colors"
+                        title="<?= statik('product_detail_spec_colors_title', 'Renk Kartelası') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-8.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
@@ -2362,7 +2369,8 @@ $sliderProductsJson = json_encode(
                     </a>
                     <a href="javascript:void()" class="spec-card"
                         style="background-image: url('assets/bg/9.webp'); background-size: cover; background-position: center;"
-                        data-spec-type="similars">
+                        data-spec-type="similars"
+                        title="<?= statik('product_detail_spec_similars_title', 'Benzer Ürünler') ?>">
                         <div class="card-icon"><img src="assets/bg/Icons/icon-9.webp" alt=""
                                 style="width: 30px; height: auto;"></div>
                         <div class="card-text"><span
