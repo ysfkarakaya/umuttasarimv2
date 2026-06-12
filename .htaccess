@@ -1,6 +1,9 @@
 RewriteEngine On
 RewriteBase /
 
+# Custom 404 Error Document
+ErrorDocument 404 /404.php
+
 # Redirect language-prefixed sitemap, robots, and llm files to root
 RewriteRule ^(tr|en|ru)/(sitemap\.xml|robots\.txt|llm\.txt)$ /$2 [R=301,L]
 
