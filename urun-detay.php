@@ -160,6 +160,15 @@ $activeCategoryName = trim((string) ($productData['kat_adi'] ?? ''));
 $activeProductImage = normalize_product_asset_path($productData['kapak_resmi'] ?? '');
 $activeProductModel = resolve_product_model_src($productData);
 
+// Master (Turkish) series name for mapping descriptions in sayfa_aciklamalari
+$trProductSeries = $activeProductSeries;
+if ($lang !== 'tr') {
+    $trProductData = load_product_detail_data('tr', $sefUrl, false);
+    if (!empty($trProductData) && isset($trProductData['seri_adi'])) {
+        $trProductSeries = trim((string) $trProductData['seri_adi']);
+    }
+}
+
 $sliderProducts = [];
 $seenProductSlugs = [];
 
@@ -2259,7 +2268,7 @@ $sliderProductsJson = json_encode(
         </div>
         <div class="sidebar-footer" id="sidebar-footer-text">
             <?php
-            $seriesDesc = get_sayfa_aciklamasi($activeProductSeries);
+            $seriesDesc = get_sayfa_aciklamasi($trProductSeries);
             echo htmlspecialchars($seriesDesc !== null && trim($seriesDesc) !== '' ? $seriesDesc : ($activeCategoryName !== '' ? $activeCategoryName : statik('product_detail_sidebar_footer_default')), ENT_QUOTES, 'UTF-8');
             ?>
         </div>
