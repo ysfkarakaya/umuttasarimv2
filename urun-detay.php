@@ -2269,7 +2269,7 @@ $sliderProductsJson = json_encode(
         <div class="sidebar-footer" id="sidebar-footer-text">
             <?php
             $seriesDesc = get_sayfa_aciklamasi($trProductSeries);
-            echo htmlspecialchars($seriesDesc !== null && trim($seriesDesc) !== '' ? $seriesDesc : ($activeCategoryName !== '' ? $activeCategoryName : statik('product_detail_sidebar_footer_default')), ENT_QUOTES, 'UTF-8');
+            echo htmlspecialchars($seriesDesc !== null && trim($seriesDesc) !== '' ? $seriesDesc : ($trProductSeries !== '' ? $trProductSeries : ($activeCategoryName !== '' ? $activeCategoryName : statik('product_detail_sidebar_footer_default'))), ENT_QUOTES, 'UTF-8');
             ?>
         </div>
     </div>
